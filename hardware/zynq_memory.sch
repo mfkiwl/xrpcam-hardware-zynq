@@ -29,11 +29,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:xilinx_zynq_clg485
+LIBS:SFP_plus
+LIBS:ael2005
+LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 3 13
+Sheet 3 15
 Title ""
 Date ""
 Rev ""

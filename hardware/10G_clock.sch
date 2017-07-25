@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 15
+Sheet 15 15
 Title ""
 Date ""
 Rev ""
@@ -46,4 +46,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 9300 1500 2    60   Input ~ 0
+156_25_MHZ_0_P
+Text HLabel 9300 1600 2    60   Input ~ 0
+156_25_MHZ_0_N
+Text HLabel 9300 1800 2    60   Input ~ 0
+156_25_MHZ_1_P
+Text HLabel 9300 1900 2    60   Input ~ 0
+156_25_MHZ_1_N
+Text HLabel 9300 2100 2    60   Input ~ 0
+125_00_MHZ_P
+Text HLabel 9300 2200 2    60   Input ~ 0
+125_00_MHZ_N
 $EndSCHEMATC

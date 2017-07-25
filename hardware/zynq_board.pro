@@ -1,4 +1,4 @@
-update=2017 July 17, Monday 00:20:05
+update=Sun 23 Jul 2017 12:27:34 AM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=libraries/schematics/xilinx_zynq_clg485
+LibName31=libraries/schematics/SFP_plus
+LibName32=libraries/schematics/ael2005
