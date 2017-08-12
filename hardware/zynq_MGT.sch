@@ -31,6 +31,8 @@ LIBS:valves
 LIBS:xilinx_zynq_clg485
 LIBS:SFP_plus
 LIBS:ael2005
+LIBS:diff_osc
+LIBS:si53340
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
@@ -89,12 +91,72 @@ Text HLabel 5350 4150 0    60   Input ~ 0
 MGTX_TX_2_P
 Text HLabel 5350 4250 0    60   Input ~ 0
 MGTX_TX_3_P
-Text HLabel 5350 2250 0    60   Input ~ 0
+Text HLabel 3300 2250 0    60   Input ~ 0
 MGTREFCLK_0_N
-Text HLabel 5350 2350 0    60   Input ~ 0
+Text HLabel 3300 2350 0    60   Input ~ 0
 MGTREFCLK_0_P
-Text HLabel 5350 2450 0    60   Input ~ 0
+Text HLabel 3300 2450 0    60   Input ~ 0
 MGTREFCLK_1_N
-Text HLabel 5350 2550 0    60   Input ~ 0
+Text HLabel 3300 2550 0    60   Input ~ 0
 MGTREFCLK_1_P
+$Comp
+L C_Small C?
+U 1 1 598A74A2
+P 4250 2550
+F 0 "C?" H 4260 2620 50  0000 L CNN
+F 1 "C_Small" H 4260 2470 50  0000 L CNN
+F 2 "" H 4250 2550 50  0000 C CNN
+F 3 "" H 4250 2550 50  0000 C CNN
+	1    4250 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 598A7543
+P 4000 2450
+F 0 "C?" H 4010 2520 50  0000 L CNN
+F 1 "C_Small" H 4010 2370 50  0000 L CNN
+F 2 "" H 4000 2450 50  0000 C CNN
+F 3 "" H 4000 2450 50  0000 C CNN
+	1    4000 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 598A7566
+P 3500 2250
+F 0 "C?" H 3510 2320 50  0000 L CNN
+F 1 "C_Small" H 3510 2170 50  0000 L CNN
+F 2 "" H 3500 2250 50  0000 C CNN
+F 3 "" H 3500 2250 50  0000 C CNN
+	1    3500 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 598A75B1
+P 3750 2350
+F 0 "C?" H 3760 2420 50  0000 L CNN
+F 1 "C_Small" H 3760 2270 50  0000 L CNN
+F 2 "" H 3750 2350 50  0000 C CNN
+F 3 "" H 3750 2350 50  0000 C CNN
+	1    3750 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 2250 5350 2250
+Wire Wire Line
+	3850 2350 5350 2350
+Wire Wire Line
+	4100 2450 5350 2450
+Wire Wire Line
+	4350 2550 5350 2550
+Wire Wire Line
+	3300 2250 3400 2250
+Wire Wire Line
+	3300 2350 3650 2350
+Wire Wire Line
+	3300 2450 3900 2450
+Wire Wire Line
+	3300 2550 4150 2550
 $EndSCHEMATC
