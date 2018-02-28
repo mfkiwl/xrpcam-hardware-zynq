@@ -31,6 +31,8 @@ LIBS:valves
 LIBS:xilinx_zynq_clg485
 LIBS:SFP_plus
 LIBS:ael2005
+LIBS:ddr
+LIBS:misc
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
