@@ -1,4 +1,4 @@
-update=Sat 12 Aug 2017 05:35:27 PM CEST
+update=Thu 01 Mar 2018 08:18:09 PM CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,7 @@ LibName31=libraries/schematics/SFP_plus
 LibName32=libraries/schematics/ael2005
 LibName33=libraries/schematics/diff_osc
 LibName34=libraries/schematics/si53340
+LibName35=libraries/schematics/usb3320
+LibName36=libraries/schematics/nx5p3090
+LibName37=libraries/schematics/smp1255putg
+LibName38=libraries/schematics/osc

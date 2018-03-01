@@ -33,12 +33,16 @@ LIBS:SFP_plus
 LIBS:ael2005
 LIBS:diff_osc
 LIBS:si53340
+LIBS:usb3320
+LIBS:nx5p3090
+LIBS:smp1255putg
+LIBS:osc
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 15
+Sheet 14 16
 Title ""
 Date ""
 Rev ""

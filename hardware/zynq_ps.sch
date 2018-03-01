@@ -33,12 +33,16 @@ LIBS:SFP_plus
 LIBS:ael2005
 LIBS:diff_osc
 LIBS:si53340
+LIBS:usb3320
+LIBS:nx5p3090
+LIBS:smp1255putg
+LIBS:osc
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 15
+Sheet 4 16
 Title ""
 Date ""
 Rev ""
@@ -70,4 +74,28 @@ F 3 "" H 4250 1600 60  0001 C CNN
 	7    4250 1600
 	1    0    0    -1  
 $EndComp
+Text HLabel 4250 3200 0    60   Input ~ 0
+USB0_ULPI_DATA0
+Text HLabel 4250 3300 0    60   Input ~ 0
+USB0_ULPI_DATA1
+Text HLabel 4250 3400 0    60   Input ~ 0
+USB0_ULPI_DATA2
+Text HLabel 4250 3500 0    60   Input ~ 0
+USB0_ULPI_DATA3
+Text HLabel 4250 3600 0    60   Input ~ 0
+USB0_ULPI_CLK
+Text HLabel 4250 3700 0    60   Input ~ 0
+USB0_ULPI_DATA5
+Text HLabel 4250 3800 0    60   Input ~ 0
+USB0_ULPI_DATA6
+Text HLabel 4250 3900 0    60   Input ~ 0
+USB0_ULPI_DATA7
+Text HLabel 4250 2800 0    60   Input ~ 0
+USB0_ULPI_DATA4
+Text HLabel 4250 2900 0    60   Input ~ 0
+USB0_ULPI_DIR
+Text HLabel 4250 3000 0    60   Input ~ 0
+USB0_ULPI_STP
+Text HLabel 4250 3100 0    60   Input ~ 0
+USB0_ULPI_NXT
 $EndSCHEMATC

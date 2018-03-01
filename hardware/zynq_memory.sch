@@ -33,12 +33,16 @@ LIBS:SFP_plus
 LIBS:ael2005
 LIBS:diff_osc
 LIBS:si53340
+LIBS:usb3320
+LIBS:nx5p3090
+LIBS:smp1255putg
+LIBS:osc
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 3 15
+Sheet 3 16
 Title ""
 Date ""
 Rev ""
