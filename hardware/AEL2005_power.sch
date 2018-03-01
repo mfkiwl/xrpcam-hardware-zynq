@@ -37,6 +37,8 @@ LIBS:usb3320
 LIBS:nx5p3090
 LIBS:smp1255putg
 LIBS:osc
+LIBS:ddr
+LIBS:misc
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END

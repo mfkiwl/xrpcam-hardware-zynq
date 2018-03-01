@@ -67,3 +67,5 @@ LibName35=libraries/schematics/usb3320
 LibName36=libraries/schematics/nx5p3090
 LibName37=libraries/schematics/smp1255putg
 LibName38=libraries/schematics/osc
+LibName39=libraries/schematics/ddr
+LibName40=libraries/schematics/misc
