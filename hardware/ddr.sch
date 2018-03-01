@@ -44,7 +44,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 16
+Sheet 13 16
 Title ""
 Date ""
 Rev ""
@@ -176,15 +176,15 @@ DDR_BA1
 Text HLabel 3850 3950 0    60   Input ~ 0
 DDR_BA0
 Text HLabel 4100 5750 0    60   Input ~ 0
-~DDR_CA~
+~DDR_CAS~
 Text HLabel 4100 5850 0    60   Input ~ 0
-~DDR_RA~
+~DDR_RAS~
 Text HLabel 4100 5950 0    60   Input ~ 0
 ~DDR_CS~
 Text HLabel 4100 5650 0    60   Input ~ 0
 ~DDR_WE~
 Text HLabel 4100 6100 0    60   Input ~ 0
-DDR_CK
+DDR_CKE
 Text HLabel 4100 6200 0    60   Input ~ 0
 DDR_CLK_P
 Text HLabel 4100 6300 0    60   Input ~ 0
@@ -536,15 +536,15 @@ DDR_BA1
 Text HLabel 8950 3950 0    60   Input ~ 0
 DDR_BA0
 Text HLabel 9350 5750 0    60   Input ~ 0
-~DDR_CA~
+~DDR_CAS~
 Text HLabel 9350 5850 0    60   Input ~ 0
-~DDR_RA~
+~DDR_RAS~
 Text HLabel 9350 5950 0    60   Input ~ 0
 ~DDR_CS~
 Text HLabel 9350 5650 0    60   Input ~ 0
 ~DDR_WE~
 Text HLabel 9350 6100 0    60   Input ~ 0
-DDR_CK
+DDR_CKE
 Text HLabel 9350 6200 0    60   Input ~ 0
 DDR_CLK_P
 Text HLabel 9350 6300 0    60   Input ~ 0
@@ -1505,15 +1505,15 @@ F 5 "R0402 40.2Ω 1%" V 14350 3950 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 Text HLabel 14050 5500 0    60   Input ~ 0
-~DDR_CA~
+~DDR_CAS~
 Text HLabel 14050 5600 0    60   Input ~ 0
-~DDR_RA~
+~DDR_RAS~
 Text HLabel 14050 5700 0    60   Input ~ 0
 ~DDR_CS~
 Text HLabel 14050 5400 0    60   Input ~ 0
 ~DDR_WE~
 Text HLabel 14050 5900 0    60   Input ~ 0
-DDR_CK
+DDR_CKE
 Text HLabel 14050 6250 0    60   Input ~ 0
 DDR_CLK_P
 Text HLabel 14050 6350 0    60   Input ~ 0
