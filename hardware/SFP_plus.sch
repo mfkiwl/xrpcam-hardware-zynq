@@ -44,7 +44,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 16
+Sheet 11 17
 Title ""
 Date ""
 Rev ""
@@ -265,9 +265,9 @@ F 3 "" H 2300 4500 50  0000 C CNN
 	1    2300 4500
 	-1   0    0    -1  
 $EndComp
-Text HLabel 4350 3550 0    60   Input ~ 0
+Text HLabel 4350 3550 0    60   Output ~ 0
 HSRXDATA_P
-Text HLabel 4350 3650 0    60   Input ~ 0
+Text HLabel 4350 3650 0    60   Output ~ 0
 HSRXDATA_N
 Text HLabel 4350 4150 0    60   Input ~ 0
 HSTXDATA_P
@@ -513,15 +513,15 @@ Wire Wire Line
 	8550 3650 8550 3450
 Text HLabel 8650 4100 2    60   Input ~ 0
 TX_DISABLE
-Text HLabel 8650 4200 2    60   Input ~ 0
+Text HLabel 8650 4200 2    60   Output ~ 0
 TX_FAULT
-Text HLabel 8650 4000 2    60   Input ~ 0
+Text HLabel 8650 4000 2    60   BiDi ~ 0
 SFP_SDA
-Text HLabel 8650 3900 2    60   Input ~ 0
+Text HLabel 8650 3900 2    60   BiDi ~ 0
 SFP_SCL
-Text HLabel 8650 3800 2    60   Input ~ 0
+Text HLabel 8650 3800 2    60   Output ~ 0
 MODDET
-Text HLabel 8650 3600 2    60   Input ~ 0
+Text HLabel 8650 3600 2    60   Output ~ 0
 RX_LOS
 Text HLabel 8650 3450 2    60   Input ~ 0
 SFP_GPIO

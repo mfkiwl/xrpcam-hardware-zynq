@@ -44,7 +44,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 16
+Sheet 16 17
 Title ""
 Date ""
 Rev ""
@@ -76,29 +76,29 @@ F 3 "" V 1150 3900 50  0000 C CNN
 	1    1200 4000
 	0    -1   1    0   
 $EndComp
-Text HLabel 8100 3000 2    60   Input ~ 0
+Text HLabel 8100 3000 2    60   BiDi ~ 0
 DATA7
-Text HLabel 8100 3100 2    60   Input ~ 0
+Text HLabel 8100 3100 2    60   BiDi ~ 0
 DATA6
-Text HLabel 8100 3200 2    60   Input ~ 0
+Text HLabel 8100 3200 2    60   BiDi ~ 0
 DATA5
-Text HLabel 8100 3300 2    60   Input ~ 0
+Text HLabel 8100 3300 2    60   BiDi ~ 0
 DATA4
-Text HLabel 8100 3400 2    60   Input ~ 0
+Text HLabel 8100 3400 2    60   BiDi ~ 0
 DATA3
-Text HLabel 8100 3500 2    60   Input ~ 0
+Text HLabel 8100 3500 2    60   BiDi ~ 0
 DATA2
-Text HLabel 8100 3600 2    60   Input ~ 0
+Text HLabel 8100 3600 2    60   BiDi ~ 0
 DATA1
-Text HLabel 8100 3700 2    60   Input ~ 0
+Text HLabel 8100 3700 2    60   BiDi ~ 0
 DATA0
 Text HLabel 8100 3900 2    60   Input ~ 0
 STP
-Text HLabel 8100 4000 2    60   Input ~ 0
+Text HLabel 8100 4000 2    60   Output ~ 0
 NXT
-Text HLabel 8100 4100 2    60   Input ~ 0
+Text HLabel 8100 4100 2    60   Output ~ 0
 DIR
-Text HLabel 8100 4200 2    60   Input ~ 0
+Text HLabel 8100 4200 2    60   Output ~ 0
 CLK
 Wire Wire Line
 	1500 3900 6100 3900

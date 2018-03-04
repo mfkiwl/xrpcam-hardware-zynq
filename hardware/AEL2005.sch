@@ -44,7 +44,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 16
+Sheet 10 17
 Title ""
 Date ""
 Rev ""
@@ -58,17 +58,17 @@ Text HLabel 7600 700  2    60   Input ~ 0
 HSRXDATA_P
 Text HLabel 7600 800  2    60   Input ~ 0
 HSRXDATA_N
-Text HLabel 7600 1000 2    60   Input ~ 0
+Text HLabel 7600 1000 2    60   Output ~ 0
 HSTXDATA_P
-Text HLabel 7600 1100 2    60   Input ~ 0
+Text HLabel 7600 1100 2    60   Output ~ 0
 HSTXDATA_N
-Text HLabel 7600 2500 2    60   Input ~ 0
+Text HLabel 7600 2500 2    60   Output ~ 0
 TX_DISABLE
 Text HLabel 7600 2600 2    60   Input ~ 0
 RX_LOS
 Text HLabel 7600 2700 2    60   Input ~ 0
 TX_FAULT
-Text HLabel 7600 2800 2    60   Input ~ 0
+Text HLabel 7600 2800 2    60   Output ~ 0
 SFP_GPIO
 Text HLabel 7600 2900 2    60   Input ~ 0
 MODDET
@@ -85,9 +85,9 @@ F 3 "" H 6450 3500 60  0001 C CNN
 	1    6600 3500
 	1    0    0    -1  
 $EndComp
-Text HLabel 7600 3100 2    60   Input ~ 0
+Text HLabel 7600 3100 2    60   BiDi ~ 0
 SFP_SCL
-Text HLabel 7600 3200 2    60   Input ~ 0
+Text HLabel 7600 3200 2    60   BiDi ~ 0
 SFP_SDA
 $Comp
 L R R?
@@ -970,21 +970,21 @@ Wire Wire Line
 	4850 2900 5600 2900
 Wire Wire Line
 	5100 3000 5600 3000
-Text HLabel 3850 1300 0    60   Input ~ 0
+Text HLabel 3850 1300 0    60   Output ~ 0
 RXDATA[3]_P
-Text HLabel 3850 1400 0    60   Input ~ 0
+Text HLabel 3850 1400 0    60   Output ~ 0
 RXDATA[2]_P
-Text HLabel 3850 1500 0    60   Input ~ 0
+Text HLabel 3850 1500 0    60   Output ~ 0
 RXDATA[1]_P
-Text HLabel 3850 1600 0    60   Input ~ 0
+Text HLabel 3850 1600 0    60   Output ~ 0
 RXDATA[0]_P
-Text HLabel 3850 1750 0    60   Input ~ 0
+Text HLabel 3850 1750 0    60   Output ~ 0
 RXDATA[3]_N
-Text HLabel 3850 1850 0    60   Input ~ 0
+Text HLabel 3850 1850 0    60   Output ~ 0
 RXDATA[2]_N
-Text HLabel 3850 1950 0    60   Input ~ 0
+Text HLabel 3850 1950 0    60   Output ~ 0
 RXDATA[1]_N
-Text HLabel 3850 2050 0    60   Input ~ 0
+Text HLabel 3850 2050 0    60   Output ~ 0
 RXDATA[0]_N
 Text HLabel 3850 2250 0    60   Input ~ 0
 TXDATA[3]_P
@@ -1229,7 +1229,7 @@ Wire Wire Line
 	3850 800  4400 800 
 Text HLabel 4350 4900 0    60   Input ~ 0
 MDC
-Text HLabel 4350 5000 0    60   Input ~ 0
+Text HLabel 4350 5000 0    60   BiDi ~ 0
 MDIO
 Text HLabel 5600 4400 0    60   Input ~ 0
 AEL_RESET

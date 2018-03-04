@@ -44,7 +44,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 16
+Sheet 4 17
 Title ""
 Date ""
 Rev ""
@@ -76,27 +76,27 @@ F 3 "" H 2900 1400 60  0001 C CNN
 	7    2900 1400
 	1    0    0    -1  
 $EndComp
-Text HLabel 2900 3000 0    60   Input ~ 0
+Text HLabel 2900 3000 0    60   BiDi ~ 0
 USB0_ULPI_DATA0
-Text HLabel 2900 3100 0    60   Input ~ 0
+Text HLabel 2900 3100 0    60   BiDi ~ 0
 USB0_ULPI_DATA1
-Text HLabel 2900 3200 0    60   Input ~ 0
+Text HLabel 2900 3200 0    60   BiDi ~ 0
 USB0_ULPI_DATA2
-Text HLabel 2900 3300 0    60   Input ~ 0
+Text HLabel 2900 3300 0    60   BiDi ~ 0
 USB0_ULPI_DATA3
 Text HLabel 2900 3400 0    60   Input ~ 0
 USB0_ULPI_CLK
-Text HLabel 2900 3500 0    60   Input ~ 0
+Text HLabel 2900 3500 0    60   BiDi ~ 0
 USB0_ULPI_DATA5
-Text HLabel 2900 3600 0    60   Input ~ 0
+Text HLabel 2900 3600 0    60   BiDi ~ 0
 USB0_ULPI_DATA6
-Text HLabel 2900 3700 0    60   Input ~ 0
+Text HLabel 2900 3700 0    60   BiDi ~ 0
 USB0_ULPI_DATA7
-Text HLabel 2900 2600 0    60   Input ~ 0
+Text HLabel 2900 2600 0    60   BiDi ~ 0
 USB0_ULPI_DATA4
 Text HLabel 2900 2700 0    60   Input ~ 0
 USB0_ULPI_DIR
-Text HLabel 2900 2800 0    60   Input ~ 0
+Text HLabel 2900 2800 0    60   Output ~ 0
 USB0_ULPI_STP
 Text HLabel 2900 2900 0    60   Input ~ 0
 USB0_ULPI_NXT

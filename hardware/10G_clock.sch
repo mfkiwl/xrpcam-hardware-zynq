@@ -44,7 +44,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 16
+Sheet 15 17
 Title ""
 Date ""
 Rev ""
@@ -54,17 +54,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 5500 3800 2    60   Input ~ 0
+Text HLabel 5500 3800 2    60   Output ~ 0
 156_25_MHZ_0_P
-Text HLabel 5500 3900 2    60   Input ~ 0
+Text HLabel 5500 3900 2    60   Output ~ 0
 156_25_MHZ_0_N
-Text HLabel 5500 4100 2    60   Input ~ 0
+Text HLabel 5500 4100 2    60   Output ~ 0
 156_25_MHZ_1_P
-Text HLabel 5500 4200 2    60   Input ~ 0
+Text HLabel 5500 4200 2    60   Output ~ 0
 156_25_MHZ_1_N
-Text HLabel 3200 2200 2    60   Input ~ 0
+Text HLabel 3200 2200 2    60   Output ~ 0
 125_00_MHZ_P
-Text HLabel 3200 2000 2    60   Input ~ 0
+Text HLabel 3200 2000 2    60   Output ~ 0
 125_00_MHZ_N
 Text Notes 750  6850 0    60   ~ 0
 Oscillators: Microchip DSC1123, 10 ppm\n\nDSC1123CI5-125.0000: Digikey 576-4652-ND\nDSC1123CI5-156.2500: Digikey DSC1123CI5-156.2500-ND
