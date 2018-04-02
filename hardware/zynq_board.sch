@@ -44,7 +44,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 17
+Sheet 1 18
 Title ""
 Date ""
 Rev ""
@@ -488,7 +488,7 @@ F0 "SD card" 60
 F1 "sdcard.sch" 60
 $EndSheet
 $Sheet
-S 11150 9000 2750 2900
+S 11150 9000 2750 2500
 U 596E76EE
 F0 "PL: MGT" 60
 F1 "zynq_MGT.sch" 60
@@ -531,4 +531,10 @@ Wire Wire Line
 	15600 7900 13900 7900
 Wire Bus Line
 	13900 8050 15600 8050
+$Sheet
+S 11150 11800 2750 1050
+U 5AC2E614
+F0 "Configuration (Bank 0)" 60
+F1 "zynq_config.sch" 60
+$EndSheet
 $EndSCHEMATC
