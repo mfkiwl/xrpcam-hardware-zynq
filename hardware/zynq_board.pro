@@ -1,4 +1,4 @@
-update=Sun 01 Apr 2018 12:37:52 AM CEST
+update=Wed 04 Apr 2018 10:10:50 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -69,3 +69,4 @@ LibName37=libraries/schematics/smp1255putg
 LibName38=libraries/schematics/osc
 LibName39=libraries/schematics/ddr
 LibName40=libraries/schematics/misc
+LibName41=libraries/schematics/tlk10031
