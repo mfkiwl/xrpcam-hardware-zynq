@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:zynq_board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,7 +46,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 18
+Sheet 9 20
 Title ""
 Date ""
 Rev ""
@@ -326,9 +327,11 @@ F 3 "" H 1550 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X05 P?
+L Conn_01x05 P?
 U 1 1 59742E43
 P 9450 5600
+AR Path="/59742E43" Ref="P?"  Part="1" 
+AR Path="/596E816C/59742E43" Ref="P?"  Part="1" 
 F 0 "P?" H 9450 5900 50  0000 C CNN
 F 1 "CONN_01X05 (DNP)" V 9550 5600 50  0000 C CNN
 F 2 "" H 9450 5600 50  0000 C CNN
@@ -370,9 +373,11 @@ F 3 "" H 7800 6100 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_01X06 P?
+L Conn_01x06 P?
 U 1 1 59744178
 P 10000 3850
+AR Path="/59744178" Ref="P?"  Part="1" 
+AR Path="/596E816C/59744178" Ref="P?"  Part="1" 
 F 0 "P?" H 10000 4200 50  0000 C CNN
 F 1 "CONN_01X06 (DNP)" V 10100 3850 50  0000 C CNN
 F 2 "" H 10000 3850 50  0000 C CNN

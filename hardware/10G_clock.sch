@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:zynq_board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,7 +46,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 18
+Sheet 12 18
 Title ""
 Date ""
 Rev ""

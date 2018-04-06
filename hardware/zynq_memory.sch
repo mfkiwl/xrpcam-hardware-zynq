@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:zynq_board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -474,4 +475,5 @@ Text HLabel 4550 7750 0    60   BiDi ~ 0
 DDR_DQ[0..31]
 Text Notes 3950 9750 0    60   ~ 0
 TODO: VREFx, VRx, VCCO_DDR
+Connection ~ 4900 3750
 $EndSCHEMATC

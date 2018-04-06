@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:zynq_board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,7 +46,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 18
+Sheet 9 18
 Title ""
 Date ""
 Rev ""
@@ -133,46 +134,46 @@ F 3 "" H 2300 4350 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L INDUCTOR_SMALL L?
+L L_Small L?
 U 1 1 5973CA0B
 P 2650 3200
-F 0 "L?" H 2650 3300 50  0000 C CNN
-F 1 "4.7uH" H 2650 3150 50  0000 C CNN
+F 0 "L?" V 2750 3200 50  0000 C CNN
+F 1 "4.7uH" V 2550 3200 50  0000 C CNN
 F 2 "" H 2650 3200 50  0000 C CNN
 F 3 "" H 2650 3200 50  0000 C CNN
 	1    2650 3200
-	-1   0    0    -1  
+	0    1    -1   0   
 $EndComp
 $Comp
-L INDUCTOR_SMALL L?
+L L_Small L?
 U 1 1 5973CA4A
 P 2650 4100
-F 0 "L?" H 2650 4200 50  0000 C CNN
-F 1 "4.7uH" H 2650 4050 50  0000 C CNN
+F 0 "L?" V 2750 4100 50  0000 C CNN
+F 1 "4.7uH" V 2550 4100 50  0000 C CNN
 F 2 "" H 2650 4100 50  0000 C CNN
 F 3 "" H 2650 4100 50  0000 C CNN
 	1    2650 4100
-	-1   0    0    -1  
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	3300 3300 3300 3200
 Wire Wire Line
-	2900 3200 3600 3200
+	2750 3200 3600 3200
 Wire Wire Line
 	3000 3300 3000 3200
 Connection ~ 3000 3200
 Wire Wire Line
-	2400 3200 2300 3200
+	2300 3200 2550 3200
 Wire Wire Line
 	2300 3150 2300 3300
 Wire Wire Line
 	2300 4050 2300 4200
 Wire Wire Line
-	2300 4100 2400 4100
+	2300 4100 2550 4100
 Wire Wire Line
 	3000 4200 3000 4100
 Wire Wire Line
-	2900 4100 3600 4100
+	2750 4100 3600 4100
 Wire Wire Line
 	3300 4200 3300 4100
 Connection ~ 3000 4100
@@ -266,9 +267,9 @@ F 3 "" H 2300 4500 50  0000 C CNN
 	1    2300 4500
 	-1   0    0    -1  
 $EndComp
-Text HLabel 4350 3550 0    60   Output ~ 0
-HSRXDATA_P
 Text HLabel 4350 3650 0    60   Output ~ 0
+HSRXDATA_P
+Text HLabel 4350 3550 0    60   Output ~ 0
 HSRXDATA_N
 Text HLabel 4350 4150 0    60   Input ~ 0
 HSTXDATA_P
@@ -568,8 +569,6 @@ Wire Wire Line
 Wire Wire Line
 	7200 4650 7200 4600
 Connection ~ 7000 4650
-Text Notes 3750 3250 0    60   ~ 0
-HSRXDATA polarity swapped in software.
 Text Notes 2300 2550 0    60   ~ 0
 Recommended power supply filter, see e.g.\nhttps://www.streakwave.com/mmSWAVE1/Video/10G%20SFP+AOC(HWDAA0003).pdf
 Connection ~ 3300 3200
