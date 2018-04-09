@@ -41,6 +41,7 @@ LIBS:osc
 LIBS:ddr
 LIBS:misc
 LIBS:tlk10031
+LIBS:lshm-150-xxx-x-dv-a-s
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
@@ -298,4 +299,15 @@ Text HLabel 1550 2350 0    60   Input ~ 0
 CAM_CLK_REF
 Text Notes 950  4750 0    60   ~ 0
 Open questions\n* LVDS clock input to camera needed?\n* Two separate clocks for two cameras needed?\n\nMissing\n* I2C\n* GPIO
+$Comp
+L LSHM-150-xxx-x-DV-A-S J?
+U 1 1 5ACC34F1
+P 7700 3550
+F 0 "J?" H 7700 1000 60  0000 C CNN
+F 1 "LSHM-150-xxx-x-DV-A-S" V 7700 3550 60  0000 C CNN
+F 2 "" H 7700 4700 60  0001 C CNN
+F 3 "" H 7700 4700 60  0001 C CNN
+	1    7700 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

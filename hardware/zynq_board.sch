@@ -41,6 +41,7 @@ LIBS:osc
 LIBS:ddr
 LIBS:misc
 LIBS:tlk10031
+LIBS:lshm-150-xxx-x-dv-a-s
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
