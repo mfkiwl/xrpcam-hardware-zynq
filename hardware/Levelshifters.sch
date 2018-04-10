@@ -43,6 +43,7 @@ LIBS:misc
 LIBS:tlk10031
 LIBS:lshm-150-xxx-x-dv-a-s
 LIBS:sn74axc8t245
+LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
