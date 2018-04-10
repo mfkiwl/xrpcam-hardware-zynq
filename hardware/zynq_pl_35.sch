@@ -41,12 +41,14 @@ LIBS:osc
 LIBS:ddr
 LIBS:misc
 LIBS:tlk10031
+LIBS:lshm-150-xxx-x-dv-a-s
+LIBS:sn74axc8t245
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 18
+Sheet 19 19
 Title ""
 Date ""
 Rev ""
@@ -67,4 +69,66 @@ F 3 "" H 5400 1400 60  0001 C CNN
 	4    5400 1400
 	1    0    0    -1  
 $EndComp
+Text HLabel 5050 3200 0    60   Output ~ 0
+FRAME_REQ_0_18
+Text HLabel 5050 3300 0    60   Output ~ 0
+T_EXP1_0_18
+Text HLabel 5050 3400 0    60   Output ~ 0
+T_EXP2_0_18
+Text HLabel 5050 3500 0    60   Output ~ 0
+FRAME_REQ_1_18
+Text HLabel 5050 4500 0    60   Output ~ 0
+T_EXP2_1_18
+Text HLabel 5050 4400 0    60   Output ~ 0
+T_EXP1_1_18
+Text HLabel 5050 4600 0    60   Output ~ 0
+CAM_SPI_CLK_18
+Text HLabel 5050 4700 0    60   Output ~ 0
+CAM_SPI_MOSI_18
+Text HLabel 5050 5000 0    60   Input ~ 0
+CAM_SPI_MISO_18
+Text HLabel 5050 6100 0    60   Output ~ 0
+CAM_SPI_EN_1_18
+Text HLabel 5050 5800 0    60   Output ~ 0
+CAM_SPI_EN_0_18
+Text HLabel 5050 6300 0    60   Output ~ 0
+CAM_CLK_REF_18
+Text HLabel 5050 4900 0    60   Output ~ 0
+CAM_RESET_18
+Text HLabel 5050 6000 0    60   BiDi ~ 0
+CAM_SCL_18
+Text HLabel 5050 6200 0    60   BiDi ~ 0
+CAM_SDA_18
+Wire Wire Line
+	5050 3200 5400 3200
+Wire Wire Line
+	5400 3300 5050 3300
+Wire Wire Line
+	5050 3400 5400 3400
+Wire Wire Line
+	5400 3500 5050 3500
+Wire Wire Line
+	5050 4400 5400 4400
+Wire Wire Line
+	5400 4500 5050 4500
+Wire Wire Line
+	5050 4600 5400 4600
+Wire Wire Line
+	5400 4700 5050 4700
+Wire Wire Line
+	5050 4900 5400 4900
+Wire Wire Line
+	5400 5000 5050 5000
+Wire Wire Line
+	5050 5800 5400 5800
+Wire Wire Line
+	5400 6000 5050 6000
+Wire Wire Line
+	5050 6100 5400 6100
+Wire Wire Line
+	5400 6200 5050 6200
+Wire Wire Line
+	5050 6300 5400 6300
+Text Notes 3050 6550 0    60   ~ 0
+CAM_CLK_REF is not really lowspeed(>40 MHz),\nroute this first and make it short as possible
 $EndSCHEMATC

@@ -41,12 +41,14 @@ LIBS:osc
 LIBS:ddr
 LIBS:misc
 LIBS:tlk10031
+LIBS:lshm-150-xxx-x-dv-a-s
+LIBS:sn74axc8t245
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 18
+Sheet 16 19
 Title ""
 Date ""
 Rev ""
@@ -212,34 +214,10 @@ Wire Wire Line
 	6550 2950 6850 2950
 Connection ~ 6650 2950
 Connection ~ 6750 2950
-$Comp
-L +1V5 #PWR?
-U 1 1 5ACA62F0
-P 6650 2850
-F 0 "#PWR?" H 6650 2700 50  0001 C CNN
-F 1 "+1V5" H 6650 2990 50  0000 C CNN
-F 2 "" H 6650 2850 50  0001 C CNN
-F 3 "" H 6650 2850 50  0001 C CNN
-	1    6650 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6650 2850 6650 2950
-Text Notes 6450 2650 0    60   ~ 0
-1V5 or 1V8
 Wire Wire Line
 	7350 2950 7450 2950
-$Comp
-L +1V5 #PWR?
-U 1 1 5ACA694F
-P 7350 2850
-F 0 "#PWR?" H 7350 2700 50  0001 C CNN
-F 1 "+1V5" H 7350 2990 50  0000 C CNN
-F 2 "" H 7350 2850 50  0001 C CNN
-F 3 "" H 7350 2850 50  0001 C CNN
-	1    7350 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7350 2850 7350 2950
 Text Notes 7100 2650 0    60   ~ 0
@@ -253,4 +231,28 @@ Wire Wire Line
 Connection ~ 6050 2950
 Text Notes 3450 5450 0    60   ~ 0
 Note: Decoupling Cpacitors may missing!
+Text Notes 6450 2650 0    60   ~ 0
+1V5 or 1V8
+$Comp
+L +1V8 #PWR?
+U 1 1 5AC913A1
+P 6650 2850
+F 0 "#PWR?" H 6650 2700 50  0001 C CNN
+F 1 "+1V8" H 6650 2990 50  0000 C CNN
+F 2 "" H 6650 2850 50  0001 C CNN
+F 3 "" H 6650 2850 50  0001 C CNN
+	1    6650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1V8 #PWR?
+U 1 1 5AC913B6
+P 7350 2850
+F 0 "#PWR?" H 7350 2700 50  0001 C CNN
+F 1 "+1V8" H 7350 2990 50  0000 C CNN
+F 2 "" H 7350 2850 50  0001 C CNN
+F 3 "" H 7350 2850 50  0001 C CNN
+	1    7350 2850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

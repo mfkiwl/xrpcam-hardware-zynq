@@ -41,12 +41,14 @@ LIBS:osc
 LIBS:ddr
 LIBS:misc
 LIBS:tlk10031
+LIBS:lshm-150-xxx-x-dv-a-s
+LIBS:sn74axc8t245
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 18
+Sheet 2 19
 Title ""
 Date ""
 Rev ""
@@ -73,7 +75,7 @@ U 1 1 59872421
 P 4300 1750
 F 0 "C?" H 4310 1820 50  0000 L CNN
 F 1 "0.47µF" H 4310 1670 50  0000 L CNN
-F 2 "C_0603" H 4300 1750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 4300 1750 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4300 1750 50  0001 C CNN
 F 4 "Murata" H 4300 1750 60  0001 C CNN "MFG Name"
 F 5 "GRM188R70J474KA01" H 4300 1750 60  0001 C CNN "MFG Part Num"
@@ -90,7 +92,7 @@ U 1 1 59872452
 P 4650 1750
 F 0 "C?" H 4660 1820 50  0000 L CNN
 F 1 "4.7µF" H 4660 1670 50  0000 L CNN
-F 2 "C_0805" H 4650 1750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 4650 1750 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 4650 1750 50  0001 C CNN
 F 4 "Murata" H 4650 1750 60  0001 C CNN "MFG Name"
 F 5 "GRM21BR71A475KA73" H 4650 1750 60  0001 C CNN "MFG Part Num"
@@ -107,7 +109,7 @@ U 1 1 59872474
 P 5050 1750
 F 0 "C?" H 5060 1820 50  0000 L CNN
 F 1 "10μF" H 5060 1670 50  0000 L CNN
-F 2 "C_0603" H 5050 1750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 5050 1750 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5050 1750 50  0001 C CNN
 F 4 "Murata" H 5050 1750 60  0001 C CNN "MFG Name"
 F 5 "GRM188R60G106ME47" H 5050 1750 60  0001 C CNN "MFG Part Num"
@@ -124,7 +126,7 @@ U 1 1 59872495
 P 5500 1750
 F 0 "C?" H 5510 1820 50  0000 L CNN
 F 1 "47µF" H 5510 1670 50  0000 L CNN
-F 2 "C_1210" H 5500 1750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1210" H 5500 1750 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J476ME20-01.pdf" H 5500 1750 50  0001 C CNN
 F 4 "Murata" H 5500 1750 60  0001 C CNN "MFG Name"
 F 5 "GRM32ER60J476ME20L" H 5500 1750 60  0001 C CNN "MFG Part Num"
@@ -141,7 +143,7 @@ U 1 1 598724F1
 P 6550 1750
 F 0 "C?" H 6560 1820 50  0000 L CNN
 F 1 "100µF" H 6560 1670 50  0000 L CNN
-F 2 "C_1210" H 6550 1750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1210" H 6550 1750 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 6550 1750 50  0001 C CNN
 F 4 "Murata" H 6550 1750 60  0001 C CNN "MFG Name"
 F 5 "GRM32EE70G107ME19L" H 6550 1750 60  0001 C CNN "MFG Part Num"
@@ -214,7 +216,7 @@ U 1 1 5987452E
 P 1000 1550
 F 0 "C?" H 1010 1620 50  0000 L CNN
 F 1 "0.47µF" H 1010 1470 50  0000 L CNN
-F 2 "C_0603" H 1000 1550 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 1000 1550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1000 1550 50  0001 C CNN
 F 4 "Murata" H 1000 1550 60  0001 C CNN "MFG Name"
 F 5 "GRM188R70J474KA01" H 1000 1550 60  0001 C CNN "MFG Part Num"
@@ -231,7 +233,7 @@ U 1 1 5987453A
 P 1000 1900
 F 0 "C?" H 1010 1970 50  0000 L CNN
 F 1 "4.7µF" H 1010 1820 50  0000 L CNN
-F 2 "C_0805" H 1000 1900 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 1000 1900 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 1000 1900 50  0001 C CNN
 F 4 "Murata" H 1000 1900 60  0001 C CNN "MFG Name"
 F 5 "GRM21BR71A475KA73" H 1000 1900 60  0001 C CNN "MFG Part Num"
@@ -248,7 +250,7 @@ U 1 1 59874596
 P 1300 1900
 F 0 "C?" H 1310 1970 50  0000 L CNN
 F 1 "4.7µF" H 1310 1820 50  0000 L CNN
-F 2 "C_0805" H 1300 1900 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 1300 1900 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 1300 1900 50  0001 C CNN
 F 4 "Murata" H 1300 1900 60  0001 C CNN "MFG Name"
 F 5 "GRM21BR71A475KA73" H 1300 1900 60  0001 C CNN "MFG Part Num"
@@ -265,7 +267,7 @@ U 1 1 598745D6
 P 1300 1550
 F 0 "C?" H 1310 1620 50  0000 L CNN
 F 1 "0.47µF" H 1310 1470 50  0000 L CNN
-F 2 "C_0603" H 1300 1550 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 1300 1550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1300 1550 50  0001 C CNN
 F 4 "Murata" H 1300 1550 60  0001 C CNN "MFG Name"
 F 5 "GRM188R70J474KA01" H 1300 1550 60  0001 C CNN "MFG Part Num"
@@ -282,7 +284,7 @@ U 1 1 59874624
 P 1600 1550
 F 0 "C?" H 1610 1620 50  0000 L CNN
 F 1 "0.47µF" H 1610 1470 50  0000 L CNN
-F 2 "C_0603" H 1600 1550 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 1600 1550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1600 1550 50  0001 C CNN
 F 4 "Murata" H 1600 1550 60  0001 C CNN "MFG Name"
 F 5 "GRM188R70J474KA01" H 1600 1550 60  0001 C CNN "MFG Part Num"
@@ -299,7 +301,7 @@ U 1 1 5987466B
 P 1850 1550
 F 0 "C?" H 1860 1620 50  0000 L CNN
 F 1 "0.47µF" H 1860 1470 50  0000 L CNN
-F 2 "C_0603" H 1850 1550 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 1850 1550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1850 1550 50  0001 C CNN
 F 4 "Murata" H 1850 1550 60  0001 C CNN "MFG Name"
 F 5 "GRM188R70J474KA01" H 1850 1550 60  0001 C CNN "MFG Part Num"

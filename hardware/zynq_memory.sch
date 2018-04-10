@@ -41,12 +41,14 @@ LIBS:osc
 LIBS:ddr
 LIBS:misc
 LIBS:tlk10031
+LIBS:lshm-150-xxx-x-dv-a-s
+LIBS:sn74axc8t245
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 3 18
+Sheet 3 19
 Title ""
 Date ""
 Rev ""

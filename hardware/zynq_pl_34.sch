@@ -41,12 +41,14 @@ LIBS:osc
 LIBS:ddr
 LIBS:misc
 LIBS:tlk10031
+LIBS:lshm-150-xxx-x-dv-a-s
+LIBS:sn74axc8t245
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 18
+Sheet 6 19
 Title ""
 Date ""
 Rev ""
@@ -67,4 +69,32 @@ F 3 "" H 5250 800 60  0001 C CNN
 	3    5250 800 
 	1    0    0    -1  
 $EndComp
+Text HLabel 4800 2400 0    60   Output ~ 0
+SFP_GPIO_18
+Text HLabel 4800 2800 0    60   Input ~ 0
+RX_LOS_18
+Text HLabel 4800 3400 0    60   Input ~ 0
+MODDET_18
+Text HLabel 4800 3800 0    60   BiDi ~ 0
+SFP_SDA_18
+Text HLabel 4800 4000 0    60   BiDi ~ 0
+SFP_SCL_18
+Text HLabel 4800 4100 0    60   Input ~ 0
+TX_FAULT_18
+Text HLabel 4800 3600 0    60   Output ~ 0
+TX_DISABLE_18
+Wire Wire Line
+	4800 2400 5250 2400
+Wire Wire Line
+	4800 2800 5250 2800
+Wire Wire Line
+	4800 3400 5250 3400
+Wire Wire Line
+	5250 3600 4800 3600
+Wire Wire Line
+	4800 3800 5250 3800
+Wire Wire Line
+	5250 4000 4800 4000
+Wire Wire Line
+	4800 4100 5250 4100
 $EndSCHEMATC

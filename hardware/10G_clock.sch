@@ -41,12 +41,14 @@ LIBS:osc
 LIBS:ddr
 LIBS:misc
 LIBS:tlk10031
+LIBS:lshm-150-xxx-x-dv-a-s
+LIBS:sn74axc8t245
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 18
+Sheet 12 19
 Title ""
 Date ""
 Rev ""
@@ -98,7 +100,7 @@ Text Notes 2300 1600 0    60   ~ 0
 125 MHz\n10 ppm
 Text Notes 2300 3300 0    60   ~ 0
 156.25 MHz\n10 ppm
-Text Notes 7100 3900 0    60   ~ 0
+Text Notes 7100 4150 0    60   ~ 0
 Note: clocks are AC-coupled at receiving device.
 $Comp
 L GND #PWR?
@@ -136,7 +138,7 @@ U 1 1 598F26F6
 P 3500 3900
 F 0 "C?" H 3510 3970 50  0000 L CNN
 F 1 "100n" H 3510 3820 50  0000 L CNN
-F 2 "" H 3500 3900 50  0000 C CNN
+F 2 "" H 3500 3900 50  0001 C CNN
 F 3 "" H 3500 3900 50  0000 C CNN
 	1    3500 3900
 	0    1    1    0   
@@ -147,7 +149,7 @@ U 1 1 598F2737
 P 3500 4200
 F 0 "C?" H 3510 4270 50  0000 L CNN
 F 1 "100n" H 3510 4120 50  0000 L CNN
-F 2 "" H 3500 4200 50  0000 C CNN
+F 2 "" H 3500 4200 50  0001 C CNN
 F 3 "" H 3500 4200 50  0000 C CNN
 	1    3500 4200
 	0    1    1    0   
@@ -158,7 +160,7 @@ U 1 1 598F277A
 P 3700 4050
 F 0 "R?" V 3780 4050 50  0000 C CNN
 F 1 "100" V 3700 4050 50  0000 C CNN
-F 2 "" V 3630 4050 50  0000 C CNN
+F 2 "" V 3630 4050 50  0001 C CNN
 F 3 "" H 3700 4050 50  0000 C CNN
 	1    3700 4050
 	1    0    0    -1  
@@ -175,7 +177,7 @@ U 1 1 598F29AD
 P 3350 3250
 F 0 "C?" H 3375 3350 50  0000 L CNN
 F 1 "100n" H 3375 3150 50  0000 L CNN
-F 2 "" H 3388 3100 50  0000 C CNN
+F 2 "" H 3388 3100 50  0001 C CNN
 F 3 "" H 3350 3250 50  0000 C CNN
 	1    3350 3250
 	1    0    0    -1  
@@ -221,7 +223,7 @@ U 1 1 598F30AD
 P 4900 3300
 F 0 "C?" H 4925 3400 50  0000 L CNN
 F 1 "1u" H 4925 3200 50  0000 L CNN
-F 2 "" H 4938 3150 50  0000 C CNN
+F 2 "" H 4938 3150 50  0001 C CNN
 F 3 "" H 4900 3300 50  0000 C CNN
 	1    4900 3300
 	1    0    0    -1  
@@ -259,7 +261,7 @@ U 1 1 598F396E
 P 3350 1550
 F 0 "C?" H 3375 1650 50  0000 L CNN
 F 1 "100n" H 3375 1450 50  0000 L CNN
-F 2 "" H 3388 1400 50  0000 C CNN
+F 2 "" H 3388 1400 50  0001 C CNN
 F 3 "" H 3350 1550 50  0000 C CNN
 	1    3350 1550
 	1    0    0    -1  
@@ -306,9 +308,9 @@ Wire Wire Line
 	1700 4000 1700 3900
 Wire Wire Line
 	1700 3900 1800 3900
-Text Notes 7100 2050 0    60   ~ 0
-Output requirements:\n\nAEL2005:\nDifferential peak-to-peak input swing: 400 mV (min.), 2400 mV (max.)\nInput rise/fall time  (20% - 80%): 200 ps (min.), 500 ps(nom.), 650 ps (max.)\nDuty cycle: 40% (min.), 50% (nom.), 60% (max.)\nInput termination: 2 * 50Ω (typ.), bias set internally\n\nMGTs:\nDifferential peak-to-peak input voltage: 350 mV (min.), 2000 mV (max.)\nRise/fall time (20% - 80%): 200 ps (typ.)\nDuty cycle: 40% (min.), 60% (max.)
-Text Notes 7100 3600 0    60   ~ 0
+Text Notes 7100 2300 0    60   ~ 0
+Output requirements:\n\nAEL2005:\nDifferential peak-to-peak input swing: 400 mV (min.), 2400 mV (max.)\nInput rise/fall time  (20% - 80%): 200 ps (min.), 500 ps(nom.), 650 ps (max.)\nDuty cycle: 40% (min.), 50% (nom.), 60% (max.)\nInput termination: 2 * 50Ω (typ.), bias set internally\n\nTLK10031:\nDifferential input Voltage: 250 mV(min.), 2000 mV(max.)\nInput rise/fall time (10% - 90%): 50 ps (min.), 350 ps(max.)\nDuty cycle: 45% (min.), 50% (nom.), 55% (max.)\nDifferntial input impedance: 100 Ω\n\nMGTs:\nDifferential peak-to-peak input voltage: 350 mV (min.), 2000 mV (max.)\nRise/fall time (20% - 80%): 200 ps (typ.)\nDuty cycle: 40% (min.), 60% (max.)
+Text Notes 7100 3850 0    60   ~ 0
 Output specs:\n\nDSC1123:\nPeak-to-peak output swing (single-ended): 350 mV (typ.)\nOutput rise/fall time: 200 ps typ.\nDuty cycle (differential): 48% (min.), 52% (max.)\nOutput termination: 100Ω\n\nSI53340:\nPeak-to-peak output voltage (single-ended): 200 mV (min.), 490 mV (max.)\nOutput rise/fall time: 350 ps (max.)\nDuty cycle (50% input duty cycle): 47% (min.), 53% (max.)\nOutput termination: 100Ω
 NoConn ~ 1800 1800
 NoConn ~ 1800 3500
@@ -373,7 +375,7 @@ U 1 1 598F6241
 P 2500 4400
 F 0 "R?" V 2580 4400 50  0000 C CNN
 F 1 "0" V 2500 4400 50  0000 C CNN
-F 2 "" V 2430 4400 50  0000 C CNN
+F 2 "" V 2430 4400 50  0001 C CNN
 F 3 "" H 2500 4400 50  0000 C CNN
 	1    2500 4400
 	0    1    1    0   
@@ -384,7 +386,7 @@ U 1 1 598F6296
 P 2800 4500
 F 0 "R?" V 2880 4500 50  0000 C CNN
 F 1 "0" V 2800 4500 50  0000 C CNN
-F 2 "" V 2730 4500 50  0000 C CNN
+F 2 "" V 2730 4500 50  0001 C CNN
 F 3 "" H 2800 4500 50  0000 C CNN
 	1    2800 4500
 	0    1    1    0   
@@ -395,7 +397,7 @@ U 1 1 598F62E9
 P 2500 4700
 F 0 "R?" V 2580 4700 50  0000 C CNN
 F 1 "0" V 2500 4700 50  0000 C CNN
-F 2 "" V 2430 4700 50  0000 C CNN
+F 2 "" V 2430 4700 50  0001 C CNN
 F 3 "" H 2500 4700 50  0000 C CNN
 	1    2500 4700
 	0    1    1    0   
