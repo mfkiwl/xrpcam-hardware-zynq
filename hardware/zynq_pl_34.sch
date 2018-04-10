@@ -71,30 +71,58 @@ F 3 "" H 5250 800 60  0001 C CNN
 $EndComp
 Text HLabel 4800 2400 0    60   Output ~ 0
 SFP_GPIO_18
-Text HLabel 4800 2800 0    60   Input ~ 0
+Text HLabel 4800 2500 0    60   Input ~ 0
 RX_LOS_18
-Text HLabel 4800 3400 0    60   Input ~ 0
+Text HLabel 4800 2600 0    60   Input ~ 0
 MODDET_18
-Text HLabel 4800 3800 0    60   BiDi ~ 0
+Text HLabel 4800 2900 0    60   BiDi ~ 0
 SFP_SDA_18
-Text HLabel 4800 4000 0    60   BiDi ~ 0
+Text HLabel 4800 2800 0    60   BiDi ~ 0
 SFP_SCL_18
-Text HLabel 4800 4100 0    60   Input ~ 0
+Text HLabel 4800 3900 0    60   Input ~ 0
 TX_FAULT_18
-Text HLabel 4800 3600 0    60   Output ~ 0
+Text HLabel 4800 3800 0    60   Output ~ 0
 TX_DISABLE_18
-Wire Wire Line
-	4800 2400 5250 2400
+Text HLabel 4800 4200 0    60   Output ~ 0
+ST
+Text HLabel 4800 4100 0    60   Output ~ 0
+LS_OK_IN_A
+Text HLabel 4800 4000 0    60   Input ~ 0
+LS_OK_OUT_A
+Text HLabel 4800 4400 0    60   Output ~ 0
+PRBSEN
+Text HLabel 4800 3400 0    60   Output ~ 0
+MDC
+Text HLabel 4800 3500 0    60   BiDi ~ 0
+MDIO
+Text HLabel 4800 3600 0    60   Output ~ 0
+TLK_RESET
 Wire Wire Line
 	4800 2800 5250 2800
 Wire Wire Line
-	4800 3400 5250 3400
+	5250 2900 4800 2900
 Wire Wire Line
-	5250 3600 4800 3600
+	4800 2400 5250 2400
+Wire Wire Line
+	4800 2500 5250 2500
+Wire Wire Line
+	4800 2600 5250 2600
 Wire Wire Line
 	4800 3800 5250 3800
 Wire Wire Line
-	5250 4000 4800 4000
+	5250 3900 4800 3900
 Wire Wire Line
-	4800 4100 5250 4100
+	5250 4100 4800 4100
+Wire Wire Line
+	4800 4000 5250 4000
+Wire Wire Line
+	5250 4400 4800 4400
+Wire Wire Line
+	4800 4200 5250 4200
+Wire Wire Line
+	5250 3400 4800 3400
+Wire Wire Line
+	4800 3500 5250 3500
+Wire Wire Line
+	4800 3600 5250 3600
 $EndSCHEMATC
