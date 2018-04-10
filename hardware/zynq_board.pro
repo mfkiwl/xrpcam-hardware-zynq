@@ -1,4 +1,4 @@
-update=Do 05 Apr 2018 14:37:52 CEST
+update=Mo 09 Apr 2018 16:13:48 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,3 +71,5 @@ LibName39=libraries/schematics/osc
 LibName40=libraries/schematics/ddr
 LibName41=libraries/schematics/misc
 LibName42=libraries/schematics/tlk10031
+LibName43=libraries/schematics/lshm-150-xxx-x-dv-a-s
+LibName44=libraries/schematics/sn74axc8t245
