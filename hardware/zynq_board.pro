@@ -1,4 +1,4 @@
-update=Mo 09 Apr 2018 16:13:48 CEST
+update=Mi 11 Apr 2018 11:14:41 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -73,3 +73,4 @@ LibName41=libraries/schematics/misc
 LibName42=libraries/schematics/tlk10031
 LibName43=libraries/schematics/lshm-150-xxx-x-dv-a-s
 LibName44=libraries/schematics/sn74axc8t245
+LibName45=libraries/schematics/sn74lvc2t45
