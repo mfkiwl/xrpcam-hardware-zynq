@@ -43,12 +43,13 @@ LIBS:misc
 LIBS:tlk10031
 LIBS:lshm-150-xxx-x-dv-a-s
 LIBS:sn74axc8t245
+LIBS:sn74lvc2t45
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 19
+Sheet 16 20
 Title ""
 Date ""
 Rev ""
@@ -173,9 +174,9 @@ Text HLabel 2150 2750 0    60   Input ~ 0
 REFCLK0_P
 Text HLabel 2150 2850 0    60   Input ~ 0
 REFCLK0_N
-Text HLabel 7100 1050 2    60   Input ~ 0
+Text HLabel 7100 1050 2    60   Output ~ 0
 HSTXA_P
-Text HLabel 7100 1150 2    60   Input ~ 0
+Text HLabel 7100 1150 2    60   Output ~ 0
 HSTXA_N
 Text HLabel 7100 1350 2    60   Input ~ 0
 HSRXA_P

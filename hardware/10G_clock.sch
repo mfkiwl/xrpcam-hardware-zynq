@@ -43,12 +43,13 @@ LIBS:misc
 LIBS:tlk10031
 LIBS:lshm-150-xxx-x-dv-a-s
 LIBS:sn74axc8t245
+LIBS:sn74lvc2t45
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 19
+Sheet 10 20
 Title ""
 Date ""
 Rev ""
