@@ -44,6 +44,9 @@ LIBS:tlk10031
 LIBS:lshm-150-xxx-x-dv-a-s
 LIBS:sn74axc8t245
 LIBS:sn74lvc2t45
+LIBS:dmf05lcflp
+LIBS:txs02612
+LIBS:bss138ps
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
@@ -59,4 +62,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Micro_SD_Card_Det_Hirose_DM3AT J?
+U 1 1 5AE6D0CB
+P 9200 2600
+F 0 "J?" H 8550 3300 50  0000 C CNN
+F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 9850 3300 50  0000 R CNN
+F 2 "" H 11250 3300 50  0001 C CNN
+F 3 "" H 9200 2700 50  0001 C CNN
+	1    9200 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSS138PS
+D 60V Vds, 0.32 A Id, N-channel MOSFET, SOT-363
+K Dual N-Channel MOSFET
+F https://assets.nexperia.com/documents/data-sheet/BSS138PS.pdf
+$ENDCMP
+#
+#End Doc Library
