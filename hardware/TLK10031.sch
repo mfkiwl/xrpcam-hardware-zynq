@@ -45,14 +45,14 @@ LIBS:lshm-150-xxx-x-dv-a-s
 LIBS:sn74axc8t245
 LIBS:sn74lvc2t45
 LIBS:dmf05lcflp
-LIBS:txs02612
 LIBS:bss138ps
+LIBS:max14854
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 20
+Sheet 16 21
 Title ""
 Date ""
 Rev ""
@@ -352,7 +352,7 @@ $EndComp
 Text Notes 3700 5400 2    60   ~ 0
 TLK10031 only supports\n4 Bit MDIO Addresses
 Text HLabel 2450 5450 0    60   Input ~ 0
-TLK_RESET
+~TLK_RESET~
 Text HLabel 2450 5550 0    60   Input ~ 0
 MDC
 $Comp

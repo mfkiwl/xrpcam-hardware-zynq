@@ -45,14 +45,14 @@ LIBS:lshm-150-xxx-x-dv-a-s
 LIBS:sn74axc8t245
 LIBS:sn74lvc2t45
 LIBS:dmf05lcflp
-LIBS:txs02612
 LIBS:bss138ps
+LIBS:max14854
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 20
+Sheet 19 21
 Title ""
 Date ""
 Rev ""
@@ -63,7 +63,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 2650 -250 0    60   ~ 0
-Ideas:\nTriggerbus should be as robust as possible. That means 5 V tolerant,\nidiot Diodes at Poweroutputs, ESD protection Diodes, current limiting Resistors.\n\nAdditional Ideas:\nMaybe allow to switch between input and output Operation, thats not much overhead.
+Ideas:\nTriggerbus should be as robust as possible. That means 5 V tolerant,\nidiot Diodes at Poweroutputs, ESD protection Diodes, current limiting Resistors.
 $Comp
 L SN74LVC2T45 U?
 U 1 1 5AEA7A88
@@ -122,17 +122,6 @@ F 1 "+1V8" H 1150 1390 50  0000 C CNN
 F 2 "" H 1150 1250 50  0001 C CNN
 F 3 "" H 1150 1250 50  0001 C CNN
 	1    1150 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L DB15_Male J?
-U 1 1 5AD0297F
-P 9800 3600
-F 0 "J?" H 9820 4450 50  0000 C CNN
-F 1 "DB15_Male" H 9800 2725 50  0000 C CNN
-F 2 "" H 9800 3600 50  0001 C CNN
-F 3 "" H 9800 3600 50  0001 C CNN
-	1    9800 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -633,12 +622,12 @@ Wire Wire Line
 $Comp
 L +3V3 #PWR0125
 U 1 1 5AE6841A
-P 3300 4900
-F 0 "#PWR0125" H 3300 4750 50  0001 C CNN
-F 1 "+3V3" H 3300 5040 50  0000 C CNN
-F 2 "" H 3300 4900 50  0001 C CNN
-F 3 "" H 3300 4900 50  0001 C CNN
-	1    3300 4900
+P 3400 6350
+F 0 "#PWR0125" H 3400 6200 50  0001 C CNN
+F 1 "+3V3" H 3400 6490 50  0000 C CNN
+F 2 "" H 3400 6350 50  0001 C CNN
+F 3 "" H 3400 6350 50  0001 C CNN
+	1    3400 6350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -697,19 +686,19 @@ $EndComp
 Wire Wire Line
 	5150 750  5050 750 
 Wire Wire Line
-	3500 1400 4350 1400
+	3500 1400 5350 1400
 Wire Wire Line
 	4350 1400 4350 1200
 Wire Wire Line
-	3500 1500 4450 1500
+	3500 1500 5350 1500
 Wire Wire Line
 	4450 1500 4450 1200
 Wire Wire Line
-	3500 2650 4550 2650
+	3500 2650 5350 2650
 Wire Wire Line
 	4550 2650 4550 1200
 Wire Wire Line
-	3500 2750 4650 2750
+	3500 2750 5350 2750
 Wire Wire Line
 	4650 2750 4650 1200
 $Comp
@@ -742,19 +731,593 @@ $EndComp
 Wire Wire Line
 	5050 3150 4950 3150
 Wire Wire Line
-	3500 3900 4250 3900
+	3500 3900 5300 3900
 Wire Wire Line
 	4250 3900 4250 3600
 Wire Wire Line
-	3500 4000 4350 4000
+	3500 4000 5300 4000
 Wire Wire Line
 	4350 4000 4350 3600
 Wire Wire Line
-	3500 5150 4450 5150
+	3500 5150 5300 5150
 Wire Wire Line
 	4450 5150 4450 3600
 Wire Wire Line
-	3500 5250 4550 5250
+	3500 5250 5300 5250
 Wire Wire Line
 	4550 5250 4550 3600
+$Comp
+L MAX14854 U?
+U 1 1 5AD97BC2
+P 8850 2450
+F 0 "U?" H 9250 1900 60  0000 C CNN
+F 1 "MAX14854" V 8850 2450 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16W_7.5x10.3mm_Pitch1.27mm" H 8800 2950 60  0001 C CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/MAX14852-MAX14854.pdf" H 8800 2950 60  0001 C CNN
+F 4 "Maxim Integrated" H 8850 2450 60  0001 C CNN "MFG Name"
+F 5 "MAX14854GWE+" H 8850 2450 60  0001 C CNN "MFG Part Num"
+F 6 "MAX14854GWE+-ND" H 8850 2450 60  0001 C CNN "Digikey"
+F 7 "1" H 8850 2450 60  0001 C CNN "Populated"
+F 8 "SPEC" H 8850 2450 60  0001 C CNN "Source"
+	1    8850 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3350 9100 3350
+Wire Wire Line
+	9100 3350 9100 3250
+Wire Wire Line
+	8600 3350 8600 3250
+Wire Wire Line
+	8700 3250 8700 3350
+Connection ~ 8700 3350
+Wire Wire Line
+	9000 3250 9000 3350
+Connection ~ 9000 3350
+$Comp
+L GND #PWR0128
+U 1 1 5AD980A9
+P 8850 3450
+F 0 "#PWR0128" H 8850 3200 50  0001 C CNN
+F 1 "GND" H 8850 3300 50  0000 C CNN
+F 2 "" H 8850 3450 50  0001 C CNN
+F 3 "" H 8850 3450 50  0001 C CNN
+	1    8850 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3450 8850 3350
+Connection ~ 8850 3350
+$Comp
+L +1V8 #PWR0129
+U 1 1 5AD981B6
+P 8650 1650
+F 0 "#PWR0129" H 8650 1500 50  0001 C CNN
+F 1 "+1V8" H 8650 1790 50  0000 C CNN
+F 2 "" H 8650 1650 50  0001 C CNN
+F 3 "" H 8650 1650 50  0001 C CNN
+	1    8650 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 1650 8650 1750
+$Comp
+L C_Small C?
+U 1 1 5AD98280
+P 8950 1100
+F 0 "C?" H 8960 1170 50  0000 L CNN
+F 1 "100 nF" H 8960 1020 50  0000 L CNN
+F 2 "" H 8950 1100 50  0001 C CNN
+F 3 "" H 8950 1100 50  0001 C CNN
+	1    8950 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AD986D9
+P 8650 1100
+F 0 "C?" H 8660 1170 50  0000 L CNN
+F 1 "1 µF" H 8660 1020 50  0000 L CNN
+F 2 "" H 8650 1100 50  0001 C CNN
+F 3 "" H 8650 1100 50  0001 C CNN
+	1    8650 1100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8650 1000 8650 900 
+Wire Wire Line
+	8650 900  8950 900 
+Wire Wire Line
+	8950 900  8950 1000
+Wire Wire Line
+	8650 1200 8650 1300
+Wire Wire Line
+	8650 1300 8950 1300
+Wire Wire Line
+	8950 1200 8950 1750
+Connection ~ 8950 1300
+$Comp
+L GND #PWR0130
+U 1 1 5AD98A40
+P 8800 800
+F 0 "#PWR0130" H 8800 550 50  0001 C CNN
+F 1 "GND" H 8800 650 50  0000 C CNN
+F 2 "" H 8800 800 50  0001 C CNN
+F 3 "" H 8800 800 50  0001 C CNN
+	1    8800 800 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8800 800  8800 900 
+Connection ~ 8800 900 
+$Comp
+L C_Small C?
+U 1 1 5AD98C77
+P 8350 1100
+F 0 "C?" H 8360 1170 50  0000 L CNN
+F 1 "100 nF" H 8360 1020 50  0000 L CNN
+F 2 "" H 8350 1100 50  0001 C CNN
+F 3 "" H 8350 1100 50  0001 C CNN
+	1    8350 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AD98C7D
+P 8050 1100
+F 0 "C?" H 8060 1170 50  0000 L CNN
+F 1 "1 µF" H 8060 1020 50  0000 L CNN
+F 2 "" H 8050 1100 50  0001 C CNN
+F 3 "" H 8050 1100 50  0001 C CNN
+	1    8050 1100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8050 1000 8050 900 
+Wire Wire Line
+	8050 900  8350 900 
+Wire Wire Line
+	8350 900  8350 1000
+Wire Wire Line
+	8050 1200 8050 1300
+Wire Wire Line
+	8050 1300 8350 1300
+Connection ~ 8350 1300
+$Comp
+L GND #PWR0131
+U 1 1 5AD98C8A
+P 8200 800
+F 0 "#PWR0131" H 8200 550 50  0001 C CNN
+F 1 "GND" H 8200 650 50  0000 C CNN
+F 2 "" H 8200 800 50  0001 C CNN
+F 3 "" H 8200 800 50  0001 C CNN
+	1    8200 800 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8200 800  8200 900 
+Connection ~ 8200 900 
+Wire Wire Line
+	8350 1200 8350 1700
+Wire Wire Line
+	8350 1700 8650 1700
+Connection ~ 8650 1700
+$Comp
+L C_Small C?
+U 1 1 5AD98ED7
+P 9350 1100
+F 0 "C?" H 9360 1170 50  0000 L CNN
+F 1 "100 nF" H 9360 1020 50  0000 L CNN
+F 2 "" H 9350 1100 50  0001 C CNN
+F 3 "" H 9350 1100 50  0001 C CNN
+	1    9350 1100
+	1    0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AD98EDD
+P 9650 1100
+F 0 "C?" H 9660 1170 50  0000 L CNN
+F 1 "1 µF" H 9660 1020 50  0000 L CNN
+F 2 "" H 9650 1100 50  0001 C CNN
+F 3 "" H 9650 1100 50  0001 C CNN
+	1    9650 1100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9650 1000 9650 900 
+Wire Wire Line
+	9650 900  9350 900 
+Wire Wire Line
+	9350 900  9350 1000
+Wire Wire Line
+	9650 1200 9650 1300
+Wire Wire Line
+	9650 1300 9350 1300
+Connection ~ 9350 1300
+$Comp
+L GND #PWR0132
+U 1 1 5AD98EEA
+P 9500 800
+F 0 "#PWR0132" H 9500 550 50  0001 C CNN
+F 1 "GND" H 9500 650 50  0000 C CNN
+F 2 "" H 9500 800 50  0001 C CNN
+F 3 "" H 9500 800 50  0001 C CNN
+	1    9500 800 
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9500 800  9500 900 
+Connection ~ 9500 900 
+$Comp
+L +3V3 #PWR0133
+U 1 1 5AD9904E
+P 9050 1650
+F 0 "#PWR0133" H 9050 1500 50  0001 C CNN
+F 1 "+3V3" H 9050 1790 50  0000 C CNN
+F 2 "" H 9050 1650 50  0001 C CNN
+F 3 "" H 9050 1650 50  0001 C CNN
+	1    9050 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 1650 9050 1750
+Wire Wire Line
+	9350 1200 9350 1700
+Wire Wire Line
+	9350 1700 9050 1700
+Connection ~ 9050 1700
+Wire Notes Line
+	7650 550  7650 1800
+Wire Notes Line
+	7650 1800 9850 1800
+Wire Notes Line
+	9850 1800 9850 550 
+Wire Notes Line
+	9850 550  7650 550 
+Text Notes 5850 800  0    60   ~ 0
+Bypass Capacitors for MAX14854.\nPlace as close as possible to it
+$Comp
+L C_Small C?
+U 1 1 5AD9AF72
+P 1600 6650
+F 0 "C?" H 1610 6720 50  0000 L CNN
+F 1 "100 nF" H 1610 6570 50  0000 L CNN
+F 2 "" H 1600 6650 50  0001 C CNN
+F 3 "" H 1600 6650 50  0001 C CNN
+	1    1600 6650
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AD9B25A
+P 1900 6650
+F 0 "C?" H 1910 6720 50  0000 L CNN
+F 1 "100 nF" H 1910 6570 50  0000 L CNN
+F 2 "" H 1900 6650 50  0001 C CNN
+F 3 "" H 1900 6650 50  0001 C CNN
+	1    1900 6650
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AD9B403
+P 2200 6650
+F 0 "C?" H 2210 6720 50  0000 L CNN
+F 1 "100 nF" H 2210 6570 50  0000 L CNN
+F 2 "" H 2200 6650 50  0001 C CNN
+F 3 "" H 2200 6650 50  0001 C CNN
+	1    2200 6650
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AD9B409
+P 2500 6650
+F 0 "C?" H 2510 6720 50  0000 L CNN
+F 1 "100 nF" H 2510 6570 50  0000 L CNN
+F 2 "" H 2500 6650 50  0001 C CNN
+F 3 "" H 2500 6650 50  0001 C CNN
+	1    2500 6650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 6750 1600 6850
+Wire Wire Line
+	1600 6850 2500 6850
+Wire Wire Line
+	2500 6850 2500 6750
+Wire Wire Line
+	2200 6750 2200 6850
+Connection ~ 2200 6850
+Wire Wire Line
+	1900 6750 1900 6850
+Connection ~ 1900 6850
+Wire Wire Line
+	1600 6550 1600 6450
+Wire Wire Line
+	1600 6450 2500 6450
+Wire Wire Line
+	2500 6450 2500 6550
+Wire Wire Line
+	2200 6550 2200 6450
+Connection ~ 2200 6450
+Wire Wire Line
+	1900 6550 1900 6450
+Connection ~ 1900 6450
+$Comp
+L GND #PWR0134
+U 1 1 5AD9BAB3
+P 2050 6950
+F 0 "#PWR0134" H 2050 6700 50  0001 C CNN
+F 1 "GND" H 2050 6800 50  0000 C CNN
+F 2 "" H 2050 6950 50  0001 C CNN
+F 3 "" H 2050 6950 50  0001 C CNN
+	1    2050 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 6950 2050 6850
+Connection ~ 2050 6850
+$Comp
+L C_Small C?
+U 1 1 5AD9BE9E
+P 2950 6650
+F 0 "C?" H 2960 6720 50  0000 L CNN
+F 1 "100 nF" H 2960 6570 50  0000 L CNN
+F 2 "" H 2950 6650 50  0001 C CNN
+F 3 "" H 2950 6650 50  0001 C CNN
+	1    2950 6650
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AD9BEA4
+P 3250 6650
+F 0 "C?" H 3260 6720 50  0000 L CNN
+F 1 "100 nF" H 3260 6570 50  0000 L CNN
+F 2 "" H 3250 6650 50  0001 C CNN
+F 3 "" H 3250 6650 50  0001 C CNN
+	1    3250 6650
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AD9BEAA
+P 3550 6650
+F 0 "C?" H 3560 6720 50  0000 L CNN
+F 1 "100 nF" H 3560 6570 50  0000 L CNN
+F 2 "" H 3550 6650 50  0001 C CNN
+F 3 "" H 3550 6650 50  0001 C CNN
+	1    3550 6650
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AD9BEB0
+P 3850 6650
+F 0 "C?" H 3860 6720 50  0000 L CNN
+F 1 "100 nF" H 3860 6570 50  0000 L CNN
+F 2 "" H 3850 6650 50  0001 C CNN
+F 3 "" H 3850 6650 50  0001 C CNN
+	1    3850 6650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2950 6750 2950 6850
+Wire Wire Line
+	2950 6850 3850 6850
+Wire Wire Line
+	3850 6850 3850 6750
+Wire Wire Line
+	3550 6750 3550 6850
+Connection ~ 3550 6850
+Wire Wire Line
+	3250 6750 3250 6850
+Connection ~ 3250 6850
+Wire Wire Line
+	2950 6550 2950 6450
+Wire Wire Line
+	2950 6450 3850 6450
+Wire Wire Line
+	3850 6450 3850 6550
+Wire Wire Line
+	3550 6550 3550 6450
+Connection ~ 3550 6450
+Wire Wire Line
+	3250 6550 3250 6450
+Connection ~ 3250 6450
+$Comp
+L GND #PWR0135
+U 1 1 5AD9BEC4
+P 3400 6950
+F 0 "#PWR0135" H 3400 6700 50  0001 C CNN
+F 1 "GND" H 3400 6800 50  0000 C CNN
+F 2 "" H 3400 6950 50  0001 C CNN
+F 3 "" H 3400 6950 50  0001 C CNN
+	1    3400 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 6950 3400 6850
+Connection ~ 3400 6850
+$Comp
+L +1V8 #PWR0136
+U 1 1 5AD9BF16
+P 2050 6350
+F 0 "#PWR0136" H 2050 6200 50  0001 C CNN
+F 1 "+1V8" H 2050 6490 50  0000 C CNN
+F 2 "" H 2050 6350 50  0001 C CNN
+F 3 "" H 2050 6350 50  0001 C CNN
+	1    2050 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 6350 2050 6450
+Connection ~ 2050 6450
+Wire Wire Line
+	3400 6350 3400 6450
+Connection ~ 3400 6450
+Wire Notes Line
+	1300 6100 4000 6100
+Wire Notes Line
+	4000 6100 4000 7350
+Wire Notes Line
+	4000 7350 1300 7350
+Wire Notes Line
+	1300 7350 1300 6100
+Text Notes 1450 6050 0    60   ~ 0
+Bypass Capacitors for the Triggerbus Levelshifters.\nPlace them as close as possible to their power inputs.
+Text HLabel 8350 2400 0    60   Output ~ 0
+RXD
+Text HLabel 8350 2300 0    60   Output ~ 0
+~SBA~
+Text HLabel 8350 2500 0    60   Input ~ 0
+~RE~
+Text HLabel 8350 2600 0    60   Input ~ 0
+DE
+Text HLabel 8350 2700 0    60   Input ~ 0
+TXD
+Text Notes 6100 6250 0    60   ~ 0
+TODO: Select Connector and connect it
+Connection ~ 4350 1400
+Connection ~ 4450 1500
+Connection ~ 4550 2650
+Connection ~ 4650 2750
+Connection ~ 4250 3900
+Connection ~ 4350 4000
+Connection ~ 4450 5150
+Connection ~ 4550 5250
+Text Label 5350 1400 2    60   ~ 0
+EXT_TRIG_IN_0
+Text Label 5350 1500 2    60   ~ 0
+EXT_TRIG_IN_1
+Text Label 5350 2650 2    60   ~ 0
+EXT_TRIG_IN_2
+Text Label 5350 2750 2    60   ~ 0
+EXT_TRIG_IN_3
+Text Label 9200 4450 0    60   ~ 0
+EXT_TRIG_OUT_0
+Text Label 5300 4000 2    60   ~ 0
+EXT_TRIG_OUT_1
+Text Label 5300 5150 2    60   ~ 0
+EXT_TRIG_OUT_2
+Text Label 5300 5250 2    60   ~ 0
+EXT_TRIG_OUT_3
+$Comp
+L DB15_Female J?
+U 1 1 5B115DA2
+P 10350 4750
+F 0 "J?" H 10370 5600 50  0000 C CNN
+F 1 "DB15_Female" H 10350 3875 50  0000 C CNN
+F 2 "" H 10350 4750 50  0001 C CNN
+F 3 "" H 10350 4750 50  0001 C CNN
+	1    10350 4750
+	1    0    0    -1  
+$EndComp
+Text Label 9200 4050 0    60   ~ 0
+EXT_TRIG_IN_0
+Wire Wire Line
+	9200 4050 10050 4050
+Text Label 9200 4150 0    60   ~ 0
+EXT_TRIG_IN_1
+Wire Wire Line
+	9200 4150 10050 4150
+Text Label 9200 4250 0    60   ~ 0
+EXT_TRIG_IN_2
+Wire Wire Line
+	9200 4250 10050 4250
+Text Label 9200 4350 0    60   ~ 0
+EXT_TRIG_IN_3
+Wire Wire Line
+	9200 4350 10050 4350
+Wire Wire Line
+	9200 4450 10050 4450
+Text Label 9200 4550 0    60   ~ 0
+EXT_TRIG_OUT_1
+Wire Wire Line
+	9200 4550 10050 4550
+Text Label 9200 4650 0    60   ~ 0
+EXT_TRIG_OUT_2
+Wire Wire Line
+	9200 4650 10050 4650
+Text Label 9200 4750 0    60   ~ 0
+EXT_TRIG_OUT_3
+Wire Wire Line
+	9200 4750 10050 4750
+Text Label 9450 2300 2    60   ~ 0
+A
+Text Label 9450 2400 2    60   ~ 0
+B
+Text Label 9450 2500 2    60   ~ 0
+Z
+Text Label 9450 2600 2    60   ~ 0
+Y
+Wire Wire Line
+	9450 2600 9350 2600
+Wire Wire Line
+	9350 2500 9450 2500
+Wire Wire Line
+	9450 2400 9350 2400
+Wire Wire Line
+	9350 2300 9450 2300
+Text Label 9200 4850 0    60   ~ 0
+A
+Text Label 9200 4950 0    60   ~ 0
+B
+Text Label 9200 5050 0    60   ~ 0
+Z
+Text Label 9200 5150 0    60   ~ 0
+Y
+Wire Wire Line
+	9200 4850 10050 4850
+Wire Wire Line
+	10050 4950 9200 4950
+Wire Wire Line
+	9200 5050 10050 5050
+Wire Wire Line
+	10050 5150 9200 5150
+Text Label 5300 3900 2    60   ~ 0
+EXT_TRIG_OUT_0
+Wire Wire Line
+	10050 5250 9200 5250
+Wire Wire Line
+	10050 5350 9200 5350
+Wire Wire Line
+	10050 5450 9950 5450
+Wire Wire Line
+	9950 5450 9950 5550
+$Comp
+L GND #PWR?
+U 1 1 5B119013
+P 9950 5550
+F 0 "#PWR?" H 9950 5300 50  0001 C CNN
+F 1 "GND" H 9950 5400 50  0000 C CNN
+F 2 "" H 9950 5550 50  0001 C CNN
+F 3 "" H 9950 5550 50  0001 C CNN
+	1    9950 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5B119073
+P 9200 5350
+F 0 "#PWR?" H 9200 5200 50  0001 C CNN
+F 1 "+3V3" V 9200 5600 50  0000 C CNN
+F 2 "" H 9200 5350 50  0001 C CNN
+F 3 "" H 9200 5350 50  0001 C CNN
+	1    9200 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5B11913A
+P 9200 5250
+F 0 "#PWR?" H 9200 5100 50  0001 C CNN
+F 1 "+5V" V 9200 5500 50  0000 C CNN
+F 2 "" H 9200 5250 50  0001 C CNN
+F 3 "" H 9200 5250 50  0001 C CNN
+	1    9200 5250
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

@@ -45,14 +45,14 @@ LIBS:lshm-150-xxx-x-dv-a-s
 LIBS:sn74axc8t245
 LIBS:sn74lvc2t45
 LIBS:dmf05lcflp
-LIBS:txs02612
 LIBS:bss138ps
+LIBS:max14854
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 20
+Sheet 18 21
 Title ""
 Date ""
 Rev ""
@@ -73,11 +73,11 @@ F 3 "" H 5400 1400 60  0001 C CNN
 	4    5400 1400
 	1    0    0    -1  
 $EndComp
-Text HLabel 5050 6300 0    60   Output ~ 0
-FRAME_REQ_0_18
-Text HLabel 5050 6200 0    60   Output ~ 0
-T_EXP1_0_18
 Text HLabel 5050 6000 0    60   Output ~ 0
+FRAME_REQ_0_18
+Text HLabel 5050 4900 0    60   Output ~ 0
+T_EXP1_0_18
+Text HLabel 5050 4300 0    60   Output ~ 0
 T_EXP2_0_18
 Text HLabel 5050 4700 0    60   Output ~ 0
 FRAME_REQ_1_18
@@ -150,9 +150,77 @@ Wire Wire Line
 Wire Wire Line
 	5050 4700 5400 4700
 Wire Wire Line
-	5400 6000 5050 6000
+	5050 4300 5400 4300
+Wire Wire Line
+	5050 4900 5400 4900
+Wire Wire Line
+	5050 6000 5400 6000
+Text HLabel 5050 6300 0    60   Input ~ 0
+TRIG_IN_0
+Text HLabel 5050 5800 0    60   Input ~ 0
+TRIG_IN_1
+Text HLabel 5050 6200 0    60   Input ~ 0
+TRIG_IN_2
+Text HLabel 5050 6100 0    60   Input ~ 0
+TRIG_IN_3
+Text HLabel 5050 5300 0    60   Output ~ 0
+TRIG_OUT_0
+Text HLabel 5050 5400 0    60   Output ~ 0
+TRIG_OUT_2
+Text HLabel 5050 5900 0    60   Output ~ 0
+TRIG_OUT_1
+Text HLabel 5050 5600 0    60   Output ~ 0
+TRIG_OUT_3
+Wire Wire Line
+	5050 6100 5400 6100
 Wire Wire Line
 	5050 6200 5400 6200
 Wire Wire Line
+	5050 5800 5400 5800
+Wire Wire Line
 	5050 6300 5400 6300
+Wire Wire Line
+	5400 5300 5050 5300
+Wire Wire Line
+	5050 5900 5400 5900
+Wire Wire Line
+	5050 5400 5400 5400
+Wire Wire Line
+	5050 5600 5400 5600
+Text HLabel 5050 2900 0    60   BiDi ~ 0
+GPIO_0
+Text HLabel 5050 2000 0    60   BiDi ~ 0
+GPIO_1
+Text HLabel 5050 1900 0    60   BiDi ~ 0
+GPIO_2
+Text HLabel 5050 3700 0    60   BiDi ~ 0
+GPIO_3
+Text HLabel 5050 3600 0    60   BiDi ~ 0
+GPIO_4
+Text HLabel 5050 3800 0    60   BiDi ~ 0
+GPIO_5
+Text HLabel 5050 3900 0    60   BiDi ~ 0
+GPIO_6
+Text HLabel 5050 5700 0    60   BiDi ~ 0
+GPIO_7
+Text HLabel 5050 5500 0    60   BiDi ~ 0
+GPIO_8
+Wire Wire Line
+	5050 1900 5400 1900
+Wire Wire Line
+	5400 2000 5050 2000
+Wire Wire Line
+	5050 2900 5400 2900
+Wire Wire Line
+	5400 3600 5050 3600
+Wire Wire Line
+	5050 3700 5400 3700
+Wire Wire Line
+	5400 3800 5050 3800
+Wire Wire Line
+	5050 3900 5400 3900
+Wire Wire Line
+	5050 5500 5400 5500
+Wire Wire Line
+	5400 5700 5050 5700
 $EndSCHEMATC

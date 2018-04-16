@@ -45,14 +45,14 @@ LIBS:lshm-150-xxx-x-dv-a-s
 LIBS:sn74axc8t245
 LIBS:sn74lvc2t45
 LIBS:dmf05lcflp
-LIBS:txs02612
 LIBS:bss138ps
+LIBS:max14854
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 20
+Sheet 6 21
 Title ""
 Date ""
 Rev ""
@@ -100,7 +100,7 @@ MDC
 Text HLabel 4800 3500 0    60   BiDi ~ 0
 MDIO
 Text HLabel 4800 3600 0    60   Output ~ 0
-TLK_RESET
+~TLK_RESET~
 Wire Wire Line
 	4800 2800 5250 2800
 Wire Wire Line
@@ -129,4 +129,52 @@ Wire Wire Line
 	4800 3500 5250 3500
 Wire Wire Line
 	4800 3600 5250 3600
+Text HLabel 4800 4500 0    60   Input ~ 0
+RXD
+Text HLabel 4800 5000 0    60   Output ~ 0
+~RE~
+Text HLabel 4800 5200 0    60   Output ~ 0
+DE
+Text HLabel 4800 3000 0    60   Output ~ 0
+TXD
+Text HLabel 4800 2700 0    60   Output ~ 0
+~SBA~
+Wire Wire Line
+	4800 2700 5250 2700
+Wire Wire Line
+	5250 3000 4800 3000
+Wire Wire Line
+	4800 4500 5250 4500
+Wire Wire Line
+	4800 5000 5250 5000
+Wire Wire Line
+	4800 5200 5250 5200
+Text HLabel 4800 3100 0    60   BiDi ~ 0
+GPIO_9
+Text HLabel 4800 3200 0    60   BiDi ~ 0
+GPIO_10
+Text HLabel 4800 5300 0    60   BiDi ~ 0
+GPIO_11
+Text HLabel 4800 5100 0    60   BiDi ~ 0
+GPIO_12
+Text HLabel 4800 5400 0    60   BiDi ~ 0
+GPIO_13
+Text HLabel 4800 4300 0    60   BiDi ~ 0
+GPIO_14
+Text HLabel 4800 3700 0    60   BiDi ~ 0
+GPIO_15
+Wire Wire Line
+	4800 3100 5250 3100
+Wire Wire Line
+	5250 3200 4800 3200
+Wire Wire Line
+	4800 3700 5250 3700
+Wire Wire Line
+	4800 5100 5250 5100
+Wire Wire Line
+	5250 5300 4800 5300
+Wire Wire Line
+	4800 5400 5250 5400
+Wire Wire Line
+	4800 4300 5250 4300
 $EndSCHEMATC

@@ -45,14 +45,14 @@ LIBS:lshm-150-xxx-x-dv-a-s
 LIBS:sn74axc8t245
 LIBS:sn74lvc2t45
 LIBS:dmf05lcflp
-LIBS:txs02612
 LIBS:bss138ps
+LIBS:max14854
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 20
+Sheet 15 21
 Title ""
 Date ""
 Rev ""
