@@ -53,7 +53,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 21
+Sheet 20 20
 Title ""
 Date ""
 Rev ""
@@ -108,10 +108,10 @@ CAM_CLK_REF
 Text Notes 900  6900 0    60   ~ 0
 Open questions\n* LVDS clock input to camera needed?\n* Two separate clocks for two cameras needed?\n\nMissing\n!* I2C\n* GPIO
 $Comp
-L LSHM-150-xxx-x-DV-A-S J?
+L LSHM-150-xxx-x-DV-A-S J7
 U 1 1 5ACC34F1
 P 8350 3400
-F 0 "J?" H 8350 850 60  0000 C CNN
+F 0 "J7" H 8350 850 60  0000 C CNN
 F 1 "LSHM-150-xxx-x-DV-A-S" V 8350 3400 60  0000 C CNN
 F 2 "Connectors_Samtec:LSHM-150-xxx-x-DV-A-S" H 8350 4550 60  0001 C CNN
 F 3 "http://suddendocs.samtec.com/catalog_english/lshm_dv.pdf" H 8350 4550 60  0001 C CNN
@@ -229,10 +229,10 @@ Wire Wire Line
 Wire Wire Line
 	8650 5050 8850 5050
 $Comp
-L GND #PWR0137
+L GND #PWR0148
 U 1 1 5AFB9A6C
 P 8350 6100
-F 0 "#PWR0137" H 8350 5850 50  0001 C CNN
+F 0 "#PWR0148" H 8350 5850 50  0001 C CNN
 F 1 "GND" H 8350 5950 50  0000 C CNN
 F 2 "" H 8350 6100 50  0001 C CNN
 F 3 "" H 8350 6100 50  0001 C CNN
@@ -268,10 +268,10 @@ Connection ~ 8850 1650
 Wire Wire Line
 	8650 1750 8850 1750
 $Comp
-L +5V #PWR0138
+L +5V #PWR0149
 U 1 1 5AFBA51B
 P 8850 800
-F 0 "#PWR0138" H 8850 650 50  0001 C CNN
+F 0 "#PWR0149" H 8850 650 50  0001 C CNN
 F 1 "+5V" H 8850 940 50  0000 C CNN
 F 2 "" H 8850 800 50  0001 C CNN
 F 3 "" H 8850 800 50  0001 C CNN

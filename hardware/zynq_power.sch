@@ -53,7 +53,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 21
+Sheet 2 20
 Title ""
 Date ""
 Rev ""
@@ -64,10 +64,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xc7z030sbg485 U?
+L xc7z030sbg485 U1
 U 9 1 596E7E11
 P 9900 1250
-F 0 "U?" H 10100 1500 60  0000 L CNN
+F 0 "U1" H 10100 1500 60  0000 L CNN
 F 1 "xc7z030sbg485" H 10100 1400 60  0000 L CNN
 F 2 "footprints:SBG485_22x22_19.0x19.0mm_Pitch0.8mm" H 9900 1250 60  0001 C CNN
 F 3 "" H 9900 1250 60  0001 C CNN
@@ -75,10 +75,10 @@ F 3 "" H 9900 1250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C8
 U 1 1 59872421
 P 4300 1750
-F 0 "C?" H 4310 1820 50  0000 L CNN
+F 0 "C8" H 4310 1820 50  0000 L CNN
 F 1 "0.47µF" H 4310 1670 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4300 1750 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4300 1750 50  0001 C CNN
@@ -92,10 +92,10 @@ F 9 "SPEC" H 4300 1750 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C9
 U 1 1 59872452
 P 4650 1750
-F 0 "C?" H 4660 1820 50  0000 L CNN
+F 0 "C9" H 4660 1820 50  0000 L CNN
 F 1 "4.7µF" H 4660 1670 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4650 1750 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 4650 1750 50  0001 C CNN
@@ -109,10 +109,10 @@ F 9 "SPEC" H 4650 1750 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C10
 U 1 1 59872474
 P 5050 1750
-F 0 "C?" H 5060 1820 50  0000 L CNN
+F 0 "C10" H 5060 1820 50  0000 L CNN
 F 1 "10μF" H 5060 1670 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5050 1750 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5050 1750 50  0001 C CNN
@@ -126,10 +126,10 @@ F 9 "SPEC" H 5050 1750 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C11
 U 1 1 59872495
 P 5500 1750
-F 0 "C?" H 5510 1820 50  0000 L CNN
+F 0 "C11" H 5510 1820 50  0000 L CNN
 F 1 "47µF" H 5510 1670 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 5500 1750 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J476ME20-01.pdf" H 5500 1750 50  0001 C CNN
@@ -143,10 +143,10 @@ F 9 "SPEC" H 5500 1750 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP_Small C?
+L CP_Small C12
 U 1 1 598724F1
 P 6550 1750
-F 0 "C?" H 6560 1820 50  0000 L CNN
+F 0 "C12" H 6560 1820 50  0000 L CNN
 F 1 "100µF" H 6560 1670 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 6550 1750 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 6550 1750 50  0001 C CNN
@@ -160,10 +160,10 @@ F 9 "SPEC" H 6550 1750 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP_Small C?
+L CP_Small C13
 U 1 1 59872521
 P 7100 1850
-F 0 "C?" H 7110 1920 50  0000 L CNN
+F 0 "C13" H 7110 1920 50  0000 L CNN
 F 1 "330µF" H 7110 1770 50  0000 L CNN
 F 2 "C_2917" H 7100 1850 50  0001 C CNN
 F 3 "http://www.kemet.com/docfinder?Partnumber=T520" H 7100 1850 50  0001 C CNN
@@ -199,10 +199,10 @@ VCCO_DDR
 Text Notes 4600 2850 0    60   ~ 0
 VCC_MIO1
 $Comp
-L CP_Small C?
+L CP_Small C1
 U 1 1 598743AB
 P 1000 1200
-F 0 "C?" H 1010 1270 50  0000 L CNN
+F 0 "C1" H 1010 1270 50  0000 L CNN
 F 1 "330µF" H 1010 1120 50  0000 L CNN
 F 2 "C_2917" H 1000 1200 50  0001 C CNN
 F 3 "http://www.kemet.com/docfinder?Partnumber=T520" H 1000 1200 50  0001 C CNN
@@ -216,10 +216,10 @@ F 9 "SPEC" H 1000 1200 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C2
 U 1 1 5987452E
 P 1000 1550
-F 0 "C?" H 1010 1620 50  0000 L CNN
+F 0 "C2" H 1010 1620 50  0000 L CNN
 F 1 "0.47µF" H 1010 1470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1000 1550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1000 1550 50  0001 C CNN
@@ -233,10 +233,10 @@ F 9 "SPEC" H 1000 1550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C3
 U 1 1 5987453A
 P 1000 1900
-F 0 "C?" H 1010 1970 50  0000 L CNN
+F 0 "C3" H 1010 1970 50  0000 L CNN
 F 1 "4.7µF" H 1010 1820 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 1000 1900 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 1000 1900 50  0001 C CNN
@@ -250,10 +250,10 @@ F 9 "SPEC" H 1000 1900 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C5
 U 1 1 59874596
 P 1300 1900
-F 0 "C?" H 1310 1970 50  0000 L CNN
+F 0 "C5" H 1310 1970 50  0000 L CNN
 F 1 "4.7µF" H 1310 1820 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 1300 1900 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 1300 1900 50  0001 C CNN
@@ -267,10 +267,10 @@ F 9 "SPEC" H 1300 1900 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C4
 U 1 1 598745D6
 P 1300 1550
-F 0 "C?" H 1310 1620 50  0000 L CNN
+F 0 "C4" H 1310 1620 50  0000 L CNN
 F 1 "0.47µF" H 1310 1470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1300 1550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1300 1550 50  0001 C CNN
@@ -284,10 +284,10 @@ F 9 "SPEC" H 1300 1550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C6
 U 1 1 59874624
 P 1600 1550
-F 0 "C?" H 1610 1620 50  0000 L CNN
+F 0 "C6" H 1610 1620 50  0000 L CNN
 F 1 "0.47µF" H 1610 1470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1600 1550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1600 1550 50  0001 C CNN
@@ -301,10 +301,10 @@ F 9 "SPEC" H 1600 1550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C7
 U 1 1 5987466B
 P 1850 1550
-F 0 "C?" H 1860 1620 50  0000 L CNN
+F 0 "C7" H 1860 1620 50  0000 L CNN
 F 1 "0.47µF" H 1860 1470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1850 1550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1850 1550 50  0001 C CNN

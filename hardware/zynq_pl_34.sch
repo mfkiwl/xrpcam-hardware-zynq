@@ -53,7 +53,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 21
+Sheet 5 20
 Title ""
 Date ""
 Rev ""
@@ -64,10 +64,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xc7z030sbg485 U?
+L xc7z030sbg485 U1
 U 3 1 596E796D
 P 5250 800
-F 0 "U?" H 5450 1050 60  0000 L CNN
+F 0 "U1" H 5450 1050 60  0000 L CNN
 F 1 "xc7z030sbg485" H 5450 950 60  0000 L CNN
 F 2 "footprints:SBG485_22x22_19.0x19.0mm_Pitch0.8mm" H 5250 800 60  0001 C CNN
 F 3 "" H 5250 800 60  0001 C CNN
