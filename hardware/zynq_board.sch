@@ -48,12 +48,13 @@ LIBS:dmf05lcflp
 LIBS:bss138ps
 LIBS:max14854
 LIBS:switches
+LIBS:ft234xd
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 1 20
+Sheet 1 21
 Title ""
 Date ""
 Rev ""
@@ -1152,5 +1153,11 @@ F10 "USB0_ULPI_CLK" I L 7450 9750 60
 F11 "USB0_ULPI_DIR" I L 7450 9650 60 
 F12 "USB0_ULPI_STP" O L 7450 9450 60 
 F13 "USB0_ULPI_NXT" I L 7450 9550 60 
+$EndSheet
+$Sheet
+S 5000 10550 1500 1500
+U 5AD932C0
+F0 "USB-UART" 60
+F1 "usb_uart.sch" 60
 $EndSheet
 $EndSCHEMATC

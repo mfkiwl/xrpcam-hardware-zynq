@@ -1,0 +1,413 @@
+EESchema Schematic File Version 2
+LIBS:zynq_board-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:xilinx_zynq_clg485
+LIBS:SFP_plus
+LIBS:ael2005
+LIBS:diff_osc
+LIBS:si53340
+LIBS:usb3320
+LIBS:nx5p3090
+LIBS:smp1255putg
+LIBS:osc
+LIBS:ddr
+LIBS:misc
+LIBS:tlk10031
+LIBS:lshm-150-xxx-x-dv-a-s
+LIBS:sn74axc8t245
+LIBS:sn74lvc2t45
+LIBS:dmf05lcflp
+LIBS:bss138ps
+LIBS:max14854
+LIBS:switches
+LIBS:ft234xd
+LIBS:zynq_board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 21 21
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FT234XD U?
+U 1 1 5AD9638F
+P 5600 2950
+F 0 "U?" H 6350 2600 60  0000 C CNN
+F 1 "FT234XD" V 5600 3000 60  0000 C CNN
+F 2 "" H 5650 3250 60  0001 C CNN
+F 3 "" H 5650 3250 60  0001 C CNN
+	1    5600 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 7400 2700 2    60   Output ~ 0
+UART_RX
+Text GLabel 7400 2800 2    60   Input ~ 0
+UART_TX
+$Comp
+L USB_OTG J?
+U 1 1 5AD9C9C2
+P 2650 2900
+F 0 "J?" H 2450 3350 50  0000 L CNN
+F 1 "USB_OTG" H 2450 3250 50  0000 L CNN
+F 2 "" H 2800 2850 50  0001 C CNN
+F 3 "" H 2800 2850 50  0001 C CNN
+	1    2650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AD9CAF7
+P 4650 2900
+F 0 "R?" V 4700 2950 50  0000 L CNN
+F 1 "27" V 4700 2750 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 4650 2900 50  0001 C CNN
+F 3 "" H 4650 2900 50  0001 C CNN
+F 4 "1" H 4650 2900 60  0001 C CNN "Populated"
+F 5 "SPEC" H 4650 2900 60  0001 C CNN "Source"
+	1    4650 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AD9CB9D
+P 4650 3000
+F 0 "R?" V 4700 2850 50  0000 L CNN
+F 1 "27" V 4700 3100 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 4650 3000 50  0001 C CNN
+F 3 "" H 4650 3000 50  0001 C CNN
+F 4 "1" H 4650 3000 60  0001 C CNN "Populated"
+F 5 "SPEC" H 4650 3000 60  0001 C CNN "Source"
+	1    4650 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 2900 4750 2900
+Wire Wire Line
+	4750 3000 4950 3000
+Wire Wire Line
+	2950 3000 4550 3000
+Wire Wire Line
+	2950 2900 4550 2900
+Wire Wire Line
+	2550 3300 2550 3400
+Wire Wire Line
+	2550 3400 2650 3400
+Wire Wire Line
+	2650 3400 2650 3300
+$Comp
+L GND #PWR?
+U 1 1 5AD9D27D
+P 2600 3550
+F 0 "#PWR?" H 2600 3300 50  0001 C CNN
+F 1 "GND" H 2600 3400 50  0000 C CNN
+F 2 "" H 2600 3550 50  0001 C CNN
+F 3 "" H 2600 3550 50  0001 C CNN
+	1    2600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3550 2600 3400
+Connection ~ 2600 3400
+Wire Wire Line
+	5550 3600 5550 3700
+Wire Wire Line
+	5550 3700 5650 3700
+Wire Wire Line
+	5650 3700 5650 3600
+$Comp
+L GND #PWR?
+U 1 1 5AD9D2C5
+P 5600 3800
+F 0 "#PWR?" H 5600 3550 50  0001 C CNN
+F 1 "GND" H 5600 3650 50  0000 C CNN
+F 2 "" H 5600 3800 50  0001 C CNN
+F 3 "" H 5600 3800 50  0001 C CNN
+	1    5600 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3800 5600 3700
+Connection ~ 5600 3700
+Wire Wire Line
+	4950 2750 4800 2750
+Wire Wire Line
+	4800 2750 4800 2000
+Wire Wire Line
+	4800 2000 5950 2000
+Wire Wire Line
+	5950 2000 5950 2150
+$Comp
+L C_Small C?
+U 1 1 5AD9D30F
+P 4600 2350
+F 0 "C?" V 4700 2300 50  0000 L CNN
+F 1 "100 nF" V 4500 2200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4600 2350 50  0001 C CNN
+F 3 "" H 4600 2350 50  0001 C CNN
+F 4 "1" H 4600 2350 60  0001 C CNN "Populated"
+F 5 "SPEC" H 4600 2350 60  0001 C CNN "Source"
+	1    4600 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 2350 4800 2350
+Connection ~ 4800 2350
+$Comp
+L GND #PWR?
+U 1 1 5AD9D3A1
+P 4400 2350
+F 0 "#PWR?" H 4400 2100 50  0001 C CNN
+F 1 "GND" H 4400 2200 50  0000 C CNN
+F 2 "" H 4400 2350 50  0001 C CNN
+F 3 "" H 4400 2350 50  0001 C CNN
+	1    4400 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 2350 4500 2350
+$Comp
+L C_Small C?
+U 1 1 5AD9E9AF
+P 3550 3350
+F 0 "C?" H 3560 3420 50  0000 L CNN
+F 1 "47 pF" H 3560 3270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 3550 3350 50  0001 C CNN
+F 3 "" H 3550 3350 50  0001 C CNN
+F 4 "1" H 3550 3350 60  0001 C CNN "Populated"
+F 5 "SPEC" H 3550 3350 60  0001 C CNN "Source"
+	1    3550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AD9EA7E
+P 3850 3350
+F 0 "C?" H 3860 3420 50  0000 L CNN
+F 1 "47 pF" H 3860 3270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 3850 3350 50  0001 C CNN
+F 3 "" H 3850 3350 50  0001 C CNN
+F 4 "1" H 3850 3350 60  0001 C CNN "Populated"
+F 5 "SPEC" H 3850 3350 60  0001 C CNN "Source"
+	1    3850 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2900 3550 3250
+Connection ~ 3550 2900
+Wire Wire Line
+	3850 3000 3850 3250
+Connection ~ 3850 3000
+$Comp
+L GND #PWR?
+U 1 1 5AD9EB01
+P 3850 3650
+F 0 "#PWR?" H 3850 3400 50  0001 C CNN
+F 1 "GND" H 3850 3500 50  0000 C CNN
+F 2 "" H 3850 3650 50  0001 C CNN
+F 3 "" H 3850 3650 50  0001 C CNN
+	1    3850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AD9EB21
+P 3550 3650
+F 0 "#PWR?" H 3550 3400 50  0001 C CNN
+F 1 "GND" H 3550 3500 50  0000 C CNN
+F 2 "" H 3550 3650 50  0001 C CNN
+F 3 "" H 3550 3650 50  0001 C CNN
+	1    3550 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3650 3850 3450
+Wire Wire Line
+	3550 3450 3550 3650
+$Comp
+L C_Small C?
+U 1 1 5AD9EC24
+P 3250 3350
+F 0 "C?" H 3260 3420 50  0000 L CNN
+F 1 "10 nF" H 3260 3270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 3250 3350 50  0001 C CNN
+F 3 "" H 3250 3350 50  0001 C CNN
+F 4 "1" H 3250 3350 60  0001 C CNN "Populated"
+F 5 "SPEC" H 3250 3350 60  0001 C CNN "Source"
+	1    3250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AD9EC9D
+P 3250 3650
+F 0 "#PWR?" H 3250 3400 50  0001 C CNN
+F 1 "GND" H 3250 3500 50  0000 C CNN
+F 2 "" H 3250 3650 50  0001 C CNN
+F 3 "" H 3250 3650 50  0001 C CNN
+	1    3250 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3450 3250 3650
+Wire Wire Line
+	3250 2600 3250 3250
+Wire Wire Line
+	3250 2700 2950 2700
+$Comp
+L L_Small L?
+U 1 1 5AD9ECD6
+P 3250 2500
+F 0 "L?" H 3280 2540 50  0000 L CNN
+F 1 "600 µH" H 3280 2460 50  0000 L CNN
+F 2 "" H 3250 2500 50  0001 C CNN
+F 3 "" H 3250 2500 50  0001 C CNN
+	1    3250 2500
+	-1   0    0    1   
+$EndComp
+Connection ~ 3250 2700
+Wire Wire Line
+	3250 2400 3250 1750
+Wire Wire Line
+	3250 1750 5250 1750
+Wire Wire Line
+	5250 1750 5250 2150
+Text Label 3250 1750 0    60   ~ 0
+VBUS
+$Comp
+L C_Small C?
+U 1 1 5ADA0DF8
+P 3450 1950
+F 0 "C?" H 3460 2020 50  0000 L CNN
+F 1 "4,7 µF" H 3460 1870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3450 1950 50  0001 C CNN
+F 3 "" H 3450 1950 50  0001 C CNN
+F 4 "1" H 3450 1950 60  0001 C CNN "Populated"
+F 5 "SPEC" H 3450 1950 60  0001 C CNN "Source"
+	1    3450 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1850 3450 1750
+Connection ~ 3450 1750
+$Comp
+L C_Small C?
+U 1 1 5ADA1011
+P 3750 1950
+F 0 "C?" H 3760 2020 50  0000 L CNN
+F 1 "100 nF" H 3760 1870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 3750 1950 50  0001 C CNN
+F 3 "" H 3750 1950 50  0001 C CNN
+F 4 "1" H 3750 1950 60  0001 C CNN "Populated"
+F 5 "SPEC" H 3750 1950 60  0001 C CNN "Source"
+	1    3750 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 1850 3750 1750
+Connection ~ 3750 1750
+Wire Wire Line
+	3750 2050 3750 2150
+Wire Wire Line
+	3750 2150 3450 2150
+Wire Wire Line
+	3450 2150 3450 2050
+$Comp
+L GND #PWR?
+U 1 1 5ADA11B7
+P 3600 2250
+F 0 "#PWR?" H 3600 2000 50  0001 C CNN
+F 1 "GND" H 3600 2100 50  0000 C CNN
+F 2 "" H 3600 2250 50  0001 C CNN
+F 3 "" H 3600 2250 50  0001 C CNN
+	1    3600 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2250 3600 2150
+Connection ~ 3600 2150
+$Comp
+L C_Small C?
+U 1 1 5ADA1247
+P 4150 3350
+F 0 "C?" H 4160 3420 50  0000 L CNN
+F 1 "10 nF" H 4160 3270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4150 3350 50  0001 C CNN
+F 3 "" H 4150 3350 50  0001 C CNN
+F 4 "1" H 4150 3350 60  0001 C CNN "Populated"
+F 5 "SPEC" H 4150 3350 60  0001 C CNN "Source"
+	1    4150 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3150 4150 3150
+$Comp
+L GND #PWR?
+U 1 1 5ADA1328
+P 4150 3650
+F 0 "#PWR?" H 4150 3400 50  0001 C CNN
+F 1 "GND" H 4150 3500 50  0000 C CNN
+F 2 "" H 4150 3650 50  0001 C CNN
+F 3 "" H 4150 3650 50  0001 C CNN
+	1    4150 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3650 4150 3450
+Wire Wire Line
+	4150 2050 4150 3250
+$Comp
+L R_Small R?
+U 1 1 5ADA14ED
+P 4150 1950
+F 0 "R?" H 4180 1970 50  0000 L CNN
+F 1 "10k" H 4180 1910 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 4150 1950 50  0001 C CNN
+F 3 "" H 4150 1950 50  0001 C CNN
+F 4 "1" H 4150 1950 60  0001 C CNN "Populated"
+F 5 "SPEC" H 4150 1950 60  0001 C CNN "Source"
+	1    4150 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 3150
+Wire Wire Line
+	4150 1850 4150 1750
+Connection ~ 4150 1750
+Text Notes 6450 3050 0    60   ~ 0
+TODO: Buffer between FTDI and FPGA.
+$EndSCHEMATC

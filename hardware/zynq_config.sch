@@ -48,12 +48,13 @@ LIBS:dmf05lcflp
 LIBS:bss138ps
 LIBS:max14854
 LIBS:switches
+LIBS:ft234xd
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 20
+Sheet 14 21
 Title ""
 Date ""
 Rev ""
@@ -64,10 +65,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xc7z030sbg485 U1
+L xc7z030sbg485 U?
 U 1 1 5AC336D4
 P 8100 2000
-F 0 "U1" H 8300 2250 60  0000 L CNN
+F 0 "U?" H 8300 2250 60  0000 L CNN
 F 1 "xc7z030sbg485" H 8300 2150 60  0000 L CNN
 F 2 "footprints:SBG485_22x22_19.0x19.0mm_Pitch0.8mm" H 8100 2000 60  0001 C CNN
 F 3 "" H 8100 2000 60  0001 C CNN
