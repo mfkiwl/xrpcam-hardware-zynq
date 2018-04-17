@@ -47,6 +47,7 @@ LIBS:sn74lvc2t45
 LIBS:dmf05lcflp
 LIBS:bss138ps
 LIBS:max14854
+LIBS:switches
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
@@ -108,19 +109,19 @@ Text HLabel 2900 2800 0    60   Output ~ 0
 USB0_ULPI_STP
 Text HLabel 2900 2900 0    60   Input ~ 0
 USB0_ULPI_NXT
-Text Label 8300 2000 0    60   ~ 0
+Text Label 8350 2000 0    60   ~ 0
 BOOT_MODE[0]
-Text Label 8300 1900 0    60   ~ 0
+Text Label 8350 1900 0    60   ~ 0
 BOOT_MODE[2]
-Text Label 8300 1800 0    60   ~ 0
+Text Label 8350 1800 0    60   ~ 0
 BOOT_MODE[1]
-Text Label 8300 1700 0    60   ~ 0
+Text Label 8350 1700 0    60   ~ 0
 BOOT_MODE[3]
-Text Label 8300 2100 0    60   ~ 0
+Text Label 8350 2100 0    60   ~ 0
 BOOT_MODE[4]
-Text Label 8300 2200 0    60   ~ 0
+Text Label 8350 2200 0    60   ~ 0
 VMODE_0
-Text Label 8300 2300 0    60   ~ 0
+Text Label 8350 2300 0    60   ~ 0
 VMODE_1
 Wire Wire Line
 	7150 2100 9200 2100
@@ -290,12 +291,10 @@ Connection ~ 7550 1150
 Wire Wire Line
 	7750 1250 7750 1150
 Connection ~ 7750 1150
-Text Notes 7450 1000 0    60   ~ 0
-TODO
 Wire Wire Line
 	7150 2750 7150 2850
 Wire Wire Line
-	7150 2850 7950 2850
+	7150 2850 8350 2850
 Wire Wire Line
 	7950 2850 7950 2750
 Wire Wire Line
@@ -318,20 +317,178 @@ F 3 "" H 7550 2950 50  0000 C CNN
 	1    7550 2950
 	1    0    0    -1  
 $EndComp
-Text Notes 8100 2650 0    60   ~ 0
-TODO
-Wire Wire Line
-	8150 2550 8150 2200
 Wire Wire Line
 	8150 2200 9200 2200
-Wire Wire Line
-	8250 2550 8250 2300
-Wire Wire Line
-	8250 2300 9200 2300
-Text Notes 7000 850  0    60   ~ 0
+Text Notes 7000 700  0    60   ~ 0
 NOTE: pulls must be 20k.
 Text Notes 600  700  0    60   ~ 0
 TODO: decide on MIO voltage
 Text Notes 2100 6500 0    60   ~ 0
 TODO: UART, I2C
+$Comp
+L SW_Push SW?
+U 1 1 5B1ED103
+P 6550 4550
+F 0 "SW?" H 6600 4650 50  0000 L CNN
+F 1 "SW_Push" H 6550 4490 50  0000 C CNN
+F 2 "" H 6550 4750 50  0001 C CNN
+F 3 "" H 6550 4750 50  0001 C CNN
+	1    6550 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4550 6850 4550
+Wire Wire Line
+	6850 4550 6850 4650
+$Comp
+L GND #PWR?
+U 1 1 5B1ED412
+P 6850 4650
+F 0 "#PWR?" H 6850 4400 50  0001 C CNN
+F 1 "GND" H 6850 4500 50  0000 C CNN
+F 2 "" H 6850 4650 50  0001 C CNN
+F 3 "" H 6850 4650 50  0001 C CNN
+	1    6850 4650
+	1    0    0    -1  
+$EndComp
+Text Label 5550 4550 0    60   ~ 0
+PS_RESET
+Wire Wire Line
+	5550 4550 6350 4550
+$Comp
+L C_Small C?
+U 1 1 5B1EDFD0
+P 6250 4750
+F 0 "C?" H 6260 4820 50  0000 L CNN
+F 1 "100 nF" H 6260 4670 50  0000 L CNN
+F 2 "" H 6250 4750 50  0001 C CNN
+F 3 "" H 6250 4750 50  0001 C CNN
+	1    6250 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4450 6250 4650
+Connection ~ 6250 4550
+$Comp
+L GND #PWR?
+U 1 1 5B1EE083
+P 6250 4950
+F 0 "#PWR?" H 6250 4700 50  0001 C CNN
+F 1 "GND" H 6250 4800 50  0000 C CNN
+F 2 "" H 6250 4950 50  0001 C CNN
+F 3 "" H 6250 4950 50  0001 C CNN
+	1    6250 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4950 6250 4850
+Text Label 8700 3100 0    60   ~ 0
+PS_RESET
+Wire Wire Line
+	8700 3100 9200 3100
+$Comp
+L R_Small R?
+U 1 1 5B1EF27E
+P 6250 4350
+F 0 "R?" H 6280 4370 50  0000 L CNN
+F 1 "10k" H 6280 4310 50  0000 L CNN
+F 2 "" H 6250 4350 50  0001 C CNN
+F 3 "" H 6250 4350 50  0001 C CNN
+	1    6250 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4150 6250 4250
+Wire Notes Line
+	5350 3900 5350 5200
+Wire Notes Line
+	5350 5200 7000 5200
+Wire Notes Line
+	7000 5200 7000 3900
+Wire Notes Line
+	7000 3900 5350 3900
+Text Notes 5900 3850 0    60   ~ 0
+Reset Button
+$Comp
+L +3V3 #PWR?
+U 1 1 5B22F1F8
+P 6250 4150
+F 0 "#PWR?" H 6250 4000 50  0001 C CNN
+F 1 "+3V3" H 6250 4290 50  0000 C CNN
+F 2 "" H 6250 4150 50  0001 C CNN
+F 3 "" H 6250 4150 50  0001 C CNN
+	1    6250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5B22F273
+P 7550 1050
+F 0 "#PWR?" H 7550 900 50  0001 C CNN
+F 1 "+3V3" H 7550 1190 50  0000 C CNN
+F 2 "" H 7550 1050 50  0001 C CNN
+F 3 "" H 7550 1050 50  0001 C CNN
+	1    7550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5B22F481
+P 2400 5300
+F 0 "#PWR?" H 2400 5150 50  0001 C CNN
+F 1 "+3V3" H 2400 5440 50  0000 C CNN
+F 2 "" H 2400 5300 50  0001 C CNN
+F 3 "" H 2400 5300 50  0001 C CNN
+	1    2400 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5B22F6F0
+P 2650 5300
+F 0 "R?" V 2730 5300 50  0000 C CNN
+F 1 "20k" V 2650 5300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2580 5300 50  0001 C CNN
+F 3 "" H 2650 5300 50  0000 C CNN
+	1    2650 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 5300 2500 5300
+Wire Wire Line
+	2800 5300 2900 5300
+$Comp
+L R R?
+U 1 1 5B22FBB5
+P 8150 2600
+F 0 "R?" V 8230 2600 50  0000 C CNN
+F 1 "20k" V 8150 2600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 8080 2600 50  0001 C CNN
+F 3 "" H 8150 2600 50  0000 C CNN
+	1    8150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5B22FC2F
+P 8350 2600
+F 0 "R?" V 8430 2600 50  0000 C CNN
+F 1 "20k" V 8350 2600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 8280 2600 50  0001 C CNN
+F 3 "" H 8350 2600 50  0000 C CNN
+	1    8350 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2450 8150 2200
+Wire Wire Line
+	8350 2450 8350 2300
+Wire Wire Line
+	8350 2300 9200 2300
+Wire Wire Line
+	8350 2850 8350 2750
+Connection ~ 7950 2850
+Wire Wire Line
+	8150 2750 8150 2850
+Connection ~ 8150 2850
 $EndSCHEMATC

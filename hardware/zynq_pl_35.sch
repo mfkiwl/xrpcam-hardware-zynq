@@ -47,6 +47,7 @@ LIBS:sn74lvc2t45
 LIBS:dmf05lcflp
 LIBS:bss138ps
 LIBS:max14854
+LIBS:switches
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
@@ -223,4 +224,16 @@ Wire Wire Line
 	5050 5500 5400 5500
 Wire Wire Line
 	5400 5700 5050 5700
+Text HLabel 5050 2100 0    60   Output ~ 0
+LED1
+Text HLabel 5000 1600 0    60   Output ~ 0
+LED2
+Text HLabel 5050 1800 0    60   Input ~ 0
+BUTTON0
+Wire Wire Line
+	5000 1600 5400 1600
+Wire Wire Line
+	5050 1800 5400 1800
+Wire Wire Line
+	5050 2100 5400 2100
 $EndSCHEMATC

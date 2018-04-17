@@ -1,4 +1,4 @@
-update=Mo 16 Apr 2018 11:42:55 CEST
+update=Mo 16 Apr 2018 18:52:35 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -77,3 +77,4 @@ LibName45=libraries/schematics/sn74lvc2t45
 LibName46=libraries/schematics/dmf05lcflp
 LibName47=libraries/schematics/bss138ps
 LibName48=libraries/schematics/max14854
+LibName49=switches

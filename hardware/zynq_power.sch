@@ -47,6 +47,7 @@ LIBS:sn74lvc2t45
 LIBS:dmf05lcflp
 LIBS:bss138ps
 LIBS:max14854
+LIBS:switches
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END

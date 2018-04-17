@@ -47,6 +47,7 @@ LIBS:sn74lvc2t45
 LIBS:dmf05lcflp
 LIBS:bss138ps
 LIBS:max14854
+LIBS:switches
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
@@ -639,8 +640,6 @@ F 3 "" H 7800 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7800 1650
-Text Notes 7550 1500 0    60   ~ 0
-VDDIO: TBD
 Text Notes 5150 2400 0    60   ~ 0
 REFSEL[2:0] = 010\nto select 12 MHz\nREFCLK input
 Text HLabel 8100 2800 2    60   Input ~ 0
@@ -689,4 +688,15 @@ Wire Wire Line
 	1000 4300 1100 4300
 Wire Wire Line
 	1100 4300 1100 4200
+$Comp
+L +3V3 #PWR?
+U 1 1 5B1F6406
+P 7800 1600
+F 0 "#PWR?" H 7800 1450 50  0001 C CNN
+F 1 "+3V3" H 7800 1740 50  0000 C CNN
+F 2 "" H 7800 1600 50  0000 C CNN
+F 3 "" H 7800 1600 50  0000 C CNN
+	1    7800 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
