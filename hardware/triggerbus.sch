@@ -1181,8 +1181,6 @@ Text HLabel 8350 2600 0    60   Input ~ 0
 DE
 Text HLabel 8350 2700 0    60   Input ~ 0
 TXD
-Text Notes 6100 6250 0    60   ~ 0
-TODO: Select Connector and connect it
 Connection ~ 4350 1400
 Connection ~ 4450 1500
 Connection ~ 4550 2650
@@ -1283,10 +1281,6 @@ Wire Wire Line
 Text Label 5300 3900 2    60   ~ 0
 EXT_TRIG_OUT_0
 Wire Wire Line
-	10050 5250 9200 5250
-Wire Wire Line
-	10050 5350 9200 5350
-Wire Wire Line
 	10050 5450 9950 5450
 Wire Wire Line
 	9950 5450 9950 5550
@@ -1323,4 +1317,44 @@ F 3 "" H 9200 5250 50  0001 C CNN
 	1    9200 5250
 	0    -1   -1   0   
 $EndComp
+$Comp
+L D D?
+U 1 1 5ADD1C0F
+P 9700 5250
+F 0 "D?" H 9700 5350 50  0000 C CNN
+F 1 "D" H 9700 5150 50  0000 C CNN
+F 2 "" H 9700 5250 50  0001 C CNN
+F 3 "" H 9700 5250 50  0001 C CNN
+	1    9700 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D?
+U 1 1 5ADD1CFF
+P 9700 5350
+F 0 "D?" H 9700 5450 50  0000 C CNN
+F 1 "D" H 9700 5250 50  0000 C CNN
+F 2 "" H 9700 5350 50  0001 C CNN
+F 3 "" H 9700 5350 50  0001 C CNN
+	1    9700 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9850 5250 10050 5250
+Wire Wire Line
+	10050 5350 9850 5350
+Wire Wire Line
+	9550 5350 9200 5350
+Wire Wire Line
+	9200 5250 9550 5250
+Wire Notes Line
+	9500 5150 9500 5550
+Wire Notes Line
+	9500 5550 9850 5550
+Wire Notes Line
+	9850 5550 9850 5150
+Wire Notes Line
+	9850 5150 9500 5150
+Text Notes 9000 6050 0    60   ~ 0
+So called Idiot Diodes.\nThey protect the Board from reverse Current,\nbut consume 0,5 to 0,7 V.
 $EndSCHEMATC

@@ -253,7 +253,7 @@ F0 "Configuration (Bank 0)" 60
 F1 "zynq_config.sch" 60
 $EndSheet
 $Sheet
-S 18650 21150 1250 600 
+S 21050 21400 1250 600 
 U 5ACA2ECE
 F0 "TLK10031 Power" 60
 F1 "TLK10031_Power.sch" 60

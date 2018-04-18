@@ -105,45 +105,13 @@ P 2400 1050
 F 0 "C?" V 2450 1100 50  0000 L CNN
 F 1 "100 nF" V 2350 1100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0201" H 2400 1050 50  0001 C CNN
-F 3 "" H 2400 1050 50  0001 C CNN
-F 4 "1" V 2400 1050 60  0001 C CNN "Populated"
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2400 1050 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2400 1050 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 2400 1050 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 2400 1050 60  0001 C CNN "Digikey"
+F 7 "1" V 2400 1050 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2400 1050 60  0001 C CNN "Source"
 	1    2400 1050
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5ACAF778
-P 2650 1150
-F 0 "C?" V 2700 1200 50  0000 L CNN
-F 1 "100 nF" V 2600 1200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 2650 1150 50  0001 C CNN
-F 3 "" H 2650 1150 50  0001 C CNN
-F 4 "1" V 2650 1150 60  0001 C CNN "Populated"
-	1    2650 1150
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5ACAF7CB
-P 2900 1250
-F 0 "C?" V 2950 1300 50  0000 L CNN
-F 1 "100 nF" V 2850 1300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 2900 1250 50  0001 C CNN
-F 3 "" H 2900 1250 50  0001 C CNN
-F 4 "1" V 2900 1250 60  0001 C CNN "Populated"
-	1    2900 1250
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5ACAF7F9
-P 3150 1350
-F 0 "C?" V 3200 1400 50  0000 L CNN
-F 1 "100 nF" V 3100 1400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 3150 1350 50  0001 C CNN
-F 3 "" H 3150 1350 50  0001 C CNN
-F 4 "1" V 3150 1350 60  0001 C CNN "Populated"
-	1    3150 1350
 	0    1    1    0   
 $EndComp
 Text HLabel 2150 1900 0    60   Output ~ 0
@@ -727,54 +695,6 @@ Wire Wire Line
 	2450 4450 3950 4450
 Text Notes 2400 5950 0    60   ~ 0
 Same as VDDO
-$Comp
-L C_Small C?
-U 1 1 5ACE6F20
-P 2400 1450
-F 0 "C?" V 2450 1500 50  0000 L CNN
-F 1 "100 nF" V 2350 1500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 2400 1450 50  0001 C CNN
-F 3 "" H 2400 1450 50  0001 C CNN
-F 4 "1" V 2400 1450 60  0001 C CNN "Populated"
-	1    2400 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5ACE6F26
-P 2650 1550
-F 0 "C?" V 2700 1600 50  0000 L CNN
-F 1 "100 nF" V 2600 1600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 2650 1550 50  0001 C CNN
-F 3 "" H 2650 1550 50  0001 C CNN
-F 4 "1" V 2650 1550 60  0001 C CNN "Populated"
-	1    2650 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5ACE6F2C
-P 2900 1650
-F 0 "C?" V 2950 1700 50  0000 L CNN
-F 1 "100 nF" V 2850 1700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 2900 1650 50  0001 C CNN
-F 3 "" H 2900 1650 50  0001 C CNN
-F 4 "1" V 2900 1650 60  0001 C CNN "Populated"
-	1    2900 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5ACE6F32
-P 3150 1750
-F 0 "C?" V 3200 1800 50  0000 L CNN
-F 1 "100 nF" V 3100 1800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 3150 1750 50  0001 C CNN
-F 3 "" H 3150 1750 50  0001 C CNN
-F 4 "1" V 3150 1750 60  0001 C CNN "Populated"
-	1    3150 1750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2500 1450 3950 1450
 Wire Wire Line
@@ -791,54 +711,6 @@ Wire Wire Line
 	2150 1550 2550 1550
 Wire Wire Line
 	2300 1450 2150 1450
-$Comp
-L C_Small C?
-U 1 1 5ACE7122
-P 2400 1900
-F 0 "C?" V 2450 1950 50  0000 L CNN
-F 1 "100 nF" V 2350 1950 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 2400 1900 50  0001 C CNN
-F 3 "" H 2400 1900 50  0001 C CNN
-F 4 "1" V 2400 1900 60  0001 C CNN "Populated"
-	1    2400 1900
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5ACE7128
-P 2650 2000
-F 0 "C?" V 2700 2050 50  0000 L CNN
-F 1 "100 nF" V 2600 2050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 2650 2000 50  0001 C CNN
-F 3 "" H 2650 2000 50  0001 C CNN
-F 4 "1" V 2650 2000 60  0001 C CNN "Populated"
-	1    2650 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5ACE712E
-P 2900 2100
-F 0 "C?" V 2950 2150 50  0000 L CNN
-F 1 "100 nF" V 2850 2150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 2900 2100 50  0001 C CNN
-F 3 "" H 2900 2100 50  0001 C CNN
-F 4 "1" V 2900 2100 60  0001 C CNN "Populated"
-	1    2900 2100
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5ACE7134
-P 3150 2200
-F 0 "C?" V 3200 2250 50  0000 L CNN
-F 1 "100 nF" V 3100 2250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 3150 2200 50  0001 C CNN
-F 3 "" H 3150 2200 50  0001 C CNN
-F 4 "1" V 3150 2200 60  0001 C CNN "Populated"
-	1    3150 2200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2500 1900 3950 1900
 Wire Wire Line
@@ -855,54 +727,6 @@ Wire Wire Line
 	2150 2000 2550 2000
 Wire Wire Line
 	2300 1900 2150 1900
-$Comp
-L C_Small C?
-U 1 1 5ACE7142
-P 2400 2300
-F 0 "C?" V 2450 2350 50  0000 L CNN
-F 1 "100 nF" V 2350 2350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 2400 2300 50  0001 C CNN
-F 3 "" H 2400 2300 50  0001 C CNN
-F 4 "1" V 2400 2300 60  0001 C CNN "Populated"
-	1    2400 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5ACE7148
-P 2650 2400
-F 0 "C?" V 2700 2450 50  0000 L CNN
-F 1 "100 nF" V 2600 2450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 2650 2400 50  0001 C CNN
-F 3 "" H 2650 2400 50  0001 C CNN
-F 4 "1" V 2650 2400 60  0001 C CNN "Populated"
-	1    2650 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5ACE714E
-P 2900 2500
-F 0 "C?" V 2950 2550 50  0000 L CNN
-F 1 "100 nF" V 2850 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 2900 2500 50  0001 C CNN
-F 3 "" H 2900 2500 50  0001 C CNN
-F 4 "1" V 2900 2500 60  0001 C CNN "Populated"
-	1    2900 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5ACE7154
-P 3150 2600
-F 0 "C?" V 3200 2650 50  0000 L CNN
-F 1 "100 nF" V 3100 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 3150 2600 50  0001 C CNN
-F 3 "" H 3150 2600 50  0001 C CNN
-F 4 "1" V 3150 2600 60  0001 C CNN "Populated"
-	1    3150 2600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2500 2300 3950 2300
 Wire Wire Line
@@ -919,30 +743,6 @@ Wire Wire Line
 	2150 2400 2550 2400
 Wire Wire Line
 	2300 2300 2150 2300
-$Comp
-L C_Small C?
-U 1 1 5ACE7474
-P 2400 2750
-F 0 "C?" V 2450 2800 50  0000 L CNN
-F 1 "100 nF" V 2350 2800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 2400 2750 50  0001 C CNN
-F 3 "" H 2400 2750 50  0001 C CNN
-F 4 "1" V 2400 2750 60  0001 C CNN "Populated"
-	1    2400 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5ACE747A
-P 2650 2850
-F 0 "C?" V 2700 2900 50  0000 L CNN
-F 1 "100 nF" V 2600 2900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 2650 2850 50  0001 C CNN
-F 3 "" H 2650 2850 50  0001 C CNN
-F 4 "1" V 2650 2850 60  0001 C CNN "Populated"
-	1    2650 2850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2500 2750 3950 2750
 Wire Wire Line
@@ -1043,4 +843,276 @@ Text Label 6400 1350 0    60   ~ 0
 HSRXA_P
 Text Label 6400 1450 0    60   ~ 0
 HSRXA_N
+$Comp
+L C_Small C?
+U 1 1 5AE3C4AB
+P 2650 1150
+F 0 "C?" V 2700 1200 50  0000 L CNN
+F 1 "100 nF" V 2600 1200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 2650 1150 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2650 1150 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2650 1150 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 2650 1150 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 2650 1150 60  0001 C CNN "Digikey"
+F 7 "1" V 2650 1150 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2650 1150 60  0001 C CNN "Source"
+	1    2650 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3C523
+P 2900 1250
+F 0 "C?" V 2950 1300 50  0000 L CNN
+F 1 "100 nF" V 2850 1300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 2900 1250 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2900 1250 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2900 1250 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 2900 1250 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 2900 1250 60  0001 C CNN "Digikey"
+F 7 "1" V 2900 1250 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2900 1250 60  0001 C CNN "Source"
+	1    2900 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3C59E
+P 3150 1350
+F 0 "C?" V 3200 1400 50  0000 L CNN
+F 1 "100 nF" V 3100 1400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 3150 1350 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3150 1350 50  0001 C CNN
+F 4 "Murata Electronics North America" H 3150 1350 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 3150 1350 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 3150 1350 60  0001 C CNN "Digikey"
+F 7 "1" V 3150 1350 60  0001 C CNN "Populated"
+F 8 "SPEC" H 3150 1350 60  0001 C CNN "Source"
+	1    3150 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3C61E
+P 2400 1450
+F 0 "C?" V 2450 1500 50  0000 L CNN
+F 1 "100 nF" V 2350 1500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 2400 1450 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2400 1450 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2400 1450 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 2400 1450 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 2400 1450 60  0001 C CNN "Digikey"
+F 7 "1" V 2400 1450 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2400 1450 60  0001 C CNN "Source"
+	1    2400 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3C728
+P 2650 1550
+F 0 "C?" V 2700 1600 50  0000 L CNN
+F 1 "100 nF" V 2600 1600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 2650 1550 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2650 1550 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2650 1550 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 2650 1550 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 2650 1550 60  0001 C CNN "Digikey"
+F 7 "1" V 2650 1550 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2650 1550 60  0001 C CNN "Source"
+	1    2650 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3C7AA
+P 2900 1650
+F 0 "C?" V 2950 1700 50  0000 L CNN
+F 1 "100 nF" V 2850 1700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 2900 1650 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2900 1650 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2900 1650 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 2900 1650 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 2900 1650 60  0001 C CNN "Digikey"
+F 7 "1" V 2900 1650 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2900 1650 60  0001 C CNN "Source"
+	1    2900 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3C833
+P 3150 1750
+F 0 "C?" V 3200 1800 50  0000 L CNN
+F 1 "100 nF" V 3100 1800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 3150 1750 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3150 1750 50  0001 C CNN
+F 4 "Murata Electronics North America" H 3150 1750 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 3150 1750 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 3150 1750 60  0001 C CNN "Digikey"
+F 7 "1" V 3150 1750 60  0001 C CNN "Populated"
+F 8 "SPEC" H 3150 1750 60  0001 C CNN "Source"
+	1    3150 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3C8C1
+P 2400 1900
+F 0 "C?" V 2450 1950 50  0000 L CNN
+F 1 "100 nF" V 2350 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 2400 1900 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2400 1900 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2400 1900 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 2400 1900 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 2400 1900 60  0001 C CNN "Digikey"
+F 7 "1" V 2400 1900 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2400 1900 60  0001 C CNN "Source"
+	1    2400 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3C960
+P 2650 2000
+F 0 "C?" V 2700 2050 50  0000 L CNN
+F 1 "100 nF" V 2600 2050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 2650 2000 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2650 2000 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2650 2000 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 2650 2000 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 2650 2000 60  0001 C CNN "Digikey"
+F 7 "1" V 2650 2000 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2650 2000 60  0001 C CNN "Source"
+	1    2650 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3CA70
+P 2900 2100
+F 0 "C?" V 2950 2150 50  0000 L CNN
+F 1 "100 nF" V 2850 2150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 2900 2100 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2900 2100 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2900 2100 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 2900 2100 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 2900 2100 60  0001 C CNN "Digikey"
+F 7 "1" V 2900 2100 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2900 2100 60  0001 C CNN "Source"
+	1    2900 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3CB13
+P 3150 2200
+F 0 "C?" V 3200 2250 50  0000 L CNN
+F 1 "100 nF" V 3100 2250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 3150 2200 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3150 2200 50  0001 C CNN
+F 4 "Murata Electronics North America" H 3150 2200 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 3150 2200 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 3150 2200 60  0001 C CNN "Digikey"
+F 7 "1" V 3150 2200 60  0001 C CNN "Populated"
+F 8 "SPEC" H 3150 2200 60  0001 C CNN "Source"
+	1    3150 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3CBAD
+P 2400 2300
+F 0 "C?" V 2450 2350 50  0000 L CNN
+F 1 "100 nF" V 2350 2350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 2400 2300 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2400 2300 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2400 2300 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 2400 2300 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 2400 2300 60  0001 C CNN "Digikey"
+F 7 "1" V 2400 2300 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2400 2300 60  0001 C CNN "Source"
+	1    2400 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3CC68
+P 2650 2400
+F 0 "C?" V 2700 2450 50  0000 L CNN
+F 1 "100 nF" V 2600 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 2650 2400 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2650 2400 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2650 2400 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 2650 2400 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 2650 2400 60  0001 C CNN "Digikey"
+F 7 "1" V 2650 2400 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2650 2400 60  0001 C CNN "Source"
+	1    2650 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3CD12
+P 2900 2500
+F 0 "C?" V 2950 2550 50  0000 L CNN
+F 1 "100 nF" V 2850 2550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 2900 2500 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2900 2500 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2900 2500 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 2900 2500 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 2900 2500 60  0001 C CNN "Digikey"
+F 7 "1" V 2900 2500 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2900 2500 60  0001 C CNN "Source"
+	1    2900 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3CDAF
+P 3150 2600
+F 0 "C?" V 3200 2650 50  0000 L CNN
+F 1 "100 nF" V 3100 2650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 3150 2600 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3150 2600 50  0001 C CNN
+F 4 "Murata Electronics North America" H 3150 2600 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 3150 2600 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 3150 2600 60  0001 C CNN "Digikey"
+F 7 "1" V 3150 2600 60  0001 C CNN "Populated"
+F 8 "SPEC" H 3150 2600 60  0001 C CNN "Source"
+	1    3150 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3CE51
+P 2400 2750
+F 0 "C?" V 2450 2800 50  0000 L CNN
+F 1 "100 nF" V 2350 2800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 2400 2750 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2400 2750 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2400 2750 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 2400 2750 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 2400 2750 60  0001 C CNN "Digikey"
+F 7 "1" V 2400 2750 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2400 2750 60  0001 C CNN "Source"
+	1    2400 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE3CF12
+P 2650 2850
+F 0 "C?" V 2700 2900 50  0000 L CNN
+F 1 "100 nF" V 2600 2900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 2650 2850 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2650 2850 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2650 2850 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 2650 2850 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 2650 2850 60  0001 C CNN "Digikey"
+F 7 "1" V 2650 2850 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2650 2850 60  0001 C CNN "Source"
+	1    2650 2850
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
