@@ -1,4 +1,4 @@
-update=Di 17 Apr 2018 18:24:43 CEST
+update=Mi 18 Apr 2018 12:07:18 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -79,3 +79,4 @@ LibName47=libraries/schematics/bss138ps
 LibName48=libraries/schematics/max14854
 LibName49=switches
 LibName50=libraries/schematics/ft234xd
+LibName51=libraries/schematics/sn74lv1t126

@@ -49,12 +49,13 @@ LIBS:bss138ps
 LIBS:max14854
 LIBS:switches
 LIBS:ft234xd
+LIBS:sn74lv1t126
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 21
+Sheet 6 21
 Title ""
 Date ""
 Rev ""

@@ -49,6 +49,7 @@ LIBS:bss138ps
 LIBS:max14854
 LIBS:switches
 LIBS:ft234xd
+LIBS:sn74lv1t126
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
@@ -71,23 +72,30 @@ P 5600 2950
 F 0 "U?" H 6350 2600 60  0000 C CNN
 F 1 "FT234XD" V 5600 3000 60  0000 C CNN
 F 2 "" H 5650 3250 60  0001 C CNN
-F 3 "" H 5650 3250 60  0001 C CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf" H 5650 3250 60  0001 C CNN
+F 4 "FTDI, Future Technology Devices International Ltd" H 5600 2950 60  0001 C CNN "MFG Name"
+F 5 "FT234XD-R" H 5600 2950 60  0001 C CNN "MFG Part Num"
+F 6 "768-1178-1-ND" H 5600 2950 60  0001 C CNN "Digikey"
+F 7 "1" H 5600 2950 60  0001 C CNN "Populated"
+F 8 "SPEC" H 5600 2950 60  0001 C CNN "Source"
 	1    5600 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 7400 2700 2    60   Output ~ 0
-UART_RX
-Text GLabel 7400 2800 2    60   Input ~ 0
-UART_TX
+Text GLabel 9900 2650 2    60   Output ~ 0
+PS_UART_RX
+Text GLabel 9900 3250 2    60   Input ~ 0
+PS_UART_TX
 $Comp
 L USB_OTG J?
 U 1 1 5AD9C9C2
-P 2650 2900
-F 0 "J?" H 2450 3350 50  0000 L CNN
-F 1 "USB_OTG" H 2450 3250 50  0000 L CNN
-F 2 "" H 2800 2850 50  0001 C CNN
-F 3 "" H 2800 2850 50  0001 C CNN
-	1    2650 2900
+P 1350 2900
+F 0 "J?" H 1150 3350 50  0000 L CNN
+F 1 "USB_OTG" H 1150 3250 50  0000 L CNN
+F 2 "Connectors:USB_Micro-B" H 1500 2850 50  0001 C CNN
+F 3 "" H 1500 2850 50  0001 C CNN
+F 4 "1" H 1350 2900 60  0001 C CNN "Populated"
+F 5 "SPEC" H 1350 2900 60  0001 C CNN "Source"
+	1    1350 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -116,40 +124,17 @@ F 5 "SPEC" H 4650 3000 60  0001 C CNN "Source"
 	1    4650 3000
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4950 2900 4750 2900
-Wire Wire Line
-	4750 3000 4950 3000
-Wire Wire Line
-	2950 3000 4550 3000
-Wire Wire Line
-	2950 2900 4550 2900
-Wire Wire Line
-	2550 3300 2550 3400
-Wire Wire Line
-	2550 3400 2650 3400
-Wire Wire Line
-	2650 3400 2650 3300
 $Comp
 L GND #PWR?
 U 1 1 5AD9D27D
-P 2600 3550
-F 0 "#PWR?" H 2600 3300 50  0001 C CNN
-F 1 "GND" H 2600 3400 50  0000 C CNN
-F 2 "" H 2600 3550 50  0001 C CNN
-F 3 "" H 2600 3550 50  0001 C CNN
-	1    2600 3550
+P 1300 3550
+F 0 "#PWR?" H 1300 3300 50  0001 C CNN
+F 1 "GND" H 1300 3400 50  0000 C CNN
+F 2 "" H 1300 3550 50  0001 C CNN
+F 3 "" H 1300 3550 50  0001 C CNN
+	1    1300 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2600 3550 2600 3400
-Connection ~ 2600 3400
-Wire Wire Line
-	5550 3600 5550 3700
-Wire Wire Line
-	5550 3700 5650 3700
-Wire Wire Line
-	5650 3700 5650 3600
 $Comp
 L GND #PWR?
 U 1 1 5AD9D2C5
@@ -161,17 +146,6 @@ F 3 "" H 5600 3800 50  0001 C CNN
 	1    5600 3800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5600 3800 5600 3700
-Connection ~ 5600 3700
-Wire Wire Line
-	4950 2750 4800 2750
-Wire Wire Line
-	4800 2750 4800 2000
-Wire Wire Line
-	4800 2000 5950 2000
-Wire Wire Line
-	5950 2000 5950 2150
 $Comp
 L C_Small C?
 U 1 1 5AD9D30F
@@ -185,9 +159,6 @@ F 5 "SPEC" H 4600 2350 60  0001 C CNN "Source"
 	1    4600 2350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4700 2350 4800 2350
-Connection ~ 4800 2350
 $Comp
 L GND #PWR?
 U 1 1 5AD9D3A1
@@ -199,8 +170,6 @@ F 3 "" H 4400 2350 50  0001 C CNN
 	1    4400 2350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4400 2350 4500 2350
 $Comp
 L C_Small C?
 U 1 1 5AD9E9AF
@@ -209,7 +178,7 @@ F 0 "C?" H 3560 3420 50  0000 L CNN
 F 1 "47 pF" H 3560 3270 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 3550 3350 50  0001 C CNN
 F 3 "" H 3550 3350 50  0001 C CNN
-F 4 "1" H 3550 3350 60  0001 C CNN "Populated"
+F 4 "0" H 3550 3350 60  0001 C CNN "Populated"
 F 5 "SPEC" H 3550 3350 60  0001 C CNN "Source"
 	1    3550 3350
 	1    0    0    -1  
@@ -222,17 +191,11 @@ F 0 "C?" H 3860 3420 50  0000 L CNN
 F 1 "47 pF" H 3860 3270 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 3850 3350 50  0001 C CNN
 F 3 "" H 3850 3350 50  0001 C CNN
-F 4 "1" H 3850 3350 60  0001 C CNN "Populated"
+F 4 "0" H 3850 3350 60  0001 C CNN "Populated"
 F 5 "SPEC" H 3850 3350 60  0001 C CNN "Source"
 	1    3850 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3550 2900 3550 3250
-Connection ~ 3550 2900
-Wire Wire Line
-	3850 3000 3850 3250
-Connection ~ 3850 3000
 $Comp
 L GND #PWR?
 U 1 1 5AD9EB01
@@ -255,10 +218,6 @@ F 3 "" H 3550 3650 50  0001 C CNN
 	1    3550 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3850 3650 3850 3450
-Wire Wire Line
-	3550 3450 3550 3650
 $Comp
 L C_Small C?
 U 1 1 5AD9EC24
@@ -283,30 +242,22 @@ F 3 "" H 3250 3650 50  0001 C CNN
 	1    3250 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3250 3450 3250 3650
-Wire Wire Line
-	3250 2600 3250 3250
-Wire Wire Line
-	3250 2700 2950 2700
 $Comp
 L L_Small L?
 U 1 1 5AD9ECD6
 P 3250 2500
 F 0 "L?" H 3280 2540 50  0000 L CNN
-F 1 "600 µH" H 3280 2460 50  0000 L CNN
-F 2 "" H 3250 2500 50  0001 C CNN
-F 3 "" H 3250 2500 50  0001 C CNN
+F 1 "600R@100MHz" H 3280 2460 50  0000 L CNN
+F 2 "Inductors_SMD:L_0603" H 3250 2500 50  0001 C CNN
+F 3 "http://katalog.we-online.de/pbs/datasheet/742792651.pdf" H 3250 2500 50  0001 C CNN
+F 4 "Wurth Electronics Inc." H 3250 2500 60  0001 C CNN "MFG Name"
+F 5 "742792651" H 3250 2500 60  0001 C CNN "MFG Part Num"
+F 6 "732-1593-1-ND" H 3250 2500 60  0001 C CNN "Digikey"
+F 7 "1" H 3250 2500 60  0001 C CNN "Populated"
+F 8 "SPEC" H 3250 2500 60  0001 C CNN "Source"
 	1    3250 2500
 	-1   0    0    1   
 $EndComp
-Connection ~ 3250 2700
-Wire Wire Line
-	3250 2400 3250 1750
-Wire Wire Line
-	3250 1750 5250 1750
-Wire Wire Line
-	5250 1750 5250 2150
 Text Label 3250 1750 0    60   ~ 0
 VBUS
 $Comp
@@ -322,9 +273,6 @@ F 5 "SPEC" H 3450 1950 60  0001 C CNN "Source"
 	1    3450 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 1850 3450 1750
-Connection ~ 3450 1750
 $Comp
 L C_Small C?
 U 1 1 5ADA1011
@@ -338,15 +286,6 @@ F 5 "SPEC" H 3750 1950 60  0001 C CNN "Source"
 	1    3750 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 1850 3750 1750
-Connection ~ 3750 1750
-Wire Wire Line
-	3750 2050 3750 2150
-Wire Wire Line
-	3750 2150 3450 2150
-Wire Wire Line
-	3450 2150 3450 2050
 $Comp
 L GND #PWR?
 U 1 1 5ADA11B7
@@ -358,9 +297,6 @@ F 3 "" H 3600 2250 50  0001 C CNN
 	1    3600 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3600 2250 3600 2150
-Connection ~ 3600 2150
 $Comp
 L C_Small C?
 U 1 1 5ADA1247
@@ -374,8 +310,6 @@ F 5 "SPEC" H 4150 3350 60  0001 C CNN "Source"
 	1    4150 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 3150 4150 3150
 $Comp
 L GND #PWR?
 U 1 1 5ADA1328
@@ -387,10 +321,6 @@ F 3 "" H 4150 3650 50  0001 C CNN
 	1    4150 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 3650 4150 3450
-Wire Wire Line
-	4150 2050 4150 3250
 $Comp
 L R_Small R?
 U 1 1 5ADA14ED
@@ -404,10 +334,394 @@ F 5 "SPEC" H 4150 1950 60  0001 C CNN "Source"
 	1    4150 1950
 	1    0    0    -1  
 $EndComp
+Text Label 5400 2000 0    60   ~ 0
+VCCIO
+Text Label 6900 2800 2    60   ~ 0
+USB_UART_RX
+Text Label 6900 2700 2    60   ~ 0
+USB_UART_TX
+Wire Wire Line
+	4950 2900 4750 2900
+Wire Wire Line
+	4750 3000 4950 3000
+Wire Wire Line
+	1650 3000 4550 3000
+Wire Wire Line
+	1650 2900 4550 2900
+Wire Wire Line
+	1250 3300 1250 3400
+Wire Wire Line
+	1250 3400 1350 3400
+Wire Wire Line
+	1350 3400 1350 3300
+Wire Wire Line
+	1300 3550 1300 3400
+Connection ~ 1300 3400
+Wire Wire Line
+	5550 3600 5550 3700
+Wire Wire Line
+	5550 3700 5650 3700
+Wire Wire Line
+	5650 3700 5650 3600
+Wire Wire Line
+	5600 3800 5600 3700
+Connection ~ 5600 3700
+Wire Wire Line
+	4950 2750 4800 2750
+Wire Wire Line
+	4800 2750 4800 2000
+Wire Wire Line
+	4800 2000 5950 2000
+Wire Wire Line
+	5950 2000 5950 2150
+Wire Wire Line
+	4700 2350 4800 2350
+Connection ~ 4800 2350
+Wire Wire Line
+	4400 2350 4500 2350
+Wire Wire Line
+	3550 2900 3550 3250
+Connection ~ 3550 2900
+Wire Wire Line
+	3850 3000 3850 3250
+Connection ~ 3850 3000
+Wire Wire Line
+	3850 3650 3850 3450
+Wire Wire Line
+	3550 3450 3550 3650
+Wire Wire Line
+	3250 3450 3250 3650
+Wire Wire Line
+	3250 2600 3250 3250
+Wire Wire Line
+	1650 2700 3250 2700
+Connection ~ 3250 2700
+Wire Wire Line
+	3250 2400 3250 1750
+Wire Wire Line
+	3250 1750 5250 1750
+Wire Wire Line
+	5250 1750 5250 2150
+Wire Wire Line
+	3450 1850 3450 1750
+Connection ~ 3450 1750
+Wire Wire Line
+	3750 1850 3750 1750
+Connection ~ 3750 1750
+Wire Wire Line
+	3750 2050 3750 2150
+Wire Wire Line
+	3750 2150 3450 2150
+Wire Wire Line
+	3450 2150 3450 2050
+Wire Wire Line
+	3600 2250 3600 2150
+Connection ~ 3600 2150
+Wire Wire Line
+	4950 3150 4150 3150
+Wire Wire Line
+	4150 3650 4150 3450
+Wire Wire Line
+	4150 2050 4150 3250
 Connection ~ 4150 3150
 Wire Wire Line
 	4150 1850 4150 1750
 Connection ~ 4150 1750
-Text Notes 6450 3050 0    60   ~ 0
-TODO: Buffer between FTDI and FPGA.
+Wire Wire Line
+	6900 2800 6250 2800
+Wire Wire Line
+	6250 2700 6900 2700
+$Comp
+L SN74LV1T126 U?
+U 1 1 5AD8BC5F
+P 9250 2550
+F 0 "U?" H 9250 2350 60  0000 C CNN
+F 1 "SN74LV1T126" H 9250 2750 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 9250 2550 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv1t126.pdf" H 9250 2550 60  0001 C CNN
+F 4 "Texas Instruments" H 9250 2550 60  0001 C CNN "MFG Name"
+F 5 "SN74LV1T126DBVR" H 9250 2550 60  0001 C CNN "MFG Part Num"
+F 6 "296-37174-6-ND" H 9250 2550 60  0001 C CNN "Digikey"
+F 7 "1" H 9250 2550 60  0001 C CNN "Populated"
+F 8 "SPEC" H 9250 2550 60  0001 C CNN "Source"
+	1    9250 2550
+	1    0    0    -1  
+$EndComp
+Text Label 8150 2550 0    60   ~ 0
+USB_UART_TX
+Wire Wire Line
+	8150 2550 8850 2550
+Text Label 8150 3350 0    60   ~ 0
+USB_UART_RX
+Wire Wire Line
+	8150 3350 8850 3350
+Wire Wire Line
+	9900 2650 9650 2650
+Wire Wire Line
+	9900 3250 9650 3250
+Text Label 8150 3150 0    60   ~ 0
+VCCIO
+Wire Wire Line
+	8150 3150 8850 3150
+$Comp
+L +3V3 #PWR?
+U 1 1 5AD8CC08
+P 9750 2350
+F 0 "#PWR?" H 9750 2200 50  0001 C CNN
+F 1 "+3V3" H 9750 2490 50  0000 C CNN
+F 2 "" H 9750 2350 50  0001 C CNN
+F 3 "" H 9750 2350 50  0001 C CNN
+	1    9750 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 2350 9750 2450
+Wire Wire Line
+	9750 2450 9650 2450
+$Comp
+L GND #PWR?
+U 1 1 5AD8CC90
+P 9700 3450
+F 0 "#PWR?" H 9700 3200 50  0001 C CNN
+F 1 "GND" H 9700 3300 50  0000 C CNN
+F 2 "" H 9700 3450 50  0001 C CNN
+F 3 "" H 9700 3450 50  0001 C CNN
+	1    9700 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 3350 9700 3350
+Wire Wire Line
+	9700 3350 9700 3450
+$Comp
+L GND #PWR?
+U 1 1 5AD8CD22
+P 8750 2750
+F 0 "#PWR?" H 8750 2500 50  0001 C CNN
+F 1 "GND" H 8750 2600 50  0000 C CNN
+F 2 "" H 8750 2750 50  0001 C CNN
+F 3 "" H 8750 2750 50  0001 C CNN
+	1    8750 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2750 8750 2650
+Wire Wire Line
+	8600 2650 8850 2650
+$Comp
+L R_Small R?
+U 1 1 5AD8CDB8
+P 9950 3150
+F 0 "R?" H 9980 3170 50  0000 L CNN
+F 1 "100k" H 9980 3110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 9950 3150 50  0001 C CNN
+F 3 "" H 9950 3150 50  0001 C CNN
+F 4 "1" H 9950 3150 60  0001 C CNN "Populated"
+F 5 "SPEC" H 9950 3150 60  0001 C CNN "Source"
+	1    9950 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5AD8CF57
+P 9750 3050
+F 0 "#PWR?" H 9750 2900 50  0001 C CNN
+F 1 "+3V3" H 9750 3190 50  0000 C CNN
+F 2 "" H 9750 3050 50  0001 C CNN
+F 3 "" H 9750 3050 50  0001 C CNN
+	1    9750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3150 9750 3050
+$Comp
+L R_Small R?
+U 1 1 5AD8CF83
+P 8500 2650
+F 0 "R?" H 8530 2670 50  0000 L CNN
+F 1 "100k" H 8530 2610 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 8500 2650 50  0001 C CNN
+F 3 "" H 8500 2650 50  0001 C CNN
+F 4 "1" H 8500 2650 60  0001 C CNN "Populated"
+F 5 "SPEC" H 8500 2650 60  0001 C CNN "Source"
+	1    8500 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 2450 8850 2450
+Text Label 8150 2450 0    60   ~ 0
+VCCIO
+$Comp
+L C_Small C?
+U 1 1 5AD8D14F
+P 10650 2550
+F 0 "C?" H 10660 2620 50  0000 L CNN
+F 1 "100 nF" H 10660 2470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 10650 2550 50  0001 C CNN
+F 3 "" H 10650 2550 50  0001 C CNN
+F 4 "1" H 10650 2550 60  0001 C CNN "Populated"
+F 5 "SPEC" H 10650 2550 60  0001 C CNN "Source"
+	1    10650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5AD8D3A3
+P 10650 2350
+F 0 "#PWR?" H 10650 2200 50  0001 C CNN
+F 1 "+3V3" H 10650 2490 50  0000 C CNN
+F 2 "" H 10650 2350 50  0001 C CNN
+F 3 "" H 10650 2350 50  0001 C CNN
+	1    10650 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 2350 10650 2450
+$Comp
+L GND #PWR?
+U 1 1 5AD8D43B
+P 10650 2750
+F 0 "#PWR?" H 10650 2500 50  0001 C CNN
+F 1 "GND" H 10650 2600 50  0000 C CNN
+F 2 "" H 10650 2750 50  0001 C CNN
+F 3 "" H 10650 2750 50  0001 C CNN
+	1    10650 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 2750 10650 2650
+$Comp
+L C_Small C?
+U 1 1 5AD8D574
+P 10650 3250
+F 0 "C?" H 10660 3320 50  0000 L CNN
+F 1 "100 nF" H 10660 3170 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 10650 3250 50  0001 C CNN
+F 3 "" H 10650 3250 50  0001 C CNN
+F 4 "1" H 10650 3250 60  0001 C CNN "Populated"
+F 5 "SPEC" H 10650 3250 60  0001 C CNN "Source"
+	1    10650 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 3050 10650 3150
+$Comp
+L GND #PWR?
+U 1 1 5AD8D581
+P 10650 3450
+F 0 "#PWR?" H 10650 3200 50  0001 C CNN
+F 1 "GND" H 10650 3300 50  0000 C CNN
+F 2 "" H 10650 3450 50  0001 C CNN
+F 3 "" H 10650 3450 50  0001 C CNN
+	1    10650 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 3450 10650 3350
+Text Label 10650 3050 0    60   ~ 0
+VCCIO
+Wire Notes Line
+	7800 1950 7800 3750
+Wire Notes Line
+	7800 3750 11000 3750
+Wire Notes Line
+	11000 3750 11000 1950
+Wire Notes Line
+	11000 1950 7800 1950
+$Comp
+L SN74LV1T126 U?
+U 1 1 5AD8DFD6
+P 9250 3250
+F 0 "U?" H 9250 3050 60  0000 C CNN
+F 1 "SN74LV1T126" H 9250 3450 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 9250 3250 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv1t126.pdf" H 9250 3250 60  0001 C CNN
+F 4 "Texas Instruments" H 9250 3250 60  0001 C CNN "MFG Name"
+F 5 "SN74LV1T126DBVR" H 9250 3250 60  0001 C CNN "MFG Part Num"
+F 6 "296-37174-6-ND" H 9250 3250 60  0001 C CNN "Digikey"
+F 7 "1" H 9250 3250 60  0001 C CNN "Populated"
+F 8 "SPEC" H 9250 3250 60  0001 C CNN "Source"
+	1    9250 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 3150 9850 3150
+Connection ~ 9750 3150
+$Comp
+L GND #PWR?
+U 1 1 5AD8FB0C
+P 10150 3150
+F 0 "#PWR?" H 10150 2900 50  0001 C CNN
+F 1 "GND" H 10150 3000 50  0000 C CNN
+F 2 "" H 10150 3150 50  0001 C CNN
+F 3 "" H 10150 3150 50  0001 C CNN
+	1    10150 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10150 3150 10050 3150
+Wire Wire Line
+	8400 2650 7900 2650
+Wire Wire Line
+	7900 2650 7900 2450
+Connection ~ 8750 2650
+NoConn ~ 6250 2900
+NoConn ~ 6250 3000
+NoConn ~ 6250 3150
+$Comp
+L SMP1255PUTG U?
+U 1 1 5ADA96D5
+P 3000 4650
+F 0 "U?" H 3000 4600 60  0000 C CNN
+F 1 "SMP1255PUTG" H 3000 4700 60  0000 C CNN
+F 2 "" H 3000 4650 60  0001 C CNN
+F 3 "http://www.smc-diodes.com/propdf/SMP1255PUTG%20N1749%20REV.A.pdf" H 3000 4650 60  0001 C CNN
+F 4 "SMC Diode Solutions" H 3000 4650 60  0001 C CNN "MFG Name"
+F 5 "SMP1255PUTGTR" H 3000 4650 60  0001 C CNN "MFG Part Num"
+F 6 "1655-1698-1-ND" H 3000 4650 60  0001 C CNN "Digikey"
+F 7 "1" H 3000 4650 60  0001 C CNN "Populated"
+F 8 "SPEC" H 3000 4650 60  0001 C CNN "Source"
+	1    3000 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4550 2150 4550
+Wire Wire Line
+	2150 4550 2150 2900
+Connection ~ 2150 2900
+Wire Wire Line
+	2200 4650 2000 4650
+Wire Wire Line
+	2000 4650 2000 3000
+Connection ~ 2000 3000
+Wire Wire Line
+	1650 3100 1850 3100
+Wire Wire Line
+	1850 3100 1850 4750
+Wire Wire Line
+	1850 4750 2200 4750
+Wire Wire Line
+	3800 4650 3950 4650
+Wire Wire Line
+	3950 4650 3950 4750
+Wire Wire Line
+	3950 4750 3800 4750
+$Comp
+L GND #PWR?
+U 1 1 5ADA9D3F
+P 4100 4700
+F 0 "#PWR?" H 4100 4450 50  0001 C CNN
+F 1 "GND" H 4100 4550 50  0000 C CNN
+F 2 "" H 4100 4700 50  0001 C CNN
+F 3 "" H 4100 4700 50  0001 C CNN
+	1    4100 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 4700 3950 4700
+Connection ~ 3950 4700
+Text Label 4050 4550 2    60   ~ 0
+VBUS
+Wire Wire Line
+	4050 4550 3800 4550
 $EndSCHEMATC
