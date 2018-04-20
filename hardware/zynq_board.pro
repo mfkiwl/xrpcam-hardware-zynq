@@ -1,4 +1,4 @@
-update=Fr 20 Apr 2018 16:11:40 CEST
+update=Fr 20 Apr 2018 17:45:28 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -81,3 +81,4 @@ LibName49=switches
 LibName50=libraries/schematics/ft234xd
 LibName51=libraries/schematics/sn74lv1t126
 LibName52=libraries/schematics/emif06-msd02n16
+LibName53=libraries/schematics/cat24c02tdi-gt3

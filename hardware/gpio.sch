@@ -51,12 +51,13 @@ LIBS:switches
 LIBS:ft234xd
 LIBS:sn74lv1t126
 LIBS:emif06-msd02n16
+LIBS:cat24c02tdi-gt3
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 21
+Sheet 17 21
 Title ""
 Date ""
 Rev ""

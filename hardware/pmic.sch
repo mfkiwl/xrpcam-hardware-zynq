@@ -51,6 +51,7 @@ LIBS:switches
 LIBS:ft234xd
 LIBS:sn74lv1t126
 LIBS:emif06-msd02n16
+LIBS:cat24c02tdi-gt3
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
