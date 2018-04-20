@@ -67,15 +67,15 @@ Comment4 ""
 $EndDescr
 Text HLabel 6000 6500 2    60   Output ~ 0
 TX_DISABLE
-Text HLabel 6000 6000 2    60   Input ~ 0
+Text HLabel 6000 6100 2    60   Input ~ 0
 TX_FAULT
 Text HLabel 10450 4850 2    60   BiDi ~ 0
 SFP_SDA
 Text HLabel 10450 3700 2    60   BiDi ~ 0
 SFP_SCL
-Text HLabel 6000 6100 2    60   Input ~ 0
+Text HLabel 6000 6200 2    60   Input ~ 0
 MODDET
-Text HLabel 6000 5900 2    60   Input ~ 0
+Text HLabel 6000 6000 2    60   Input ~ 0
 RX_LOS
 Text HLabel 6000 6400 2    60   Output ~ 0
 SFP_GPIO
@@ -85,31 +85,31 @@ Text HLabel 10450 2550 2    60   BiDi ~ 0
 CAM_SDA
 Text HLabel 10400 1400 2    60   BiDi ~ 0
 CAM_SCL
-Text HLabel 5950 4400 2    60   Output ~ 0
-FRAME_REQ_0
-Text HLabel 5950 4300 2    60   Output ~ 0
-T_EXP1_0
-Text HLabel 5950 4200 2    60   Output ~ 0
-T_EXP2_0
 Text HLabel 5950 4100 2    60   Output ~ 0
-FRAME_REQ_1
+FRAME_REQ_0
 Text HLabel 5950 3900 2    60   Output ~ 0
-T_EXP1_1
+T_EXP1_0
 Text HLabel 5950 3800 2    60   Output ~ 0
-T_EXP2_1
-Text HLabel 5950 3600 2    60   Output ~ 0
-CAM_SPI_CLK
+T_EXP2_0
 Text HLabel 5950 3700 2    60   Output ~ 0
+FRAME_REQ_1
+Text HLabel 5950 3600 2    60   Output ~ 0
+T_EXP1_1
+Text HLabel 5950 2100 2    60   Output ~ 0
+T_EXP2_1
+Text HLabel 5950 1900 2    60   Output ~ 0
+CAM_SPI_CLK
+Text HLabel 5950 2000 2    60   Output ~ 0
 CAM_SPI_MOSI
-Text HLabel 5950 1800 2    60   Input ~ 0
+Text HLabel 6650 4600 0    60   Input ~ 0
 CAM_SPI_MISO
-Text HLabel 5950 1600 2    60   Output ~ 0
+Text HLabel 5950 1800 2    60   Output ~ 0
 CAM_SPI_EN_0
-Text HLabel 5950 1500 2    60   Output ~ 0
+Text HLabel 5950 1600 2    60   Output ~ 0
 CAM_SPI_EN_1
 Text HLabel 5950 1300 2    60   Output ~ 0
-CAM_CLK_REF
-Text HLabel 5950 1400 2    60   Output ~ 0
+CAM1_CLK_REF
+Text HLabel 5950 1500 2    60   Output ~ 0
 CAM_RESET
 Text Notes 6950 4800 2    60   ~ 0
 Signals from/to Camera(3,3 V)
@@ -175,23 +175,6 @@ F 3 "" H 3400 6800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SN74AXC8T245 U?
-U 1 1 5ADF547B
-P 4050 1700
-F 0 "U?" H 4050 650 60  0000 C CNN
-F 1 "SN74AXC8T245" V 4050 1650 60  0000 C CNN
-F 2 "footprints:VQFN-24" H 4000 1700 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf" H 4000 1700 60  0001 C CNN
-F 4 "Texas Instruments" H 4050 1700 60  0001 C CNN "MFG Name"
-F 5 "SN74AXC8T245" H 4050 1700 60  0001 C CNN "MFG Part Num"
-F 6 "296-48832-1-ND" H 4050 1700 60  0001 C CNN "Digikey"
-F 7 "595-SN74AXC8T245RHLR" H 4050 1700 60  0001 C CNN "Mouser"
-F 8 "1" H 4050 1700 60  0001 C CNN "Populated"
-F 9 "SPEC" H 4050 1700 60  0001 C CNN "Source"
-	1    4050 1700
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR?
 U 1 1 5ADF5482
 P 4050 2900
@@ -235,17 +218,6 @@ F 3 "" H 3350 1200 50  0001 C CNN
 F 4 "1" H 3350 1200 60  0001 C CNN "Populated"
 F 5 "SPEC" H 3350 1200 60  0001 C CNN "Source"
 	1    3350 1200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_Small R?
-U 1 1 5ADF54B3
-P 3350 2200
-F 0 "R?" H 3380 2220 50  0000 L CNN
-F 1 "10k" H 3380 2160 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" H 3350 2200 50  0001 C CNN
-F 3 "" H 3350 2200 50  0001 C CNN
-	1    3350 2200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -666,17 +638,6 @@ F 3 "" H 3150 4500 50  0001 C CNN
 $EndComp
 $Comp
 L +1V8 #PWR?
-U 1 1 5AE2AC1F
-P 3150 2200
-F 0 "#PWR?" H 3150 2050 50  0001 C CNN
-F 1 "+1V8" H 3150 2340 50  0000 C CNN
-F 2 "" H 3150 2200 50  0001 C CNN
-F 3 "" H 3150 2200 50  0001 C CNN
-	1    3150 2200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L +1V8 #PWR?
 U 1 1 5AE2AC7B
 P 3150 3500
 F 0 "#PWR?" H 3150 3350 50  0001 C CNN
@@ -699,35 +660,33 @@ F 3 "" H 3150 1200 50  0001 C CNN
 $EndComp
 Text Notes 4800 3150 0    60   ~ 0
 DIR[1:2] = 10\nA[1:4] => B[1:4]; A[5:8] => B[5:8]
-Text Notes 4800 850  0    60   ~ 0
-DIR[1:2] = 11\nA[1:4] => B[1:4]; A[5:8] <= B[5:8]
 Text Notes 4850 5500 0    60   ~ 0
 DIR[1:2] = 01\nA[1:4] <= B[1:4]; A[5:8] => B[5:8]
-Text HLabel 3250 1400 0    60   Input ~ 0
+Text HLabel 3250 1500 0    60   Input ~ 0
 CAM_RESET_18
 Text HLabel 3250 1300 0    60   Input ~ 0
-CAM_CLK_REF_18
-Text HLabel 3250 1500 0    60   Input ~ 0
-CAM_SPI_EN_1_18
+CAM_CLK1_REF_18
 Text HLabel 3250 1600 0    60   Input ~ 0
+CAM_SPI_EN_1_18
+Text HLabel 3250 1800 0    60   Input ~ 0
 CAM_SPI_EN_0_18
-Text HLabel 3250 3700 0    60   Input ~ 0
+Text HLabel 3250 2000 0    60   Input ~ 0
 CAM_SPI_MOSI_18
-Text HLabel 3250 3600 0    60   Input ~ 0
+Text HLabel 3250 1900 0    60   Input ~ 0
 CAM_SPI_CLK_18
-Text HLabel 3250 3800 0    60   Input ~ 0
+Text HLabel 3250 2100 0    60   Input ~ 0
 T_EXP2_1_18
-Text HLabel 3250 3900 0    60   Input ~ 0
+Text HLabel 3250 3600 0    60   Input ~ 0
 T_EXP1_1_18
-Text HLabel 3250 4100 0    60   Input ~ 0
+Text HLabel 3250 3700 0    60   Input ~ 0
 FRAME_REQ_1_18
-Text HLabel 3250 4200 0    60   Input ~ 0
+Text HLabel 3250 3800 0    60   Input ~ 0
 T_EXP2_0_18
-Text HLabel 3250 4300 0    60   Input ~ 0
+Text HLabel 3250 3900 0    60   Input ~ 0
 T_EXP1_0_18
-Text HLabel 3250 4400 0    60   Input ~ 0
+Text HLabel 3250 4100 0    60   Input ~ 0
 FRAME_REQ_0_18
-Text HLabel 3250 1800 0    60   Output ~ 0
+Text HLabel 3250 5900 0    60   Output ~ 0
 CAM_SPI_MISO_18
 $Comp
 L R_Small R?
@@ -797,12 +756,11 @@ F 3 "" H 3200 7000 50  0001 C CNN
 $EndComp
 NoConn ~ 3600 6700
 NoConn ~ 3600 6600
-NoConn ~ 3600 6200
-Text HLabel 3250 5900 0    60   Output ~ 0
-RX_LOS_18
 Text HLabel 3250 6000 0    60   Output ~ 0
-TX_FAULT_18
+RX_LOS_18
 Text HLabel 3250 6100 0    60   Output ~ 0
+TX_FAULT_18
+Text HLabel 3250 6200 0    60   Output ~ 0
 MODDET_18
 Text HLabel 3250 6400 0    60   Input ~ 0
 SFP_GPIO_18
@@ -875,10 +833,6 @@ Wire Wire Line
 	3150 1200 3250 1200
 Wire Wire Line
 	3450 1200 3550 1200
-Wire Wire Line
-	3450 2200 3550 2200
-Wire Wire Line
-	3150 2200 3250 2200
 Wire Wire Line
 	4650 900  4650 1100
 Wire Wire Line
@@ -1029,11 +983,11 @@ Wire Wire Line
 	4150 7600 4150 7450
 Connection ~ 4150 7450
 Wire Wire Line
-	6000 5900 4600 5900
+	6000 6000 4600 6000
 Wire Wire Line
-	4600 6000 6000 6000
+	4600 6100 6000 6100
 Wire Wire Line
-	6000 6100 4600 6100
+	6000 6200 4600 6200
 Wire Wire Line
 	6000 6400 4600 6400
 Wire Wire Line
@@ -1055,11 +1009,11 @@ Wire Wire Line
 Wire Wire Line
 	3500 7000 3600 7000
 Wire Wire Line
-	3250 5900 3600 5900
+	3250 6000 3600 6000
 Wire Wire Line
-	3600 6000 3250 6000
+	3600 6100 3250 6100
 Wire Wire Line
-	3250 6100 3600 6100
+	3250 6200 3600 6200
 Wire Wire Line
 	3600 6400 3250 6400
 Wire Wire Line
@@ -1069,53 +1023,49 @@ Wire Wire Line
 Wire Wire Line
 	5950 1300 4550 1300
 Wire Wire Line
-	5950 1400 4550 1400
-Wire Wire Line
 	5950 1500 4550 1500
 Wire Wire Line
-	4550 1600 5950 1600
+	5950 1600 4550 1600
 Wire Wire Line
-	5950 1800 4550 1800
+	4550 1800 5950 1800
+Wire Wire Line
+	4550 1900 5950 1900
+Wire Wire Line
+	4550 2000 5950 2000
+Wire Wire Line
+	5950 2100 4550 2100
 Wire Wire Line
 	4550 3600 5950 3600
 Wire Wire Line
-	4550 3700 5950 3700
+	5950 3700 4550 3700
 Wire Wire Line
-	5950 3800 4550 3800
+	4550 3800 5950 3800
 Wire Wire Line
-	4550 3900 5950 3900
+	5950 3900 4550 3900
 Wire Wire Line
-	5950 4100 4550 4100
-Wire Wire Line
-	4550 4200 5950 4200
-Wire Wire Line
-	5950 4300 4550 4300
-Wire Wire Line
-	4550 4400 5950 4400
+	4550 4100 5950 4100
 Wire Wire Line
 	3250 1800 3550 1800
 Wire Wire Line
-	3250 1600 3550 1600
+	3550 1600 3250 1600
 Wire Wire Line
-	3550 1500 3250 1500
+	3250 1500 3550 1500
 Wire Wire Line
-	3250 1400 3550 1400
+	3250 1900 3550 1900
 Wire Wire Line
-	3250 3600 3550 3600
+	3250 2000 3550 2000
+Wire Wire Line
+	3550 2100 3250 2100
+Wire Wire Line
+	3550 3600 3250 3600
 Wire Wire Line
 	3250 3700 3550 3700
 Wire Wire Line
 	3550 3800 3250 3800
 Wire Wire Line
-	3550 3900 3250 3900
+	3250 3900 3550 3900
 Wire Wire Line
-	3250 4100 3550 4100
-Wire Wire Line
-	3550 4200 3250 4200
-Wire Wire Line
-	3250 4300 3550 4300
-Wire Wire Line
-	3550 4400 3250 4400
+	3550 4100 3250 4100
 $Comp
 L BSS138PS Q?
 U 1 1 5AD796C4
@@ -1180,4 +1130,68 @@ F 8 "SPEC" H 9900 4750 60  0001 C CNN "Source"
 	1    9900 4750
 	0    1    1    0   
 $EndComp
+Text HLabel 3250 1400 0    60   Input ~ 0
+CAM_CLK0_REF_18
+Wire Wire Line
+	3250 1400 3550 1400
+Text HLabel 5950 1400 2    60   Output ~ 0
+CAM0_CLK_REF
+Wire Wire Line
+	5950 1400 4550 1400
+Text Notes 4800 900  0    60   ~ 0
+DIR[1:2] = 10\nA[1:4] => B[1:4]; A[5:8] => B[5:8]
+$Comp
+L R_Small R?
+U 1 1 5AE6E608
+P 3350 2200
+F 0 "R?" H 3380 2220 50  0000 L CNN
+F 1 "10k" H 3380 2160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 3350 2200 50  0001 C CNN
+F 3 "" H 3350 2200 50  0001 C CNN
+	1    3350 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AE6E60E
+P 3150 2200
+F 0 "#PWR?" H 3150 1950 50  0001 C CNN
+F 1 "GND" H 3150 2050 50  0000 C CNN
+F 2 "" H 3150 2200 50  0001 C CNN
+F 3 "" H 3150 2200 50  0001 C CNN
+	1    3150 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 2200 3550 2200
+Wire Wire Line
+	3150 2200 3250 2200
+Wire Wire Line
+	3250 5900 3600 5900
+Wire Wire Line
+	6650 4600 7900 4600
+Wire Wire Line
+	7900 4600 7900 5900
+Wire Wire Line
+	7900 5900 4600 5900
+$Comp
+L SN74AXC8T245 U?
+U 1 1 5ADF547B
+P 4050 1700
+F 0 "U?" H 4050 650 60  0000 C CNN
+F 1 "SN74AXC8T245" V 4050 1650 60  0000 C CNN
+F 2 "footprints:VQFN-24" H 4000 1700 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf" H 4000 1700 60  0001 C CNN
+F 4 "Texas Instruments" H 4050 1700 60  0001 C CNN "MFG Name"
+F 5 "SN74AXC8T245" H 4050 1700 60  0001 C CNN "MFG Part Num"
+F 6 "296-48832-1-ND" H 4050 1700 60  0001 C CNN "Digikey"
+F 7 "595-SN74AXC8T245RHLR" H 4050 1700 60  0001 C CNN "Mouser"
+F 8 "1" H 4050 1700 60  0001 C CNN "Populated"
+F 9 "SPEC" H 4050 1700 60  0001 C CNN "Source"
+	1    4050 1700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3550 4200
+NoConn ~ 3550 4300
+NoConn ~ 3550 4400
 $EndSCHEMATC

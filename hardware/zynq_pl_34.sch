@@ -55,7 +55,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 21
+Sheet 21 21
 Title ""
 Date ""
 Rev ""
@@ -180,4 +180,16 @@ Wire Wire Line
 	4800 5400 5250 5400
 Wire Wire Line
 	4800 4300 5250 4300
+Text HLabel 4800 2300 0    60   Output ~ 0
+IMU_FRAME_GPIO0
+Text HLabel 4800 2200 0    60   Input ~ 0
+IMU_INT1_GPIO1
+Text HLabel 4800 3300 0    60   Input ~ 0
+IMU_INT0_GPIO2
+Wire Wire Line
+	4800 3300 5250 3300
+Wire Wire Line
+	4800 2300 5250 2300
+Wire Wire Line
+	5250 2200 4800 2200
 $EndSCHEMATC

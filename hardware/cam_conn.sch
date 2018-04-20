@@ -55,7 +55,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 21
+Sheet 17 21
 Title ""
 Date ""
 Rev ""
@@ -73,17 +73,17 @@ Text HLabel 7450 1050 0    60   Output ~ 0
 CAM_CLK_0_N
 Text HLabel 7450 3950 0    60   Output ~ 0
 CAM_CLK_1_P
-Text HLabel 9400 4950 2    60   Input ~ 0
-FRAME_REQ_0
-Text HLabel 9400 4550 2    60   Input ~ 0
-FRAME_REQ_1
-Text HLabel 9400 4850 2    60   Input ~ 0
-T_EXP1_0
-Text HLabel 9400 4750 2    60   Input ~ 0
-T_EXP2_0
-Text HLabel 9400 4450 2    60   Input ~ 0
-T_EXP1_1
 Text HLabel 9400 4350 2    60   Input ~ 0
+FRAME_REQ_0
+Text HLabel 9400 4050 2    60   Input ~ 0
+FRAME_REQ_1
+Text HLabel 9400 4250 2    60   Input ~ 0
+T_EXP1_0
+Text HLabel 9400 4150 2    60   Input ~ 0
+T_EXP2_0
+Text HLabel 9400 3950 2    60   Input ~ 0
+T_EXP1_1
+Text HLabel 9400 3850 2    60   Input ~ 0
 T_EXP2_1
 Text HLabel 7450 1250 0    60   Output ~ 0
 CAM_CTRL_0_P
@@ -93,20 +93,20 @@ Text HLabel 7450 4250 0    60   Output ~ 0
 CAM_CTRL_1_P
 Text HLabel 7450 4350 0    60   Output ~ 0
 CAM_CTRL_1_N
-Text HLabel 9400 4150 2    60   Output ~ 0
+Text HLabel 9400 3750 2    60   Output ~ 0
 SPI_MISO
-Text HLabel 9400 3950 2    60   Input ~ 0
+Text HLabel 9400 3650 2    60   Input ~ 0
 SPI_MOSI
-Text HLabel 9400 3750 2    60   Input ~ 0
-SPI_CLK
 Text HLabel 9400 3550 2    60   Input ~ 0
-SPI_EN_0
+SPI_CLK
 Text HLabel 9400 3450 2    60   Input ~ 0
+SPI_EN_0
+Text HLabel 9400 3350 2    60   Input ~ 0
 SPI_EN_1
 Text HLabel 9400 3250 2    60   Input ~ 0
 ~CAM_RESET~
-Text HLabel 9400 2750 2    60   Input ~ 0
-CAM_CLK_REF
+Text HLabel 9400 2850 2    60   Input ~ 0
+CAM_CLK_REF_0
 Text Notes 900  6900 0    60   ~ 0
 Open questions\n* LVDS clock input to camera needed?\n* Two separate clocks for two cameras needed?\n\nMissing\n!* I2C\n* GPIO
 $Comp
@@ -125,9 +125,9 @@ F 8 "SPEC" H 8350 3400 60  0001 C CNN "Source"
 	1    8350 3400
 	1    0    0    -1  
 $EndComp
-Text HLabel 9400 3050 2    60   BiDi ~ 0
+Text HLabel 9400 3150 2    60   BiDi ~ 0
 SDA
-Text HLabel 9400 2950 2    60   BiDi ~ 0
+Text HLabel 9400 3050 2    60   BiDi ~ 0
 SCL
 Text Notes 3250 6400 0    60   ~ 0
 Afaik is LVDS Clock optional
@@ -148,31 +148,31 @@ Wire Wire Line
 Wire Wire Line
 	7450 4350 8050 4350
 Wire Wire Line
-	8650 4950 9400 4950
-Wire Wire Line
-	8650 4850 9400 4850
-Wire Wire Line
-	8650 4750 9400 4750
-Wire Wire Line
-	8650 4550 9400 4550
-Wire Wire Line
-	8650 4450 9400 4450
-Wire Wire Line
 	8650 4350 9400 4350
 Wire Wire Line
-	9400 4150 8650 4150
+	8650 4250 9400 4250
 Wire Wire Line
-	9400 3950 8650 3950
+	8650 4150 9400 4150
+Wire Wire Line
+	8650 4050 9400 4050
+Wire Wire Line
+	8650 3950 9400 3950
+Wire Wire Line
+	8650 3850 9400 3850
 Wire Wire Line
 	9400 3750 8650 3750
 Wire Wire Line
+	9400 3650 8650 3650
+Wire Wire Line
 	9400 3550 8650 3550
 Wire Wire Line
-	8650 3450 9400 3450
+	9400 3450 8650 3450
+Wire Wire Line
+	8650 3350 9400 3350
 Wire Wire Line
 	9400 3250 8650 3250
 Wire Wire Line
-	9400 3050 8650 3050
+	9400 3150 8650 3150
 Wire Wire Line
 	8050 1150 7800 1150
 Wire Wire Line
@@ -228,8 +228,6 @@ Wire Wire Line
 	8650 5650 8850 5650
 Wire Wire Line
 	8650 5350 8850 5350
-Wire Wire Line
-	8650 5050 8850 5050
 $Comp
 L GND #PWR?
 U 1 1 5AFB9A6C
@@ -263,12 +261,6 @@ Wire Wire Line
 Connection ~ 8850 1450
 Wire Wire Line
 	8650 1550 8850 1550
-Connection ~ 8850 1550
-Wire Wire Line
-	8650 1650 8850 1650
-Connection ~ 8850 1650
-Wire Wire Line
-	8650 1750 8850 1750
 $Comp
 L +5V #PWR?
 U 1 1 5AFBA51B
@@ -409,78 +401,98 @@ Wire Wire Line
 	8650 5250 9400 5250
 Wire Wire Line
 	9400 5150 8650 5150
-Text HLabel 9400 2550 2    60   Output ~ 0
+Text HLabel 9400 2150 2    60   Output ~ 0
 IMU_SPI_MISO
-Text HLabel 9400 2350 2    60   Input ~ 0
+Text HLabel 9400 2050 2    60   Input ~ 0
 IMU_SPI_MOSI
-Text HLabel 9400 2150 2    60   Input ~ 0
+Text HLabel 9400 1950 2    60   Input ~ 0
 IMU_SPI_CLK
 Wire Wire Line
-	9400 2950 8650 2950
-Wire Wire Line
-	8850 1750 8850 800 
-Text HLabel 9400 1950 2    60   Input ~ 0
-IMU_SPI_EN_0
+	9400 3050 8650 3050
 Text HLabel 9400 1850 2    60   Input ~ 0
+IMU_SPI_EN_0
+Text HLabel 9400 1750 2    60   Input ~ 0
 IMU_SPI_EN_1
 Wire Wire Line
-	9400 1850 8650 1850
+	9400 1750 8650 1750
 Wire Wire Line
-	8650 1950 9400 1950
-Wire Wire Line
-	8650 2050 8850 2050
-Connection ~ 8850 2250
+	8650 1850 9400 1850
 Wire Notes Line
-	9200 1750 9200 2700
+	9200 2550 10350 2550
 Wire Notes Line
-	9200 2700 10200 2700
-Wire Notes Line
-	10200 2700 10200 1750
-Wire Notes Line
-	10200 1750 9200 1750
-Text Notes 9900 1700 2    60   ~ 0
+	9200 1550 10350 1550
+Text Notes 9900 1500 2    60   ~ 0
 1.8 V only
 Wire Wire Line
-	9400 2150 8650 2150
+	9400 1950 8650 1950
 Wire Wire Line
-	8650 2350 9400 2350
+	8650 2050 9400 2050
 Wire Wire Line
-	8650 2550 9400 2550
+	8650 2150 9400 2150
 Wire Wire Line
-	9400 2750 8650 2750
-Wire Wire Line
-	8850 2050 8850 6050
+	9400 2850 8650 2850
 Connection ~ 8850 5650
 Connection ~ 8850 5350
+Wire Wire Line
+	8650 2950 8850 2950
+Connection ~ 8850 2950
+Text Notes 12300 2700 0    60   ~ 0
+gnd\nlvds_clk_p\nlvds_clk_n\ngnd\nlvds_clk1_p\nlvds_clk1_n\ngnd\nrefclk2\ngnd\nimu frame\nimu int1\nimu int2
+Wire Wire Line
+	8650 2750 8850 2750
+Connection ~ 8850 2750
+Text HLabel 9400 2650 2    60   Input ~ 0
+CAM_CLK_REF_1
+Wire Wire Line
+	8650 2650 9400 2650
+Wire Wire Line
+	8650 2550 8850 2550
+Text HLabel 9400 2250 2    60   Input ~ 0
+IMU_FRAME_GPIO0
+Wire Wire Line
+	9400 2250 8650 2250
+Text HLabel 9400 2350 2    60   Output ~ 0
+IMU_INT1_GPIO1
+Text HLabel 9400 2450 2    60   Output ~ 0
+IMU_INT2_GPIO2
+Wire Wire Line
+	9400 2350 8650 2350
+Wire Wire Line
+	8650 2450 9400 2450
+Wire Wire Line
+	8650 5050 8850 5050
+Text HLabel 9400 4950 2    60   Input ~ 0
+LVDS_CLK0_N
+Text HLabel 9400 4850 2    60   Input ~ 0
+LVDS_CLK0_P
+Wire Wire Line
+	8650 4950 9400 4950
+Wire Wire Line
+	9400 4850 8650 4850
 Connection ~ 8850 5050
 Wire Wire Line
-	8650 4650 8850 4650
-Connection ~ 8850 4650
+	8650 4750 8850 4750
+Text HLabel 9400 4650 2    60   Input ~ 0
+LVDS_CLK1_N
+Text HLabel 9400 4550 2    60   Input ~ 0
+LVDS_CLK1_P
 Wire Wire Line
-	8650 4250 8850 4250
-Connection ~ 8850 4250
+	8650 4650 9400 4650
 Wire Wire Line
-	8650 4050 8850 4050
-Connection ~ 8850 4050
+	9400 4550 8650 4550
+Connection ~ 8850 4750
 Wire Wire Line
-	8650 3850 8850 3850
-Connection ~ 8850 3850
+	8650 4450 8850 4450
+Connection ~ 8850 4450
 Wire Wire Line
-	8650 3650 8850 3650
-Connection ~ 8850 3650
+	8650 1650 8850 1650
 Wire Wire Line
-	8650 3350 8850 3350
-Connection ~ 8850 3350
+	8850 1650 8850 800 
+Connection ~ 8850 1550
 Wire Wire Line
-	8650 3150 8850 3150
-Connection ~ 8850 3150
-Wire Wire Line
-	8650 2850 8850 2850
-Connection ~ 8850 2850
-Wire Wire Line
-	8650 2650 8850 2650
-Connection ~ 8850 2650
-Wire Wire Line
-	8650 2450 8850 2450
-Connection ~ 8850 2450
+	8850 2550 8850 6050
+Wire Notes Line
+	9200 1550 9200 2550
+Wire Notes Line
+	10350 1550 10350 2550
 $EndSCHEMATC

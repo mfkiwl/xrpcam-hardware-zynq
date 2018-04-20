@@ -55,7 +55,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 21
+Sheet 21 21
 Title ""
 Date ""
 Rev ""
@@ -99,7 +99,7 @@ CAM_SPI_EN_1_18
 Text HLabel 5050 4500 0    60   Output ~ 0
 CAM_SPI_EN_0_18
 Text HLabel 5050 4100 0    60   Output ~ 0
-CAM_CLK_REF_18
+CAM_CLK0_REF_18
 Text HLabel 5050 4000 0    60   Output ~ 0
 CAM_RESET_18
 Text HLabel 5050 3500 0    60   BiDi ~ 0
@@ -202,7 +202,7 @@ Text HLabel 5050 3600 0    60   BiDi ~ 0
 GPIO_4
 Text HLabel 5050 3800 0    60   BiDi ~ 0
 GPIO_5
-Text HLabel 5050 3900 0    60   BiDi ~ 0
+Text HLabel 5050 2400 0    60   BiDi ~ 0
 GPIO_6
 Text HLabel 5050 5700 0    60   BiDi ~ 0
 GPIO_7
@@ -238,4 +238,8 @@ Wire Wire Line
 	5050 1800 5400 1800
 Wire Wire Line
 	5050 2100 5400 2100
+Text HLabel 5050 3900 0    60   Output ~ 0
+CAM_CLK1_REF_18
+Wire Wire Line
+	5050 2400 5400 2400
 $EndSCHEMATC
