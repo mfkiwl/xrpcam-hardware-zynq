@@ -50,12 +50,13 @@ LIBS:max14854
 LIBS:switches
 LIBS:ft234xd
 LIBS:sn74lv1t126
+LIBS:emif06-msd02n16
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 21
+Sheet 18 21
 Title ""
 Date ""
 Rev ""
@@ -137,7 +138,7 @@ Wire Wire Line
 	7950 1700 9200 1700
 Text Notes 8200 4450 0    60   ~ 0
 BOOT_MODE[2..0]: boot device (SD = 101)\nBOOT_MODE[3]: JTAG chain routing\nBOOT_MODE[4]: PLL mode\n\nVMODE_0: voltage for MIO bank 0 (3.3V = 0, 1.8V = 1)\nVMODE_1: voltage for MIO bank 1 (3.3V = 0, 1.8V = 1)\n\n(Ref.: Table 6-4 in Zynq TRM)
-Text Notes 4700 6250 0    60   ~ 0
+Text Notes 2650 4200 0    60   ~ 0
 NOTE: The BootROM expects the SD card\nto be connected to MIO pins 40..45 (SDIO0).
 $Comp
 L R R?
@@ -305,9 +306,7 @@ Wire Wire Line
 	8150 2200 9200 2200
 Text Notes 7000 700  0    60   ~ 0
 NOTE: pulls must be 20k.
-Text Notes 600  700  0    60   ~ 0
-TODO: decide on MIO voltage
-Text Notes 4700 6550 0    60   ~ 0
+Text Notes 2400 1100 0    60   ~ 0
 TODO: UART, I2C
 $Comp
 L SW_Push SW?
@@ -478,35 +477,30 @@ Connection ~ 8150 2850
 $Comp
 L Micro_SD_Card_Det_Hirose_DM3AT J?
 U 1 1 5AD6D576
-P 1800 3850
-F 0 "J?" H 1150 4550 50  0000 C CNN
-F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 2450 4550 50  0000 R CNN
-F 2 "" H 3850 4550 50  0001 C CNN
-F 3 "" H 1800 3950 50  0001 C CNN
-	1    1800 3850
+P 1850 6750
+F 0 "J?" H 1200 7450 50  0000 C CNN
+F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 2500 7450 50  0000 R CNN
+F 2 "Connectors_Hirose:microSD_Card_Receptacle_Hirose_DM3AT-SF-PEJM5" H 3900 7450 50  0001 C CNN
+F 3 "https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=DM3AT-SF-PEJM5" H 1850 6850 50  0001 C CNN
+F 4 "Hirose Electric Co Ltd" H 1850 6750 60  0001 C CNN "MFG Name"
+F 5 "DM3AT-SF-PEJM5" H 1850 6750 60  0001 C CNN "MFG Part Num"
+F 6 "HR1964CT-ND" H 1850 6750 60  0001 C CNN "Digikey"
+F 7 "1" H 1850 6750 60  0001 C CNN "Populated"
+F 8 "SPEC" H 1850 6750 60  0001 C CNN "Source"
+	1    1850 6750
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2700 4050 3400 4050
-Text Label 3400 4050 2    60   ~ 0
+Text Label 5050 6950 2    60   ~ 0
 SDIO0_CMD
-Wire Wire Line
-	2700 4250 3400 4250
-Text Label 3400 4250 2    60   ~ 0
+Text Label 5050 7150 2    60   ~ 0
 SDIO0_IO2
-Text Label 3400 3850 2    60   ~ 0
+Text Label 5050 6750 2    60   ~ 0
 SDIO0_CK
-Wire Wire Line
-	2700 3650 3400 3650
-Text Label 3400 3650 2    60   ~ 0
+Text Label 5050 6550 2    60   ~ 0
 SDIO0_IO0
-Wire Wire Line
-	2700 3550 3400 3550
-Text Label 3400 3550 2    60   ~ 0
+Text Label 5050 6450 2    60   ~ 0
 SDIO0_IO1
-Wire Wire Line
-	2700 4150 3400 4150
-Text Label 3400 4150 2    60   ~ 0
+Text Label 5050 7050 2    60   ~ 0
 SDIO0_IO3
 Wire Wire Line
 	4950 3850 5500 3850
@@ -533,156 +527,198 @@ Wire Wire Line
 Text Label 4950 4350 0    60   ~ 0
 SDIO0_IO3
 $Comp
-L R_Small R?
-U 1 1 5AD6FCC7
-P 2900 3850
-F 0 "R?" H 2930 3870 50  0000 L CNN
-F 1 "43" H 2930 3810 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" H 2900 3850 50  0001 C CNN
-F 3 "" H 2900 3850 50  0001 C CNN
-	1    2900 3850
-	0    -1   -1   0   
-$EndComp
-$Comp
 L GND #PWR?
 U 1 1 5AD704C9
-P 2800 3250
-F 0 "#PWR?" H 2800 3000 50  0001 C CNN
-F 1 "GND" H 2800 3100 50  0000 C CNN
-F 2 "" H 2800 3250 50  0000 C CNN
-F 3 "" H 2800 3250 50  0000 C CNN
-	1    2800 3250
+P 2850 6150
+F 0 "#PWR?" H 2850 5900 50  0001 C CNN
+F 1 "GND" H 2850 6000 50  0000 C CNN
+F 2 "" H 2850 6150 50  0000 C CNN
+F 3 "" H 2850 6150 50  0000 C CNN
+	1    2850 6150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2700 3350 2800 3350
+	2750 6250 2850 6250
 Wire Wire Line
-	2800 3350 2800 3250
-Wire Wire Line
-	2700 3450 3400 3450
-Text Label 3400 3450 2    60   ~ 0
+	2850 6250 2850 6150
+Text Label 3150 6350 2    60   ~ 0
 SDIO0_CD
 Wire Wire Line
 	5500 4450 4950 4450
 Text Label 4950 4450 0    60   ~ 0
 SDIO0_CD
 $Comp
-L R_Small R?
-U 1 1 5AD70D49
-P 2900 3300
-F 0 "R?" H 2930 3320 50  0000 L CNN
-F 1 "50k" H 2930 3260 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" H 2900 3300 50  0001 C CNN
-F 3 "" H 2900 3300 50  0001 C CNN
-F 4 "1" H 2900 3300 60  0001 C CNN "Populated"
-F 5 "SPEC" H 2900 3300 60  0001 C CNN "Source"
-	1    2900 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 3400 2900 3450
-Connection ~ 2900 3450
-$Comp
 L +3V3 #PWR?
 U 1 1 5AD70E44
-P 2900 3100
-F 0 "#PWR?" H 2900 2950 50  0001 C CNN
-F 1 "+3V3" H 2900 3240 50  0000 C CNN
-F 2 "" H 2900 3100 50  0001 C CNN
-F 3 "" H 2900 3100 50  0001 C CNN
-	1    2900 3100
-	1    0    0    -1  
+P 2900 6850
+F 0 "#PWR?" H 2900 6700 50  0001 C CNN
+F 1 "+3V3" H 2900 6990 50  0000 C CNN
+F 2 "" H 2900 6850 50  0001 C CNN
+F 3 "" H 2900 6850 50  0001 C CNN
+	1    2900 6850
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2900 3100 2900 3200
 Wire Wire Line
 	7150 2750 7150 2850
 Wire Wire Line
 	7150 2850 8350 2850
-Wire Wire Line
-	2800 3850 2700 3850
-Wire Wire Line
-	3000 3850 3400 3850
 $Comp
 L GND #PWR?
 U 1 1 5AD853F0
-P 900 3350
-F 0 "#PWR?" H 900 3100 50  0001 C CNN
-F 1 "GND" H 900 3200 50  0000 C CNN
-F 2 "" H 900 3350 50  0000 C CNN
-F 3 "" H 900 3350 50  0000 C CNN
-	1    900  3350
+P 950 6250
+F 0 "#PWR?" H 950 6000 50  0001 C CNN
+F 1 "GND" H 950 6100 50  0000 C CNN
+F 2 "" H 950 6250 50  0000 C CNN
+F 3 "" H 950 6250 50  0000 C CNN
+	1    950  6250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	900  3350 1000 3350
+	950  6250 1050 6250
 Text GLabel 5500 1750 0    60   Output ~ 0
 PS_UART_TX
 Text GLabel 5500 1650 0    60   Input ~ 0
 PS_UART_RX
-Wire Wire Line
-	2700 3950 3400 3950
-$Comp
-L GND #PWR?
-U 1 1 5AD94FE0
-P 3400 3950
-F 0 "#PWR?" H 3400 3700 50  0001 C CNN
-F 1 "GND" H 3400 3800 50  0000 C CNN
-F 2 "" H 3400 3950 50  0000 C CNN
-F 3 "" H 3400 3950 50  0000 C CNN
-	1    3400 3950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2700 3750 3400 3750
-$Comp
-L +3V3 #PWR?
-U 1 1 5AD950A4
-P 3400 3750
-F 0 "#PWR?" H 3400 3600 50  0001 C CNN
-F 1 "+3V3" H 3400 3890 50  0000 C CNN
-F 2 "" H 3400 3750 50  0001 C CNN
-F 3 "" H 3400 3750 50  0001 C CNN
-	1    3400 3750
-	0    1    1    0   
-$EndComp
 $Comp
 L C_Small C?
 U 1 1 5AD950DB
-P 1850 2950
-F 0 "C?" H 1860 3020 50  0000 L CNN
-F 1 "100 nF" H 1860 2870 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 1850 2950 50  0001 C CNN
-F 3 "" H 1850 2950 50  0001 C CNN
-F 4 "1" H 1850 2950 60  0001 C CNN "Populated"
-F 5 "SPEC" H 1850 2950 60  0001 C CNN "Source"
-	1    1850 2950
+P 1900 5850
+F 0 "C?" H 1910 5920 50  0000 L CNN
+F 1 "100 nF" H 1910 5770 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 1900 5850 50  0001 C CNN
+F 3 "" H 1900 5850 50  0001 C CNN
+F 4 "1" H 1900 5850 60  0001 C CNN "Populated"
+F 5 "SPEC" H 1900 5850 60  0001 C CNN "Source"
+	1    1900 5850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5AD95198
-P 1650 2950
-F 0 "#PWR?" H 1650 2700 50  0001 C CNN
-F 1 "GND" H 1650 2800 50  0000 C CNN
-F 2 "" H 1650 2950 50  0000 C CNN
-F 3 "" H 1650 2950 50  0000 C CNN
-	1    1650 2950
+P 1700 5850
+F 0 "#PWR?" H 1700 5600 50  0001 C CNN
+F 1 "GND" H 1700 5700 50  0000 C CNN
+F 2 "" H 1700 5850 50  0000 C CNN
+F 3 "" H 1700 5850 50  0000 C CNN
+	1    1700 5850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1650 2950 1750 2950
+	1700 5850 1800 5850
 $Comp
 L +3V3 #PWR?
 U 1 1 5AD9524B
-P 2050 2950
-F 0 "#PWR?" H 2050 2800 50  0001 C CNN
-F 1 "+3V3" H 2050 3090 50  0000 C CNN
-F 2 "" H 2050 2950 50  0001 C CNN
-F 3 "" H 2050 2950 50  0001 C CNN
-	1    2050 2950
+P 2100 5850
+F 0 "#PWR?" H 2100 5700 50  0001 C CNN
+F 1 "+3V3" H 2100 5990 50  0000 C CNN
+F 2 "" H 2100 5850 50  0001 C CNN
+F 3 "" H 2100 5850 50  0001 C CNN
+	1    2100 5850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2050 2950 1950 2950
+	2100 5850 2000 5850
+$Comp
+L EMIF06-MSD02N16 U?
+U 1 1 5ADAA7F4
+P 3750 6750
+F 0 "U?" H 3700 6050 60  0000 C CNN
+F 1 "EMIF06-MSD02N16" V 3750 6800 60  0000 C CNN
+F 2 "footprints:µQFN-16L" H 3400 5800 60  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/a7/86/d3/98/2c/7f/4b/d2/CD00217829.pdf/files/CD00217829.pdf/jcr:content/translations/en.CD00217829.pdf" H 3400 5800 60  0001 C CNN
+F 4 "STMicroelectronics" H 3750 6750 60  0001 C CNN "MFG Name"
+F 5 "EMIF06-MSD02N16" H 3750 6750 60  0001 C CNN "MFG Part Num"
+F 6 "497-8751-1-ND" H 3750 6750 60  0001 C CNN "Digikey"
+F 7 "1" H 3750 6750 60  0001 C CNN "Populated"
+F 8 "SPEC" H 3750 6750 60  0001 C CNN "Source"
+	1    3750 6750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 6450 2750 6450
+Wire Wire Line
+	2750 6550 3050 6550
+Wire Wire Line
+	3050 6750 2750 6750
+Wire Wire Line
+	2750 6950 3050 6950
+Wire Wire Line
+	3050 7050 2750 7050
+Wire Wire Line
+	2750 7150 3050 7150
+Wire Wire Line
+	3050 7250 2950 7250
+Wire Wire Line
+	2950 7250 2950 7350
+Wire Wire Line
+	2950 7350 3050 7350
+$Comp
+L +3V3 #PWR?
+U 1 1 5ADAB627
+P 2850 7300
+F 0 "#PWR?" H 2850 7150 50  0001 C CNN
+F 1 "+3V3" H 2850 7440 50  0000 C CNN
+F 2 "" H 2850 7300 50  0001 C CNN
+F 3 "" H 2850 7300 50  0001 C CNN
+	1    2850 7300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 7300 2950 7300
+Connection ~ 2950 7300
+$Comp
+L GND #PWR?
+U 1 1 5ADAB6E8
+P 4600 6150
+F 0 "#PWR?" H 4600 5900 50  0001 C CNN
+F 1 "GND" H 4600 6000 50  0000 C CNN
+F 2 "" H 4600 6150 50  0000 C CNN
+F 3 "" H 4600 6150 50  0000 C CNN
+	1    4600 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 6150 4600 6250
+Wire Wire Line
+	4600 6250 4500 6250
+Wire Wire Line
+	3150 6350 2750 6350
+Text Label 5050 7350 2    60   ~ 0
+SDIO0_CD
+Wire Wire Line
+	4500 7350 5050 7350
+NoConn ~ 4500 7250
+Wire Wire Line
+	2900 6650 2750 6650
+$Comp
+L GND #PWR?
+U 1 1 5ADABBC7
+P 2900 6650
+F 0 "#PWR?" H 2900 6400 50  0001 C CNN
+F 1 "GND" H 2900 6500 50  0000 C CNN
+F 2 "" H 2900 6650 50  0000 C CNN
+F 3 "" H 2900 6650 50  0000 C CNN
+	1    2900 6650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 6850 2750 6850
+Wire Wire Line
+	5050 7150 4500 7150
+Wire Wire Line
+	4500 7050 5050 7050
+Wire Wire Line
+	5050 6950 4500 6950
+Wire Wire Line
+	4500 6750 5050 6750
+Wire Wire Line
+	5050 6550 4500 6550
+Wire Wire Line
+	4500 6450 5050 6450
+Text Notes 600  700  0    60   ~ 0
+TODO: decide on MIO voltage
+Text Notes 1150 800  0    60   ~ 0
+3,3 V!
+Text Notes 3150 7750 0    60   ~ 0
+ESD/EMI Protection and Filtering IC.\nAlso contains all needed series and\npull-up resistors.
 $EndSCHEMATC

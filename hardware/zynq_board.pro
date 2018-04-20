@@ -1,4 +1,4 @@
-update=Mi 18 Apr 2018 12:07:18 CEST
+update=Fr 20 Apr 2018 16:11:40 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -80,3 +80,4 @@ LibName48=libraries/schematics/max14854
 LibName49=switches
 LibName50=libraries/schematics/ft234xd
 LibName51=libraries/schematics/sn74lv1t126
+LibName52=libraries/schematics/emif06-msd02n16

@@ -50,12 +50,13 @@ LIBS:max14854
 LIBS:switches
 LIBS:ft234xd
 LIBS:sn74lv1t126
+LIBS:emif06-msd02n16
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 21
+Sheet 16 21
 Title ""
 Date ""
 Rev ""
@@ -436,8 +437,6 @@ Connection ~ 8850 5350
 Wire Wire Line
 	8650 2950 8850 2950
 Connection ~ 8850 2950
-Text Notes 12300 2700 0    60   ~ 0
-gnd\nlvds_clk_p\nlvds_clk_n\ngnd\nlvds_clk1_p\nlvds_clk1_n\ngnd\nrefclk2\ngnd\nimu frame\nimu int1\nimu int2
 Wire Wire Line
 	8650 2750 8850 2750
 Connection ~ 8850 2750
