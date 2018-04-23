@@ -53,7 +53,7 @@ LIBS:sn74lv1t126
 LIBS:emif06-msd02n16
 LIBS:cat24c02tdi-gt3
 LIBS:power_symbols
-LIBS:zynq_board-cache
+LIBS:ti_power_modules
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -624,25 +624,15 @@ Wire Wire Line
 Wire Wire Line
 	7950 1700 9200 1700
 Wire Wire Line
-	7950 1550 7950 1700
+	7950 1550 7950 2450
 Wire Wire Line
-	7950 1700 7950 2450
+	7750 1550 7750 2450
 Wire Wire Line
-	7750 1550 7750 1800
+	7550 1550 7550 2450
 Wire Wire Line
-	7750 1800 7750 2450
+	7350 1550 7350 2450
 Wire Wire Line
-	7550 1550 7550 1900
-Wire Wire Line
-	7550 1900 7550 2450
-Wire Wire Line
-	7350 1550 7350 2000
-Wire Wire Line
-	7350 2000 7350 2450
-Wire Wire Line
-	7150 1550 7150 2100
-Wire Wire Line
-	7150 2100 7150 2450
+	7150 1550 7150 2450
 Connection ~ 7950 1700
 Connection ~ 7750 1800
 Connection ~ 7550 1900
@@ -651,22 +641,14 @@ Connection ~ 7150 2100
 Wire Wire Line
 	7150 1250 7150 1150
 Wire Wire Line
-	7150 1150 7350 1150
-Wire Wire Line
-	7350 1150 7550 1150
-Wire Wire Line
-	7550 1150 7750 1150
-Wire Wire Line
-	7750 1150 7950 1150
+	7150 1150 7950 1150
 Wire Wire Line
 	7950 1150 7950 1250
 Wire Wire Line
 	7350 1250 7350 1150
 Connection ~ 7350 1150
 Wire Wire Line
-	7550 1050 7550 1150
-Wire Wire Line
-	7550 1150 7550 1250
+	7550 1050 7550 1250
 Connection ~ 7550 1150
 Wire Wire Line
 	7750 1250 7750 1150
@@ -677,9 +659,7 @@ Wire Wire Line
 	7350 2750 7350 2850
 Connection ~ 7350 2850
 Wire Wire Line
-	7550 2750 7550 2850
-Wire Wire Line
-	7550 2850 7550 2950
+	7550 2750 7550 2950
 Connection ~ 7550 2850
 Wire Wire Line
 	7750 2850 7750 2750
@@ -721,17 +701,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 2750 7150 2850
 Wire Wire Line
-	7150 2850 7350 2850
-Wire Wire Line
-	7350 2850 7550 2850
-Wire Wire Line
-	7550 2850 7750 2850
-Wire Wire Line
-	7750 2850 7950 2850
-Wire Wire Line
-	7950 2850 8150 2850
-Wire Wire Line
-	8150 2850 8350 2850
+	7150 2850 8350 2850
 Wire Wire Line
 	950  6250 1050 6250
 Wire Wire Line
@@ -753,9 +723,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 7250 2950 7250
 Wire Wire Line
-	2950 7250 2950 7300
-Wire Wire Line
-	2950 7300 2950 7350
+	2950 7250 2950 7350
 Wire Wire Line
 	2950 7350 3050 7350
 Wire Wire Line
@@ -864,9 +832,7 @@ F 3 "" H 10100 5950 50  0001 C CNN
 $EndComp
 Connection ~ 10100 5550
 Wire Wire Line
-	10100 5450 10100 5550
-Wire Wire Line
-	10100 5550 10100 5650
+	10100 5450 10100 5650
 $Comp
 L C_Small C?
 U 1 1 5B1EDFD0
@@ -879,9 +845,7 @@ F 3 "" H 10100 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9400 5550 10100 5550
-Wire Wire Line
-	10100 5550 10200 5550
+	9400 5550 10200 5550
 Text Label 9400 5550 0    60   ~ 0
 PS_RESET
 $Comp

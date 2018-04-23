@@ -53,7 +53,7 @@ LIBS:sn74lv1t126
 LIBS:emif06-msd02n16
 LIBS:cat24c02tdi-gt3
 LIBS:power_symbols
-LIBS:zynq_board-cache
+LIBS:ti_power_modules
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -255,9 +255,7 @@ F 3 "" H 5100 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5350 2150 5300 2150
-Wire Wire Line
-	5300 2150 5200 2150
+	5200 2150 5350 2150
 Wire Wire Line
 	5350 2650 4850 2650
 Wire Wire Line

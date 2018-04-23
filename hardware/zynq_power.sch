@@ -53,7 +53,7 @@ LIBS:sn74lv1t126
 LIBS:emif06-msd02n16
 LIBS:cat24c02tdi-gt3
 LIBS:power_symbols
-LIBS:zynq_board-cache
+LIBS:ti_power_modules
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -382,13 +382,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 1550 8950 1550
 Wire Wire Line
-	8850 950  8850 1250
-Wire Wire Line
-	8850 1250 8850 1550
-Wire Wire Line
-	8850 1550 8850 1650
-Wire Wire Line
-	8850 1650 8850 1950
+	8850 950  8850 1950
 Wire Wire Line
 	9900 1250 9150 1250
 Wire Wire Line
@@ -405,13 +399,9 @@ Wire Wire Line
 	8850 1950 9900 1950
 Connection ~ 8850 1650
 Wire Wire Line
-	9900 1850 8400 1850
+	8400 1850 9900 1850
 Wire Wire Line
-	8400 950  8400 1750
-Wire Wire Line
-	8400 1750 8400 1850
-Wire Wire Line
-	8400 1850 8400 2050
+	8400 950  8400 2050
 Wire Wire Line
 	8400 2050 9900 2050
 Connection ~ 8400 1850

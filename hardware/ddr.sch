@@ -53,7 +53,7 @@ LIBS:sn74lv1t126
 LIBS:emif06-msd02n16
 LIBS:cat24c02tdi-gt3
 LIBS:power_symbols
-LIBS:zynq_board-cache
+LIBS:ti_power_modules
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535

@@ -53,12 +53,12 @@ LIBS:sn74lv1t126
 LIBS:emif06-msd02n16
 LIBS:cat24c02tdi-gt3
 LIBS:power_symbols
-LIBS:zynq_board-cache
+LIBS:ti_power_modules
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 21
+Sheet 5 21
 Title ""
 Date ""
 Rev ""

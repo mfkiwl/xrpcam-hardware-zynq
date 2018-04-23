@@ -53,7 +53,7 @@ LIBS:sn74lv1t126
 LIBS:emif06-msd02n16
 LIBS:cat24c02tdi-gt3
 LIBS:power_symbols
-LIBS:zynq_board-cache
+LIBS:ti_power_modules
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -76,6 +76,8 @@ F 0 "U?" H 5600 1650 60  0000 L CNN
 F 1 "xc7z030sbg485" H 5600 1550 60  0000 L CNN
 F 2 "footprints:SBG485_22x22_19.0x19.0mm_Pitch0.8mm" H 5400 1400 60  0001 C CNN
 F 3 "" H 5400 1400 60  0001 C CNN
+F 4 "1" H 5400 1400 60  0001 C CNN "Populated"
+F 5 "SPEC" H 5400 1400 60  0001 C CNN "Source"
 	4    5400 1400
 	1    0    0    -1  
 $EndComp

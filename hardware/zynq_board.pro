@@ -1,4 +1,4 @@
-update=2018 April 23, Monday 00:07:15
+update=Mo 23 Apr 2018 10:27:36 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -82,3 +82,4 @@ LibName50=libraries/schematics/sn74lv1t126
 LibName51=libraries/schematics/emif06-msd02n16
 LibName52=libraries/schematics/cat24c02tdi-gt3
 LibName53=libraries/schematics/power_symbols
+LibName54=libraries/schematics/ti_power_modules
