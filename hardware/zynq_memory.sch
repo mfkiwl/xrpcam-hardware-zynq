@@ -54,6 +54,7 @@ LIBS:emif06-msd02n16
 LIBS:cat24c02tdi-gt3
 LIBS:power_symbols
 LIBS:ti_power_modules
+LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
