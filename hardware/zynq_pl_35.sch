@@ -248,4 +248,6 @@ Text HLabel 5050 3900 0    60   Output ~ 0
 CAM_CLK1_REF_18
 Wire Wire Line
 	5050 2400 5400 2400
+Text Notes 1000 850  0    60   ~ 0
+TODO: VCCO(AFAIK 1,8 V), is VREF needed for this single ended signals?
 $EndSCHEMATC

@@ -2855,7 +2855,7 @@ Sense Threshold 4.85V
 Text Label 8300 1400 0    60   ~ 0
 5V
 Text Notes 1100 1000 0    60   ~ 0
-Missing:\n* Input Protection\n* Input Connector
+Missing:\n* Input Protection\n* Input Connector\n* evtl. 2,5 V supply. May be needed for Bank 13.
 Text Label 7150 2350 2    60   ~ 0
 PG_5V
 $Comp

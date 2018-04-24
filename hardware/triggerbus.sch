@@ -1418,4 +1418,6 @@ Text Label 9650 5250 0    60   ~ 0
 5V_OUT
 Text Label 9650 5350 0    60   ~ 0
 3.3V_OUT
+Text Notes 6200 6050 0    60   ~ 0
+TODO: Select connector(footprint)
 $EndSCHEMATC

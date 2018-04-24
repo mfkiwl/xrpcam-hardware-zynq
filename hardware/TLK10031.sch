@@ -1119,4 +1119,6 @@ F 8 "SPEC" H 2650 2850 60  0001 C CNN "Source"
 	1    2650 2850
 	0    1    1    0   
 $EndComp
+Text Notes 1350 7600 0    60   ~ 0
+TODO: Select Footprint for JTAG Connector.\nFor Just in Case. We don't have enough information to do even an\nboundary scan. So it may not be useful ....
 $EndSCHEMATC

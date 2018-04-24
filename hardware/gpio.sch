@@ -457,4 +457,6 @@ Wire Wire Line
 Text HLabel 10300 4550 0    60   Output ~ 0
 BUTTON1
 Connection ~ 10400 4550
+Text Notes 1600 4250 0    60   ~ 0
+TODO: Select footprint for connector. Maybe something high density. Just in Case for soldering a wire to it or somthing like that.
 $EndSCHEMATC

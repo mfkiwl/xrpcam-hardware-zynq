@@ -344,4 +344,6 @@ Text Label 7100 6000 2    60   ~ 0
 CAM_CTRL_1_N
 Text Label 7100 6100 2    60   ~ 0
 CAM_CTRL_1_P
+Text Notes 1050 1200 0    60   ~ 0
+TODO: VCCO(2,5 V AFAIK)
 $EndSCHEMATC

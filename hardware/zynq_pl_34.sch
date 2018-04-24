@@ -196,4 +196,6 @@ Wire Wire Line
 	4800 2300 5250 2300
 Wire Wire Line
 	5250 2200 4800 2200
+Text Notes 1650 1350 0    60   ~ 0
+TODO: VCCO(AFAIK 1,8 V), is VREF needed for this single ended signals?
 $EndSCHEMATC
