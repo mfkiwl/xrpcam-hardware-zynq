@@ -370,12 +370,12 @@ $EndComp
 $Comp
 L +1V0 #PWR?
 U 1 1 5ADF2035
-P 8400 950
-F 0 "#PWR?" H 8400 800 50  0001 C CNN
-F 1 "+1V0" H 8400 1090 50  0000 C CNN
-F 2 "" H 8400 950 50  0001 C CNN
-F 3 "" H 8400 950 50  0001 C CNN
-	1    8400 950 
+P 7900 950
+F 0 "#PWR?" H 7900 800 50  0001 C CNN
+F 1 "+1V0" H 7900 1090 50  0000 C CNN
+F 2 "" H 7900 950 50  0001 C CNN
+F 3 "" H 7900 950 50  0001 C CNN
+	1    7900 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -393,22 +393,20 @@ Wire Wire Line
 Wire Wire Line
 	8950 1250 8850 1250
 Connection ~ 8850 1250
-Wire Wire Line
-	8850 1650 9900 1650
 Connection ~ 8850 1550
 Wire Wire Line
 	8850 1950 9900 1950
 Connection ~ 8850 1650
 Wire Wire Line
-	8400 1850 9900 1850
+	7900 1850 9900 1850
 Wire Wire Line
-	8400 950  8400 2050
+	7900 950  7900 2050
 Wire Wire Line
-	8400 2050 9900 2050
-Connection ~ 8400 1850
+	7900 2050 9900 2050
+Connection ~ 7900 1850
 Wire Wire Line
-	9900 1750 8400 1750
-Connection ~ 8400 1750
+	7900 1750 9900 1750
+Connection ~ 7900 1750
 Wire Wire Line
 	9900 1350 9800 1350
 Wire Wire Line
@@ -439,4 +437,8 @@ F 3 "" H 9350 950 50  0001 C CNN
 	1    9350 950 
 	1    0    0    -1  
 $EndComp
+Text GLabel 8450 1650 0    60   Output ~ 0
+VCCAUX
+Wire Wire Line
+	8450 1650 9900 1650
 $EndSCHEMATC
