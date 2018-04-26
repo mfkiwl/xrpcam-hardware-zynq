@@ -250,4 +250,8 @@ Wire Wire Line
 	5050 2400 5400 2400
 Text Notes 1000 850  0    60   ~ 0
 TODO: VCCO(AFAIK 1,8 V), is VREF needed for this single ended signals?
+Text GLabel 5050 6400 0    60   Input ~ 0
+VCCO_35
+Wire Wire Line
+	5050 6400 5400 6400
 $EndSCHEMATC

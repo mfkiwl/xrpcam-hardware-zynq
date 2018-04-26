@@ -346,4 +346,8 @@ Text Label 7100 6100 2    60   ~ 0
 CAM_CTRL_1_P
 Text Notes 1050 1200 0    60   ~ 0
 TODO: VCCO(2,5 V AFAIK)
+Text GLabel 6300 6200 0    60   Input ~ 0
+VCCO_13
+Wire Wire Line
+	6300 6200 7200 6200
 $EndSCHEMATC

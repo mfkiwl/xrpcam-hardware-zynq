@@ -83,255 +83,136 @@ $EndComp
 $Comp
 L C_Small C?
 U 1 1 59872421
-P 4300 1750
-F 0 "C?" H 4310 1820 50  0000 L CNN
-F 1 "0.47µF" H 4310 1670 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4300 1750 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4300 1750 50  0001 C CNN
-F 4 "Murata" H 4300 1750 60  0001 C CNN "MFG Name"
-F 5 "GRM188R70J474KA01" H 4300 1750 60  0001 C CNN "MFG Part Num"
-F 6 "490-6416-1-ND" H 4300 1750 60  0001 C CNN "Digikey"
-F 7 "1" H 4300 1750 60  0001 C CNN "Populated"
-F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 4300 1750 60  0001 C CNN "Description"
-F 9 "SPEC" H 4300 1750 60  0001 C CNN "Source"
-	1    4300 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 59872452
-P 4650 1750
-F 0 "C?" H 4660 1820 50  0000 L CNN
-F 1 "4.7µF" H 4660 1670 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 4650 1750 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 4650 1750 50  0001 C CNN
-F 4 "Murata" H 4650 1750 60  0001 C CNN "MFG Name"
-F 5 "GRM21BR71A475KA73" H 4650 1750 60  0001 C CNN "MFG Part Num"
-F 6 "490-6479-1-ND" H 4650 1750 60  0001 C CNN "Digikey"
-F 7 "1" H 4650 1750 60  0001 C CNN "Populated"
-F 8 "CAP CER 4.7UF 10V X7R 0805" H 4650 1750 60  0001 C CNN "Description"
-F 9 "SPEC" H 4650 1750 60  0001 C CNN "Source"
-	1    4650 1750
+P 9600 5450
+F 0 "C?" H 9610 5520 50  0000 L CNN
+F 1 "0.47µF" H 9610 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9600 5450 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9600 5450 50  0001 C CNN
+F 4 "Murata" H 9600 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM155R60J474KE19D" H 9600 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-3266-1-ND" H 9600 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 9600 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X5R 0603" H 9600 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 9600 5450 60  0001 C CNN "Source"
+	1    9600 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 59872474
-P 5050 1750
-F 0 "C?" H 5060 1820 50  0000 L CNN
-F 1 "10μF" H 5060 1670 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5050 1750 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5050 1750 50  0001 C CNN
-F 4 "Murata" H 5050 1750 60  0001 C CNN "MFG Name"
-F 5 "GRM188R60G106ME47" H 5050 1750 60  0001 C CNN "MFG Part Num"
-F 6 "490-6403-1-ND" H 5050 1750 60  0001 C CNN "Digikey"
-F 7 "1" H 5050 1750 60  0001 C CNN "Populated"
-F 8 "CAP CER 10UF 4V X5R 0603" H 5050 1750 60  0001 C CNN "Description"
-F 9 "SPEC" H 5050 1750 60  0001 C CNN "Source"
-	1    5050 1750
+P 9100 5450
+F 0 "C?" H 9110 5520 50  0000 L CNN
+F 1 "10μF" H 9110 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9100 5450 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9100 5450 50  0001 C CNN
+F 4 "Murata" H 9100 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM188R60G106ME47" H 9100 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6403-1-ND" H 9100 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 9100 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 10UF 4V X5R 0603" H 9100 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 9100 5450 60  0001 C CNN "Source"
+	1    9100 5450
 	1    0    0    -1  
 $EndComp
-$Comp
-L C_Small C?
-U 1 1 59872495
-P 5500 1750
-F 0 "C?" H 5510 1820 50  0000 L CNN
-F 1 "47µF" H 5510 1670 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210" H 5500 1750 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J476ME20-01.pdf" H 5500 1750 50  0001 C CNN
-F 4 "Murata" H 5500 1750 60  0001 C CNN "MFG Name"
-F 5 "GRM32ER60J476ME20L" H 5500 1750 60  0001 C CNN "MFG Part Num"
-F 6 "490-1887-1-ND" H 5500 1750 60  0001 C CNN "Digikey"
-F 7 "1" H 5500 1750 60  0001 C CNN "Populated"
-F 8 "CAP CER 47UF 6.3V X5R 1210" H 5500 1750 60  0001 C CNN "Description"
-F 9 "SPEC" H 5500 1750 60  0001 C CNN "Source"
-	1    5500 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP_Small C?
-U 1 1 598724F1
-P 6550 1750
-F 0 "C?" H 6560 1820 50  0000 L CNN
-F 1 "100µF" H 6560 1670 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210" H 6550 1750 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 6550 1750 50  0001 C CNN
-F 4 "Murata" H 6550 1750 60  0001 C CNN "MFG Name"
-F 5 "GRM32EE70G107ME19L" H 6550 1750 60  0001 C CNN "MFG Part Num"
-F 6 "490-6534-1-ND" H 6550 1750 60  0001 C CNN "Digikey"
-F 7 "1" H 6550 1750 60  0001 C CNN "Populated"
-F 8 "CAP CER 100UF 4V X7U 1210" H 6550 1750 60  0001 C CNN "Description"
-F 9 "SPEC" H 6550 1750 60  0001 C CNN "Source"
-	1    6550 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP_Small C?
-U 1 1 59872521
-P 7100 1850
-F 0 "C?" H 7110 1920 50  0000 L CNN
-F 1 "330µF" H 7110 1770 50  0000 L CNN
-F 2 "C_2917" H 7100 1850 50  0001 C CNN
-F 3 "http://www.kemet.com/docfinder?Partnumber=T520" H 7100 1850 50  0001 C CNN
-F 4 "KEMET" H 7100 1850 60  0001 C CNN "MFG Name"
-F 5 "T520V337M2R5ATE025" H 7100 1850 60  0001 C CNN "MFG Part Num"
-F 6 "399-4105-1-ND" H 7100 1850 60  0001 C CNN "Digikey"
-F 7 "1" H 7100 1850 60  0001 C CNN "Populated"
-F 8 "CAP TANT POLY 330UF 2.5V 2917, ESR < 50mOhm" H 7100 1850 60  0001 C CNN "Description"
-F 9 "SPEC" H 7100 1850 60  0001 C CNN "Source"
-	1    7100 1850
-	1    0    0    -1  
-$EndComp
-Text Notes 900  900  0    60   ~ 0
+Text Notes 950  800  0    60   ~ 0
 VCC_INT
-Text Notes 2550 850  0    60   ~ 0
+Text Notes 3450 800  0    60   ~ 0
 VCC_BRAM
-Text Notes 3450 850  0    60   ~ 0
-VCC_AUX
-Text Notes 4300 850  0    60   ~ 0
+Text Notes 650  2800 0    60   ~ 0
 V_BANK0
-Text Notes 5150 900  0    60   ~ 0
+Text Notes 650  4700 0    60   ~ 0
 VCCO_13
-Text Notes 6050 850  0    60   ~ 0
+Text Notes 3850 4700 0    60   ~ 0
 VCCO_34
-Text Notes 6800 850  0    60   ~ 0
+Text Notes 5850 4700 0    60   ~ 0
 VCCO_35
-Text Notes 1150 3100 0    60   ~ 0
+Text Notes 1800 2800 0    60   ~ 0
 VCC_PINT
-Text Notes 2000 3050 0    60   ~ 0
+Text Notes 3550 2800 0    60   ~ 0
 VCC_PAUX
-Text Notes 2700 3000 0    60   ~ 0
+Text Notes 4950 2800 0    60   ~ 0
 VCCO_DDR
-Text Notes 4600 2850 0    60   ~ 0
-VCC_MIO1
 $Comp
 L CP_Small C?
 U 1 1 598743AB
-P 1000 1200
-F 0 "C?" H 1010 1270 50  0000 L CNN
-F 1 "330µF" H 1010 1120 50  0000 L CNN
-F 2 "C_2917" H 1000 1200 50  0001 C CNN
-F 3 "http://www.kemet.com/docfinder?Partnumber=T520" H 1000 1200 50  0001 C CNN
-F 4 "KEMET" H 1000 1200 60  0001 C CNN "MFG Name"
-F 5 "T520V337M2R5ATE025" H 1000 1200 60  0001 C CNN "MFG Part Num"
-F 6 "399-4105-1-ND" H 1000 1200 60  0001 C CNN "Digikey"
-F 7 "1" H 1000 1200 60  0001 C CNN "Populated"
-F 8 "CAP TANT POLY 330UF 2.5V 2917, ESR < 50mOhm" H 1000 1200 60  0001 C CNN "Description"
-F 9 "SPEC" H 1000 1200 60  0001 C CNN "Source"
-	1    1000 1200
+P 950 1500
+F 0 "C?" H 960 1570 50  0000 L CNN
+F 1 "330µF" H 960 1420 50  0000 L CNN
+F 2 "C_2917" H 950 1500 50  0001 C CNN
+F 3 "http://www.kemet.com/docfinder?Partnumber=T520" H 950 1500 50  0001 C CNN
+F 4 "KEMET" H 950 1500 60  0001 C CNN "MFG Name"
+F 5 "T520V337M2R5ATE025" H 950 1500 60  0001 C CNN "MFG Part Num"
+F 6 "399-4105-1-ND" H 950 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 950 1500 60  0001 C CNN "Populated"
+F 8 "CAP TANT POLY 330UF 2.5V 2917, ESR < 50mOhm" H 950 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 950 1500 60  0001 C CNN "Source"
+	1    950  1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5987452E
-P 1000 1550
-F 0 "C?" H 1010 1620 50  0000 L CNN
-F 1 "0.47µF" H 1010 1470 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1000 1550 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1000 1550 50  0001 C CNN
-F 4 "Murata" H 1000 1550 60  0001 C CNN "MFG Name"
-F 5 "GRM188R70J474KA01" H 1000 1550 60  0001 C CNN "MFG Part Num"
-F 6 "490-6416-1-ND" H 1000 1550 60  0001 C CNN "Digikey"
-F 7 "1" H 1000 1550 60  0001 C CNN "Populated"
-F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 1000 1550 60  0001 C CNN "Description"
-F 9 "SPEC" H 1000 1550 60  0001 C CNN "Source"
-	1    1000 1550
+P 2150 1500
+F 0 "C?" H 2160 1570 50  0000 L CNN
+F 1 "0.47µF" H 2160 1420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2150 1500 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2150 1500 50  0001 C CNN
+F 4 "Murata" H 2150 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 2150 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 2150 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 2150 1500 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 2150 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 2150 1500 60  0001 C CNN "Source"
+F 10 "DNP" H 2150 1500 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 2150 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    2150 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5987453A
-P 1000 1900
-F 0 "C?" H 1010 1970 50  0000 L CNN
-F 1 "4.7µF" H 1010 1820 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 1000 1900 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 1000 1900 50  0001 C CNN
-F 4 "Murata" H 1000 1900 60  0001 C CNN "MFG Name"
-F 5 "GRM21BR71A475KA73" H 1000 1900 60  0001 C CNN "MFG Part Num"
-F 6 "490-6479-1-ND" H 1000 1900 60  0001 C CNN "Digikey"
-F 7 "1" H 1000 1900 60  0001 C CNN "Populated"
-F 8 "CAP CER 4.7UF 10V X7R 0805" H 1000 1900 60  0001 C CNN "Description"
-F 9 "SPEC" H 1000 1900 60  0001 C CNN "Source"
-	1    1000 1900
+P 1450 1500
+F 0 "C?" H 1460 1570 50  0000 L CNN
+F 1 "4.7µF" H 1460 1420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1450 1500 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 1450 1500 50  0001 C CNN
+F 4 "Murata" H 1450 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 1450 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 1450 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 1450 1500 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 1450 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 1450 1500 60  0001 C CNN "Source"
+	1    1450 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 59874596
-P 1300 1900
-F 0 "C?" H 1310 1970 50  0000 L CNN
-F 1 "4.7µF" H 1310 1820 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 1300 1900 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 1300 1900 50  0001 C CNN
-F 4 "Murata" H 1300 1900 60  0001 C CNN "MFG Name"
-F 5 "GRM21BR71A475KA73" H 1300 1900 60  0001 C CNN "MFG Part Num"
-F 6 "490-6479-1-ND" H 1300 1900 60  0001 C CNN "Digikey"
-F 7 "1" H 1300 1900 60  0001 C CNN "Populated"
-F 8 "CAP CER 4.7UF 10V X7R 0805" H 1300 1900 60  0001 C CNN "Description"
-F 9 "SPEC" H 1300 1900 60  0001 C CNN "Source"
-	1    1300 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 598745D6
-P 1300 1550
-F 0 "C?" H 1310 1620 50  0000 L CNN
-F 1 "0.47µF" H 1310 1470 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1300 1550 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1300 1550 50  0001 C CNN
-F 4 "Murata" H 1300 1550 60  0001 C CNN "MFG Name"
-F 5 "GRM188R70J474KA01" H 1300 1550 60  0001 C CNN "MFG Part Num"
-F 6 "490-6416-1-ND" H 1300 1550 60  0001 C CNN "Digikey"
-F 7 "1" H 1300 1550 60  0001 C CNN "Populated"
-F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 1300 1550 60  0001 C CNN "Description"
-F 9 "SPEC" H 1300 1550 60  0001 C CNN "Source"
-	1    1300 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 59874624
-P 1600 1550
-F 0 "C?" H 1610 1620 50  0000 L CNN
-F 1 "0.47µF" H 1610 1470 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1600 1550 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1600 1550 50  0001 C CNN
-F 4 "Murata" H 1600 1550 60  0001 C CNN "MFG Name"
-F 5 "GRM188R70J474KA01" H 1600 1550 60  0001 C CNN "MFG Part Num"
-F 6 "490-6416-1-ND" H 1600 1550 60  0001 C CNN "Digikey"
-F 7 "1" H 1600 1550 60  0001 C CNN "Populated"
-F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 1600 1550 60  0001 C CNN "Description"
-F 9 "SPEC" H 1600 1550 60  0001 C CNN "Source"
-	1    1600 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5987466B
-P 1850 1550
-F 0 "C?" H 1860 1620 50  0000 L CNN
-F 1 "0.47µF" H 1860 1470 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1850 1550 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1850 1550 50  0001 C CNN
-F 4 "Murata" H 1850 1550 60  0001 C CNN "MFG Name"
-F 5 "GRM188R70J474KA01" H 1850 1550 60  0001 C CNN "MFG Part Num"
-F 6 "490-6416-1-ND" H 1850 1550 60  0001 C CNN "Digikey"
-F 7 "1" H 1850 1550 60  0001 C CNN "Populated"
-F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 1850 1550 60  0001 C CNN "Description"
-F 9 "SPEC" H 1850 1550 60  0001 C CNN "Source"
-	1    1850 1550
+P 1750 1500
+F 0 "C?" H 1760 1570 50  0000 L CNN
+F 1 "4.7µF" H 1760 1420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1750 1500 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 1750 1500 50  0001 C CNN
+F 4 "Murata" H 1750 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 1750 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 1750 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 1750 1500 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 1750 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 1750 1500 60  0001 C CNN "Source"
+F 10 "DNP" H 1750 1500 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 1750 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    1750 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L L_Small L?
 U 1 1 5AE1F2BF
-P 9050 1550
-F 0 "L?" H 9080 1590 50  0000 L CNN
-F 1 "100 Ohm @ 1Mhz" V 9000 1450 50  0000 L CNN
-F 2 "" H 9050 1550 50  0001 C CNN
-F 3 "" H 9050 1550 50  0001 C CNN
-	1    9050 1550
+P 8950 1550
+F 0 "L?" H 8980 1590 50  0000 L CNN
+F 1 "100 Ohm @ 1Mhz" V 8900 1450 50  0000 L CNN
+F 2 "" H 8950 1550 50  0001 C CNN
+F 3 "" H 8950 1550 50  0001 C CNN
+	1    8950 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -348,73 +229,41 @@ $EndComp
 $Comp
 L +1V8 #PWR?
 U 1 1 5ADEB37F
-P 8850 950
-F 0 "#PWR?" H 8850 800 50  0001 C CNN
-F 1 "+1V8" H 8850 1090 50  0000 C CNN
-F 2 "" H 8850 950 50  0001 C CNN
-F 3 "" H 8850 950 50  0001 C CNN
-	1    8850 950 
+P 8750 950
+F 0 "#PWR?" H 8750 800 50  0001 C CNN
+F 1 "+1V8" H 8750 1090 50  0000 C CNN
+F 2 "" H 8750 950 50  0001 C CNN
+F 3 "" H 8750 950 50  0001 C CNN
+	1    8750 950 
 	1    0    0    -1  
 $EndComp
 $Comp
 L L_Small L?
 U 1 1 5ADEBC1C
-P 9050 1250
-F 0 "L?" H 9080 1290 50  0000 L CNN
-F 1 "100 Ohm @ 1Mhz" V 9000 1150 50  0000 L CNN
-F 2 "" H 9050 1250 50  0001 C CNN
-F 3 "" H 9050 1250 50  0001 C CNN
-	1    9050 1250
+P 8950 1250
+F 0 "L?" H 8980 1290 50  0000 L CNN
+F 1 "120 Ohm @ 1Mhz" V 8900 1150 50  0000 L CNN
+F 2 "Inductors_SMD:L_0603" H 8950 1250 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 8950 1250 50  0001 C CNN
+F 4 "Murata Electronics North America" H 8950 1250 60  0001 C CNN "MFG Name"
+F 5 "BLM18SG121TN1D" H 8950 1250 60  0001 C CNN "MFG Part Num"
+F 6 "490-3996-1-ND" H 8950 1250 60  0001 C CNN "Digikey"
+F 7 "1" H 8950 1250 60  0001 C CNN "Populated"
+F 8 "SPEC" H 8950 1250 60  0001 C CNN "Source"
+	1    8950 1250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L +1V0 #PWR?
 U 1 1 5ADF2035
-P 7900 950
-F 0 "#PWR?" H 7900 800 50  0001 C CNN
-F 1 "+1V0" H 7900 1090 50  0000 C CNN
-F 2 "" H 7900 950 50  0001 C CNN
-F 3 "" H 7900 950 50  0001 C CNN
-	1    7900 950 
+P 7800 950
+F 0 "#PWR?" H 7800 800 50  0001 C CNN
+F 1 "+1V0" H 7800 1090 50  0000 C CNN
+F 2 "" H 7800 950 50  0001 C CNN
+F 3 "" H 7800 950 50  0001 C CNN
+	1    7800 950 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9900 1550 9150 1550
-Wire Wire Line
-	8850 1550 8950 1550
-Wire Wire Line
-	8850 950  8850 1950
-Wire Wire Line
-	9900 1250 9150 1250
-Wire Wire Line
-	9900 2150 9800 2150
-Wire Wire Line
-	9800 2150 9800 2450
-Wire Wire Line
-	8950 1250 8850 1250
-Connection ~ 8850 1250
-Connection ~ 8850 1550
-Wire Wire Line
-	8850 1950 9900 1950
-Connection ~ 8850 1650
-Wire Wire Line
-	7900 1850 9900 1850
-Wire Wire Line
-	7900 950  7900 2050
-Wire Wire Line
-	7900 2050 9900 2050
-Connection ~ 7900 1850
-Wire Wire Line
-	7900 1750 9900 1750
-Connection ~ 7900 1750
-Wire Wire Line
-	9900 1350 9800 1350
-Wire Wire Line
-	9800 1350 9800 950 
-Wire Wire Line
-	9900 1450 9350 1450
-Wire Wire Line
-	9350 1450 9350 950 
 $Comp
 L +1V0_MGT #PWR?
 U 1 1 5ADF36DC
@@ -429,16 +278,1807 @@ $EndComp
 $Comp
 L +1V2_MGT #PWR?
 U 1 1 5ADF3720
-P 9350 950
-F 0 "#PWR?" H 9350 800 50  0001 C CNN
-F 1 "+1V2_MGT" H 9350 1090 50  0000 C CNN
-F 2 "" H 9350 950 50  0001 C CNN
-F 3 "" H 9350 950 50  0001 C CNN
-	1    9350 950 
+P 9250 950
+F 0 "#PWR?" H 9250 800 50  0001 C CNN
+F 1 "+1V2_MGT" H 9250 1090 50  0000 C CNN
+F 2 "" H 9250 950 50  0001 C CNN
+F 3 "" H 9250 950 50  0001 C CNN
+	1    9250 950 
 	1    0    0    -1  
 $EndComp
-Text GLabel 8450 1650 0    60   Output ~ 0
-VCCAUX
+Text GLabel 8350 1650 0    60   Input ~ 0
+VCC_AUX
+$Comp
+L CP_Small C?
+U 1 1 5AE693FF
+P 3500 1500
+F 0 "C?" H 3510 1570 50  0000 L CNN
+F 1 "100µF" H 3510 1420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 3500 1500 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 3500 1500 50  0001 C CNN
+F 4 "Murata" H 3500 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM32EE70G107ME19L" H 3500 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-6534-1-ND" H 3500 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 3500 1500 60  0001 C CNN "Populated"
+F 8 "CAP CER 100UF 4V X7U 1210" H 3500 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 3500 1500 60  0001 C CNN "Source"
+	1    3500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE6986D
+P 4350 1500
+F 0 "C?" H 4360 1570 50  0000 L CNN
+F 1 "0.47µF" H 4360 1420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4350 1500 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4350 1500 50  0001 C CNN
+F 4 "Murata" H 4350 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 4350 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 4350 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 4350 1500 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 4350 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 4350 1500 60  0001 C CNN "Source"
+	1    4350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE69B3D
+P 4650 1500
+F 0 "C?" H 4660 1570 50  0000 L CNN
+F 1 "0.47µF" H 4660 1420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4650 1500 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4650 1500 50  0001 C CNN
+F 4 "Murata" H 4650 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 4650 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 4650 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 4650 1500 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 4650 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 4650 1500 60  0001 C CNN "Source"
+F 10 "Populate" H 4650 1500 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "DNP" H 4650 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    4650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE69C03
+P 3950 1500
+F 0 "C?" H 3960 1570 50  0000 L CNN
+F 1 "4.7µF" H 3960 1420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3950 1500 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 3950 1500 50  0001 C CNN
+F 4 "Murata" H 3950 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 3950 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 3950 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 3950 1500 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 3950 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 3950 1500 60  0001 C CNN "Source"
+	1    3950 1500
+	1    0    0    -1  
+$EndComp
+Text Notes 5350 800  0    60   ~ 0
+VCC_AUX
+$Comp
+L C_Small C?
+U 1 1 5AE69D6F
+P 5250 1500
+F 0 "C?" H 5260 1570 50  0000 L CNN
+F 1 "47µF" H 5260 1420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 5250 1500 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J476ME20-01.pdf" H 5250 1500 50  0001 C CNN
+F 4 "Murata" H 5250 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM32ER60J476ME20L" H 5250 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-1887-1-ND" H 5250 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 5250 1500 60  0001 C CNN "Populated"
+F 8 "CAP CER 47UF 6.3V X5R 1210" H 5250 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 5250 1500 60  0001 C CNN "Source"
+	1    5250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE69E80
+P 5650 1500
+F 0 "C?" H 5660 1570 50  0000 L CNN
+F 1 "4.7µF" H 5660 1420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5650 1500 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 5650 1500 50  0001 C CNN
+F 4 "Murata" H 5650 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 5650 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 5650 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 5650 1500 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 5650 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 5650 1500 60  0001 C CNN "Source"
+F 10 "DNP" H 5650 1500 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 5650 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    5650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE7068A
+P 1200 3550
+F 0 "C?" H 1210 3620 50  0000 L CNN
+F 1 "47µF" H 1210 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 1200 3550 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J476ME20-01.pdf" H 1200 3550 50  0001 C CNN
+F 4 "Murata" H 1200 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM32ER60J476ME20L" H 1200 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-1887-1-ND" H 1200 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 1200 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 47UF 6.3V X5R 1210" H 1200 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 1200 3550 60  0001 C CNN "Source"
+	1    1200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP_Small C?
+U 1 1 5AE72084
+P 1700 3550
+F 0 "C?" H 1710 3620 50  0000 L CNN
+F 1 "100µF" H 1710 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 1700 3550 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 1700 3550 50  0001 C CNN
+F 4 "Murata" H 1700 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM32EE70G107ME19L" H 1700 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6534-1-ND" H 1700 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 1700 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 100UF 4V X7U 1210" H 1700 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 1700 3550 60  0001 C CNN "Source"
+	1    1700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP_Small C?
+U 1 1 5AE72476
+P 3750 3550
+F 0 "C?" H 3760 3620 50  0000 L CNN
+F 1 "100µF" H 3760 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 3750 3550 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 3750 3550 50  0001 C CNN
+F 4 "Murata" H 3750 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM32EE70G107ME19L" H 3750 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6534-1-ND" H 3750 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 3750 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 100UF 4V X7U 1210" H 3750 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 3750 3550 60  0001 C CNN "Source"
+	1    3750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE72515
+P 4200 3550
+F 0 "C?" H 4210 3620 50  0000 L CNN
+F 1 "4.7µF" H 4210 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4200 3550 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 4200 3550 50  0001 C CNN
+F 4 "Murata" H 4200 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 4200 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 4200 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 4200 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 4200 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 4200 3550 60  0001 C CNN "Source"
+	1    4200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE725CF
+P 4600 3550
+F 0 "C?" H 4610 3620 50  0000 L CNN
+F 1 "0.47µF" H 4610 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4600 3550 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4600 3550 50  0001 C CNN
+F 4 "Murata" H 4600 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 4600 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 4600 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 4600 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 4600 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 4600 3550 60  0001 C CNN "Source"
+	1    4600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP_Small C?
+U 1 1 5AE72A74
+P 5150 3550
+F 0 "C?" H 5160 3620 50  0000 L CNN
+F 1 "100µF" H 5160 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 5150 3550 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 5150 3550 50  0001 C CNN
+F 4 "Murata" H 5150 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM32EE70G107ME19L" H 5150 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6534-1-ND" H 5150 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 5150 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 100UF 4V X7U 1210" H 5150 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 5150 3550 60  0001 C CNN "Source"
+	1    5150 3550
+	1    0    0    -1  
+$EndComp
+Text Notes 7100 2800 0    60   ~ 0
+VCCO_MIO0
+$Comp
+L CP_Small C?
+U 1 1 5AE732C2
+P 7350 3550
+F 0 "C?" H 7360 3620 50  0000 L CNN
+F 1 "100µF" H 7360 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 7350 3550 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 7350 3550 50  0001 C CNN
+F 4 "Murata" H 7350 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM32EE70G107ME19L" H 7350 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6534-1-ND" H 7350 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 7350 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 100UF 4V X7U 1210" H 7350 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 7350 3550 60  0001 C CNN "Source"
+	1    7350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE73388
+P 7800 3550
+F 0 "C?" H 7810 3620 50  0000 L CNN
+F 1 "4.7µF" H 7810 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7800 3550 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 7800 3550 50  0001 C CNN
+F 4 "Murata" H 7800 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 7800 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 7800 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 7800 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 7800 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 7800 3550 60  0001 C CNN "Source"
+	1    7800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE7344D
+P 8200 3550
+F 0 "C?" H 8210 3620 50  0000 L CNN
+F 1 "0.47µF" H 8210 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8200 3550 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 8200 3550 50  0001 C CNN
+F 4 "Murata" H 8200 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 8200 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 8200 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 8200 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 8200 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 8200 3550 60  0001 C CNN "Source"
+	1    8200 3550
+	1    0    0    -1  
+$EndComp
+Text Notes 8450 2800 0    60   ~ 0
+VCCO_MIO1
+$Comp
+L C_Small C?
+U 1 1 5AE73C22
+P 800 5450
+F 0 "C?" H 810 5520 50  0000 L CNN
+F 1 "47µF" H 810 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 800 5450 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J476ME20-01.pdf" H 800 5450 50  0001 C CNN
+F 4 "Murata" H 800 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM32ER60J476ME20L" H 800 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-1887-1-ND" H 800 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 800 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 47UF 6.3V X5R 1210" H 800 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 800 5450 60  0001 C CNN "Source"
+	1    800  5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AE7C463
+P 1950 1800
+F 0 "#PWR?" H 1950 1550 50  0001 C CNN
+F 1 "GND" H 1950 1650 50  0000 C CNN
+F 2 "" H 1950 1800 50  0001 C CNN
+F 3 "" H 1950 1800 50  0001 C CNN
+	1    1950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AE7E589
+P 4150 1800
+F 0 "#PWR?" H 4150 1550 50  0001 C CNN
+F 1 "GND" H 4150 1650 50  0000 C CNN
+F 2 "" H 4150 1800 50  0001 C CNN
+F 3 "" H 4150 1800 50  0001 C CNN
+	1    4150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AE7F51C
+P 5850 1800
+F 0 "#PWR?" H 5850 1550 50  0001 C CNN
+F 1 "GND" H 5850 1650 50  0000 C CNN
+F 2 "" H 5850 1800 50  0001 C CNN
+F 3 "" H 5850 1800 50  0001 C CNN
+	1    5850 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5850 1150 1    60   Output ~ 0
+VCC_AUX
+$Comp
+L GND #PWR?
+U 1 1 5AE7FA73
+P 1200 3850
+F 0 "#PWR?" H 1200 3600 50  0001 C CNN
+F 1 "GND" H 1200 3700 50  0000 C CNN
+F 2 "" H 1200 3850 50  0001 C CNN
+F 3 "" H 1200 3850 50  0001 C CNN
+	1    1200 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 1200 3200 1    60   Output ~ 0
+V_BANK0
+$Comp
+L GND #PWR?
+U 1 1 5AE89821
+P 2400 3850
+F 0 "#PWR?" H 2400 3600 50  0001 C CNN
+F 1 "GND" H 2400 3700 50  0000 C CNN
+F 2 "" H 2400 3850 50  0001 C CNN
+F 3 "" H 2400 3850 50  0001 C CNN
+	1    2400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AE8A8F2
+P 4200 3850
+F 0 "#PWR?" H 4200 3600 50  0001 C CNN
+F 1 "GND" H 4200 3700 50  0000 C CNN
+F 2 "" H 4200 3850 50  0001 C CNN
+F 3 "" H 4200 3850 50  0001 C CNN
+	1    4200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AE8B200
+P 5750 3850
+F 0 "#PWR?" H 5750 3600 50  0001 C CNN
+F 1 "GND" H 5750 3700 50  0000 C CNN
+F 2 "" H 5750 3850 50  0001 C CNN
+F 3 "" H 5750 3850 50  0001 C CNN
+	1    5750 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5750 3250 1    60   Output ~ 0
+VCCO_DDR
+$Comp
+L GND #PWR?
+U 1 1 5AE8BE29
+P 7800 3850
+F 0 "#PWR?" H 7800 3600 50  0001 C CNN
+F 1 "GND" H 7800 3700 50  0000 C CNN
+F 2 "" H 7800 3850 50  0001 C CNN
+F 3 "" H 7800 3850 50  0001 C CNN
+	1    7800 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 3200 1    60   Output ~ 0
+VCCO_MIO0
+$Comp
+L CP_Small C?
+U 1 1 5AE8C444
+P 8700 3550
+F 0 "C?" H 8710 3620 50  0000 L CNN
+F 1 "100µF" H 8710 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 8700 3550 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 8700 3550 50  0001 C CNN
+F 4 "Murata" H 8700 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM32EE70G107ME19L" H 8700 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6534-1-ND" H 8700 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 8700 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 100UF 4V X7U 1210" H 8700 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 8700 3550 60  0001 C CNN "Source"
+	1    8700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE8C450
+P 9150 3550
+F 0 "C?" H 9160 3620 50  0000 L CNN
+F 1 "4.7µF" H 9160 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 9150 3550 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 9150 3550 50  0001 C CNN
+F 4 "Murata" H 9150 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 9150 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 9150 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 9150 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 9150 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 9150 3550 60  0001 C CNN "Source"
+	1    9150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AE8C45C
+P 9550 3550
+F 0 "C?" H 9560 3620 50  0000 L CNN
+F 1 "0.47µF" H 9560 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9550 3550 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9550 3550 50  0001 C CNN
+F 4 "Murata" H 9550 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 9550 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 9550 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 9550 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 9550 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 9550 3550 60  0001 C CNN "Source"
+	1    9550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AE8C46C
+P 9150 3850
+F 0 "#PWR?" H 9150 3600 50  0001 C CNN
+F 1 "GND" H 9150 3700 50  0000 C CNN
+F 2 "" H 9150 3850 50  0001 C CNN
+F 3 "" H 9150 3850 50  0001 C CNN
+	1    9150 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9150 3200 1    60   Output ~ 0
+VCCO_MIO1
+$Comp
+L GND #PWR?
+U 1 1 5AE8F4DA
+P 1800 5750
+F 0 "#PWR?" H 1800 5500 50  0001 C CNN
+F 1 "GND" H 1800 5600 50  0000 C CNN
+F 2 "" H 1800 5750 50  0001 C CNN
+F 3 "" H 1800 5750 50  0001 C CNN
+	1    1800 5750
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 5100 1    60   Output ~ 0
+VCCO_13
+$Comp
+L GND #PWR?
+U 1 1 5AE900AE
+P 4450 5750
+F 0 "#PWR?" H 4450 5500 50  0001 C CNN
+F 1 "GND" H 4450 5600 50  0000 C CNN
+F 2 "" H 4450 5750 50  0001 C CNN
+F 3 "" H 4450 5750 50  0001 C CNN
+	1    4450 5750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4450 5100 1    60   Output ~ 0
+VCCO_34
+$Comp
+L C_Small C?
+U 1 1 5AE90BAB
+P 5950 5450
+F 0 "C?" H 5960 5520 50  0000 L CNN
+F 1 "47µF" H 5960 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 5950 5450 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J476ME20-01.pdf" H 5950 5450 50  0001 C CNN
+F 4 "Murata" H 5950 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM32ER60J476ME20L" H 5950 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-1887-1-ND" H 5950 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 5950 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 47UF 6.3V X5R 1210" H 5950 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 5950 5450 60  0001 C CNN "Source"
+	1    5950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AE90BE3
+P 6950 5750
+F 0 "#PWR?" H 6950 5500 50  0001 C CNN
+F 1 "GND" H 6950 5600 50  0000 C CNN
+F 2 "" H 6950 5750 50  0001 C CNN
+F 3 "" H 6950 5750 50  0001 C CNN
+	1    6950 5750
+	1    0    0    -1  
+$EndComp
+Text GLabel 6950 5100 1    60   Output ~ 0
+VCCO_35
+Text Notes 3650 4350 0    60   ~ 0
+1,8 V
+Text Notes 5600 6200 0    60   ~ 0
+Only one 47 µF Cap\nneeded per 4 Banks\nof the same Type(HP/HR)\nat the same Voltage
+Text Notes 4600 5100 0    60   ~ 0
+Only needed for\nCLG484 Package\n(Z-7012S/Z-7015)
+Text Notes 7050 5100 0    60   ~ 0
+Only needed for\nCLG484 Package\n(Z-7012S/Z-7015)
+Text Notes 2000 5100 0    60   ~ 0
+Only needed for\nCLG484 Package\n(Z-7012S/Z-7015)
+Text Notes 2150 1150 0    60   ~ 0
+Only needed for\nCLG484 Package\n(Z-7012S/Z-7015)
+Text Notes 4350 1050 0    60   ~ 0
+Only needed for\nSBG485 Package\n(Z-7030)
+Text Notes 5950 1100 0    60   ~ 0
+Only needed for\nCLG484 Package\n(Z-7012S/Z-7015)
+Text Notes 600  4350 0    60   ~ 0
+2,5 V
+Text Notes 2500 3200 0    60   ~ 0
+Only needed for\nCLG484 Package\n(Z-7012S/Z-7015)
+Text Notes 5950 3250 0    60   ~ 0
+Only needed for\nCLG484 Package\n(Z-7012S/Z-7015)
+Text Notes 8650 4700 0    60   ~ 0
+VCC_PLL
+$Comp
+L GND #PWR?
+U 1 1 5AEEEC20
+P 9350 5750
+F 0 "#PWR?" H 9350 5500 50  0001 C CNN
+F 1 "GND" H 9350 5600 50  0000 C CNN
+F 2 "" H 9350 5750 50  0001 C CNN
+F 3 "" H 9350 5750 50  0001 C CNN
+	1    9350 5750
+	1    0    0    -1  
+$EndComp
+Text Label 9550 800  3    60   ~ 0
+VCC_PLL
+Text Label 9350 4750 3    60   ~ 0
+VCC_PLL
+Text Label 2400 2750 3    60   ~ 0
+VCC_PINT
+Text Label 7200 2050 0    60   ~ 0
+VCC_PINT
+Text Label 7200 1850 0    60   ~ 0
+VCC_INT
+Text Label 1950 750  3    60   ~ 0
+VCC_INT
+Text Label 7200 1750 0    60   ~ 0
+VCC_BRAM
+Text Label 4150 750  3    60   ~ 0
+VCC_BRAM
+Text Label 7200 1950 0    60   ~ 0
+VCC_PAUX
+Text Label 4200 2750 3    60   ~ 0
+VCC_PAUX
+$Comp
+L +3V3 #PWR?
+U 1 1 5AF209EB
+P 7550 3150
+F 0 "#PWR?" H 7550 3000 50  0001 C CNN
+F 1 "+3V3" H 7550 3290 50  0000 C CNN
+F 2 "" H 7550 3150 50  0001 C CNN
+F 3 "" H 7550 3150 50  0001 C CNN
+	1    7550 3150
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8450 1650 9900 1650
+	9050 1550 9900 1550
+Wire Wire Line
+	8750 1550 8850 1550
+Wire Wire Line
+	8750 950  8750 1950
+Wire Wire Line
+	9050 1250 9900 1250
+Wire Wire Line
+	9900 2150 9800 2150
+Wire Wire Line
+	9800 2150 9800 2450
+Wire Wire Line
+	8850 1250 8750 1250
+Connection ~ 8750 1250
+Connection ~ 8750 1550
+Wire Wire Line
+	7200 1950 9900 1950
+Connection ~ 8750 1650
+Wire Wire Line
+	7200 1850 9900 1850
+Wire Wire Line
+	7800 950  7800 2050
+Wire Wire Line
+	7200 2050 9900 2050
+Connection ~ 7800 1850
+Wire Wire Line
+	7200 1750 9900 1750
+Connection ~ 7800 1750
+Wire Wire Line
+	9900 1350 9800 1350
+Wire Wire Line
+	9800 1350 9800 950 
+Wire Wire Line
+	9250 1450 9900 1450
+Wire Wire Line
+	9250 1450 9250 950 
+Wire Wire Line
+	950  1600 950  1700
+Wire Wire Line
+	950  1700 3050 1700
+Wire Wire Line
+	3050 1700 3050 1600
+Wire Wire Line
+	2750 1600 2750 1700
+Connection ~ 2750 1700
+Wire Wire Line
+	2450 1600 2450 1700
+Connection ~ 2450 1700
+Wire Wire Line
+	2150 1600 2150 1700
+Connection ~ 2150 1700
+Wire Wire Line
+	1750 1600 1750 1700
+Connection ~ 1750 1700
+Wire Wire Line
+	1450 1600 1450 1700
+Connection ~ 1450 1700
+Wire Wire Line
+	950  1400 950  1300
+Wire Wire Line
+	950  1300 3050 1300
+Wire Wire Line
+	3050 1300 3050 1400
+Wire Wire Line
+	1450 1400 1450 1300
+Connection ~ 1450 1300
+Wire Wire Line
+	1750 1400 1750 1300
+Connection ~ 1750 1300
+Wire Wire Line
+	2150 1400 2150 1300
+Connection ~ 2150 1300
+Wire Wire Line
+	2450 1400 2450 1300
+Connection ~ 2450 1300
+Wire Wire Line
+	2750 1400 2750 1300
+Connection ~ 2750 1300
+Wire Wire Line
+	1950 1800 1950 1700
+Connection ~ 1950 1700
+Wire Wire Line
+	1950 750  1950 1300
+Connection ~ 1950 1300
+Wire Wire Line
+	3500 1400 3500 1300
+Wire Wire Line
+	3500 1300 4650 1300
+Wire Wire Line
+	4650 1300 4650 1400
+Wire Wire Line
+	3500 1600 3500 1700
+Wire Wire Line
+	3500 1700 4650 1700
+Wire Wire Line
+	4650 1700 4650 1600
+Wire Wire Line
+	3950 1400 3950 1300
+Connection ~ 3950 1300
+Wire Wire Line
+	4350 1400 4350 1300
+Connection ~ 4350 1300
+Wire Wire Line
+	3950 1600 3950 1700
+Connection ~ 3950 1700
+Wire Wire Line
+	4350 1600 4350 1700
+Connection ~ 4350 1700
+Wire Wire Line
+	4150 1800 4150 1700
+Connection ~ 4150 1700
+Wire Wire Line
+	4150 750  4150 1300
+Connection ~ 4150 1300
+Wire Wire Line
+	5250 1400 5250 1300
+Wire Wire Line
+	5250 1300 6350 1300
+Wire Wire Line
+	6350 1300 6350 1400
+Wire Wire Line
+	6350 1600 6350 1700
+Wire Wire Line
+	6350 1700 5250 1700
+Wire Wire Line
+	5250 1700 5250 1600
+Wire Wire Line
+	5650 1400 5650 1300
+Connection ~ 5650 1300
+Wire Wire Line
+	6050 1400 6050 1300
+Connection ~ 6050 1300
+Wire Wire Line
+	5650 1600 5650 1700
+Connection ~ 5650 1700
+Wire Wire Line
+	6050 1600 6050 1700
+Connection ~ 6050 1700
+Wire Wire Line
+	5850 1800 5850 1700
+Connection ~ 5850 1700
+Wire Wire Line
+	5850 1150 5850 1300
+Connection ~ 5850 1300
+Wire Wire Line
+	1200 3650 1200 3850
+Wire Wire Line
+	1200 3450 1200 3200
+Wire Wire Line
+	1700 3450 1700 3350
+Wire Wire Line
+	1700 3350 3200 3350
+Wire Wire Line
+	3200 3350 3200 3450
+Wire Wire Line
+	3200 3650 3200 3750
+Wire Wire Line
+	3200 3750 1700 3750
+Wire Wire Line
+	1700 3750 1700 3650
+Wire Wire Line
+	2150 3350 2150 3450
+Connection ~ 2150 3350
+Wire Wire Line
+	2600 3450 2600 3350
+Connection ~ 2600 3350
+Wire Wire Line
+	2900 3450 2900 3350
+Connection ~ 2900 3350
+Wire Wire Line
+	2900 3650 2900 3750
+Connection ~ 2900 3750
+Wire Wire Line
+	2600 3650 2600 3750
+Connection ~ 2600 3750
+Wire Wire Line
+	2150 3650 2150 3750
+Connection ~ 2150 3750
+Wire Wire Line
+	2400 3850 2400 3750
+Connection ~ 2400 3750
+Wire Wire Line
+	2400 2750 2400 3350
+Connection ~ 2400 3350
+Wire Wire Line
+	3750 3450 3750 3350
+Wire Wire Line
+	3750 3350 4600 3350
+Wire Wire Line
+	4600 3350 4600 3450
+Wire Wire Line
+	4600 3650 4600 3750
+Wire Wire Line
+	4600 3750 3750 3750
+Wire Wire Line
+	3750 3750 3750 3650
+Wire Wire Line
+	4200 2750 4200 3450
+Connection ~ 4200 3350
+Wire Wire Line
+	4200 3650 4200 3850
+Connection ~ 4200 3750
+Wire Wire Line
+	5150 3450 5150 3350
+Wire Wire Line
+	5150 3350 6850 3350
+Wire Wire Line
+	5550 3350 5550 3450
+Wire Wire Line
+	5150 3650 5150 3750
+Wire Wire Line
+	5150 3750 6850 3750
+Wire Wire Line
+	5550 3750 5550 3650
+Wire Wire Line
+	7350 3450 7350 3350
+Wire Wire Line
+	7350 3350 8200 3350
+Wire Wire Line
+	8200 3350 8200 3450
+Wire Wire Line
+	8200 3650 8200 3750
+Wire Wire Line
+	8200 3750 7350 3750
+Wire Wire Line
+	7350 3750 7350 3650
+Wire Wire Line
+	7800 3200 7800 3450
+Connection ~ 7800 3350
+Wire Wire Line
+	7800 3650 7800 3850
+Connection ~ 7800 3750
+Wire Wire Line
+	8700 3450 8700 3350
+Wire Wire Line
+	8700 3350 9550 3350
+Wire Wire Line
+	9550 3350 9550 3450
+Wire Wire Line
+	9550 3650 9550 3750
+Wire Wire Line
+	9550 3750 8700 3750
+Wire Wire Line
+	8700 3750 8700 3650
+Wire Wire Line
+	9150 3200 9150 3450
+Connection ~ 9150 3350
+Wire Wire Line
+	9150 3650 9150 3850
+Connection ~ 9150 3750
+Wire Wire Line
+	2800 5350 2800 5250
+Wire Wire Line
+	2800 5250 800  5250
+Wire Wire Line
+	800  5250 800  5350
+Wire Wire Line
+	800  5550 800  5650
+Wire Wire Line
+	800  5650 2800 5650
+Wire Wire Line
+	2800 5650 2800 5550
+Wire Wire Line
+	2500 5350 2500 5250
+Connection ~ 2500 5250
+Wire Wire Line
+	2200 5250 2200 5350
+Connection ~ 2200 5250
+Wire Wire Line
+	1900 5350 1900 5250
+Connection ~ 1900 5250
+Wire Wire Line
+	1500 5250 1500 5350
+Connection ~ 1500 5250
+Wire Wire Line
+	1250 5350 1250 5250
+Connection ~ 1250 5250
+Wire Wire Line
+	1250 5550 1250 5650
+Connection ~ 1250 5650
+Wire Wire Line
+	1500 5650 1500 5550
+Connection ~ 1500 5650
+Wire Wire Line
+	1900 5550 1900 5650
+Connection ~ 1900 5650
+Wire Wire Line
+	2200 5650 2200 5550
+Connection ~ 2200 5650
+Wire Wire Line
+	2500 5550 2500 5650
+Connection ~ 2500 5650
+Wire Wire Line
+	1800 5750 1800 5650
+Connection ~ 1800 5650
+Wire Wire Line
+	1800 5100 1800 5250
+Connection ~ 1800 5250
+Wire Wire Line
+	5450 5350 5450 5250
+Wire Wire Line
+	5450 5650 5450 5550
+Wire Wire Line
+	5150 5350 5150 5250
+Connection ~ 5150 5250
+Wire Wire Line
+	4850 5250 4850 5350
+Connection ~ 4850 5250
+Wire Wire Line
+	4550 5350 4550 5250
+Connection ~ 4550 5250
+Wire Wire Line
+	4150 5250 4150 5350
+Connection ~ 4150 5250
+Wire Wire Line
+	3900 5350 3900 5250
+Wire Wire Line
+	3900 5550 3900 5650
+Wire Wire Line
+	4150 5650 4150 5550
+Connection ~ 4150 5650
+Wire Wire Line
+	4550 5550 4550 5650
+Connection ~ 4550 5650
+Wire Wire Line
+	4850 5650 4850 5550
+Connection ~ 4850 5650
+Wire Wire Line
+	5150 5550 5150 5650
+Connection ~ 5150 5650
+Wire Wire Line
+	4450 5750 4450 5650
+Connection ~ 4450 5650
+Wire Wire Line
+	4450 5100 4450 5250
+Connection ~ 4450 5250
+Wire Wire Line
+	7950 5350 7950 5250
+Wire Wire Line
+	7950 5250 5950 5250
+Wire Wire Line
+	5950 5250 5950 5350
+Wire Wire Line
+	5950 5550 5950 5650
+Wire Wire Line
+	5950 5650 7950 5650
+Wire Wire Line
+	7950 5650 7950 5550
+Wire Wire Line
+	7650 5350 7650 5250
+Connection ~ 7650 5250
+Wire Wire Line
+	7350 5250 7350 5350
+Connection ~ 7350 5250
+Wire Wire Line
+	7050 5350 7050 5250
+Connection ~ 7050 5250
+Wire Wire Line
+	6650 5250 6650 5350
+Connection ~ 6650 5250
+Wire Wire Line
+	6400 5350 6400 5250
+Connection ~ 6400 5250
+Wire Wire Line
+	6400 5550 6400 5650
+Connection ~ 6400 5650
+Wire Wire Line
+	6650 5650 6650 5550
+Connection ~ 6650 5650
+Wire Wire Line
+	7050 5550 7050 5650
+Connection ~ 7050 5650
+Wire Wire Line
+	7350 5650 7350 5550
+Connection ~ 7350 5650
+Wire Wire Line
+	7650 5550 7650 5650
+Connection ~ 7650 5650
+Wire Wire Line
+	6950 5750 6950 5650
+Connection ~ 6950 5650
+Wire Wire Line
+	6950 5100 6950 5250
+Connection ~ 6950 5250
+Wire Wire Line
+	3900 5250 5450 5250
+Wire Wire Line
+	3900 5650 5450 5650
+Wire Notes Line
+	3600 4400 3600 6150
+Wire Notes Line
+	3600 6150 8400 6150
+Wire Notes Line
+	8400 6150 8400 4400
+Wire Notes Line
+	8400 4400 3600 4400
+Wire Notes Line
+	5850 5150 5850 5800
+Wire Notes Line
+	5850 5800 6200 5800
+Wire Notes Line
+	6200 5800 6200 5150
+Wire Notes Line
+	6200 5150 5850 5150
+Wire Notes Line
+	3800 5150 3800 5750
+Wire Notes Line
+	3800 5750 5750 5750
+Wire Notes Line
+	5750 5750 5750 5150
+Wire Notes Line
+	5750 5150 3800 5150
+Wire Notes Line
+	6300 5150 6300 5750
+Wire Notes Line
+	6300 5750 8300 5750
+Wire Notes Line
+	8300 5750 8300 5150
+Wire Notes Line
+	8300 5150 6300 5150
+Wire Notes Line
+	1150 5150 3150 5150
+Wire Notes Line
+	3150 5150 3150 5800
+Wire Notes Line
+	3150 5800 1150 5800
+Wire Notes Line
+	1150 5800 1150 5150
+Wire Notes Line
+	1600 1200 1600 1800
+Wire Notes Line
+	1600 1800 3300 1800
+Wire Notes Line
+	3300 1800 3300 1200
+Wire Notes Line
+	3300 1200 1600 1200
+Wire Notes Line
+	4500 1150 4500 1850
+Wire Notes Line
+	4500 1850 4900 1850
+Wire Notes Line
+	4900 1850 4900 1150
+Wire Notes Line
+	4900 1150 4500 1150
+Wire Notes Line
+	5550 1150 5550 1800
+Wire Notes Line
+	5550 1800 6750 1800
+Wire Notes Line
+	6750 1800 6750 1150
+Wire Notes Line
+	6750 1150 5550 1150
+Wire Notes Line
+	3250 6150 3250 4400
+Wire Notes Line
+	3250 4400 600  4400
+Wire Notes Line
+	600  4400 600  6150
+Wire Notes Line
+	600  6150 3250 6150
+Wire Notes Line
+	2000 3250 2000 3800
+Wire Notes Line
+	2000 3800 3400 3800
+Wire Notes Line
+	3400 3800 3400 3250
+Wire Notes Line
+	3400 3250 2000 3250
+Wire Wire Line
+	6850 3350 6850 3450
+Connection ~ 5550 3350
+Wire Wire Line
+	6850 3750 6850 3650
+Connection ~ 5550 3750
+Wire Wire Line
+	5950 3450 5950 3350
+Connection ~ 5950 3350
+Wire Wire Line
+	6250 3450 6250 3350
+Connection ~ 6250 3350
+Wire Wire Line
+	6550 3450 6550 3350
+Connection ~ 6550 3350
+Wire Wire Line
+	6550 3650 6550 3750
+Connection ~ 6550 3750
+Wire Wire Line
+	6250 3650 6250 3750
+Connection ~ 6250 3750
+Wire Wire Line
+	5950 3650 5950 3750
+Connection ~ 5950 3750
+Wire Wire Line
+	5750 3850 5750 3750
+Connection ~ 5750 3750
+Wire Wire Line
+	5750 3250 5750 3350
+Connection ~ 5750 3350
+Wire Notes Line
+	5400 3300 5400 3850
+Wire Notes Line
+	5400 3850 7100 3850
+Wire Notes Line
+	7100 3850 7100 3300
+Wire Notes Line
+	7100 3300 5400 3300
+Wire Wire Line
+	9100 5350 9100 5250
+Wire Wire Line
+	9100 5250 9600 5250
+Wire Wire Line
+	9600 5250 9600 5350
+Wire Wire Line
+	9600 5650 9600 5550
+Wire Wire Line
+	9100 5650 9600 5650
+Wire Wire Line
+	9100 5650 9100 5550
+Wire Wire Line
+	9350 5750 9350 5650
+Connection ~ 9350 5650
+Wire Wire Line
+	9350 4750 9350 5250
+Connection ~ 9350 5250
+Wire Wire Line
+	9550 800  9550 1250
+Connection ~ 9550 1250
+Connection ~ 7800 2050
+Wire Wire Line
+	8350 1650 9900 1650
+Connection ~ 8750 1950
+Wire Wire Line
+	7550 3150 7550 3350
+Connection ~ 7550 3350
+$Comp
+L +3V3 #PWR?
+U 1 1 5AF21097
+P 8900 3150
+F 0 "#PWR?" H 8900 3000 50  0001 C CNN
+F 1 "+3V3" H 8900 3290 50  0000 C CNN
+F 2 "" H 8900 3150 50  0001 C CNN
+F 3 "" H 8900 3150 50  0001 C CNN
+	1    8900 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 3150 8900 3350
+Connection ~ 8900 3350
+$Comp
+L +1V8 #PWR?
+U 1 1 5AF2156D
+P 6250 5000
+F 0 "#PWR?" H 6250 4850 50  0001 C CNN
+F 1 "+1V8" H 6250 5140 50  0000 C CNN
+F 2 "" H 6250 5000 50  0001 C CNN
+F 3 "" H 6250 5000 50  0001 C CNN
+	1    6250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1V8 #PWR?
+U 1 1 5AF2198C
+P 4050 5000
+F 0 "#PWR?" H 4050 4850 50  0001 C CNN
+F 1 "+1V8" H 4050 5140 50  0000 C CNN
+F 2 "" H 4050 5000 50  0001 C CNN
+F 3 "" H 4050 5000 50  0001 C CNN
+	1    4050 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5000 4050 5250
+Connection ~ 4050 5250
+Wire Wire Line
+	6250 5000 6250 5250
+Connection ~ 6250 5250
+$Comp
+L +V_DDR #PWR?
+U 1 1 5AF3A999
+P 5300 3150
+F 0 "#PWR?" H 5300 3000 50  0001 C CNN
+F 1 "+V_DDR" H 5300 3290 50  0000 C CNN
+F 2 "" H 5300 3150 50  0001 C CNN
+F 3 "" H 5300 3150 50  0001 C CNN
+	1    5300 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3150 5300 3350
+Connection ~ 5300 3350
+$Comp
+L +2V5 #PWR?
+U 1 1 5AF6CDAF
+P 1050 4950
+F 0 "#PWR?" H 1050 4800 50  0001 C CNN
+F 1 "+2V5" H 1050 5090 50  0000 C CNN
+F 2 "" H 1050 4950 50  0001 C CNN
+F 3 "" H 1050 4950 50  0001 C CNN
+	1    1050 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 4950 1050 5250
+Connection ~ 1050 5250
+$Comp
+L +1V8 #PWR?
+U 1 1 5AF8A808
+P 950 3150
+F 0 "#PWR?" H 950 3000 50  0001 C CNN
+F 1 "+1V8" H 950 3290 50  0000 C CNN
+F 2 "" H 950 3150 50  0001 C CNN
+F 3 "" H 950 3150 50  0001 C CNN
+	1    950  3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3150 950  3300
+Wire Wire Line
+	950  3300 1200 3300
+Connection ~ 1200 3300
+$Comp
+L C_Small C?
+U 1 1 5AFCA75E
+P 2450 1500
+F 0 "C?" H 2460 1570 50  0000 L CNN
+F 1 "0.47µF" H 2460 1420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2450 1500 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2450 1500 50  0001 C CNN
+F 4 "Murata" H 2450 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 2450 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 2450 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 2450 1500 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 2450 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 2450 1500 60  0001 C CNN "Source"
+F 10 "DNP" H 2450 1500 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 2450 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    2450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCA837
+P 2750 1500
+F 0 "C?" H 2760 1570 50  0000 L CNN
+F 1 "0.47µF" H 2760 1420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2750 1500 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2750 1500 50  0001 C CNN
+F 4 "Murata" H 2750 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 2750 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 2750 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 2750 1500 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 2750 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 2750 1500 60  0001 C CNN "Source"
+F 10 "DNP" H 2750 1500 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 2750 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    2750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCA917
+P 3050 1500
+F 0 "C?" H 3060 1570 50  0000 L CNN
+F 1 "0.47µF" H 3060 1420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3050 1500 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3050 1500 50  0001 C CNN
+F 4 "Murata" H 3050 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 3050 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 3050 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 3050 1500 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 3050 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 3050 1500 60  0001 C CNN "Source"
+F 10 "DNP" H 3050 1500 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 3050 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    3050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCB900
+P 6050 1500
+F 0 "C?" H 6060 1570 50  0000 L CNN
+F 1 "0.47µF" H 6060 1420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6050 1500 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6050 1500 50  0001 C CNN
+F 4 "Murata" H 6050 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 6050 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 6050 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 6050 1500 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 6050 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 6050 1500 60  0001 C CNN "Source"
+F 10 "DNP" H 6050 1500 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 6050 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    6050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCBA08
+P 6350 1500
+F 0 "C?" H 6360 1570 50  0000 L CNN
+F 1 "0.47µF" H 6360 1420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6350 1500 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6350 1500 50  0001 C CNN
+F 4 "Murata" H 6350 1500 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 6350 1500 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 6350 1500 60  0001 C CNN "Digikey"
+F 7 "1" H 6350 1500 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 6350 1500 60  0001 C CNN "Description"
+F 9 "SPEC" H 6350 1500 60  0001 C CNN "Source"
+F 10 "DNP" H 6350 1500 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 6350 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    6350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCBF78
+P 2600 3550
+F 0 "C?" H 2610 3620 50  0000 L CNN
+F 1 "0.47µF" H 2610 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2600 3550 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2600 3550 50  0001 C CNN
+F 4 "Murata" H 2600 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 2600 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 2600 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 2600 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 2600 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 2600 3550 60  0001 C CNN "Source"
+F 10 "DNP" H 2600 3550 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 2600 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    2600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCBF86
+P 2150 3550
+F 0 "C?" H 2160 3620 50  0000 L CNN
+F 1 "4.7µF" H 2160 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2150 3550 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 2150 3550 50  0001 C CNN
+F 4 "Murata" H 2150 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 2150 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 2150 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 2150 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 2150 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 2150 3550 60  0001 C CNN "Source"
+F 10 "DNP" H 2150 3550 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 2150 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    2150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCBF94
+P 2900 3550
+F 0 "C?" H 2910 3620 50  0000 L CNN
+F 1 "0.47µF" H 2910 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2900 3550 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2900 3550 50  0001 C CNN
+F 4 "Murata" H 2900 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 2900 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 2900 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 2900 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 2900 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 2900 3550 60  0001 C CNN "Source"
+F 10 "DNP" H 2900 3550 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 2900 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    2900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCBFA2
+P 3200 3550
+F 0 "C?" H 3210 3620 50  0000 L CNN
+F 1 "0.47µF" H 3210 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3200 3550 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3200 3550 50  0001 C CNN
+F 4 "Murata" H 3200 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 3200 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 3200 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 3200 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 3200 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 3200 3550 60  0001 C CNN "Source"
+F 10 "DNP" H 3200 3550 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 3200 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    3200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCCEBE
+P 5550 3550
+F 0 "C?" H 5560 3620 50  0000 L CNN
+F 1 "4.7µF" H 5560 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5550 3550 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 5550 3550 50  0001 C CNN
+F 4 "Murata" H 5550 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 5550 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 5550 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 5550 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 5550 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 5550 3550 60  0001 C CNN "Source"
+F 10 "DNP" H 5550 3550 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 5550 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    5550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCD169
+P 5950 3550
+F 0 "C?" H 5960 3620 50  0000 L CNN
+F 1 "0.47µF" H 5960 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5950 3550 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5950 3550 50  0001 C CNN
+F 4 "Murata" H 5950 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 5950 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 5950 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 5950 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 5950 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 5950 3550 60  0001 C CNN "Source"
+F 10 "DNP" H 5950 3550 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 5950 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    5950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCD177
+P 6250 3550
+F 0 "C?" H 6260 3620 50  0000 L CNN
+F 1 "0.47µF" H 6260 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6250 3550 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6250 3550 50  0001 C CNN
+F 4 "Murata" H 6250 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 6250 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 6250 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 6250 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 6250 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 6250 3550 60  0001 C CNN "Source"
+F 10 "DNP" H 6250 3550 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 6250 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    6250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCD185
+P 6550 3550
+F 0 "C?" H 6560 3620 50  0000 L CNN
+F 1 "0.47µF" H 6560 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6550 3550 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6550 3550 50  0001 C CNN
+F 4 "Murata" H 6550 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 6550 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 6550 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 6550 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 6550 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 6550 3550 60  0001 C CNN "Source"
+F 10 "DNP" H 6550 3550 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 6550 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    6550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCD20B
+P 6850 3550
+F 0 "C?" H 6860 3620 50  0000 L CNN
+F 1 "0.47µF" H 6860 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6850 3550 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6850 3550 50  0001 C CNN
+F 4 "Murata" H 6850 3550 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 6850 3550 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 6850 3550 60  0001 C CNN "Digikey"
+F 7 "1" H 6850 3550 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 6850 3550 60  0001 C CNN "Description"
+F 9 "SPEC" H 6850 3550 60  0001 C CNN "Source"
+F 10 "DNP" H 6850 3550 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 6850 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    6850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCD7AF
+P 1500 5450
+F 0 "C?" H 1510 5520 50  0000 L CNN
+F 1 "4.7µF" H 1510 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1500 5450 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 1500 5450 50  0001 C CNN
+F 4 "Murata" H 1500 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 1500 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 1500 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 1500 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 1500 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 1500 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 1500 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 1500 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    1500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCD7BD
+P 1900 5450
+F 0 "C?" H 1910 5520 50  0000 L CNN
+F 1 "0.47µF" H 1910 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1900 5450 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1900 5450 50  0001 C CNN
+F 4 "Murata" H 1900 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 1900 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 1900 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 1900 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 1900 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 1900 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 1900 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 1900 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    1900 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCD7CB
+P 2200 5450
+F 0 "C?" H 2210 5520 50  0000 L CNN
+F 1 "0.47µF" H 2210 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2200 5450 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2200 5450 50  0001 C CNN
+F 4 "Murata" H 2200 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 2200 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 2200 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 2200 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 2200 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 2200 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 2200 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 2200 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    2200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCD7D9
+P 2500 5450
+F 0 "C?" H 2510 5520 50  0000 L CNN
+F 1 "0.47µF" H 2510 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2500 5450 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2500 5450 50  0001 C CNN
+F 4 "Murata" H 2500 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 2500 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 2500 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 2500 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 2500 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 2500 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 2500 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 2500 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    2500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCD7E7
+P 2800 5450
+F 0 "C?" H 2810 5520 50  0000 L CNN
+F 1 "0.47µF" H 2810 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2800 5450 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2800 5450 50  0001 C CNN
+F 4 "Murata" H 2800 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 2800 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 2800 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 2800 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 2800 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 2800 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 2800 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 2800 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    2800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCD9D5
+P 1250 5450
+F 0 "C?" H 1260 5520 50  0000 L CNN
+F 1 "4.7µF" H 1260 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1250 5450 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 1250 5450 50  0001 C CNN
+F 4 "Murata" H 1250 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 1250 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 1250 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 1250 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 1250 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 1250 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 1250 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 1250 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    1250 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCE26B
+P 4150 5450
+F 0 "C?" H 4160 5520 50  0000 L CNN
+F 1 "4.7µF" H 4160 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4150 5450 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 4150 5450 50  0001 C CNN
+F 4 "Murata" H 4150 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 4150 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 4150 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 4150 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 4150 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 4150 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 4150 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 4150 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    4150 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCE279
+P 4550 5450
+F 0 "C?" H 4560 5520 50  0000 L CNN
+F 1 "0.47µF" H 4560 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4550 5450 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4550 5450 50  0001 C CNN
+F 4 "Murata" H 4550 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 4550 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 4550 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 4550 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 4550 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 4550 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 4550 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 4550 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    4550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCE287
+P 4850 5450
+F 0 "C?" H 4860 5520 50  0000 L CNN
+F 1 "0.47µF" H 4860 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4850 5450 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4850 5450 50  0001 C CNN
+F 4 "Murata" H 4850 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 4850 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 4850 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 4850 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 4850 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 4850 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 4850 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 4850 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    4850 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCE295
+P 5150 5450
+F 0 "C?" H 5160 5520 50  0000 L CNN
+F 1 "0.47µF" H 5160 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5150 5450 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5150 5450 50  0001 C CNN
+F 4 "Murata" H 5150 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 5150 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 5150 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 5150 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 5150 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 5150 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 5150 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 5150 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    5150 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCE2A3
+P 5450 5450
+F 0 "C?" H 5460 5520 50  0000 L CNN
+F 1 "0.47µF" H 5460 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5450 5450 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5450 5450 50  0001 C CNN
+F 4 "Murata" H 5450 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 5450 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 5450 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 5450 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 5450 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 5450 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 5450 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 5450 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    5450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCE2B1
+P 3900 5450
+F 0 "C?" H 3910 5520 50  0000 L CNN
+F 1 "4.7µF" H 3910 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3900 5450 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 3900 5450 50  0001 C CNN
+F 4 "Murata" H 3900 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 3900 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 3900 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 3900 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 3900 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 3900 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 3900 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 3900 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    3900 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCE765
+P 6650 5450
+F 0 "C?" H 6660 5520 50  0000 L CNN
+F 1 "4.7µF" H 6660 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6650 5450 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 6650 5450 50  0001 C CNN
+F 4 "Murata" H 6650 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 6650 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 6650 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 6650 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 6650 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 6650 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 6650 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 6650 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    6650 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCE773
+P 7050 5450
+F 0 "C?" H 7060 5520 50  0000 L CNN
+F 1 "0.47µF" H 7060 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7050 5450 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7050 5450 50  0001 C CNN
+F 4 "Murata" H 7050 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 7050 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 7050 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 7050 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 7050 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 7050 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 7050 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 7050 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    7050 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCE781
+P 7350 5450
+F 0 "C?" H 7360 5520 50  0000 L CNN
+F 1 "0.47µF" H 7360 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7350 5450 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7350 5450 50  0001 C CNN
+F 4 "Murata" H 7350 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 7350 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 7350 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 7350 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 7350 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 7350 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 7350 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 7350 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    7350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCE78F
+P 7650 5450
+F 0 "C?" H 7660 5520 50  0000 L CNN
+F 1 "0.47µF" H 7660 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7650 5450 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7650 5450 50  0001 C CNN
+F 4 "Murata" H 7650 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 7650 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 7650 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 7650 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 7650 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 7650 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 7650 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 7650 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    7650 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCE79D
+P 7950 5450
+F 0 "C?" H 7960 5520 50  0000 L CNN
+F 1 "0.47µF" H 7960 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7950 5450 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7950 5450 50  0001 C CNN
+F 4 "Murata" H 7950 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM188R70J474KA01" H 7950 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6416-1-ND" H 7950 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 7950 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 0.47UF 6.3V X7R 0603,1 mΩ < ESR < 20 mΩ, ESL 0.5 nH" H 7950 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 7950 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 7950 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 7950 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    7950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5AFCE7AB
+P 6400 5450
+F 0 "C?" H 6410 5520 50  0000 L CNN
+F 1 "4.7µF" H 6410 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6400 5450 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 6400 5450 50  0001 C CNN
+F 4 "Murata" H 6400 5450 60  0001 C CNN "MFG Name"
+F 5 "GRM21BR71A475KA73" H 6400 5450 60  0001 C CNN "MFG Part Num"
+F 6 "490-6479-1-ND" H 6400 5450 60  0001 C CNN "Digikey"
+F 7 "1" H 6400 5450 60  0001 C CNN "Populated"
+F 8 "CAP CER 4.7UF 10V X7R 0805" H 6400 5450 60  0001 C CNN "Description"
+F 9 "SPEC" H 6400 5450 60  0001 C CNN "Source"
+F 10 "DNP" H 6400 5450 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "Populate" H 6400 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    6400 5450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

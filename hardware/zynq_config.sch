@@ -118,19 +118,6 @@ Wire Wire Line
 	3850 4150 4550 4150
 Text Label 3850 4150 0    60   ~ 0
 VCCO
-$Comp
-L +1V8 #PWR?
-U 1 1 5AE1E050
-P 1650 1500
-F 0 "#PWR?" H 1650 1350 50  0001 C CNN
-F 1 "+1V8" H 1650 1640 50  0000 C CNN
-F 2 "" H 1650 1500 50  0001 C CNN
-F 3 "" H 1650 1500 50  0001 C CNN
-	1    1650 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 1500 1650 1600
 Wire Wire Line
 	1650 1600 2100 1600
 Text Label 2100 1600 2    60   ~ 0
@@ -319,9 +306,13 @@ $EndComp
 Wire Wire Line
 	3850 3150 4550 3150
 Text GLabel 4200 3950 0    60   Input ~ 0
-VCCAUX
+VCC_AUX
 Wire Wire Line
 	4200 3950 4550 3950
 Text Notes 1300 6150 0    60   ~ 0
 TODO: Select Footprint for JTAG Connector(DNP, but just in case ...)
+Text GLabel 1650 1500 1    60   Input ~ 0
+V_BANK0
+Wire Wire Line
+	1650 1500 1650 1600
 $EndSCHEMATC

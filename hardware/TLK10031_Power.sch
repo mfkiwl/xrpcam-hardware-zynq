@@ -1325,4 +1325,6 @@ VDDO
 Connection ~ 7350 1250
 Text Notes 7750 6100 0    60   ~ 0
 Layout Note: Place 100 nF Capacitors as close as possible to the Pads
+Text Notes 1050 6950 0    60   ~ 0
+TODO: Select smaller Caps for the big ones. 100 µF is way too much
 $EndSCHEMATC

@@ -1352,31 +1352,16 @@ L C_Small C?
 U 1 1 5AE9E531
 P 7350 4700
 F 0 "C?" H 7360 4770 50  0000 L CNN
-F 1 "1 µF" H 7360 4620 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7350 4700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A105KA5LNNC.jsp" H 7350 4700 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 7350 4700 60  0001 C CNN "MFG Name"
-F 5 "CL10A105KA5LNNC" H 7350 4700 60  0001 C CNN "MFG Part Num"
-F 6 "1276-1858-1-ND" H 7350 4700 60  0001 C CNN "Digikey"
+F 1 "1 µF 6,3 V" H 7360 4620 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7350 4700 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM152R60J105ME15-01.pdf" H 7350 4700 50  0001 C CNN
+F 4 "Murata Electronics North America" H 7350 4700 60  0001 C CNN "MFG Name"
+F 5 "GRM152R60J105ME15D" H 7350 4700 60  0001 C CNN "MFG Part Num"
+F 6 "490-10006-1-ND" H 7350 4700 60  0001 C CNN "Digikey"
 F 7 "1" H 7350 4700 60  0001 C CNN "Populated"
-F 8 "SPEC" H 7350 4700 60  0001 C CNN "Source"
+F 8 "CAP CER 1UF 6.3V X5R 0402" H 7350 4700 60  0001 C CNN "Description"
+F 9 "SPEC" H 7350 4700 60  0001 C CNN "Source"
 	1    7350 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5AE9E74D
-P 8400 4700
-F 0 "C?" H 8410 4770 50  0000 L CNN
-F 1 "1 µF" H 8410 4620 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8400 4700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A105KA5LNNC.jsp" H 8400 4700 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 8400 4700 60  0001 C CNN "MFG Name"
-F 5 "CL10A105KA5LNNC" H 8400 4700 60  0001 C CNN "MFG Part Num"
-F 6 "1276-1858-1-ND" H 8400 4700 60  0001 C CNN "Digikey"
-F 7 "1" H 8400 4700 60  0001 C CNN "Populated"
-F 8 "SPEC" H 8400 4700 60  0001 C CNN "Source"
-	1    8400 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1420,4 +1405,21 @@ Text Label 9650 5350 0    60   ~ 0
 3.3V_OUT
 Text Notes 6200 6050 0    60   ~ 0
 TODO: Select connector(footprint)
+$Comp
+L C_Small C?
+U 1 1 5AFC410C
+P 8400 4700
+F 0 "C?" H 8410 4770 50  0000 L CNN
+F 1 "1 µF 6,3 V" H 8410 4620 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8400 4700 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM152R60J105ME15-01.pdf" H 8400 4700 50  0001 C CNN
+F 4 "Murata Electronics North America" H 8400 4700 60  0001 C CNN "MFG Name"
+F 5 "GRM152R60J105ME15D" H 8400 4700 60  0001 C CNN "MFG Part Num"
+F 6 "490-10006-1-ND" H 8400 4700 60  0001 C CNN "Digikey"
+F 7 "1" H 8400 4700 60  0001 C CNN "Populated"
+F 8 "CAP CER 1UF 6.3V X5R 0402" H 8400 4700 60  0001 C CNN "Description"
+F 9 "SPEC" H 8400 4700 60  0001 C CNN "Source"
+	1    8400 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
