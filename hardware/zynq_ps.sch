@@ -55,6 +55,7 @@ LIBS:cat24c02tdi-gt3
 LIBS:power_symbols
 LIBS:ti_power_modules
 LIBS:mdr20
+LIBS:dm3cs
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
@@ -293,18 +294,23 @@ F 3 "" H 8350 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro_SD_Card_Det_Hirose_DM3AT J?
+L DM3CS J?
 U 1 1 5AD6D576
 P 1850 6750
+AR Path="/5AD6D576" Ref="J?"  Part="1" 
+AR Path="/596E7567/5AD6D576" Ref="J?"  Part="1" 
 F 0 "J?" H 1200 7450 50  0000 C CNN
-F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 2500 7450 50  0000 R CNN
-F 2 "Connectors_Hirose:microSD_Card_Receptacle_Hirose_DM3AT-SF-PEJM5" H 3900 7450 50  0001 C CNN
+F 1 "DM3CS" H 2500 7450 50  0000 R CNN
+F 2 "footprints:DM3CS" H 3900 7450 50  0001 C CNN
 F 3 "https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=DM3AT-SF-PEJM5" H 1850 6850 50  0001 C CNN
 F 4 "Hirose Electric Co Ltd" H 1850 6750 60  0001 C CNN "MFG Name"
-F 5 "DM3AT-SF-PEJM5" H 1850 6750 60  0001 C CNN "MFG Part Num"
-F 6 "HR1964CT-ND" H 1850 6750 60  0001 C CNN "Digikey"
+F 5 "DM3CS-SF" H 1850 6750 60  0001 C CNN "MFG Part Num"
+F 6 "HR1972CT-ND" H 1850 6750 60  0001 C CNN "Digikey"
 F 7 "1" H 1850 6750 60  0001 C CNN "Populated"
-F 8 "SPEC" H 1850 6750 60  0001 C CNN "Source"
+F 8 " CONN MICRO SD CARD HINGED TYPE" H 1850 6750 60  0001 C CNN "Description"
+F 9 "SPEC" H 1850 6750 60  0001 C CNN "Source"
+F 10 "1" H 1850 6750 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 1850 6750 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    1850 6750
 	-1   0    0    1   
 $EndComp
@@ -332,18 +338,7 @@ Text Label 4950 4250 0    60   ~ 0
 SDIO0_IO2
 Text Label 4950 4350 0    60   ~ 0
 SDIO0_IO3
-$Comp
-L GND #PWR?
-U 1 1 5AD704C9
-P 2850 6150
-F 0 "#PWR?" H 2850 5900 50  0001 C CNN
-F 1 "GND" H 2850 6000 50  0000 C CNN
-F 2 "" H 2850 6150 50  0000 C CNN
-F 3 "" H 2850 6150 50  0000 C CNN
-	1    2850 6150
-	-1   0    0    1   
-$EndComp
-Text Label 3150 6350 2    60   ~ 0
+Text Label 3150 6250 2    60   ~ 0
 SDIO0_CD
 Text Label 4950 4450 0    60   ~ 0
 SDIO0_CD
@@ -695,10 +690,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 4350 4950 4350
 Wire Wire Line
-	2750 6250 2850 6250
-Wire Wire Line
-	2850 6250 2850 6150
-Wire Wire Line
 	5500 4450 4950 4450
 Wire Wire Line
 	7150 2750 7150 2850
@@ -736,7 +727,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 6250 4500 6250
 Wire Wire Line
-	3150 6350 2750 6350
+	3150 6250 2750 6250
 Wire Wire Line
 	4500 7350 5050 7350
 Wire Wire Line

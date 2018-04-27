@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:zynq_board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -55,6 +56,7 @@ LIBS:cat24c02tdi-gt3
 LIBS:power_symbols
 LIBS:ti_power_modules
 LIBS:mdr20
+LIBS:dm3cs
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
