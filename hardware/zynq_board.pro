@@ -1,4 +1,4 @@
-update=Mo 23 Apr 2018 10:27:36 CEST
+update=Fr 27 Apr 2018 11:19:52 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -83,3 +83,4 @@ LibName51=libraries/schematics/emif06-msd02n16
 LibName52=libraries/schematics/cat24c02tdi-gt3
 LibName53=libraries/schematics/power_symbols
 LibName54=libraries/schematics/ti_power_modules
+LibName55=libraries/schematics/mdr20

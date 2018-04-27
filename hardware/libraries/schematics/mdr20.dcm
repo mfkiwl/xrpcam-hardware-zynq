@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MDR20
+D CONN MDR RCPT 20POS R/A M2.5
+$ENDCMP
+#
+#End Doc Library
