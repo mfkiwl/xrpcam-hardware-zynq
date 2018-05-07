@@ -56,6 +56,7 @@ LIBS:power_symbols
 LIBS:ti_power_modules
 LIBS:mdr20
 LIBS:dm3cs
+LIBS:lsf0102
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
@@ -1447,4 +1448,6 @@ Connection ~ 10200 4550
 Wire Wire Line
 	10200 4750 10100 4750
 Connection ~ 10200 4650
+Text Notes 9200 2150 0    60   ~ 0
+This RS485 Transceiver is\nmaybe overkill. Also it takes\na lot of space from the PCB.
 $EndSCHEMATC

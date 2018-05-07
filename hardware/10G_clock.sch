@@ -56,6 +56,7 @@ LIBS:power_symbols
 LIBS:ti_power_modules
 LIBS:mdr20
 LIBS:dm3cs
+LIBS:lsf0102
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END

@@ -56,6 +56,7 @@ LIBS:power_symbols
 LIBS:ti_power_modules
 LIBS:mdr20
 LIBS:dm3cs
+LIBS:lsf0102
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
@@ -297,8 +298,6 @@ $Comp
 L DM3CS J?
 U 1 1 5AD6D576
 P 1850 6750
-AR Path="/5AD6D576" Ref="J?"  Part="1" 
-AR Path="/596E7567/5AD6D576" Ref="J?"  Part="1" 
 F 0 "J?" H 1200 7450 50  0000 C CNN
 F 1 "DM3CS" H 2500 7450 50  0000 R CNN
 F 2 "footprints:DM3CS" H 3900 7450 50  0001 C CNN

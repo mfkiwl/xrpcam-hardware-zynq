@@ -56,6 +56,7 @@ LIBS:power_symbols
 LIBS:ti_power_modules
 LIBS:mdr20
 LIBS:dm3cs
+LIBS:lsf0102
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
@@ -1453,8 +1454,6 @@ Text Label 18350 4700 0    60   ~ 0
 DQ1
 Text Label 18350 4600 0    60   ~ 0
 DQ0
-Text Notes 19900 9900 0    60   ~ 0
-TODO: VREFx, VRx, VCCO_DDR
 Wire Wire Line
 	6800 5250 7000 5250
 Wire Wire Line

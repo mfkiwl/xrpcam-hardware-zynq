@@ -56,6 +56,7 @@ LIBS:power_symbols
 LIBS:ti_power_modules
 LIBS:mdr20
 LIBS:dm3cs
+LIBS:lsf0102
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
@@ -77,13 +78,15 @@ U 1 1 5AD9638F
 P 5600 2950
 F 0 "U?" H 6350 2600 60  0000 C CNN
 F 1 "FT234XD" V 5600 3000 60  0000 C CNN
-F 2 "" H 5650 3250 60  0001 C CNN
+F 2 "Housings_DFN_QFN:DFN-12-1EP_3x3mm_Pitch0.45mm" H 5650 3250 60  0001 C CNN
 F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf" H 5650 3250 60  0001 C CNN
 F 4 "FTDI, Future Technology Devices International Ltd" H 5600 2950 60  0001 C CNN "MFG Name"
 F 5 "FT234XD-R" H 5600 2950 60  0001 C CNN "MFG Part Num"
 F 6 "768-1178-1-ND" H 5600 2950 60  0001 C CNN "Digikey"
 F 7 "1" H 5600 2950 60  0001 C CNN "Populated"
 F 8 "SPEC" H 5600 2950 60  0001 C CNN "Source"
+F 9 "1" H 5600 2950 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 10 "1" H 5600 2950 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    5600 2950
 	1    0    0    -1  
 $EndComp
@@ -448,8 +451,11 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74lv1t126.pdf" H 9250 2550 60  0001 C CN
 F 4 "Texas Instruments" H 9250 2550 60  0001 C CNN "MFG Name"
 F 5 "SN74LV1T126DBVR" H 9250 2550 60  0001 C CNN "MFG Part Num"
 F 6 "296-37174-6-ND" H 9250 2550 60  0001 C CNN "Digikey"
-F 7 "1" H 9250 2550 60  0001 C CNN "Populated"
-F 8 "SPEC" H 9250 2550 60  0001 C CNN "Source"
+F 7 "595-SN74LV1T126DBVR" H 9250 2550 60  0001 C CNN "Mouser"
+F 8 "1" H 9250 2550 60  0001 C CNN "Populated"
+F 9 "SPEC" H 9250 2550 60  0001 C CNN "Source"
+F 10 "1" H 9250 2550 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 9250 2550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    9250 2550
 	1    0    0    -1  
 $EndComp
@@ -645,8 +651,11 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74lv1t126.pdf" H 9250 3250 60  0001 C CN
 F 4 "Texas Instruments" H 9250 3250 60  0001 C CNN "MFG Name"
 F 5 "SN74LV1T126DBVR" H 9250 3250 60  0001 C CNN "MFG Part Num"
 F 6 "296-37174-6-ND" H 9250 3250 60  0001 C CNN "Digikey"
-F 7 "1" H 9250 3250 60  0001 C CNN "Populated"
-F 8 "SPEC" H 9250 3250 60  0001 C CNN "Source"
+F 7 "595-SN74LV1T126DBVR" H 9250 3250 60  0001 C CNN "Mouser"
+F 8 "1" H 9250 3250 60  0001 C CNN "Populated"
+F 9 "SPEC" H 9250 3250 60  0001 C CNN "Source"
+F 10 "1" H 9250 3250 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 9250 3250 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    9250 3250
 	-1   0    0    -1  
 $EndComp
@@ -680,13 +689,15 @@ U 1 1 5ADA96D5
 P 3000 4650
 F 0 "U?" H 3000 4600 60  0000 C CNN
 F 1 "SMP1255PUTG" H 3000 4700 60  0000 C CNN
-F 2 "" H 3000 4650 60  0001 C CNN
+F 2 "footprints:SMC_MicroDFN_1.8x2.0mm_0.4mm_Pitch" H 3000 4650 60  0001 C CNN
 F 3 "http://www.smc-diodes.com/propdf/SMP1255PUTG%20N1749%20REV.A.pdf" H 3000 4650 60  0001 C CNN
 F 4 "SMC Diode Solutions" H 3000 4650 60  0001 C CNN "MFG Name"
 F 5 "SMP1255PUTGTR" H 3000 4650 60  0001 C CNN "MFG Part Num"
 F 6 "1655-1698-1-ND" H 3000 4650 60  0001 C CNN "Digikey"
 F 7 "1" H 3000 4650 60  0001 C CNN "Populated"
 F 8 "SPEC" H 3000 4650 60  0001 C CNN "Source"
+F 9 "1" H 3000 4650 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 10 "1" H 3000 4650 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    3000 4650
 	1    0    0    -1  
 $EndComp

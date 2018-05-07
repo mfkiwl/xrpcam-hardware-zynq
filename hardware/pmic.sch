@@ -57,6 +57,7 @@ LIBS:power_symbols
 LIBS:ti_power_modules
 LIBS:mdr20
 LIBS:dm3cs
+LIBS:lsf0102
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
@@ -4749,4 +4750,5 @@ Text Notes 13850 7300 0    60   ~ 0
 2,5 V Source for Bank 13.\nLDO here, because there should\nno heavy current.
 Text Notes 14200 5250 0    157  ~ 31
 2.5V
+NoConn ~ 11950 3000
 $EndSCHEMATC

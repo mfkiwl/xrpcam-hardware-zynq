@@ -56,6 +56,7 @@ LIBS:power_symbols
 LIBS:ti_power_modules
 LIBS:mdr20
 LIBS:dm3cs
+LIBS:lsf0102
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
@@ -374,13 +375,15 @@ U 1 1 5A98470D
 P 3800 4600
 F 0 "U?" H 3800 4550 60  0000 C CNN
 F 1 "SMP1255PUTG" H 3800 4650 60  0000 C CNN
-F 2 "" H 3800 4600 60  0001 C CNN
+F 2 "footprints:SMC_MicroDFN_1.8x2.0mm_0.4mm_Pitch" H 3800 4600 60  0001 C CNN
 F 3 "http://www.smc-diodes.com/propdf/SMP1255PUTG%20N1749%20REV.A.pdf" H 3800 4600 60  0001 C CNN
 F 4 "SMC Diode Solutions" H 3800 4600 60  0001 C CNN "MFG Name"
 F 5 "SMP1255PUTGTR" H 3800 4600 60  0001 C CNN "MFG Part Num"
 F 6 "1655-1698-1-ND" H 3800 4600 60  0001 C CNN "Digikey"
 F 7 "1" H 3800 4600 60  0001 C CNN "Populated"
 F 8 "SPEC" H 3800 4600 60  0001 C CNN "Source"
+F 9 "1" H 3800 4600 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 10 "1" H 3800 4600 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    3800 4600
 	1    0    0    -1  
 $EndComp
@@ -728,4 +731,7 @@ F 3 "" H 7800 1600 50  0000 C CNN
 	1    7800 1600
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4000 4700
+NoConn ~ 3950 3300
+NoConn ~ 3900 4700
 $EndSCHEMATC
