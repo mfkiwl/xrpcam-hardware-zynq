@@ -1125,7 +1125,7 @@ F 2 "footprints:TI-DQE_PX2SON-N8_1.4x1mm_0.35mm_Pitch" H 9750 4600 60  0001 C CN
 F 3 "http://www.ti.com/lit/ds/symlink/lsf0102.pdf" H 9750 4600 60  0001 C CNN
 F 4 "Texas Instruments" H 8950 4300 60  0001 C CNN "MFG Name"
 F 5 "LSF0102DQER" H 8950 4300 60  0001 C CNN "MFG Part Num"
-F 6 "296-40399-2-ND" H 8950 4300 60  0001 C CNN "Digikey"
+F 6 "296-40399-1-ND" H 8950 4300 60  0001 C CNN "Digikey"
 F 7 "1" H 8950 4300 60  0001 C CNN "Populated"
 F 8 "Voltage Level Translator Bidirectional 1 Circuit 2 Channel 8-X2SON (1.4x1.0)" H 8950 4300 60  0001 C CNN "Description"
 F 9 "SPEC" H 8950 4300 60  0001 C CNN "Source"

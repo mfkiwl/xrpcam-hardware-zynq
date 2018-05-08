@@ -686,7 +686,14 @@ P 1200 3800
 F 0 "J?" H 1000 4250 50  0000 L CNN
 F 1 "USB_OTG" H 1000 4150 50  0000 L CNN
 F 2 "Connectors:USB_Micro-B" H 1350 3750 50  0001 C CNN
-F 3 "" H 1350 3750 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 1350 3750 50  0001 C CNN
+F 4 "Amphenol FCI" H 1200 3800 60  0001 C CNN "MFG Name"
+F 5 "10118194-0001LF" H 1200 3800 60  0001 C CNN "MFG Part Num"
+F 6 "609-4618-1-ND " H 1200 3800 60  0001 C CNN "Digikey"
+F 7 "1" H 1200 3800 60  0001 C CNN "Populated"
+F 8 "SPEC" H 1200 3800 60  0001 C CNN "Source"
+F 9 "1" H 1200 3800 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 10 "1" H 1200 3800 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    1200 3800
 	1    0    0    -1  
 $EndComp
@@ -735,4 +742,6 @@ $EndComp
 NoConn ~ 4000 4700
 NoConn ~ 3950 3300
 NoConn ~ 3900 4700
+Text Notes 700  3000 0    60   ~ 0
+TODO: correct MicroUSB Footprint
 $EndSCHEMATC
