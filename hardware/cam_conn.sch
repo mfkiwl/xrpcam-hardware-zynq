@@ -118,10 +118,10 @@ CAM_CLK_REF_0
 Text Notes 900  6900 0    60   ~ 0
 Open questions\n* LVDS clock input to camera needed?\n* Two separate clocks for two cameras needed?\n\nMissing\n!* I2C\n* GPIO
 $Comp
-L LSHM-150-xxx-x-DV-A-S J?
+L LSHM-150-xxx-x-DV-A-S J7
 U 1 1 5ACC34F1
 P 8350 3400
-F 0 "J?" H 8350 850 60  0000 C CNN
+F 0 "J7" H 8350 850 60  0000 C CNN
 F 1 "LSHM-150-xxx-x-DV-A-S" V 8350 3400 60  0000 C CNN
 F 2 "Connectors_Samtec:LSHM-150-xxx-x-DV-A-S" H 8350 4550 60  0001 C CNN
 F 3 "http://suddendocs.samtec.com/catalog_english/lshm_dv.pdf" H 8350 4550 60  0001 C CNN
@@ -140,10 +140,10 @@ SCL
 Text Notes 3250 6400 0    60   ~ 0
 Afaik is LVDS Clock optional
 $Comp
-L GND #PWR?
+L GND #PWR0216
 U 1 1 5AFB9A6C
 P 8350 6100
-F 0 "#PWR?" H 8350 5850 50  0001 C CNN
+F 0 "#PWR0216" H 8350 5850 50  0001 C CNN
 F 1 "GND" H 8350 5950 50  0000 C CNN
 F 2 "" H 8350 6100 50  0001 C CNN
 F 3 "" H 8350 6100 50  0001 C CNN
@@ -151,10 +151,10 @@ F 3 "" H 8350 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L +5V #PWR0217
 U 1 1 5AFBA51B
 P 8850 800
-F 0 "#PWR?" H 8850 650 50  0001 C CNN
+F 0 "#PWR0217" H 8850 650 50  0001 C CNN
 F 1 "+5V" H 8850 940 50  0000 C CNN
 F 2 "" H 8850 800 50  0001 C CNN
 F 3 "" H 8850 800 50  0001 C CNN

@@ -74,10 +74,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xc7z030sbg485 U?
+L xc7z030sbg485 U1
 U 9 1 596E7E11
 P 9900 1250
-F 0 "U?" H 10100 1500 60  0000 L CNN
+F 0 "U1" H 10100 1500 60  0000 L CNN
 F 1 "xc7z030sbg485" H 10100 1400 60  0000 L CNN
 F 2 "footprints:SBG485_22x22_19.0x19.0mm_Pitch0.8mm" H 9900 350 60  0001 C CNN
 F 3 "" H 9900 350 60  0001 C CNN
@@ -85,10 +85,10 @@ F 3 "" H 9900 350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C58
 U 1 1 59872421
 P 9600 5450
-F 0 "C?" H 9610 5520 50  0000 L CNN
+F 0 "C58" H 9610 5520 50  0000 L CNN
 F 1 "0.47µF" H 9610 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 9600 5450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9600 5450 50  0001 C CNN
@@ -102,10 +102,10 @@ F 9 "SPEC" H 9600 5450 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C55
 U 1 1 59872474
 P 9100 5450
-F 0 "C?" H 9110 5520 50  0000 L CNN
+F 0 "C55" H 9110 5520 50  0000 L CNN
 F 1 "10μF" H 9110 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 9100 5450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9100 5450 50  0001 C CNN
@@ -139,10 +139,10 @@ VCC_PAUX
 Text Notes 4950 2800 0    60   ~ 0
 VCCO_DDR
 $Comp
-L CP_Small C?
+L CP_Small C2
 U 1 1 598743AB
 P 950 1500
-F 0 "C?" H 960 1570 50  0000 L CNN
+F 0 "C2" H 960 1570 50  0000 L CNN
 F 1 "330µF" H 960 1420 50  0000 L CNN
 F 2 "C_2917" H 950 1500 50  0001 C CNN
 F 3 "http://www.kemet.com/docfinder?Partnumber=T520" H 950 1500 50  0001 C CNN
@@ -156,10 +156,10 @@ F 9 "SPEC" H 950 1500 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C10
 U 1 1 5987452E
 P 2150 1500
-F 0 "C?" H 2160 1570 50  0000 L CNN
+F 0 "C10" H 2160 1570 50  0000 L CNN
 F 1 "0.47µF" H 2160 1420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2150 1500 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2150 1500 50  0001 C CNN
@@ -175,10 +175,10 @@ F 11 "Populate" H 2150 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C5
 U 1 1 5987453A
 P 1450 1500
-F 0 "C?" H 1460 1570 50  0000 L CNN
+F 0 "C5" H 1460 1570 50  0000 L CNN
 F 1 "4.7µF" H 1460 1420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 1450 1500 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 1450 1500 50  0001 C CNN
@@ -192,10 +192,10 @@ F 9 "SPEC" H 1450 1500 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C8
 U 1 1 59874596
 P 1750 1500
-F 0 "C?" H 1760 1570 50  0000 L CNN
+F 0 "C8" H 1760 1570 50  0000 L CNN
 F 1 "4.7µF" H 1760 1420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 1750 1500 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 1750 1500 50  0001 C CNN
@@ -211,10 +211,10 @@ F 11 "Populate" H 1750 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_Small L?
+L L_Small L2
 U 1 1 5AE1F2BF
 P 8950 1550
-F 0 "L?" H 8980 1590 50  0000 L CNN
+F 0 "L2" H 8980 1590 50  0000 L CNN
 F 1 "100 Ohm @ 1Mhz" V 8900 1450 50  0000 L CNN
 F 2 "" H 8950 1550 50  0001 C CNN
 F 3 "" H 8950 1550 50  0001 C CNN
@@ -222,10 +222,10 @@ F 3 "" H 8950 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR01
 U 1 1 5ADEB33E
 P 9800 2450
-F 0 "#PWR?" H 9800 2200 50  0001 C CNN
+F 0 "#PWR01" H 9800 2200 50  0001 C CNN
 F 1 "GND" H 9800 2300 50  0000 C CNN
 F 2 "" H 9800 2450 50  0001 C CNN
 F 3 "" H 9800 2450 50  0001 C CNN
@@ -233,10 +233,10 @@ F 3 "" H 9800 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V8 #PWR?
+L +1V8 #PWR02
 U 1 1 5ADEB37F
 P 8750 950
-F 0 "#PWR?" H 8750 800 50  0001 C CNN
+F 0 "#PWR02" H 8750 800 50  0001 C CNN
 F 1 "+1V8" H 8750 1090 50  0000 C CNN
 F 2 "" H 8750 950 50  0001 C CNN
 F 3 "" H 8750 950 50  0001 C CNN
@@ -244,10 +244,10 @@ F 3 "" H 8750 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_Small L?
+L L_Small L1
 U 1 1 5ADEBC1C
 P 8950 1250
-F 0 "L?" H 8980 1290 50  0000 L CNN
+F 0 "L1" H 8980 1290 50  0000 L CNN
 F 1 "120 Ohm @ 1Mhz" V 8900 1150 50  0000 L CNN
 F 2 "Inductors_SMD:L_0603" H 8950 1250 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 8950 1250 50  0001 C CNN
@@ -260,10 +260,10 @@ F 8 "SPEC" H 8950 1250 60  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +1V0 #PWR?
+L +1V0 #PWR03
 U 1 1 5ADF2035
 P 7800 950
-F 0 "#PWR?" H 7800 800 50  0001 C CNN
+F 0 "#PWR03" H 7800 800 50  0001 C CNN
 F 1 "+1V0" H 7800 1090 50  0000 C CNN
 F 2 "" H 7800 950 50  0001 C CNN
 F 3 "" H 7800 950 50  0001 C CNN
@@ -271,10 +271,10 @@ F 3 "" H 7800 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V0_MGT #PWR?
+L +1V0_MGT #PWR04
 U 1 1 5ADF36DC
 P 9800 950
-F 0 "#PWR?" H 9800 800 50  0001 C CNN
+F 0 "#PWR04" H 9800 800 50  0001 C CNN
 F 1 "+1V0_MGT" H 9800 1090 50  0000 C CNN
 F 2 "" H 9800 950 50  0001 C CNN
 F 3 "" H 9800 950 50  0001 C CNN
@@ -282,10 +282,10 @@ F 3 "" H 9800 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V2_MGT #PWR?
+L +1V2_MGT #PWR05
 U 1 1 5ADF3720
 P 9250 950
-F 0 "#PWR?" H 9250 800 50  0001 C CNN
+F 0 "#PWR05" H 9250 800 50  0001 C CNN
 F 1 "+1V2_MGT" H 9250 1090 50  0000 C CNN
 F 2 "" H 9250 950 50  0001 C CNN
 F 3 "" H 9250 950 50  0001 C CNN
@@ -295,10 +295,10 @@ $EndComp
 Text GLabel 8350 1650 0    60   Input ~ 0
 VCC_AUX
 $Comp
-L CP_Small C?
+L CP_Small C21
 U 1 1 5AE693FF
 P 3500 1500
-F 0 "C?" H 3510 1570 50  0000 L CNN
+F 0 "C21" H 3510 1570 50  0000 L CNN
 F 1 "100µF" H 3510 1420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 3500 1500 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 3500 1500 50  0001 C CNN
@@ -312,10 +312,10 @@ F 9 "SPEC" H 3500 1500 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C27
 U 1 1 5AE6986D
 P 4350 1500
-F 0 "C?" H 4360 1570 50  0000 L CNN
+F 0 "C27" H 4360 1570 50  0000 L CNN
 F 1 "0.47µF" H 4360 1420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4350 1500 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4350 1500 50  0001 C CNN
@@ -329,10 +329,10 @@ F 9 "SPEC" H 4350 1500 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C30
 U 1 1 5AE69B3D
 P 4650 1500
-F 0 "C?" H 4660 1570 50  0000 L CNN
+F 0 "C30" H 4660 1570 50  0000 L CNN
 F 1 "0.47µF" H 4660 1420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4650 1500 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4650 1500 50  0001 C CNN
@@ -348,10 +348,10 @@ F 11 "DNP" H 4650 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C24
 U 1 1 5AE69C03
 P 3950 1500
-F 0 "C?" H 3960 1570 50  0000 L CNN
+F 0 "C24" H 3960 1570 50  0000 L CNN
 F 1 "4.7µF" H 3960 1420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 3950 1500 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 3950 1500 50  0001 C CNN
@@ -367,10 +367,10 @@ $EndComp
 Text Notes 5350 800  0    60   ~ 0
 VCC_AUX
 $Comp
-L C_Small C?
+L C_Small C34
 U 1 1 5AE69D6F
 P 5250 1500
-F 0 "C?" H 5260 1570 50  0000 L CNN
+F 0 "C34" H 5260 1570 50  0000 L CNN
 F 1 "47µF" H 5260 1420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 5250 1500 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J476ME20-01.pdf" H 5250 1500 50  0001 C CNN
@@ -384,10 +384,10 @@ F 9 "SPEC" H 5250 1500 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C37
 U 1 1 5AE69E80
 P 5650 1500
-F 0 "C?" H 5660 1570 50  0000 L CNN
+F 0 "C37" H 5660 1570 50  0000 L CNN
 F 1 "4.7µF" H 5660 1420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 5650 1500 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 5650 1500 50  0001 C CNN
@@ -403,10 +403,10 @@ F 11 "Populate" H 5650 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C3
 U 1 1 5AE7068A
 P 1200 3550
-F 0 "C?" H 1210 3620 50  0000 L CNN
+F 0 "C3" H 1210 3620 50  0000 L CNN
 F 1 "47µF" H 1210 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 1200 3550 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J476ME20-01.pdf" H 1200 3550 50  0001 C CNN
@@ -420,10 +420,10 @@ F 9 "SPEC" H 1200 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP_Small C?
+L CP_Small C7
 U 1 1 5AE72084
 P 1700 3550
-F 0 "C?" H 1710 3620 50  0000 L CNN
+F 0 "C7" H 1710 3620 50  0000 L CNN
 F 1 "100µF" H 1710 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 1700 3550 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 1700 3550 50  0001 C CNN
@@ -437,10 +437,10 @@ F 9 "SPEC" H 1700 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP_Small C?
+L CP_Small C22
 U 1 1 5AE72476
 P 3750 3550
-F 0 "C?" H 3760 3620 50  0000 L CNN
+F 0 "C22" H 3760 3620 50  0000 L CNN
 F 1 "100µF" H 3760 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 3750 3550 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 3750 3550 50  0001 C CNN
@@ -454,10 +454,10 @@ F 9 "SPEC" H 3750 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C26
 U 1 1 5AE72515
 P 4200 3550
-F 0 "C?" H 4210 3620 50  0000 L CNN
+F 0 "C26" H 4210 3620 50  0000 L CNN
 F 1 "4.7µF" H 4210 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4200 3550 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 4200 3550 50  0001 C CNN
@@ -471,10 +471,10 @@ F 9 "SPEC" H 4200 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C29
 U 1 1 5AE725CF
 P 4600 3550
-F 0 "C?" H 4610 3620 50  0000 L CNN
+F 0 "C29" H 4610 3620 50  0000 L CNN
 F 1 "0.47µF" H 4610 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4600 3550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4600 3550 50  0001 C CNN
@@ -488,10 +488,10 @@ F 9 "SPEC" H 4600 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP_Small C?
+L CP_Small C32
 U 1 1 5AE72A74
 P 5150 3550
-F 0 "C?" H 5160 3620 50  0000 L CNN
+F 0 "C32" H 5160 3620 50  0000 L CNN
 F 1 "100µF" H 5160 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 5150 3550 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 5150 3550 50  0001 C CNN
@@ -507,10 +507,10 @@ $EndComp
 Text Notes 7100 2800 0    60   ~ 0
 VCCO_MIO0
 $Comp
-L CP_Small C?
+L CP_Small C48
 U 1 1 5AE732C2
 P 7350 3550
-F 0 "C?" H 7360 3620 50  0000 L CNN
+F 0 "C48" H 7360 3620 50  0000 L CNN
 F 1 "100µF" H 7360 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 7350 3550 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 7350 3550 50  0001 C CNN
@@ -524,10 +524,10 @@ F 9 "SPEC" H 7350 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C51
 U 1 1 5AE73388
 P 7800 3550
-F 0 "C?" H 7810 3620 50  0000 L CNN
+F 0 "C51" H 7810 3620 50  0000 L CNN
 F 1 "4.7µF" H 7810 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 7800 3550 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 7800 3550 50  0001 C CNN
@@ -541,10 +541,10 @@ F 9 "SPEC" H 7800 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C53
 U 1 1 5AE7344D
 P 8200 3550
-F 0 "C?" H 8210 3620 50  0000 L CNN
+F 0 "C53" H 8210 3620 50  0000 L CNN
 F 1 "0.47µF" H 8210 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8200 3550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 8200 3550 50  0001 C CNN
@@ -560,10 +560,10 @@ $EndComp
 Text Notes 8450 2800 0    60   ~ 0
 VCCO_MIO1
 $Comp
-L C_Small C?
+L C_Small C1
 U 1 1 5AE73C22
 P 800 5450
-F 0 "C?" H 810 5520 50  0000 L CNN
+F 0 "C1" H 810 5520 50  0000 L CNN
 F 1 "47µF" H 810 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 800 5450 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J476ME20-01.pdf" H 800 5450 50  0001 C CNN
@@ -577,10 +577,10 @@ F 9 "SPEC" H 800 5450 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR06
 U 1 1 5AE7C463
 P 1950 1800
-F 0 "#PWR?" H 1950 1550 50  0001 C CNN
+F 0 "#PWR06" H 1950 1550 50  0001 C CNN
 F 1 "GND" H 1950 1650 50  0000 C CNN
 F 2 "" H 1950 1800 50  0001 C CNN
 F 3 "" H 1950 1800 50  0001 C CNN
@@ -588,10 +588,10 @@ F 3 "" H 1950 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR07
 U 1 1 5AE7E589
 P 4150 1800
-F 0 "#PWR?" H 4150 1550 50  0001 C CNN
+F 0 "#PWR07" H 4150 1550 50  0001 C CNN
 F 1 "GND" H 4150 1650 50  0000 C CNN
 F 2 "" H 4150 1800 50  0001 C CNN
 F 3 "" H 4150 1800 50  0001 C CNN
@@ -599,10 +599,10 @@ F 3 "" H 4150 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR08
 U 1 1 5AE7F51C
 P 5850 1800
-F 0 "#PWR?" H 5850 1550 50  0001 C CNN
+F 0 "#PWR08" H 5850 1550 50  0001 C CNN
 F 1 "GND" H 5850 1650 50  0000 C CNN
 F 2 "" H 5850 1800 50  0001 C CNN
 F 3 "" H 5850 1800 50  0001 C CNN
@@ -612,10 +612,10 @@ $EndComp
 Text GLabel 5850 1150 1    60   Output ~ 0
 VCC_AUX
 $Comp
-L GND #PWR?
+L GND #PWR09
 U 1 1 5AE7FA73
 P 1200 3850
-F 0 "#PWR?" H 1200 3600 50  0001 C CNN
+F 0 "#PWR09" H 1200 3600 50  0001 C CNN
 F 1 "GND" H 1200 3700 50  0000 C CNN
 F 2 "" H 1200 3850 50  0001 C CNN
 F 3 "" H 1200 3850 50  0001 C CNN
@@ -625,10 +625,10 @@ $EndComp
 Text GLabel 1200 3200 1    60   Output ~ 0
 V_BANK0
 $Comp
-L GND #PWR?
+L GND #PWR010
 U 1 1 5AE89821
 P 2400 3850
-F 0 "#PWR?" H 2400 3600 50  0001 C CNN
+F 0 "#PWR010" H 2400 3600 50  0001 C CNN
 F 1 "GND" H 2400 3700 50  0000 C CNN
 F 2 "" H 2400 3850 50  0001 C CNN
 F 3 "" H 2400 3850 50  0001 C CNN
@@ -636,10 +636,10 @@ F 3 "" H 2400 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR011
 U 1 1 5AE8A8F2
 P 4200 3850
-F 0 "#PWR?" H 4200 3600 50  0001 C CNN
+F 0 "#PWR011" H 4200 3600 50  0001 C CNN
 F 1 "GND" H 4200 3700 50  0000 C CNN
 F 2 "" H 4200 3850 50  0001 C CNN
 F 3 "" H 4200 3850 50  0001 C CNN
@@ -647,10 +647,10 @@ F 3 "" H 4200 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR012
 U 1 1 5AE8B200
 P 5750 3850
-F 0 "#PWR?" H 5750 3600 50  0001 C CNN
+F 0 "#PWR012" H 5750 3600 50  0001 C CNN
 F 1 "GND" H 5750 3700 50  0000 C CNN
 F 2 "" H 5750 3850 50  0001 C CNN
 F 3 "" H 5750 3850 50  0001 C CNN
@@ -660,10 +660,10 @@ $EndComp
 Text GLabel 5750 3250 1    60   Output ~ 0
 VCCO_DDR
 $Comp
-L GND #PWR?
+L GND #PWR013
 U 1 1 5AE8BE29
 P 7800 3850
-F 0 "#PWR?" H 7800 3600 50  0001 C CNN
+F 0 "#PWR013" H 7800 3600 50  0001 C CNN
 F 1 "GND" H 7800 3700 50  0000 C CNN
 F 2 "" H 7800 3850 50  0001 C CNN
 F 3 "" H 7800 3850 50  0001 C CNN
@@ -673,10 +673,10 @@ $EndComp
 Text GLabel 7800 3200 1    60   Output ~ 0
 VCCO_MIO0
 $Comp
-L CP_Small C?
+L CP_Small C54
 U 1 1 5AE8C444
 P 8700 3550
-F 0 "C?" H 8710 3620 50  0000 L CNN
+F 0 "C54" H 8710 3620 50  0000 L CNN
 F 1 "100µF" H 8710 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 8700 3550 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70G107ME19-01.pdf" H 8700 3550 50  0001 C CNN
@@ -690,10 +690,10 @@ F 9 "SPEC" H 8700 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C56
 U 1 1 5AE8C450
 P 9150 3550
-F 0 "C?" H 9160 3620 50  0000 L CNN
+F 0 "C56" H 9160 3620 50  0000 L CNN
 F 1 "4.7µF" H 9160 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 9150 3550 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 9150 3550 50  0001 C CNN
@@ -707,10 +707,10 @@ F 9 "SPEC" H 9150 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C57
 U 1 1 5AE8C45C
 P 9550 3550
-F 0 "C?" H 9560 3620 50  0000 L CNN
+F 0 "C57" H 9560 3620 50  0000 L CNN
 F 1 "0.47µF" H 9560 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 9550 3550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9550 3550 50  0001 C CNN
@@ -724,10 +724,10 @@ F 9 "SPEC" H 9550 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR014
 U 1 1 5AE8C46C
 P 9150 3850
-F 0 "#PWR?" H 9150 3600 50  0001 C CNN
+F 0 "#PWR014" H 9150 3600 50  0001 C CNN
 F 1 "GND" H 9150 3700 50  0000 C CNN
 F 2 "" H 9150 3850 50  0001 C CNN
 F 3 "" H 9150 3850 50  0001 C CNN
@@ -737,10 +737,10 @@ $EndComp
 Text GLabel 9150 3200 1    60   Output ~ 0
 VCCO_MIO1
 $Comp
-L GND #PWR?
+L GND #PWR015
 U 1 1 5AE8F4DA
 P 1800 5750
-F 0 "#PWR?" H 1800 5500 50  0001 C CNN
+F 0 "#PWR015" H 1800 5500 50  0001 C CNN
 F 1 "GND" H 1800 5600 50  0000 C CNN
 F 2 "" H 1800 5750 50  0001 C CNN
 F 3 "" H 1800 5750 50  0001 C CNN
@@ -750,10 +750,10 @@ $EndComp
 Text GLabel 1800 5100 1    60   Output ~ 0
 VCCO_13
 $Comp
-L GND #PWR?
+L GND #PWR016
 U 1 1 5AE900AE
 P 4450 5750
-F 0 "#PWR?" H 4450 5500 50  0001 C CNN
+F 0 "#PWR016" H 4450 5500 50  0001 C CNN
 F 1 "GND" H 4450 5600 50  0000 C CNN
 F 2 "" H 4450 5750 50  0001 C CNN
 F 3 "" H 4450 5750 50  0001 C CNN
@@ -763,10 +763,10 @@ $EndComp
 Text GLabel 4450 5100 1    60   Output ~ 0
 VCCO_34
 $Comp
-L C_Small C?
+L C_Small C39
 U 1 1 5AE90BAB
 P 5950 5450
-F 0 "C?" H 5960 5520 50  0000 L CNN
+F 0 "C39" H 5960 5520 50  0000 L CNN
 F 1 "47µF" H 5960 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1210" H 5950 5450 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J476ME20-01.pdf" H 5950 5450 50  0001 C CNN
@@ -780,10 +780,10 @@ F 9 "SPEC" H 5950 5450 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR017
 U 1 1 5AE90BE3
 P 6950 5750
-F 0 "#PWR?" H 6950 5500 50  0001 C CNN
+F 0 "#PWR017" H 6950 5500 50  0001 C CNN
 F 1 "GND" H 6950 5600 50  0000 C CNN
 F 2 "" H 6950 5750 50  0001 C CNN
 F 3 "" H 6950 5750 50  0001 C CNN
@@ -817,10 +817,10 @@ Only needed for\nCLG484 Package\n(Z-7012S/Z-7015)
 Text Notes 8650 4700 0    60   ~ 0
 VCC_PLL
 $Comp
-L GND #PWR?
+L GND #PWR018
 U 1 1 5AEEEC20
 P 9350 5750
-F 0 "#PWR?" H 9350 5500 50  0001 C CNN
+F 0 "#PWR018" H 9350 5500 50  0001 C CNN
 F 1 "GND" H 9350 5600 50  0000 C CNN
 F 2 "" H 9350 5750 50  0001 C CNN
 F 3 "" H 9350 5750 50  0001 C CNN
@@ -848,10 +848,10 @@ VCC_PAUX
 Text Label 4200 2750 3    60   ~ 0
 VCC_PAUX
 $Comp
-L +3V3 #PWR?
+L +3V3 #PWR019
 U 1 1 5AF209EB
 P 7550 3150
-F 0 "#PWR?" H 7550 3000 50  0001 C CNN
+F 0 "#PWR019" H 7550 3000 50  0001 C CNN
 F 1 "+3V3" H 7550 3290 50  0000 C CNN
 F 2 "" H 7550 3150 50  0001 C CNN
 F 3 "" H 7550 3150 50  0001 C CNN
@@ -1394,10 +1394,10 @@ Wire Wire Line
 	7550 3150 7550 3350
 Connection ~ 7550 3350
 $Comp
-L +3V3 #PWR?
+L +3V3 #PWR020
 U 1 1 5AF21097
 P 8900 3150
-F 0 "#PWR?" H 8900 3000 50  0001 C CNN
+F 0 "#PWR020" H 8900 3000 50  0001 C CNN
 F 1 "+3V3" H 8900 3290 50  0000 C CNN
 F 2 "" H 8900 3150 50  0001 C CNN
 F 3 "" H 8900 3150 50  0001 C CNN
@@ -1408,10 +1408,10 @@ Wire Wire Line
 	8900 3150 8900 3350
 Connection ~ 8900 3350
 $Comp
-L +1V8 #PWR?
+L +1V8 #PWR021
 U 1 1 5AF2156D
 P 6250 5000
-F 0 "#PWR?" H 6250 4850 50  0001 C CNN
+F 0 "#PWR021" H 6250 4850 50  0001 C CNN
 F 1 "+1V8" H 6250 5140 50  0000 C CNN
 F 2 "" H 6250 5000 50  0001 C CNN
 F 3 "" H 6250 5000 50  0001 C CNN
@@ -1419,10 +1419,10 @@ F 3 "" H 6250 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V8 #PWR?
+L +1V8 #PWR022
 U 1 1 5AF2198C
 P 4050 5000
-F 0 "#PWR?" H 4050 4850 50  0001 C CNN
+F 0 "#PWR022" H 4050 4850 50  0001 C CNN
 F 1 "+1V8" H 4050 5140 50  0000 C CNN
 F 2 "" H 4050 5000 50  0001 C CNN
 F 3 "" H 4050 5000 50  0001 C CNN
@@ -1436,10 +1436,10 @@ Wire Wire Line
 	6250 5000 6250 5250
 Connection ~ 6250 5250
 $Comp
-L +V_DDR #PWR?
+L +V_DDR #PWR023
 U 1 1 5AF3A999
 P 5300 3150
-F 0 "#PWR?" H 5300 3000 50  0001 C CNN
+F 0 "#PWR023" H 5300 3000 50  0001 C CNN
 F 1 "+V_DDR" H 5300 3290 50  0000 C CNN
 F 2 "" H 5300 3150 50  0001 C CNN
 F 3 "" H 5300 3150 50  0001 C CNN
@@ -1450,10 +1450,10 @@ Wire Wire Line
 	5300 3150 5300 3350
 Connection ~ 5300 3350
 $Comp
-L +2V5 #PWR?
+L +2V5 #PWR024
 U 1 1 5AF6CDAF
 P 1050 4950
-F 0 "#PWR?" H 1050 4800 50  0001 C CNN
+F 0 "#PWR024" H 1050 4800 50  0001 C CNN
 F 1 "+2V5" H 1050 5090 50  0000 C CNN
 F 2 "" H 1050 4950 50  0001 C CNN
 F 3 "" H 1050 4950 50  0001 C CNN
@@ -1464,10 +1464,10 @@ Wire Wire Line
 	1050 4950 1050 5250
 Connection ~ 1050 5250
 $Comp
-L +1V8 #PWR?
+L +1V8 #PWR025
 U 1 1 5AF8A808
 P 950 3150
-F 0 "#PWR?" H 950 3000 50  0001 C CNN
+F 0 "#PWR025" H 950 3000 50  0001 C CNN
 F 1 "+1V8" H 950 3290 50  0000 C CNN
 F 2 "" H 950 3150 50  0001 C CNN
 F 3 "" H 950 3150 50  0001 C CNN
@@ -1480,10 +1480,10 @@ Wire Wire Line
 	950  3300 1200 3300
 Connection ~ 1200 3300
 $Comp
-L C_Small C?
+L C_Small C13
 U 1 1 5AFCA75E
 P 2450 1500
-F 0 "C?" H 2460 1570 50  0000 L CNN
+F 0 "C13" H 2460 1570 50  0000 L CNN
 F 1 "0.47µF" H 2460 1420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2450 1500 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2450 1500 50  0001 C CNN
@@ -1499,10 +1499,10 @@ F 11 "Populate" H 2450 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C16
 U 1 1 5AFCA837
 P 2750 1500
-F 0 "C?" H 2760 1570 50  0000 L CNN
+F 0 "C16" H 2760 1570 50  0000 L CNN
 F 1 "0.47µF" H 2760 1420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2750 1500 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2750 1500 50  0001 C CNN
@@ -1518,10 +1518,10 @@ F 11 "Populate" H 2750 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C19
 U 1 1 5AFCA917
 P 3050 1500
-F 0 "C?" H 3060 1570 50  0000 L CNN
+F 0 "C19" H 3060 1570 50  0000 L CNN
 F 1 "0.47µF" H 3060 1420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3050 1500 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3050 1500 50  0001 C CNN
@@ -1537,10 +1537,10 @@ F 11 "Populate" H 3050 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C40
 U 1 1 5AFCB900
 P 6050 1500
-F 0 "C?" H 6060 1570 50  0000 L CNN
+F 0 "C40" H 6060 1570 50  0000 L CNN
 F 1 "0.47µF" H 6060 1420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6050 1500 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6050 1500 50  0001 C CNN
@@ -1556,10 +1556,10 @@ F 11 "Populate" H 6050 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C42
 U 1 1 5AFCBA08
 P 6350 1500
-F 0 "C?" H 6360 1570 50  0000 L CNN
+F 0 "C42" H 6360 1570 50  0000 L CNN
 F 1 "0.47µF" H 6360 1420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6350 1500 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6350 1500 50  0001 C CNN
@@ -1575,10 +1575,10 @@ F 11 "Populate" H 6350 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C15
 U 1 1 5AFCBF78
 P 2600 3550
-F 0 "C?" H 2610 3620 50  0000 L CNN
+F 0 "C15" H 2610 3620 50  0000 L CNN
 F 1 "0.47µF" H 2610 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2600 3550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2600 3550 50  0001 C CNN
@@ -1594,10 +1594,10 @@ F 11 "Populate" H 2600 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C11
 U 1 1 5AFCBF86
 P 2150 3550
-F 0 "C?" H 2160 3620 50  0000 L CNN
+F 0 "C11" H 2160 3620 50  0000 L CNN
 F 1 "4.7µF" H 2160 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 2150 3550 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 2150 3550 50  0001 C CNN
@@ -1613,10 +1613,10 @@ F 11 "Populate" H 2150 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C18
 U 1 1 5AFCBF94
 P 2900 3550
-F 0 "C?" H 2910 3620 50  0000 L CNN
+F 0 "C18" H 2910 3620 50  0000 L CNN
 F 1 "0.47µF" H 2910 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2900 3550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2900 3550 50  0001 C CNN
@@ -1632,10 +1632,10 @@ F 11 "Populate" H 2900 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C20
 U 1 1 5AFCBFA2
 P 3200 3550
-F 0 "C?" H 3210 3620 50  0000 L CNN
+F 0 "C20" H 3210 3620 50  0000 L CNN
 F 1 "0.47µF" H 3210 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3200 3550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3200 3550 50  0001 C CNN
@@ -1651,10 +1651,10 @@ F 11 "Populate" H 3200 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C36
 U 1 1 5AFCCEBE
 P 5550 3550
-F 0 "C?" H 5560 3620 50  0000 L CNN
+F 0 "C36" H 5560 3620 50  0000 L CNN
 F 1 "4.7µF" H 5560 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 5550 3550 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 5550 3550 50  0001 C CNN
@@ -1670,10 +1670,10 @@ F 11 "Populate" H 5550 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C38
 U 1 1 5AFCD169
 P 5950 3550
-F 0 "C?" H 5960 3620 50  0000 L CNN
+F 0 "C38" H 5960 3620 50  0000 L CNN
 F 1 "0.47µF" H 5960 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5950 3550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5950 3550 50  0001 C CNN
@@ -1689,10 +1689,10 @@ F 11 "Populate" H 5950 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C41
 U 1 1 5AFCD177
 P 6250 3550
-F 0 "C?" H 6260 3620 50  0000 L CNN
+F 0 "C41" H 6260 3620 50  0000 L CNN
 F 1 "0.47µF" H 6260 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6250 3550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6250 3550 50  0001 C CNN
@@ -1708,10 +1708,10 @@ F 11 "Populate" H 6250 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C44
 U 1 1 5AFCD185
 P 6550 3550
-F 0 "C?" H 6560 3620 50  0000 L CNN
+F 0 "C44" H 6560 3620 50  0000 L CNN
 F 1 "0.47µF" H 6560 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6550 3550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6550 3550 50  0001 C CNN
@@ -1727,10 +1727,10 @@ F 11 "Populate" H 6550 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C46
 U 1 1 5AFCD20B
 P 6850 3550
-F 0 "C?" H 6860 3620 50  0000 L CNN
+F 0 "C46" H 6860 3620 50  0000 L CNN
 F 1 "0.47µF" H 6860 3470 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6850 3550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6850 3550 50  0001 C CNN
@@ -1746,10 +1746,10 @@ F 11 "Populate" H 6850 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C6
 U 1 1 5AFCD7AF
 P 1500 5450
-F 0 "C?" H 1510 5520 50  0000 L CNN
+F 0 "C6" H 1510 5520 50  0000 L CNN
 F 1 "4.7µF" H 1510 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 1500 5450 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 1500 5450 50  0001 C CNN
@@ -1765,10 +1765,10 @@ F 11 "Populate" H 1500 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C9
 U 1 1 5AFCD7BD
 P 1900 5450
-F 0 "C?" H 1910 5520 50  0000 L CNN
+F 0 "C9" H 1910 5520 50  0000 L CNN
 F 1 "0.47µF" H 1910 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1900 5450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1900 5450 50  0001 C CNN
@@ -1784,10 +1784,10 @@ F 11 "Populate" H 1900 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C12
 U 1 1 5AFCD7CB
 P 2200 5450
-F 0 "C?" H 2210 5520 50  0000 L CNN
+F 0 "C12" H 2210 5520 50  0000 L CNN
 F 1 "0.47µF" H 2210 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2200 5450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2200 5450 50  0001 C CNN
@@ -1803,10 +1803,10 @@ F 11 "Populate" H 2200 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C14
 U 1 1 5AFCD7D9
 P 2500 5450
-F 0 "C?" H 2510 5520 50  0000 L CNN
+F 0 "C14" H 2510 5520 50  0000 L CNN
 F 1 "0.47µF" H 2510 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2500 5450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2500 5450 50  0001 C CNN
@@ -1822,10 +1822,10 @@ F 11 "Populate" H 2500 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C17
 U 1 1 5AFCD7E7
 P 2800 5450
-F 0 "C?" H 2810 5520 50  0000 L CNN
+F 0 "C17" H 2810 5520 50  0000 L CNN
 F 1 "0.47µF" H 2810 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2800 5450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2800 5450 50  0001 C CNN
@@ -1841,10 +1841,10 @@ F 11 "Populate" H 2800 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C4
 U 1 1 5AFCD9D5
 P 1250 5450
-F 0 "C?" H 1260 5520 50  0000 L CNN
+F 0 "C4" H 1260 5520 50  0000 L CNN
 F 1 "4.7µF" H 1260 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 1250 5450 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 1250 5450 50  0001 C CNN
@@ -1860,10 +1860,10 @@ F 11 "Populate" H 1250 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C25
 U 1 1 5AFCE26B
 P 4150 5450
-F 0 "C?" H 4160 5520 50  0000 L CNN
+F 0 "C25" H 4160 5520 50  0000 L CNN
 F 1 "4.7µF" H 4160 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4150 5450 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 4150 5450 50  0001 C CNN
@@ -1879,10 +1879,10 @@ F 11 "Populate" H 4150 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C28
 U 1 1 5AFCE279
 P 4550 5450
-F 0 "C?" H 4560 5520 50  0000 L CNN
+F 0 "C28" H 4560 5520 50  0000 L CNN
 F 1 "0.47µF" H 4560 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4550 5450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4550 5450 50  0001 C CNN
@@ -1898,10 +1898,10 @@ F 11 "Populate" H 4550 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C31
 U 1 1 5AFCE287
 P 4850 5450
-F 0 "C?" H 4860 5520 50  0000 L CNN
+F 0 "C31" H 4860 5520 50  0000 L CNN
 F 1 "0.47µF" H 4860 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4850 5450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4850 5450 50  0001 C CNN
@@ -1917,10 +1917,10 @@ F 11 "Populate" H 4850 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C33
 U 1 1 5AFCE295
 P 5150 5450
-F 0 "C?" H 5160 5520 50  0000 L CNN
+F 0 "C33" H 5160 5520 50  0000 L CNN
 F 1 "0.47µF" H 5160 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5150 5450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5150 5450 50  0001 C CNN
@@ -1936,10 +1936,10 @@ F 11 "Populate" H 5150 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C35
 U 1 1 5AFCE2A3
 P 5450 5450
-F 0 "C?" H 5460 5520 50  0000 L CNN
+F 0 "C35" H 5460 5520 50  0000 L CNN
 F 1 "0.47µF" H 5460 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5450 5450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5450 5450 50  0001 C CNN
@@ -1955,10 +1955,10 @@ F 11 "Populate" H 5450 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C23
 U 1 1 5AFCE2B1
 P 3900 5450
-F 0 "C?" H 3910 5520 50  0000 L CNN
+F 0 "C23" H 3910 5520 50  0000 L CNN
 F 1 "4.7µF" H 3910 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 3900 5450 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 3900 5450 50  0001 C CNN
@@ -1974,10 +1974,10 @@ F 11 "Populate" H 3900 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C45
 U 1 1 5AFCE765
 P 6650 5450
-F 0 "C?" H 6660 5520 50  0000 L CNN
+F 0 "C45" H 6660 5520 50  0000 L CNN
 F 1 "4.7µF" H 6660 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6650 5450 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 6650 5450 50  0001 C CNN
@@ -1993,10 +1993,10 @@ F 11 "Populate" H 6650 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C47
 U 1 1 5AFCE773
 P 7050 5450
-F 0 "C?" H 7060 5520 50  0000 L CNN
+F 0 "C47" H 7060 5520 50  0000 L CNN
 F 1 "0.47µF" H 7060 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7050 5450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7050 5450 50  0001 C CNN
@@ -2012,10 +2012,10 @@ F 11 "Populate" H 7050 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C49
 U 1 1 5AFCE781
 P 7350 5450
-F 0 "C?" H 7360 5520 50  0000 L CNN
+F 0 "C49" H 7360 5520 50  0000 L CNN
 F 1 "0.47µF" H 7360 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7350 5450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7350 5450 50  0001 C CNN
@@ -2031,10 +2031,10 @@ F 11 "Populate" H 7350 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C50
 U 1 1 5AFCE78F
 P 7650 5450
-F 0 "C?" H 7660 5520 50  0000 L CNN
+F 0 "C50" H 7660 5520 50  0000 L CNN
 F 1 "0.47µF" H 7660 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7650 5450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7650 5450 50  0001 C CNN
@@ -2050,10 +2050,10 @@ F 11 "Populate" H 7650 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C52
 U 1 1 5AFCE79D
 P 7950 5450
-F 0 "C?" H 7960 5520 50  0000 L CNN
+F 0 "C52" H 7960 5520 50  0000 L CNN
 F 1 "0.47µF" H 7960 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7950 5450 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7950 5450 50  0001 C CNN
@@ -2069,10 +2069,10 @@ F 11 "Populate" H 7950 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C43
 U 1 1 5AFCE7AB
 P 6400 5450
-F 0 "C?" H 6410 5520 50  0000 L CNN
+F 0 "C43" H 6410 5520 50  0000 L CNN
 F 1 "4.7µF" H 6410 5370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6400 5450 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A475KA73-01.pdf" H 6400 5450 50  0001 C CNN
