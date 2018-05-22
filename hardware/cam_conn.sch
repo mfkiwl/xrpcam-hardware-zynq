@@ -118,10 +118,10 @@ CAM_CLK_REF_0
 Text Notes 900  6900 0    60   ~ 0
 Open questions\n* LVDS clock input to camera needed?\n* Two separate clocks for two cameras needed?\n\nMissing\n!* I2C\n* GPIO
 $Comp
-L LSHM-150-xxx-x-DV-A-S J7
+L LSHM-150-xxx-x-DV-A-S J1601
 U 1 1 5ACC34F1
 P 8350 3400
-F 0 "J7" H 8350 850 60  0000 C CNN
+F 0 "J1601" H 8350 850 60  0000 C CNN
 F 1 "LSHM-150-xxx-x-DV-A-S" V 8350 3400 60  0000 C CNN
 F 2 "Connectors_Samtec:LSHM-150-xxx-x-DV-A-S" H 8350 4550 60  0001 C CNN
 F 3 "http://suddendocs.samtec.com/catalog_english/lshm_dv.pdf" H 8350 4550 60  0001 C CNN

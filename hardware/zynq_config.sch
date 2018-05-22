@@ -74,10 +74,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xc7z030sbg485 U1
+L xc7z030sbg485 U201
 U 1 1 5AC336D4
 P 4550 2450
-F 0 "U1" H 4750 2700 60  0000 L CNN
+F 0 "U201" H 4750 2700 60  0000 L CNN
 F 1 "xc7z030sbg485" H 4750 2600 60  0000 L CNN
 F 2 "footprints:SBG485_22x22_19.0x19.0mm_Pitch0.8mm" H 4550 2450 60  0001 C CNN
 F 3 "" H 4550 2450 60  0001 C CNN
@@ -85,10 +85,10 @@ F 3 "" H 4550 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x05 J2
+L Conn_01x05 J1101
 U 1 1 5AE1C32D
 P 3100 3750
-F 0 "J2" H 3100 4050 50  0000 C CNN
+F 0 "J1101" H 3100 4050 50  0000 C CNN
 F 1 "Conn_01x05" H 3100 3450 50  0000 C CNN
 F 2 "" H 3100 3750 50  0001 C CNN
 F 3 "" H 3100 3750 50  0001 C CNN
@@ -142,10 +142,10 @@ Wire Wire Line
 Text Notes 6150 4500 0    60   ~ 0
 CFGBVS is connected to GND if VCCO is 1,8 V or lower. If VCCO is 2,5 or\n3,3 V, connect CFGBVS to VCCO.\n\nDONE is open-drain. Singals High if configuration sequence is completed.\n\nDXN and DXP are the Temperature-sensing diode. When not used, tie to GND.\nTemperature Monitoring can use the temperature Sensore inside the XADC Block.\n\nGNDADC is the ground reference for the XADC. Tie to GND even if not used.\n\nINIT_B is open-drain. Hold low to delay pl configuration. Will signal low if an\nconfiguration error has been occured.\n\nPROGRAMM_B is the active low Reset for PL.\n\nRSVDGND - Tie to GND\n\nRSVDVCC[1-3] - Tie to VCCO\n\nVCCADC is the analog supply for the XADCs. Tie to VCCAUX even if the XADCs are not used.\n\nVCCBATT is Backup Power for AES Key. Is not related to VCCO. Connect to GND or VCCAUX.\n\nVN and VP are the dedicated differential Analog Input to the XADC. Tie to GND if them are not used.\n\nVREFN and VREFP are the differential reference voltage input for the XADC.\nConnect to GND if not used.
 $Comp
-L R_Small R79
+L R_Small R1102
 U 1 1 5AE1E0D7
 P 4350 3050
-F 0 "R79" V 4400 3150 50  0000 L CNN
+F 0 "R1102" V 4400 3150 50  0000 L CNN
 F 1 "4k7" V 4350 3050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" H 4350 3050 50  0001 C CNN
 F 3 "" H 4350 3050 50  0001 C CNN
@@ -161,10 +161,10 @@ Wire Wire Line
 Wire Wire Line
 	4450 3050 4550 3050
 $Comp
-L R_Small R78
+L R_Small R1101
 U 1 1 5AE1E489
 P 4350 2950
-F 0 "R78" V 4400 3050 50  0000 L CNN
+F 0 "R1101" V 4400 3050 50  0000 L CNN
 F 1 "4k7" V 4350 2950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" H 4350 2950 50  0001 C CNN
 F 3 "" H 4350 2950 50  0001 C CNN
