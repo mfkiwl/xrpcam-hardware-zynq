@@ -122,22 +122,22 @@ $EndComp
 Wire Wire Line
 	3300 3300 3300 3200
 Wire Wire Line
-	2750 3200 3600 3200
+	2750 3200 3000 3200
 Wire Wire Line
 	3000 3300 3000 3200
 Connection ~ 3000 3200
 Wire Wire Line
 	2300 3200 2550 3200
 Wire Wire Line
-	2300 3150 2300 3300
+	2300 3150 2300 3200
 Wire Wire Line
-	2300 4050 2300 4200
+	2300 4050 2300 4100
 Wire Wire Line
 	2300 4100 2550 4100
 Wire Wire Line
 	3000 4200 3000 4100
 Wire Wire Line
-	2750 4100 3600 4100
+	2750 4100 3000 4100
 Wire Wire Line
 	3300 4200 3300 4100
 Connection ~ 3000 4100
@@ -279,11 +279,11 @@ F 3 "" H 4500 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 3450 4500 4500
+	4500 3450 4500 3750
 Wire Wire Line
 	6300 3400 6450 3400
 Wire Wire Line
-	6450 3400 6450 4500
+	6450 3400 6450 4300
 Wire Wire Line
 	6300 4300 6450 4300
 Connection ~ 6450 4300
@@ -378,7 +378,7 @@ $EndComp
 Wire Wire Line
 	6800 2900 6800 2800
 Wire Wire Line
-	6800 2800 8000 2800
+	6800 2800 7000 2800
 Wire Wire Line
 	8000 2800 8000 2900
 Wire Wire Line
@@ -388,7 +388,7 @@ Wire Wire Line
 	7200 2900 7200 2800
 Connection ~ 7200 2800
 Wire Wire Line
-	7400 2700 7400 2900
+	7400 2700 7400 2800
 Connection ~ 7400 2800
 Wire Wire Line
 	7600 2900 7600 2800
@@ -408,31 +408,31 @@ F 3 "" H 7400 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 3500 8150 3500
+	6300 3500 6800 3500
 Wire Wire Line
-	6800 3200 6800 4300
+	6800 3200 6800 3500
 Wire Wire Line
-	6300 3600 8650 3600
+	6300 3600 7000 3600
 Wire Wire Line
 	7000 3600 7000 3200
 Wire Wire Line
-	6300 3700 8150 3700
+	6300 3700 7200 3700
 Wire Wire Line
-	7200 3200 7200 4300
+	7200 3200 7200 3700
 Wire Wire Line
-	6300 3800 8650 3800
+	6300 3800 7400 3800
 Wire Wire Line
 	7400 3800 7400 3200
 Wire Wire Line
-	6300 3900 8650 3900
+	6300 3900 7600 3900
 Wire Wire Line
 	7600 3900 7600 3200
 Wire Wire Line
-	6300 4000 8650 4000
+	6300 4000 7800 4000
 Wire Wire Line
 	7800 4000 7800 3200
 Wire Wire Line
-	6300 4200 8650 4200
+	6300 4200 8000 4200
 Wire Wire Line
 	8000 4200 8000 3200
 $Comp
@@ -463,7 +463,7 @@ Wire Wire Line
 	8150 3500 8150 3450
 Connection ~ 6800 3500
 Wire Wire Line
-	8450 3450 8650 3450
+	8450 3450 8550 3450
 Connection ~ 8550 3450
 Connection ~ 7400 3800
 Connection ~ 7600 3900
@@ -527,7 +527,7 @@ $EndComp
 Wire Wire Line
 	6800 4600 6800 4650
 Wire Wire Line
-	6800 4650 7200 4650
+	6800 4650 7000 4650
 Wire Wire Line
 	7000 4650 7000 4700
 Wire Wire Line
@@ -538,4 +538,58 @@ Recommended power supply filter, see e.g.\nhttps://www.streakwave.com/mmSWAVE1/V
 Connection ~ 3300 3200
 Text Notes 2300 2150 0    60   ~ 0
 Peak module current (3V3): 1200 mA\n(see SFF-8431 for details)
+Wire Wire Line
+	3000 3200 3300 3200
+Wire Wire Line
+	3000 4100 3300 4100
+Wire Wire Line
+	2300 3200 2300 3300
+Wire Wire Line
+	2300 4100 2300 4200
+Wire Wire Line
+	4500 4350 4500 4500
+Wire Wire Line
+	4500 4050 4500 4350
+Wire Wire Line
+	4500 3750 4500 4050
+Wire Wire Line
+	3300 4100 3600 4100
+Wire Wire Line
+	6450 4300 6450 4500
+Wire Wire Line
+	7000 2800 7200 2800
+Wire Wire Line
+	7200 2800 7400 2800
+Wire Wire Line
+	7400 2800 7400 2900
+Wire Wire Line
+	7400 2800 7600 2800
+Wire Wire Line
+	7600 2800 7800 2800
+Wire Wire Line
+	7800 2800 8000 2800
+Wire Wire Line
+	7000 3600 8650 3600
+Wire Wire Line
+	7200 3700 8150 3700
+Wire Wire Line
+	7200 3700 7200 4300
+Wire Wire Line
+	6800 3500 8150 3500
+Wire Wire Line
+	6800 3500 6800 4300
+Wire Wire Line
+	8550 3450 8650 3450
+Wire Wire Line
+	7400 3800 8650 3800
+Wire Wire Line
+	7600 3900 8650 3900
+Wire Wire Line
+	7800 4000 8650 4000
+Wire Wire Line
+	8000 4200 8650 4200
+Wire Wire Line
+	7000 4650 7200 4650
+Wire Wire Line
+	3300 3200 3600 3200
 $EndSCHEMATC

@@ -683,4 +683,8 @@ Text Label 4050 4550 2    60   ~ 0
 VBUS
 Wire Wire Line
 	4050 4550 3800 4550
+Text Label 2450 2900 0    50   ~ 0
+USB_UART_P
+Text Label 2450 3000 0    50   ~ 0
+USB_UART_N
 $EndSCHEMATC

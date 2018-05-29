@@ -60,6 +60,8 @@ F 5 "GRM033R60J104KE19D" H 2400 1050 60  0001 C CNN "MFG Part Num"
 F 6 "490-3167-1-ND" H 2400 1050 60  0001 C CNN "Digikey"
 F 7 "1" V 2400 1050 60  0001 C CNN "Populated"
 F 8 "SPEC" H 2400 1050 60  0001 C CNN "Source"
+F 9 "1" H 2400 1050 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 10 "1" H 2400 1050 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    2400 1050
 	0    1    1    0   
 $EndComp
@@ -428,7 +430,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 3000 3900 3000
 Wire Wire Line
-	3900 3000 3900 3100
+	3900 3000 3900 3050
 Wire Wire Line
 	3900 3100 3950 3100
 Wire Wire Line
@@ -439,17 +441,17 @@ Wire Wire Line
 Wire Wire Line
 	3950 4900 1550 4900
 Wire Wire Line
-	1550 4650 1550 5250
+	1550 4650 1550 4900
 Wire Wire Line
 	3950 5000 1400 5000
 Wire Wire Line
-	1400 4650 1400 5250
+	1400 4650 1400 5000
 Wire Wire Line
 	3950 5100 1250 5100
 Wire Wire Line
-	1250 4650 1250 5250
+	1250 4650 1250 5100
 Wire Wire Line
-	1100 4650 1100 5250
+	1100 4650 1100 5200
 Wire Wire Line
 	1100 5200 3950 5200
 Connection ~ 1100 5200
@@ -479,7 +481,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 3050 7850 3050
 Wire Wire Line
-	7850 3150 6350 3150
+	7850 3150 7350 3150
 Wire Wire Line
 	6350 3250 7850 3250
 Wire Wire Line
@@ -489,11 +491,11 @@ Wire Wire Line
 	7350 3350 7350 3150
 Connection ~ 7350 3150
 Wire Wire Line
-	7700 3350 7850 3350
+	7700 3350 7750 3350
 Wire Wire Line
 	7400 3350 7350 3350
 Wire Wire Line
-	6550 3550 6350 3550
+	6550 3550 6450 3550
 Wire Wire Line
 	6800 3450 6450 3450
 Wire Wire Line
@@ -508,38 +510,38 @@ Wire Wire Line
 Wire Wire Line
 	6850 3550 7200 3550
 Wire Wire Line
-	7200 3550 7200 3850
+	7200 3550 7200 3650
 Wire Wire Line
 	7200 3850 7100 3850
 Wire Wire Line
 	6850 3750 7200 3750
 Connection ~ 7200 3750
 Wire Wire Line
-	7100 3650 7300 3650
+	7100 3650 7200 3650
 Connection ~ 7200 3650
 Wire Wire Line
 	1100 4350 1100 4250
 Wire Wire Line
-	950  4250 1550 4250
+	950  4250 1100 4250
 Wire Wire Line
 	1550 4250 1550 4350
 Wire Wire Line
 	1400 4350 1400 4250
 Connection ~ 1400 4250
 Wire Wire Line
-	1250 4100 1250 4350
+	1250 4100 1250 4250
 Connection ~ 1250 4250
 Wire Wire Line
 	1100 5550 1100 5650
 Wire Wire Line
-	950  5650 1550 5650
+	950  5650 1100 5650
 Wire Wire Line
 	1550 5650 1550 5550
 Wire Wire Line
 	1400 5550 1400 5650
 Connection ~ 1400 5650
 Wire Wire Line
-	1250 5550 1250 5750
+	1250 5550 1250 5650
 Connection ~ 1250 5650
 Wire Wire Line
 	2450 3950 3950 3950
@@ -601,7 +603,7 @@ Wire Wire Line
 	950  5550 950  5650
 Connection ~ 1100 5650
 Wire Wire Line
-	950  4650 950  5250
+	950  4650 950  4750
 Wire Wire Line
 	3950 4750 950  4750
 Connection ~ 950  4750
@@ -618,7 +620,7 @@ Wire Wire Line
 Text HLabel 2450 5650 0    60   BiDi ~ 0
 MDIO
 Wire Wire Line
-	2450 5650 3950 5650
+	2450 5650 3400 5650
 $Comp
 L device:R R1312
 U 1 1 5AC9120F
@@ -1066,4 +1068,46 @@ F 8 "SPEC" H 2650 2850 60  0001 C CNN "Source"
 $EndComp
 Text Notes 1350 7600 0    60   ~ 0
 TODO: Select Footprint for JTAG Connector.\nFor Just in Case. We don't have enough information to do even an\nboundary scan. So it may not be useful ....
+Wire Wire Line
+	3900 3050 3900 3100
+Wire Wire Line
+	1100 5200 1100 5250
+Wire Wire Line
+	1250 5100 1250 5250
+Wire Wire Line
+	1400 5000 1400 5250
+Wire Wire Line
+	1550 4900 1550 5250
+Wire Wire Line
+	7750 3350 7850 3350
+Wire Wire Line
+	7350 3150 6350 3150
+Wire Wire Line
+	6450 3550 6350 3550
+Wire Wire Line
+	7200 3750 7200 3850
+Wire Wire Line
+	7200 3650 7200 3750
+Wire Wire Line
+	7200 3650 7300 3650
+Wire Wire Line
+	1400 4250 1550 4250
+Wire Wire Line
+	1250 4250 1400 4250
+Wire Wire Line
+	1250 4250 1250 4350
+Wire Wire Line
+	1400 5650 1550 5650
+Wire Wire Line
+	1250 5650 1400 5650
+Wire Wire Line
+	1250 5650 1250 5750
+Wire Wire Line
+	1100 4250 1250 4250
+Wire Wire Line
+	1100 5650 1250 5650
+Wire Wire Line
+	950  4750 950  5250
+Wire Wire Line
+	3400 5650 3950 5650
 $EndSCHEMATC
