@@ -78,7 +78,7 @@ U 1 1 5AFC9CDC
 P 2150 2450
 F 0 "F2201" V 2230 2450 50  0000 C CNN
 F 1 "Fuse" V 2075 2450 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow" V 2080 2450 50  0001 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V 2080 2450 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AFA0000/AFA0000C7.pdf" H 2150 2450 50  0001 C CNN
 F 4 "Panasonic Electronic Components" H 2150 2450 60  0001 C CNN "MFG Name"
 F 5 "ERB-RG2R50V" H 2150 2450 60  0001 C CNN "MFG Part Num"

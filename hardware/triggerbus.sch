@@ -111,17 +111,6 @@ TRIG_IN_0
 Text HLabel 1950 1500 0    60   Output ~ 0
 TRIG_IN_1
 $Comp
-L power1:+3V3 #PWR0188
-U 1 1 5AD03794
-P 3300 1150
-F 0 "#PWR0188" H 3300 1000 50  0001 C CNN
-F 1 "+3V3" H 3300 1290 50  0000 C CNN
-F 2 "" H 3300 1150 50  0001 C CNN
-F 3 "" H 3300 1150 50  0001 C CNN
-	1    3300 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L device:R_Small R1508
 U 1 1 5AD0382A
 P 3400 1400
@@ -245,17 +234,6 @@ Text HLabel 1950 2650 0    60   Output ~ 0
 TRIG_IN_2
 Text HLabel 1950 2750 0    60   Output ~ 0
 TRIG_IN_3
-$Comp
-L power1:+3V3 #PWR0193
-U 1 1 5AE68070
-P 3300 2400
-F 0 "#PWR0193" H 3300 2250 50  0001 C CNN
-F 1 "+3V3" H 3300 2540 50  0000 C CNN
-F 2 "" H 3300 2400 50  0001 C CNN
-F 3 "" H 3300 2400 50  0001 C CNN
-	1    3300 2400
-	1    0    0    -1  
-$EndComp
 $Comp
 L device:R_Small R1510
 U 1 1 5AE68076
@@ -381,17 +359,6 @@ TRIG_OUT_0
 Text HLabel 1950 4000 0    60   Input ~ 0
 TRIG_OUT_1
 $Comp
-L power1:+3V3 #PWR0198
-U 1 1 5AE683CD
-P 3300 3650
-F 0 "#PWR0198" H 3300 3500 50  0001 C CNN
-F 1 "+3V3" H 3300 3790 50  0000 C CNN
-F 2 "" H 3300 3650 50  0001 C CNN
-F 3 "" H 3300 3650 50  0001 C CNN
-	1    3300 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L device:R_Small R1512
 U 1 1 5AE683D3
 P 3400 3900
@@ -515,17 +482,6 @@ Text HLabel 1950 5150 0    60   Input ~ 0
 TRIG_OUT_2
 Text HLabel 1950 5250 0    60   Input ~ 0
 TRIG_OUT_3
-$Comp
-L power1:+3V3 #PWR0203
-U 1 1 5AE6841A
-P 3400 6350
-F 0 "#PWR0203" H 3400 6200 50  0001 C CNN
-F 1 "+3V3" H 3400 6490 50  0000 C CNN
-F 2 "" H 3400 6350 50  0001 C CNN
-F 3 "" H 3400 6350 50  0001 C CNN
-	1    3400 6350
-	1    0    0    -1  
-$EndComp
 $Comp
 L device:R_Small R1514
 U 1 1 5AE68420
@@ -683,17 +639,6 @@ F 3 "" H 9500 800 50  0001 C CNN
 	1    9500 800 
 	1    0    0    1   
 $EndComp
-$Comp
-L power1:+3V3 #PWR0211
-U 1 1 5AD9904E
-P 9050 1650
-F 0 "#PWR0211" H 9050 1500 50  0001 C CNN
-F 1 "+3V3" H 9050 1790 50  0000 C CNN
-F 2 "" H 9050 1650 50  0001 C CNN
-F 3 "" H 9050 1650 50  0001 C CNN
-	1    9050 1650
-	1    0    0    -1  
-$EndComp
 Text Notes 5850 800  0    60   ~ 0
 Bypass Capacitors for MAX14854.\nPlace as close as possible to it
 $Comp
@@ -822,13 +767,13 @@ $EndComp
 $Comp
 L power1:+5V #PWR0216
 U 1 1 5B11913A
-P 5850 4300
-F 0 "#PWR0216" H 5850 4150 50  0001 C CNN
-F 1 "+5V" V 5850 4550 50  0000 C CNN
-F 2 "" H 5850 4300 50  0001 C CNN
-F 3 "" H 5850 4300 50  0001 C CNN
-	1    5850 4300
-	0    -1   -1   0   
+P 5850 3750
+F 0 "#PWR0216" H 5850 3600 50  0001 C CNN
+F 1 "+5V" V 5850 4000 50  0000 C CNN
+F 2 "" H 5850 3750 50  0001 C CNN
+F 3 "" H 5850 3750 50  0001 C CNN
+	1    5850 3750
+	1    0    0    -1  
 $EndComp
 $Comp
 L device:D_Schottky D1501
@@ -872,8 +817,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 1250 2200 1250
 Wire Wire Line
-	3300 1150 3300 1250
-Wire Wire Line
 	3300 1250 3200 1250
 Wire Wire Line
 	2200 1800 2100 1800
@@ -900,8 +843,6 @@ Wire Wire Line
 	2100 2400 2100 2500
 Wire Wire Line
 	2100 2500 2200 2500
-Wire Wire Line
-	3300 2400 3300 2500
 Wire Wire Line
 	3300 2500 3200 2500
 Wire Wire Line
@@ -930,8 +871,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 3750 2200 3750
 Wire Wire Line
-	3300 3650 3300 3750
-Wire Wire Line
 	3300 3750 3200 3750
 Wire Wire Line
 	2200 4300 2100 4300
@@ -958,8 +897,6 @@ Wire Wire Line
 	2100 4900 2100 5000
 Wire Wire Line
 	2100 5000 2200 5000
-Wire Wire Line
-	3300 4900 3300 5000
 Wire Wire Line
 	3300 5000 3200 5000
 Wire Wire Line
@@ -1082,8 +1019,6 @@ Wire Wire Line
 	9500 800  9500 900 
 Connection ~ 9500 900 
 Wire Wire Line
-	9050 1650 9050 1700
-Wire Wire Line
 	9350 1200 9350 1300
 Wire Wire Line
 	9350 1700 9050 1700
@@ -1153,8 +1088,6 @@ Connection ~ 3400 6850
 Wire Wire Line
 	2050 6350 2050 6450
 Connection ~ 2050 6450
-Wire Wire Line
-	3400 6350 3400 6450
 Connection ~ 3400 6450
 Wire Notes Line
 	1300 6100 4000 6100
@@ -1209,8 +1142,6 @@ Wire Wire Line
 	10500 4850 10100 4850
 Wire Notes Line
 	10300 5250 10650 5250
-Wire Wire Line
-	5850 4300 6000 4300
 Wire Wire Line
 	6300 4300 6600 4300
 $Comp
@@ -1668,15 +1599,69 @@ F 11 "1" H 9350 1100 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    9350 1100
 	-1   0    0    1   
 $EndComp
+Text Label 3900 700  3    60   ~ 0
+5V_OUT
+Wire Wire Line
+	3900 700  3900 1300
+Wire Wire Line
+	3900 1300 4250 1300
+Wire Wire Line
+	4250 1300 4250 1200
+Wire Wire Line
+	3900 3700 4150 3700
+Wire Wire Line
+	4150 3700 4150 3600
+Text Label 3900 3200 3    60   ~ 0
+3.3V_OUT
+Wire Wire Line
+	3900 3200 3900 3700
+Text Label 3300 800  3    60   ~ 0
+3.3V_OUT
+Text Label 3300 2050 3    60   ~ 0
+3.3V_OUT
+Text Label 3300 3300 3    60   ~ 0
+3.3V_OUT
+Text Label 3300 4550 3    60   ~ 0
+3.3V_OUT
+Wire Wire Line
+	3300 4550 3300 5000
+Wire Wire Line
+	3300 2050 3300 2500
+Wire Wire Line
+	3300 800  3300 1250
+Text Label 9050 1250 3    60   ~ 0
+3.3V_OUT
+Wire Wire Line
+	9050 1250 9050 1700
+Text Label 3400 6250 0    60   ~ 0
+3.3V_OUT
+Wire Wire Line
+	3400 6250 3400 6450
+Wire Wire Line
+	3300 3300 3300 3750
 $Comp
-L power1:+3V3 #PWR0264
-U 1 1 5B2BC772
-P 3300 4900
-F 0 "#PWR0264" H 3300 4750 50  0001 C CNN
-F 1 "+3V3" H 3300 5040 50  0000 C CNN
-F 2 "" H 3300 4900 50  0001 C CNN
-F 3 "" H 3300 4900 50  0001 C CNN
-	1    3300 4900
-	1    0    0    -1  
+L device:Fuse F1501
+U 1 1 5B4B93EE
+P 5850 4000
+F 0 "F1501" V 5930 4000 50  0000 C CNN
+F 1 "Fuse" V 5775 4000 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V 5780 4000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AFA0000/AFA0000C7.pdf" H 5850 4000 50  0001 C CNN
+F 4 "Panasonic Electronic Components" H 5850 4000 60  0001 C CNN "MFG Name"
+F 5 "ERB-RG2R50V" H 5850 4000 60  0001 C CNN "MFG Part Num"
+F 6 "P16740CT-ND" H 5850 4000 60  0001 C CNN "Digikey"
+F 7 "1" H 5850 4000 60  0001 C CNN "Populated"
+F 8 "FUSE BOARD MOUNT 2.5A 32VDC 1206 " H 5850 4000 60  0001 C CNN "Description"
+F 9 "SPEC" H 5850 4000 60  0001 C CNN "Source"
+F 10 "1" H 5850 4000 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 5850 4000 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    5850 4000
+	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5850 3850 5850 3750
+Wire Wire Line
+	5850 4150 5850 4300
+Wire Wire Line
+	5850 4300 6000 4300
 $EndSCHEMATC
