@@ -26,39 +26,18 @@ F 3 "" H 4550 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x05 J1101
-U 1 1 5AE1C32D
-P 3100 3750
-F 0 "J1101" H 3100 4050 50  0000 C CNN
-F 1 "Conn_01x05" H 3100 3450 50  0000 C CNN
-F 2 "" H 3100 3750 50  0001 C CNN
-F 3 "" H 3100 3750 50  0001 C CNN
-	1    3100 3750
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 3550 4550 3550
-Wire Wire Line
-	4550 3650 3300 3650
-Wire Wire Line
-	3300 3750 4550 3750
-Wire Wire Line
-	4550 3850 3300 3850
-$Comp
 L power1:GND #PWR0120
 U 1 1 5AE1DF94
-P 3400 4050
-F 0 "#PWR0120" H 3400 3800 50  0001 C CNN
-F 1 "GND" H 3400 3900 50  0000 C CNN
-F 2 "" H 3400 4050 50  0001 C CNN
-F 3 "" H 3400 4050 50  0001 C CNN
-	1    3400 4050
+P 3000 3650
+F 0 "#PWR0120" H 3000 3400 50  0001 C CNN
+F 1 "GND" H 3000 3500 50  0000 C CNN
+F 2 "" H 3000 3650 50  0001 C CNN
+F 3 "" H 3000 3650 50  0001 C CNN
+	1    3000 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 4050 3400 3950
-Wire Wire Line
-	3400 3950 3300 3950
+	3000 3650 3000 3550
 Wire Wire Line
 	3850 4150 4550 4150
 Text Label 3850 4150 0    60   ~ 0
@@ -260,4 +239,64 @@ Text GLabel 1650 1500 1    60   Input ~ 0
 V_BANK0
 Wire Wire Line
 	1650 1500 1650 1600
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5B586617
+P 2200 3350
+F 0 "J?" H 2120 3767 50  0000 C CNN
+F 1 "Conn_01x06" H 2120 3676 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2200 3350 50  0001 C CNN
+F 3 "~" H 2200 3350 50  0001 C CNN
+F 4 "1" H 2200 3350 50  0001 C CNN "Populated"
+F 5 "SPEC" H 2200 3350 50  0001 C CNN "Source"
+F 6 "1" H 2200 3350 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 2200 3350 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    2200 3350
+	-1   0    0    -1  
+$EndComp
+Text Label 2800 3150 2    50   ~ 0
+JTAG_TMS
+Text Label 2800 3250 2    50   ~ 0
+JTAG_TDI
+Text Label 2800 3350 2    50   ~ 0
+JTAG_TDO
+Text Label 2800 3450 2    50   ~ 0
+JTAG_TCK
+Text Label 2800 3650 2    50   ~ 0
+JTAG_VDD
+Wire Wire Line
+	2800 3650 2400 3650
+Wire Wire Line
+	2400 3450 2800 3450
+Wire Wire Line
+	2800 3350 2400 3350
+Wire Wire Line
+	2400 3250 2800 3250
+Wire Wire Line
+	2800 3150 2400 3150
+Text Label 3850 3850 0    50   ~ 0
+JTAG_TMS
+Text Label 3850 3650 0    50   ~ 0
+JTAG_TDI
+Text Label 3850 3750 0    50   ~ 0
+JTAG_TDO
+Text Label 3850 3550 0    50   ~ 0
+JTAG_TCK
+Wire Wire Line
+	3850 3850 4550 3850
+Wire Wire Line
+	4550 3750 3850 3750
+Wire Wire Line
+	3850 3650 4550 3650
+Wire Wire Line
+	4550 3550 3850 3550
+Wire Wire Line
+	2400 3550 3000 3550
+Text Label 2100 1750 2    50   ~ 0
+JTAG_VDD
+Wire Wire Line
+	2100 1750 1650 1750
+Wire Wire Line
+	1650 1750 1650 1600
+Connection ~ 1650 1600
 $EndSCHEMATC
