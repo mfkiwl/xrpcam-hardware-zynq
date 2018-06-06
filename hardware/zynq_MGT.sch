@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 22
+Sheet 10 21
 Title ""
 Date ""
 Rev ""
@@ -66,7 +66,7 @@ MGTREFCLK_1_N
 Text HLabel 3300 2550 0    60   Input ~ 0
 MGTREFCLK_1_P
 $Comp
-L device:C_Small C1004
+L Device:C_Small C1004
 U 1 1 598A74A2
 P 4250 2550
 F 0 "C1004" H 4260 2620 50  0000 L CNN
@@ -77,7 +77,7 @@ F 3 "" H 4250 2550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C1003
+L Device:C_Small C1003
 U 1 1 598A7543
 P 4000 2450
 F 0 "C1003" H 4010 2520 50  0000 L CNN
@@ -88,7 +88,7 @@ F 3 "" H 4000 2450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C1001
+L Device:C_Small C1001
 U 1 1 598A7566
 P 3500 2250
 F 0 "C1001" H 3510 2320 50  0000 L CNN
@@ -99,7 +99,7 @@ F 3 "" H 3500 2250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C1002
+L Device:C_Small C1002
 U 1 1 598A75B1
 P 3750 2350
 F 0 "C1002" H 3760 2420 50  0000 L CNN
@@ -190,7 +190,7 @@ MGTX_TX_0_N
 Text Label 5250 3950 2    60   ~ 0
 MGTX_TX_0_P
 $Comp
-L device:R_Small R1001
+L Device:R_Small R1001
 U 1 1 5ADF6841
 P 5100 2150
 F 0 "R1001" H 5130 2170 50  0000 L CNN

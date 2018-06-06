@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 22
+Sheet 14 21
 Title ""
 Date ""
 Rev ""
@@ -82,7 +82,7 @@ F 11 "1" H 4100 6300 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+1V8 #PWR0153
+L power:+1V8 #PWR0153
 U 1 1 5ADF1CB7
 P 3500 5500
 F 0 "#PWR0153" H 3500 5350 50  0001 C CNN
@@ -93,7 +93,7 @@ F 3 "" H 3500 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+3.3V #PWR0154
+L power:+3V3 #PWR0154
 U 1 1 5ADF1CEC
 P 4700 5500
 F 0 "#PWR0154" H 4700 5350 50  0001 C CNN
@@ -104,7 +104,7 @@ F 3 "" H 4700 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R1407
+L Device:R_Small R1407
 U 1 1 5ADF2FCD
 P 3400 5800
 F 0 "R1407" H 3430 5820 50  0000 L CNN
@@ -115,7 +115,7 @@ F 3 "" H 3400 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R_Small R1408
+L Device:R_Small R1408
 U 1 1 5ADF30A0
 P 3400 6800
 F 0 "R1408" H 3430 6820 50  0000 L CNN
@@ -126,7 +126,7 @@ F 3 "" H 3400 6800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power1:GND #PWR0155
+L power:GND #PWR0155
 U 1 1 5ADF5482
 P 3450 2650
 F 0 "#PWR0155" H 3450 2400 50  0001 C CNN
@@ -137,7 +137,7 @@ F 3 "" H 3450 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+1V8 #PWR0156
+L power:+1V8 #PWR0156
 U 1 1 5ADF5488
 P 3450 900
 F 0 "#PWR0156" H 3450 750 50  0001 C CNN
@@ -148,7 +148,7 @@ F 3 "" H 3450 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+3.3V #PWR0157
+L power:+3V3 #PWR0157
 U 1 1 5ADF5492
 P 4650 900
 F 0 "#PWR0157" H 4650 750 50  0001 C CNN
@@ -159,7 +159,7 @@ F 3 "" H 4650 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R1401
+L Device:R_Small R1401
 U 1 1 5ADF54A5
 P 3350 1200
 F 0 "R1401" H 3380 1220 50  0000 L CNN
@@ -191,7 +191,7 @@ F 11 "1" H 4050 4000 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+1V8 #PWR0158
+L power:+1V8 #PWR0158
 U 1 1 5ADF5FE1
 P 3450 3200
 F 0 "#PWR0158" H 3450 3050 50  0001 C CNN
@@ -202,7 +202,7 @@ F 3 "" H 3450 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+3.3V #PWR0159
+L power:+3V3 #PWR0159
 U 1 1 5ADF5FE7
 P 4650 3200
 F 0 "#PWR0159" H 4650 3050 50  0001 C CNN
@@ -213,7 +213,7 @@ F 3 "" H 4650 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R1404
+L Device:R_Small R1404
 U 1 1 5ADF5FED
 P 3350 3500
 F 0 "R1404" H 3380 3520 50  0000 L CNN
@@ -224,7 +224,7 @@ F 3 "" H 3350 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R_Small R1405
+L Device:R_Small R1405
 U 1 1 5ADF5FF9
 P 3350 4500
 F 0 "R1405" H 3380 4520 50  0000 L CNN
@@ -237,7 +237,7 @@ $EndComp
 Text Notes 5100 5000 0    60   ~ 0
 If needed while routing, these level shifters can be rotated
 $Comp
-L power1:+1V8 #PWR0160
+L power:+1V8 #PWR0160
 U 1 1 5AE0B26C
 P 8900 700
 F 0 "#PWR0160" H 8900 550 50  0001 C CNN
@@ -248,7 +248,7 @@ F 3 "" H 8900 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+3.3V #PWR0161
+L power:+3V3 #PWR0161
 U 1 1 5AE0B286
 P 9100 700
 F 0 "#PWR0161" H 9100 550 50  0001 C CNN
@@ -259,7 +259,7 @@ F 3 "" H 9100 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C1401
+L Device:C_Small C1401
 U 1 1 5AE0CA09
 P 650 4150
 F 0 "C1401" H 660 4220 50  0000 L CNN
@@ -270,7 +270,7 @@ F 3 "" H 650 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C1402
+L Device:C_Small C1402
 U 1 1 5AE0CAE1
 P 950 4150
 F 0 "C1402" H 960 4220 50  0000 L CNN
@@ -281,7 +281,7 @@ F 3 "" H 950 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C1403
+L Device:C_Small C1403
 U 1 1 5AE0CB91
 P 1250 4150
 F 0 "C1403" H 1260 4220 50  0000 L CNN
@@ -292,7 +292,7 @@ F 3 "" H 1250 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR0162
+L power:GND #PWR0162
 U 1 1 5AE0CE71
 P 950 4450
 F 0 "#PWR0162" H 950 4200 50  0001 C CNN
@@ -303,7 +303,7 @@ F 3 "" H 950 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+1V8 #PWR0163
+L power:+1V8 #PWR0163
 U 1 1 5AE0CF5D
 P 950 3850
 F 0 "#PWR0163" H 950 3700 50  0001 C CNN
@@ -314,7 +314,7 @@ F 3 "" H 950 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C1404
+L Device:C_Small C1404
 U 1 1 5AE0D175
 P 1600 4150
 F 0 "C1404" H 1610 4220 50  0000 L CNN
@@ -325,7 +325,7 @@ F 3 "" H 1600 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C1405
+L Device:C_Small C1405
 U 1 1 5AE0D17B
 P 1900 4150
 F 0 "C1405" H 1910 4220 50  0000 L CNN
@@ -336,7 +336,7 @@ F 3 "" H 1900 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C1406
+L Device:C_Small C1406
 U 1 1 5AE0D181
 P 2200 4150
 F 0 "C1406" H 2210 4220 50  0000 L CNN
@@ -347,7 +347,7 @@ F 3 "" H 2200 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR0164
+L power:GND #PWR0164
 U 1 1 5AE0D191
 P 1900 4450
 F 0 "#PWR0164" H 1900 4200 50  0001 C CNN
@@ -358,7 +358,7 @@ F 3 "" H 1900 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+3.3V #PWR0165
+L power:+3V3 #PWR0165
 U 1 1 5AE0D1EF
 P 1900 3850
 F 0 "#PWR0165" H 1900 3700 50  0001 C CNN
@@ -371,7 +371,7 @@ $EndComp
 Text Notes 500  3600 0    60   ~ 0
 Bypass Capacitors for the levelshifters.\nPlace near their Powerinputs
 $Comp
-L power1:GND #PWR0166
+L power:GND #PWR0166
 U 1 1 5AE25E02
 P 3450 4950
 F 0 "#PWR0166" H 3450 4700 50  0001 C CNN
@@ -382,7 +382,7 @@ F 3 "" H 3450 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR0167
+L power:GND #PWR0167
 U 1 1 5AE25E5E
 P 3500 7250
 F 0 "#PWR0167" H 3500 7000 50  0001 C CNN
@@ -393,7 +393,7 @@ F 3 "" H 3500 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR0168
+L power:GND #PWR0168
 U 1 1 5AE28D57
 P 3200 5800
 F 0 "#PWR0168" H 3200 5550 50  0001 C CNN
@@ -404,7 +404,7 @@ F 3 "" H 3200 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power1:+1V8 #PWR0169
+L power:+1V8 #PWR0169
 U 1 1 5AE28DB3
 P 3200 6800
 F 0 "#PWR0169" H 3200 6650 50  0001 C CNN
@@ -423,7 +423,7 @@ SFP_SCL_18
 Text HLabel 8050 4350 0    60   BiDi ~ 0
 SFP_SDA_18
 $Comp
-L power1:GND #PWR0170
+L power:GND #PWR0170
 U 1 1 5ADF54AB
 P 3150 4500
 F 0 "#PWR0170" H 3150 4250 50  0001 C CNN
@@ -434,7 +434,7 @@ F 3 "" H 3150 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power1:+1V8 #PWR0171
+L power:+1V8 #PWR0171
 U 1 1 5AE2AC7B
 P 3150 3500
 F 0 "#PWR0171" H 3150 3350 50  0001 C CNN
@@ -445,7 +445,7 @@ F 3 "" H 3150 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power1:+1V8 #PWR0172
+L power:+1V8 #PWR0172
 U 1 1 5AE2ACD7
 P 3150 1200
 F 0 "#PWR0172" H 3150 1050 50  0001 C CNN
@@ -486,7 +486,7 @@ FRAME_REQ_0_18
 Text HLabel 3250 5900 0    60   Output ~ 0
 CAM_SPI_MISO_18
 $Comp
-L device:R_Small R1403
+L Device:R_Small R1403
 U 1 1 5AE2CB0B
 P 3350 2400
 F 0 "R1403" H 3380 2420 50  0000 L CNN
@@ -497,7 +497,7 @@ F 3 "" H 3350 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power1:GND #PWR0173
+L power:GND #PWR0173
 U 1 1 5AE2CB13
 P 3150 2400
 F 0 "#PWR0173" H 3150 2150 50  0001 C CNN
@@ -508,7 +508,7 @@ F 3 "" H 3150 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R1406
+L Device:R_Small R1406
 U 1 1 5AE2CBEF
 P 3350 4700
 F 0 "R1406" H 3380 4720 50  0000 L CNN
@@ -519,7 +519,7 @@ F 3 "" H 3350 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power1:GND #PWR0174
+L power:GND #PWR0174
 U 1 1 5AE2CBF7
 P 3150 4700
 F 0 "#PWR0174" H 3150 4450 50  0001 C CNN
@@ -530,7 +530,7 @@ F 3 "" H 3150 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R1409
+L Device:R_Small R1409
 U 1 1 5AE2CDAE
 P 3400 7000
 F 0 "R1409" H 3430 7020 50  0000 L CNN
@@ -541,7 +541,7 @@ F 3 "" H 3400 7000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power1:GND #PWR0175
+L power:GND #PWR0175
 U 1 1 5AE2CDB6
 P 3200 7000
 F 0 "#PWR0175" H 3200 6750 50  0001 C CNN
@@ -765,7 +765,7 @@ Wire Wire Line
 Text Notes 4800 900  0    60   ~ 0
 DIR[1:2] = 10\nA[1:4] => B[1:4]; A[5:8] => B[5:8]
 $Comp
-L device:R_Small R1402
+L Device:R_Small R1402
 U 1 1 5AE6E608
 P 3350 2200
 F 0 "R1402" H 3380 2220 50  0000 L CNN
@@ -776,7 +776,7 @@ F 3 "" H 3350 2200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power1:GND #PWR0176
+L power:GND #PWR0176
 U 1 1 5AE6E60E
 P 3150 2200
 F 0 "#PWR0176" H 3150 1950 50  0001 C CNN
@@ -840,7 +840,7 @@ $EndComp
 Wire Wire Line
 	8900 700  8900 1050
 $Comp
-L power1:GND #PWR0177
+L power:GND #PWR0177
 U 1 1 5AF1DBA2
 P 9000 2650
 F 0 "#PWR0177" H 9000 2400 50  0001 C CNN
@@ -861,7 +861,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 1900 10100 1900
 $Comp
-L device:R_Small R1417
+L Device:R_Small R1417
 U 1 1 5AF233F3
 P 9100 950
 F 0 "R1417" H 9130 970 50  0000 L CNN
@@ -887,7 +887,7 @@ Wire Wire Line
 	9600 1650 9500 1650
 Connection ~ 9100 1100
 $Comp
-L device:C_Small C1408
+L Device:C_Small C1408
 U 1 1 5AF23DA1
 P 9900 1300
 F 0 "C1408" H 9910 1370 50  0000 L CNN
@@ -902,7 +902,7 @@ F 7 "1" H 9900 1300 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power1:GND #PWR0178
+L power:GND #PWR0178
 U 1 1 5AF23FED
 P 9900 1500
 F 0 "#PWR0178" H 9900 1250 50  0001 C CNN
@@ -915,7 +915,7 @@ $EndComp
 Wire Wire Line
 	9900 1500 9900 1400
 $Comp
-L device:R_Small R1415
+L Device:R_Small R1415
 U 1 1 5AF2618E
 P 8450 1600
 F 0 "R1415" H 8480 1620 50  0000 L CNN
@@ -930,7 +930,7 @@ F 7 "1" H 8450 1600 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R1413
+L Device:R_Small R1413
 U 1 1 5AF262AE
 P 8250 1600
 F 0 "R1413" H 8280 1620 50  0000 L CNN
@@ -962,7 +962,7 @@ Wire Wire Line
 	9900 1100 9900 1200
 Connection ~ 9600 1100
 $Comp
-L device:R_Small R1419
+L Device:R_Small R1419
 U 1 1 5AF27A1B
 P 10100 1300
 F 0 "R1419" H 10130 1320 50  0000 L CNN
@@ -977,7 +977,7 @@ F 7 "1" H 10100 1300 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R1421
+L Device:R_Small R1421
 U 1 1 5AF27C23
 P 10300 1300
 F 0 "R1421" H 10330 1320 50  0000 L CNN
@@ -1006,7 +1006,7 @@ Wire Wire Line
 	10300 750  10300 1200
 Connection ~ 10100 750 
 $Comp
-L power1:+1V8 #PWR0179
+L power:+1V8 #PWR0179
 U 1 1 5AF2950E
 P 8850 3150
 F 0 "#PWR0179" H 8850 3000 50  0001 C CNN
@@ -1017,7 +1017,7 @@ F 3 "" H 8850 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+3.3V #PWR0180
+L power:+3V3 #PWR0180
 U 1 1 5AF29514
 P 9050 3150
 F 0 "#PWR0180" H 9050 3000 50  0001 C CNN
@@ -1049,7 +1049,7 @@ $EndComp
 Wire Wire Line
 	8850 3150 8850 3500
 $Comp
-L power1:GND #PWR0181
+L power:GND #PWR0181
 U 1 1 5AF2952A
 P 8950 5100
 F 0 "#PWR0181" H 8950 4850 50  0001 C CNN
@@ -1070,7 +1070,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 4350 10050 4350
 $Comp
-L device:R_Small R1416
+L Device:R_Small R1416
 U 1 1 5AF2953D
 P 9050 3400
 F 0 "R1416" H 9080 3420 50  0000 L CNN
@@ -1096,7 +1096,7 @@ Wire Wire Line
 	9550 4100 9450 4100
 Connection ~ 9050 3550
 $Comp
-L device:C_Small C1407
+L Device:C_Small C1407
 U 1 1 5AF29550
 P 9850 3750
 F 0 "C1407" H 9860 3820 50  0000 L CNN
@@ -1111,7 +1111,7 @@ F 7 "1" H 9850 3750 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power1:GND #PWR0182
+L power:GND #PWR0182
 U 1 1 5AF29556
 P 9850 3950
 F 0 "#PWR0182" H 9850 3700 50  0001 C CNN
@@ -1124,7 +1124,7 @@ $EndComp
 Wire Wire Line
 	9850 3950 9850 3850
 $Comp
-L device:R_Small R1414
+L Device:R_Small R1414
 U 1 1 5AF29561
 P 8400 4050
 F 0 "R1414" H 8430 4070 50  0000 L CNN
@@ -1139,7 +1139,7 @@ F 7 "1" H 8400 4050 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R1412
+L Device:R_Small R1412
 U 1 1 5AF2956B
 P 8200 4050
 F 0 "R1412" H 8230 4070 50  0000 L CNN
@@ -1171,7 +1171,7 @@ Wire Wire Line
 	9850 3550 9850 3650
 Connection ~ 9550 3550
 $Comp
-L device:R_Small R1418
+L Device:R_Small R1418
 U 1 1 5AF29581
 P 10050 3750
 F 0 "R1418" H 10080 3770 50  0000 L CNN
@@ -1186,7 +1186,7 @@ F 7 "1" H 10050 3750 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R1420
+L Device:R_Small R1420
 U 1 1 5AF2958B
 P 10250 3750
 F 0 "R1420" H 10280 3770 50  0000 L CNN
@@ -1223,7 +1223,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 4300 3250 4300
 $Comp
-L device:LED_Small D1401
+L Device:LED_Small D1401
 U 1 1 5AF4B3E8
 P 5050 4200
 F 0 "D1401" H 4950 4150 50  0000 L CNN
@@ -1238,7 +1238,7 @@ F 7 "1" H 5050 4200 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R_Small R1410
+L Device:R_Small R1410
 U 1 1 5AF4B4AF
 P 4750 4200
 F 0 "R1410" V 4800 4300 50  0000 L CNN
@@ -1257,7 +1257,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 4200 4950 4200
 $Comp
-L device:LED_Small D1402
+L Device:LED_Small D1402
 U 1 1 5AF4B957
 P 5050 4300
 F 0 "D1402" H 4950 4400 50  0000 L CNN
@@ -1272,7 +1272,7 @@ F 7 "1" H 5050 4300 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R_Small R1411
+L Device:R_Small R1411
 U 1 1 5AF4B961
 P 4750 4300
 F 0 "R1411" V 4800 4400 50  0000 L CNN
@@ -1291,7 +1291,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 4300 4950 4300
 $Comp
-L power1:GND #PWR0183
+L power:GND #PWR0183
 U 1 1 5AF4C0A5
 P 5350 4250
 F 0 "#PWR0183" H 5350 4000 50  0001 C CNN

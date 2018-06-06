@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 22
+Sheet 17 21
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L conn:Conn_02x09_Counter_Clockwise J1701
+L Connector_Generic:Conn_02x09_Counter_Clockwise J1701
 U 1 1 5B0F5739
 P 5150 3350
 F 0 "J1701" H 5200 3850 50  0000 C CNN
@@ -58,7 +58,7 @@ GPIO_14
 Text HLabel 5450 2950 2    60   BiDi ~ 0
 GPIO_15
 $Comp
-L power1:GND #PWR0220
+L power:GND #PWR0220
 U 1 1 5B0F584E
 P 4950 3750
 F 0 "#PWR0220" H 4950 3500 50  0001 C CNN
@@ -69,7 +69,7 @@ F 3 "" H 4950 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power1:+3V3 #PWR0221
+L power:+3V3 #PWR0221
 U 1 1 5B0F5864
 P 5450 3750
 F 0 "#PWR0221" H 5450 3600 50  0001 C CNN
@@ -80,7 +80,7 @@ F 3 "" H 5450 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D1701
+L Device:LED_Small D1701
 U 1 1 5B1B21E2
 P 10500 3150
 F 0 "D1701" H 10500 3250 50  0000 C CNN
@@ -93,7 +93,7 @@ F 5 "SPEC" H 10500 3150 60  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R_Small R1702
+L Device:R_Small R1702
 U 1 1 5B1B2374
 P 10500 2800
 F 0 "R1702" H 10530 2820 50  0000 L CNN
@@ -105,8 +105,6 @@ F 5 "SPEC" H 10500 2800 60  0001 C CNN "Source"
 	1    10500 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10500 2900 10500 3000
 Wire Notes Line
 	4500 2700 4500 3950
 Wire Notes Line
@@ -118,7 +116,7 @@ Wire Notes Line
 Text Notes 4550 2600 0    60   ~ 12
 GPIOs are 1,8 V only.\n!!!Not 3,3 V or 5 V tolerant!!!
 $Comp
-L power1:+3V3 #PWR0222
+L power:+3V3 #PWR0222
 U 1 1 5B1B2AD0
 P 10500 2550
 F 0 "#PWR0222" H 10500 2400 50  0001 C CNN
@@ -131,7 +129,7 @@ $EndComp
 Wire Wire Line
 	10500 2550 10500 2700
 $Comp
-L power1:GND #PWR0223
+L power:GND #PWR0223
 U 1 1 5B1B2B0C
 P 10500 3400
 F 0 "#PWR0223" H 10500 3150 50  0001 C CNN
@@ -141,12 +139,10 @@ F 3 "" H 10500 3400 50  0001 C CNN
 	1    10500 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10500 3300 10500 3400
 Text Notes 10300 2200 0    60   ~ 0
 Power Led
 $Comp
-L conn:Conn_01x02 J1702
+L Connector_Generic:Conn_01x02 J1702
 U 1 1 5B2142B2
 P 10700 4550
 F 0 "J1702" H 10700 4650 50  0000 C CNN
@@ -163,7 +159,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 4650 10400 4750
 $Comp
-L power1:GND #PWR0224
+L power:GND #PWR0224
 U 1 1 5B2143F5
 P 10400 4750
 F 0 "#PWR0224" H 10400 4500 50  0001 C CNN
@@ -174,7 +170,7 @@ F 3 "" H 10400 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R1701
+L Device:R_Small R1701
 U 1 1 5B214424
 P 10400 4350
 F 0 "R1701" H 10430 4370 50  0000 L CNN
@@ -189,7 +185,7 @@ $EndComp
 Wire Wire Line
 	10400 4450 10400 4550
 Wire Wire Line
-	10300 4550 10500 4550
+	10300 4550 10400 4550
 Wire Wire Line
 	10400 4150 10400 4250
 Text HLabel 10300 4550 0    60   Output ~ 0
@@ -197,4 +193,10 @@ BUTTON1
 Connection ~ 10400 4550
 Text Notes 1600 4250 0    60   ~ 0
 TODO: Select footprint for connector. Maybe something high density. Just in Case for soldering a wire to it or somthing like that.
+Wire Wire Line
+	10400 4550 10500 4550
+Wire Wire Line
+	10500 3250 10500 3400
+Wire Wire Line
+	10500 2900 10500 3050
 $EndSCHEMATC

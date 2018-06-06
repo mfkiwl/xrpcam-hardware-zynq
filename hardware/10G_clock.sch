@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 22
+Sheet 8 21
 Title ""
 Date ""
 Rev ""
@@ -69,7 +69,7 @@ Text Notes 2300 3300 0    60   ~ 0
 Text Notes 7100 4150 0    60   ~ 0
 Note: clocks are AC-coupled at receiving device.
 $Comp
-L power1:GND #PWR084
+L power:GND #PWR084
 U 1 1 598A8A47
 P 1700 2300
 F 0 "#PWR084" H 1700 2050 50  0001 C CNN
@@ -104,7 +104,7 @@ NoConn ~ 5500 4500
 NoConn ~ 5500 4700
 NoConn ~ 5500 4800
 $Comp
-L device:C_Small C803
+L Device:C_Small C803
 U 1 1 598F26F6
 P 3500 3900
 F 0 "C803" H 3510 3970 50  0000 L CNN
@@ -115,7 +115,7 @@ F 3 "" H 3500 3900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C804
+L Device:C_Small C804
 U 1 1 598F2737
 P 3500 4200
 F 0 "C804" H 3510 4270 50  0000 L CNN
@@ -126,7 +126,7 @@ F 3 "" H 3500 4200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R804
+L Device:R R804
 U 1 1 598F277A
 P 3700 4050
 F 0 "R804" V 3780 4050 50  0000 C CNN
@@ -143,7 +143,7 @@ Wire Wire Line
 Connection ~ 3700 3900
 Connection ~ 3700 4200
 $Comp
-L device:C C802
+L Device:C_Small C802
 U 1 1 598F29AD
 P 3350 3250
 F 0 "C802" H 3375 3350 50  0000 L CNN
@@ -154,7 +154,7 @@ F 3 "" H 3350 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR085
+L power:GND #PWR085
 U 1 1 598F2A12
 P 3350 3400
 F 0 "#PWR085" H 3350 3150 50  0001 C CNN
@@ -165,7 +165,7 @@ F 3 "" H 3350 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+3V3 #PWR086
+L power:+3V3 #PWR086
 U 1 1 598F2A6C
 P 3200 3000
 F 0 "#PWR086" H 3200 2850 50  0001 C CNN
@@ -189,7 +189,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 4200 3400 4200
 $Comp
-L device:C C805
+L Device:C_Small C805
 U 1 1 598F30AD
 P 4900 3300
 F 0 "C805" H 4925 3400 50  0000 L CNN
@@ -200,7 +200,7 @@ F 3 "" H 4900 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR087
+L power:GND #PWR087
 U 1 1 598F3107
 P 4900 3450
 F 0 "#PWR087" H 4900 3200 50  0001 C CNN
@@ -211,7 +211,7 @@ F 3 "" H 4900 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+3V3 #PWR088
+L power:+3V3 #PWR088
 U 1 1 598F312D
 P 4700 3050
 F 0 "#PWR088" H 4700 2900 50  0001 C CNN
@@ -227,7 +227,7 @@ Wire Wire Line
 	4700 3150 4900 3150
 Connection ~ 4700 3150
 $Comp
-L device:C C801
+L Device:C_Small C801
 U 1 1 598F396E
 P 3350 1550
 F 0 "C801" H 3375 1650 50  0000 L CNN
@@ -238,7 +238,7 @@ F 3 "" H 3350 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR089
+L power:GND #PWR089
 U 1 1 598F3974
 P 3350 1700
 F 0 "#PWR089" H 3350 1450 50  0001 C CNN
@@ -249,7 +249,7 @@ F 3 "" H 3350 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+3V3 #PWR090
+L power:+3V3 #PWR090
 U 1 1 598F397A
 P 3200 1300
 F 0 "#PWR090" H 3200 1150 50  0001 C CNN
@@ -265,7 +265,7 @@ Wire Wire Line
 	3200 1800 3200 1400
 Connection ~ 3200 1400
 $Comp
-L power1:GND #PWR091
+L power:GND #PWR091
 U 1 1 598F433B
 P 1700 4000
 F 0 "#PWR091" H 1700 3750 50  0001 C CNN
@@ -286,7 +286,7 @@ Output specs:\n\nDSC1123:\nPeak-to-peak output swing (single-ended): 350 mV (typ
 NoConn ~ 1800 1800
 NoConn ~ 1800 3500
 $Comp
-L power1:GND #PWR092
+L power:GND #PWR092
 U 1 1 598F54B6
 P 4800 5200
 F 0 "#PWR092" H 4800 4950 50  0001 C CNN
@@ -308,7 +308,7 @@ Connection ~ 4800 5150
 Wire Wire Line
 	3900 3900 3900 4100
 $Comp
-L power1:GND #PWR093
+L power:GND #PWR093
 U 1 1 598F5D66
 P 2350 4400
 F 0 "#PWR093" H 2350 4150 50  0001 C CNN
@@ -319,7 +319,7 @@ F 3 "" H 2350 4400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power1:+3V3 #PWR094
+L power:+3V3 #PWR094
 U 1 1 598F5D8C
 P 2150 4500
 F 0 "#PWR094" H 2150 4350 50  0001 C CNN
@@ -330,7 +330,7 @@ F 3 "" H 2150 4500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power1:GND #PWR095
+L power:GND #PWR095
 U 1 1 598F5DE1
 P 2350 4700
 F 0 "#PWR095" H 2350 4450 50  0001 C CNN
@@ -341,7 +341,7 @@ F 3 "" H 2350 4700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R801
+L Device:R R801
 U 1 1 598F6241
 P 2500 4400
 F 0 "R801" V 2580 4400 50  0000 C CNN
@@ -352,7 +352,7 @@ F 3 "" H 2500 4400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R803
+L Device:R R803
 U 1 1 598F6296
 P 2800 4500
 F 0 "R803" V 2880 4500 50  0000 C CNN
@@ -363,7 +363,7 @@ F 3 "" H 2800 4500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R802
+L Device:R R802
 U 1 1 598F62E9
 P 2500 4700
 F 0 "R802" V 2580 4700 50  0000 C CNN

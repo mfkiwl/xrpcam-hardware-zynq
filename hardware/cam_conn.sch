@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 22
+Sheet 16 21
 Title ""
 Date ""
 Rev ""
@@ -81,7 +81,7 @@ SCL
 Text Notes 3250 6400 0    60   ~ 0
 Afaik is LVDS Clock optional
 $Comp
-L power1:GND #PWR0218
+L power:GND #PWR0218
 U 1 1 5AFB9A6C
 P 8350 6100
 F 0 "#PWR0218" H 8350 5850 50  0001 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 8350 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR0219
+L power:+5V #PWR0219
 U 1 1 5AFBA51B
 P 8850 800
 F 0 "#PWR0219" H 8850 650 50  0001 C CNN
@@ -342,13 +342,13 @@ Connection ~ 8350 6050
 Wire Wire Line
 	8350 6100 8350 6050
 Wire Wire Line
-	8850 1550 8850 800 
+	8850 1550 8850 1450
 Wire Wire Line
 	8650 2650 8800 2650
 Wire Wire Line
-	8800 2650 8800 6050
+	8800 2650 8800 2950
 Wire Wire Line
-	8800 6050 7900 6050
+	8800 6050 8350 6050
 Wire Wire Line
 	8650 5650 8800 5650
 Connection ~ 8800 5650
@@ -394,7 +394,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 2150 7900 2150
 Wire Wire Line
-	7900 2150 7900 6050
+	7900 2150 7900 2350
 Wire Wire Line
 	8050 5850 7900 5850
 Connection ~ 7900 5850
@@ -442,4 +442,64 @@ Wire Notes Line
 	8500 1600 10350 1600
 Wire Notes Line
 	10350 1600 10350 2400
+Wire Wire Line
+	8850 1050 8850 950 
+Wire Wire Line
+	8850 1150 8850 1050
+Wire Wire Line
+	8850 1250 8850 1150
+Wire Wire Line
+	8850 1350 8850 1250
+Wire Wire Line
+	8850 1450 8850 1350
+Wire Wire Line
+	8850 950  8850 800 
+Wire Wire Line
+	8350 6050 7900 6050
+Wire Wire Line
+	8800 5650 8800 6050
+Wire Wire Line
+	8800 5350 8800 5650
+Wire Wire Line
+	8800 5050 8800 5350
+Wire Wire Line
+	8800 4750 8800 5050
+Wire Wire Line
+	8800 4450 8800 4750
+Wire Wire Line
+	8800 4150 8800 4450
+Wire Wire Line
+	8800 3850 8800 4150
+Wire Wire Line
+	8800 3550 8800 3850
+Wire Wire Line
+	8800 3250 8800 3550
+Wire Wire Line
+	8800 2950 8800 3250
+Wire Wire Line
+	7900 5850 7900 6050
+Wire Wire Line
+	7900 5550 7900 5850
+Wire Wire Line
+	7900 5250 7900 5550
+Wire Wire Line
+	7900 4950 7900 5250
+Wire Wire Line
+	7900 4650 7900 4950
+Wire Wire Line
+	7900 4350 7900 4650
+Wire Wire Line
+	7900 4050 7900 4350
+Wire Wire Line
+	7900 3750 7900 4050
+Wire Wire Line
+	7900 3450 7900 3750
+Wire Wire Line
+	7900 3150 7900 3450
+Wire Wire Line
+	7900 2850 7900 3150
+Wire Wire Line
+	7900 2550 7900 2850
+Wire Wire Line
+	7900 2350 7900 2550
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 22
+Sheet 5 21
 Title ""
 Date ""
 Rev ""
@@ -34,7 +34,7 @@ $EndComp
 Text Notes 3600 1100 0    157  ~ 31
 Main 5V supply
 $Comp
-L device:R R612
+L Device:R R612
 U 1 1 5AD49968
 P 5750 1600
 F 0 "R612" V 5830 1600 50  0000 C CNN
@@ -49,7 +49,7 @@ F 7 "1" H 5750 1600 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R613
+L Device:R R613
 U 1 1 5AD49998
 P 5750 2000
 F 0 "R613" V 5830 2000 50  0000 C CNN
@@ -64,7 +64,7 @@ F 7 "1" H 5750 2000 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R605
+L Device:R R605
 U 1 1 5AD4A1FB
 P 3300 2300
 F 0 "R605" V 3380 2300 50  0000 C CNN
@@ -79,7 +79,7 @@ F 7 "1" H 3300 2300 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C609
+L Device:C_Small C609
 U 1 1 5AD4A2D8
 P 5950 1650
 F 0 "C609" H 5960 1720 50  0000 L CNN
@@ -321,7 +321,7 @@ $EndBitmap
 Text Notes 3700 3150 0    60   ~ 0
 K_TT=1.2
 $Comp
-L device:R R603
+L Device:R R603
 U 1 1 5AD4A498
 P 3150 2300
 F 0 "R603" V 3230 2300 50  0000 C CNN
@@ -336,7 +336,7 @@ F 7 "1" H 3150 2300 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R601
+L Device:R R601
 U 1 1 5AD4A5C2
 P 3000 2300
 F 0 "R601" V 3080 2300 50  0000 C CNN
@@ -351,7 +351,7 @@ F 7 "1" H 3000 2300 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:C_Small C601
+L Device:C_Small C601
 U 1 1 5AD4A846
 P 2650 1550
 F 0 "C601" H 2660 1620 50  0000 L CNN
@@ -370,7 +370,7 @@ F 11 "1" H 2650 1550 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:CP_Small C612
+L Device:CP_Small C612
 U 1 1 5AD4AB44
 P 6250 1550
 F 0 "C612" H 6260 1620 50  0000 L CNN
@@ -720,7 +720,7 @@ $EndBitmap
 Text Label 2900 9150 0    60   ~ 0
 EN_3V3
 $Comp
-L device:R R610
+L Device:R R610
 U 1 1 5AD59CC0
 P 5650 9050
 F 0 "R610" V 5730 9050 50  0000 C CNN
@@ -735,7 +735,7 @@ F 7 "1" H 5650 9050 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R611
+L Device:R R611
 U 1 1 5AD59D10
 P 5650 9450
 F 0 "R611" V 5730 9450 50  0000 C CNN
@@ -1086,7 +1086,7 @@ $EndBitmap
 Text Label 2900 6850 0    60   ~ 0
 EN_1V8
 $Comp
-L device:R R608
+L Device:R R608
 U 1 1 5AD5CCDE
 P 5650 6750
 F 0 "R608" V 5730 6750 50  0000 C CNN
@@ -1101,7 +1101,7 @@ F 7 "1" H 5650 6750 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R609
+L Device:R R609
 U 1 1 5AD5CCE6
 P 5650 7150
 F 0 "R609" V 5730 7150 50  0000 C CNN
@@ -1116,7 +1116,7 @@ F 7 "1" H 5650 7150 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R607
+L Device:R R607
 U 1 1 5AD5CCEE
 P 5400 6750
 F 0 "R607" V 5480 6750 50  0000 C CNN
@@ -1467,7 +1467,7 @@ $EndBitmap
 Text Label 8300 6850 0    60   ~ 0
 EN_1V2_MGT
 $Comp
-L device:R R623
+L Device:R R623
 U 1 1 5AD5EDB6
 P 11050 6750
 F 0 "R623" V 11130 6750 50  0000 C CNN
@@ -1482,7 +1482,7 @@ F 7 "1" H 11050 6750 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R624
+L Device:R R624
 U 1 1 5AD5EDBE
 P 11050 7150
 F 0 "R624" V 11130 7150 50  0000 C CNN
@@ -1833,7 +1833,7 @@ $EndBitmap
 Text Label 8300 9150 0    60   ~ 0
 EN_VDDR
 $Comp
-L device:R R625
+L Device:R R625
 U 1 1 5AD612C0
 P 11050 9050
 F 0 "R625" V 11130 9050 50  0000 C CNN
@@ -1848,7 +1848,7 @@ F 7 "1" H 11050 9050 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R626
+L Device:R R626
 U 1 1 5AD612C8
 P 11050 9450
 F 0 "R626" V 11130 9450 50  0000 C CNN
@@ -2199,7 +2199,7 @@ $EndBitmap
 Text Label 8300 4200 0    60   ~ 0
 EN_1V0_MGT
 $Comp
-L device:R R621
+L Device:R R621
 U 1 1 5AD68B1F
 P 11050 4100
 F 0 "R621" V 11130 4100 50  0000 C CNN
@@ -2214,7 +2214,7 @@ F 7 "1" H 11050 4100 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R622
+L Device:R R622
 U 1 1 5AD68B27
 P 11050 4500
 F 0 "R622" V 11130 4500 50  0000 C CNN
@@ -2229,7 +2229,7 @@ F 7 "1" H 11050 4500 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R620
+L Device:R R620
 U 1 1 5AD68B2F
 P 10800 4100
 F 0 "R620" V 10880 4100 50  0000 C CNN
@@ -2275,7 +2275,7 @@ $EndComp
 Text Notes 4250 3600 0    157  ~ 31
 1.0V
 $Comp
-L device:R R614
+L Device:R R614
 U 1 1 5AD6B61D
 P 5750 4000
 F 0 "R614" V 5830 4000 50  0000 C CNN
@@ -2290,7 +2290,7 @@ F 7 "1" H 5750 4000 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R615
+L Device:R R615
 U 1 1 5AD6B625
 P 5750 4400
 F 0 "R615" V 5830 4400 50  0000 C CNN
@@ -2305,7 +2305,7 @@ F 7 "1" H 5750 4400 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R606
+L Device:R R606
 U 1 1 5AD6B62B
 P 3300 4700
 F 0 "R606" V 3380 4700 50  0000 C CNN
@@ -2543,7 +2543,7 @@ $EndBitmap
 Text Notes 3700 5550 0    60   ~ 0
 K_TT=2.0
 $Comp
-L device:R R604
+L Device:R R604
 U 1 1 5AD6B63D
 P 3150 4700
 F 0 "R604" V 3230 4700 50  0000 C CNN
@@ -2558,7 +2558,7 @@ F 7 "1" H 3150 4700 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R602
+L Device:R R602
 U 1 1 5AD6B645
 P 3000 4700
 F 0 "R602" V 3080 4700 50  0000 C CNN
@@ -2579,7 +2579,7 @@ for 8A use MPN: TPSM84824
 Text Notes 5850 3650 0    60   ~ 0
 1V, 4A
 $Comp
-L device:CP_Small C613
+L Device:CP_Small C613
 U 1 1 5AD7130D
 P 6350 3950
 F 0 "C613" H 6438 3996 50  0000 L CNN
@@ -2598,7 +2598,7 @@ F 11 "1" H 6350 3950 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C610
+L Device:C_Small C610
 U 1 1 5AD714E2
 P 6050 4050
 F 0 "C610" H 5850 4150 50  0000 L CNN
@@ -2619,7 +2619,7 @@ $EndComp
 Text Label 11350 1800 0    60   ~ 0
 ~RESET
 $Comp
-L device:R R618
+L Device:R R618
 U 1 1 5ADB4A6C
 P 9100 1650
 F 0 "R618" V 9180 1650 50  0000 C CNN
@@ -2634,7 +2634,7 @@ F 7 "1" H 9100 1650 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R619
+L Device:R R619
 U 1 1 5ADB4B23
 P 9100 2150
 F 0 "R619" V 9180 2150 50  0000 C CNN
@@ -2649,7 +2649,7 @@ F 7 "1" H 9100 2150 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C614
+L Device:C_Small C614
 U 1 1 5ADB4C52
 P 8900 2150
 F 0 "C614" H 8910 2220 50  0000 L CNN
@@ -2681,7 +2681,7 @@ Missing:\n* Input Protection\n* Input Connector\n* evtl. 2,5 V supply. May be ne
 Text Label 7150 2350 2    60   ~ 0
 PG_5V
 $Comp
-L device:R R617
+L Device:R R617
 U 1 1 5ADC8706
 P 6700 1850
 F 0 "R617" V 6780 1850 50  0000 C CNN
@@ -2696,7 +2696,7 @@ F 7 "1" H 6700 1850 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R616
+L Device:R R616
 U 1 1 5ADC9794
 P 6650 4400
 F 0 "R616" V 6730 4400 50  0000 C CNN
@@ -2742,7 +2742,7 @@ PG_1V2_MGT
 Text Label 11350 2450 0    60   ~ 0
 PG_VDDR
 $Comp
-L device:R R627
+L Device:R R627
 U 1 1 5ADD8774
 P 12100 1500
 F 0 "R627" V 12180 1500 50  0000 C CNN
@@ -3397,7 +3397,7 @@ $EndBitmap
 Text Notes 14300 1350 0    60   ~ 0
 Sequencing:
 $Comp
-L power1:GND #PWR038
+L power:GND #PWR038
 U 1 1 5AE24761
 P 3150 2950
 F 0 "#PWR038" H 3150 2700 50  0001 C CNN
@@ -3408,7 +3408,7 @@ F 3 "" H 3150 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR039
+L power:GND #PWR039
 U 1 1 5AE24CB4
 P 3150 5350
 F 0 "#PWR039" H 3150 5100 50  0001 C CNN
@@ -3419,7 +3419,7 @@ F 3 "" H 3150 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR040
+L power:GND #PWR040
 U 1 1 5AE251C6
 P 4850 7500
 F 0 "#PWR040" H 4850 7250 50  0001 C CNN
@@ -3430,7 +3430,7 @@ F 3 "" H 4850 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR041
+L power:GND #PWR041
 U 1 1 5AE25445
 P 4850 9800
 F 0 "#PWR041" H 4850 9550 50  0001 C CNN
@@ -3441,7 +3441,7 @@ F 3 "" H 4850 9800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR042
+L power:GND #PWR042
 U 1 1 5AE257D9
 P 11050 9800
 F 0 "#PWR042" H 11050 9550 50  0001 C CNN
@@ -3452,7 +3452,7 @@ F 3 "" H 11050 9800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR043
+L power:GND #PWR043
 U 1 1 5AE266FF
 P 11050 7500
 F 0 "#PWR043" H 11050 7250 50  0001 C CNN
@@ -3463,7 +3463,7 @@ F 3 "" H 11050 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR044
+L power:GND #PWR044
 U 1 1 5AE267AF
 P 11050 4850
 F 0 "#PWR044" H 11050 4600 50  0001 C CNN
@@ -3474,7 +3474,7 @@ F 3 "" H 11050 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR045
+L power:GND #PWR045
 U 1 1 5AE271CE
 P 10000 2550
 F 0 "#PWR045" H 10000 2300 50  0001 C CNN
@@ -3487,7 +3487,7 @@ $EndComp
 Text HLabel 12850 1800 2    60   Output ~ 0
 PS_POR_B
 $Comp
-L power1:+3V3 #PWR046
+L power:+3V3 #PWR046
 U 1 1 5AE3F062
 P 12100 1150
 F 0 "#PWR046" H 12100 1000 50  0001 C CNN
@@ -3498,7 +3498,7 @@ F 3 "" H 12100 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR047
+L power:+5V #PWR047
 U 1 1 5AE3F924
 P 7150 1250
 F 0 "#PWR047" H 7150 1100 50  0001 C CNN
@@ -3509,7 +3509,7 @@ F 3 "" H 7150 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR048
+L power:+5V #PWR048
 U 1 1 5AE3FC8B
 P 8300 1250
 F 0 "#PWR048" H 8300 1100 50  0001 C CNN
@@ -3520,7 +3520,7 @@ F 3 "" H 8300 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR049
+L power:+5V #PWR049
 U 1 1 5AE402C7
 P 1700 3700
 F 0 "#PWR049" H 1700 3550 50  0001 C CNN
@@ -3531,7 +3531,7 @@ F 3 "" H 1700 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR050
+L power:+5V #PWR050
 U 1 1 5AE407AA
 P 1700 6350
 F 0 "#PWR050" H 1700 6200 50  0001 C CNN
@@ -3542,7 +3542,7 @@ F 3 "" H 1700 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR051
+L power:+5V #PWR051
 U 1 1 5AE413BB
 P 1700 8650
 F 0 "#PWR051" H 1700 8500 50  0001 C CNN
@@ -3553,7 +3553,7 @@ F 3 "" H 1700 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR052
+L power:+5V #PWR052
 U 1 1 5AE42185
 P 8300 3700
 F 0 "#PWR052" H 8300 3550 50  0001 C CNN
@@ -3564,7 +3564,7 @@ F 3 "" H 8300 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR053
+L power:+5V #PWR053
 U 1 1 5AE424B3
 P 8300 6350
 F 0 "#PWR053" H 8300 6200 50  0001 C CNN
@@ -3575,7 +3575,7 @@ F 3 "" H 8300 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+5V #PWR054
+L power:+5V #PWR054
 U 1 1 5AE429D3
 P 8300 8650
 F 0 "#PWR054" H 8300 8500 50  0001 C CNN
@@ -3586,7 +3586,7 @@ F 3 "" H 8300 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+1V8 #PWR055
+L power:+1V8 #PWR055
 U 1 1 5AE435B3
 P 7150 6350
 F 0 "#PWR055" H 7150 6200 50  0001 C CNN
@@ -3597,7 +3597,7 @@ F 3 "" H 7150 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+3V3 #PWR056
+L power:+3V3 #PWR056
 U 1 1 5AE44A69
 P 7150 8650
 F 0 "#PWR056" H 7150 8500 50  0001 C CNN
@@ -3608,7 +3608,7 @@ F 3 "" H 7150 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+1V0 #PWR057
+L power:+1V0 #PWR057
 U 1 1 5AE45399
 P 7150 3700
 F 0 "#PWR057" H 7150 3550 50  0001 C CNN
@@ -3652,7 +3652,7 @@ F 3 "" H 11300 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L regul:MCP1700-2502E_SOT23 U609
+L Regulator_Linear:MCP1700-2502E_SOT23 U609
 U 1 1 5AFABD17
 P 14500 6300
 F 0 "U609" H 14650 6050 50  0000 C CNN
@@ -3669,7 +3669,7 @@ F 9 "SPEC" H 14500 6300 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR061
+L power:GND #PWR061
 U 1 1 5AFAC292
 P 14500 6800
 F 0 "#PWR061" H 14500 6550 50  0001 C CNN
@@ -3680,7 +3680,7 @@ F 3 "" H 14500 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C621
+L Device:C_Small C621
 U 1 1 5AFAD2F1
 P 14100 6500
 F 0 "C621" H 14110 6570 50  0000 L CNN
@@ -3697,7 +3697,7 @@ F 9 "SPEC" H 14100 6500 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+2V5 #PWR062
+L power:+2V5 #PWR062
 U 1 1 5AFAEE44
 P 15000 6200
 F 0 "#PWR062" H 15000 6050 50  0001 C CNN
@@ -3708,7 +3708,7 @@ F 3 "" H 15000 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+3V3 #PWR063
+L power:+3V3 #PWR063
 U 1 1 5AFAF34B
 P 14000 6200
 F 0 "#PWR063" H 14000 6050 50  0001 C CNN
@@ -3719,7 +3719,7 @@ F 3 "" H 14000 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C622
+L Device:C_Small C622
 U 1 1 5AFC1BC9
 P 14900 6500
 F 0 "C622" H 14910 6570 50  0000 L CNN
@@ -4391,7 +4391,7 @@ Wire Wire Line
 Text HLabel 2450 1400 0    60   Input ~ 0
 V_IN
 $Comp
-L device:C_Small C603
+L Device:C_Small C603
 U 1 1 5B0A5E8F
 P 2850 1550
 F 0 "C603" H 2758 1596 50  0000 R CNN
@@ -4410,7 +4410,7 @@ F 11 "1" H 2850 1550 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C602
+L Device:C_Small C602
 U 1 1 5B0A5F25
 P 2650 3950
 F 0 "C602" H 2660 4020 50  0000 L CNN
@@ -4429,7 +4429,7 @@ F 11 "1" H 2650 3950 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C604
+L Device:C_Small C604
 U 1 1 5B0A6361
 P 2850 3950
 F 0 "C604" H 2758 3996 50  0000 R CNN
@@ -4448,7 +4448,7 @@ F 11 "1" H 2850 3950 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C605
+L Device:C_Small C605
 U 1 1 5B0A712E
 P 3550 6650
 F 0 "C605" H 3560 6720 50  0000 L CNN
@@ -4468,7 +4468,7 @@ F 12 "10 V" H 3450 6550 50  0000 C BNN "Voltage"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C611
+L Device:C_Small C611
 U 1 1 5B0AA839
 P 6200 4000
 F 0 "C611" H 6100 4100 50  0000 L CNN
@@ -4487,7 +4487,7 @@ F 11 "1" H 6200 4000 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C608
+L Device:C_Small C608
 U 1 1 5B0ABDF6
 P 5900 9150
 F 0 "C608" H 5910 9220 50  0000 L CNN
@@ -4506,7 +4506,7 @@ F 11 "1" H 5900 9150 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C607
+L Device:C_Small C607
 U 1 1 5B0AC0B8
 P 5900 6900
 F 0 "C607" H 5910 6970 50  0000 L CNN
@@ -4525,7 +4525,7 @@ F 11 "1" H 5900 6900 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C620
+L Device:C_Small C620
 U 1 1 5B0AC70B
 P 11300 9200
 F 0 "C620" H 11310 9270 50  0000 L CNN
@@ -4544,7 +4544,7 @@ F 11 "1" H 11300 9200 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C619
+L Device:C_Small C619
 U 1 1 5B0AC831
 P 11300 6900
 F 0 "C619" H 11310 6970 50  0000 L CNN
@@ -4563,7 +4563,7 @@ F 11 "1" H 11300 6900 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C618
+L Device:C_Small C618
 U 1 1 5B0ACBD5
 P 11300 4250
 F 0 "C618" H 11310 4320 50  0000 L CNN
@@ -4833,7 +4833,7 @@ Connection ~ 6650 4900
 Wire Wire Line
 	6650 4900 7600 4900
 $Comp
-L device:C_Small C606
+L Device:C_Small C606
 U 1 1 5B123B23
 P 3550 8950
 F 0 "C606" H 3560 9020 50  0000 L CNN
@@ -4853,7 +4853,7 @@ F 12 "10 V" H 3450 8850 50  0000 C BNN "Voltage"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C617
+L Device:C_Small C617
 U 1 1 5B123CDC
 P 8950 8950
 F 0 "C617" H 8960 9020 50  0000 L CNN
@@ -4873,7 +4873,7 @@ F 12 "10 V" H 8850 8850 50  0000 C BNN "Voltage"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C616
+L Device:C_Small C616
 U 1 1 5B123DDA
 P 8950 6650
 F 0 "C616" H 8960 6720 50  0000 L CNN
@@ -4893,7 +4893,7 @@ F 12 "10 V" H 8850 6550 50  0000 C BNN "Voltage"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C615
+L Device:C_Small C615
 U 1 1 5B123E94
 P 8950 4000
 F 0 "C615" H 8960 4070 50  0000 L CNN
@@ -4915,7 +4915,7 @@ $EndComp
 Text Notes 9600 2350 0    50   ~ 0
 NO, POR can be triggered\nby disconnecting Power ...
 $Comp
-L device:R R628
+L Device:R R628
 U 1 1 5B3F91D0
 P 10000 1400
 F 0 "R628" V 10080 1400 50  0000 C CNN

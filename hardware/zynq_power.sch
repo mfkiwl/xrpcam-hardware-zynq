@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 22
+Sheet 2 21
 Title ""
 Date ""
 Rev ""
@@ -26,7 +26,7 @@ F 3 "" H 9900 350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C255
+L Device:C_Small C255
 U 1 1 59872474
 P 9100 5450
 F 0 "C255" H 9110 5520 50  0000 L CNN
@@ -63,7 +63,7 @@ VCC_PAUX
 Text Notes 4950 2800 0    60   ~ 0
 VCCO_DDR
 $Comp
-L device:CP_Small C202
+L Device:CP_Small C202
 U 1 1 598743AB
 P 950 1500
 F 0 "C202" H 960 1570 50  0000 L CNN
@@ -80,7 +80,7 @@ F 9 "SPEC" H 950 1500 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L_Small L202
+L Device:L_Small L202
 U 1 1 5AE1F2BF
 P 8950 1550
 F 0 "L202" H 8980 1590 50  0000 L CNN
@@ -91,7 +91,7 @@ F 3 "" H 8950 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power1:GND #PWR01
+L power:GND #PWR01
 U 1 1 5ADEB33E
 P 9800 2450
 F 0 "#PWR01" H 9800 2200 50  0001 C CNN
@@ -102,7 +102,7 @@ F 3 "" H 9800 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+1V8 #PWR02
+L power:+1V8 #PWR02
 U 1 1 5ADEB37F
 P 8750 950
 F 0 "#PWR02" H 8750 800 50  0001 C CNN
@@ -113,7 +113,7 @@ F 3 "" H 8750 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L_Small L201
+L Device:L_Small L201
 U 1 1 5ADEBC1C
 P 8950 1250
 F 0 "L201" H 8980 1290 50  0000 L CNN
@@ -129,7 +129,7 @@ F 8 "SPEC" H 8950 1250 60  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power1:+1V0 #PWR03
+L power:+1V0 #PWR03
 U 1 1 5ADF2035
 P 7800 950
 F 0 "#PWR03" H 7800 800 50  0001 C CNN
@@ -164,7 +164,7 @@ $EndComp
 Text GLabel 8350 1650 0    60   Input ~ 0
 VCC_AUX
 $Comp
-L device:CP_Small C221
+L Device:CP_Small C221
 U 1 1 5AE693FF
 P 3500 1500
 F 0 "C221" H 3510 1570 50  0000 L CNN
@@ -183,7 +183,7 @@ $EndComp
 Text Notes 5350 800  0    60   ~ 0
 VCC_AUX
 $Comp
-L device:C_Small C234
+L Device:C_Small C234
 U 1 1 5AE69D6F
 P 5250 1500
 F 0 "C234" H 5260 1570 50  0000 L CNN
@@ -203,7 +203,7 @@ F 12 "6,3 V" H 5350 1300 50  0000 C BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP_Small C207
+L Device:CP_Small C207
 U 1 1 5AE72084
 P 1700 3550
 F 0 "C207" H 1710 3620 50  0000 L CNN
@@ -220,7 +220,7 @@ F 9 "SPEC" H 1700 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP_Small C222
+L Device:CP_Small C222
 U 1 1 5AE72476
 P 3750 3550
 F 0 "C222" H 3760 3620 50  0000 L CNN
@@ -237,7 +237,7 @@ F 9 "SPEC" H 3750 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP_Small C232
+L Device:CP_Small C232
 U 1 1 5AE72A74
 P 5150 3550
 F 0 "C232" H 5160 3620 50  0000 L CNN
@@ -256,7 +256,7 @@ $EndComp
 Text Notes 7100 2800 0    60   ~ 0
 VCCO_MIO0
 $Comp
-L device:CP_Small C248
+L Device:CP_Small C248
 U 1 1 5AE732C2
 P 7350 3550
 F 0 "C248" H 7360 3620 50  0000 L CNN
@@ -275,7 +275,7 @@ $EndComp
 Text Notes 8450 2800 0    60   ~ 0
 VCCO_MIO1
 $Comp
-L power1:GND #PWR06
+L power:GND #PWR06
 U 1 1 5AE7C463
 P 1950 1800
 F 0 "#PWR06" H 1950 1550 50  0001 C CNN
@@ -286,7 +286,7 @@ F 3 "" H 1950 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR07
+L power:GND #PWR07
 U 1 1 5AE7E589
 P 4150 1800
 F 0 "#PWR07" H 4150 1550 50  0001 C CNN
@@ -297,7 +297,7 @@ F 3 "" H 4150 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR08
+L power:GND #PWR08
 U 1 1 5AE7F51C
 P 5850 1800
 F 0 "#PWR08" H 5850 1550 50  0001 C CNN
@@ -310,7 +310,7 @@ $EndComp
 Text GLabel 5850 1150 1    60   Output ~ 0
 VCC_AUX
 $Comp
-L power1:GND #PWR09
+L power:GND #PWR09
 U 1 1 5AE7FA73
 P 1200 3850
 F 0 "#PWR09" H 1200 3600 50  0001 C CNN
@@ -323,7 +323,7 @@ $EndComp
 Text GLabel 1200 3200 1    60   Output ~ 0
 V_BANK0
 $Comp
-L power1:GND #PWR010
+L power:GND #PWR010
 U 1 1 5AE89821
 P 2400 3850
 F 0 "#PWR010" H 2400 3600 50  0001 C CNN
@@ -334,7 +334,7 @@ F 3 "" H 2400 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR011
+L power:GND #PWR011
 U 1 1 5AE8A8F2
 P 4200 3850
 F 0 "#PWR011" H 4200 3600 50  0001 C CNN
@@ -345,7 +345,7 @@ F 3 "" H 4200 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR012
+L power:GND #PWR012
 U 1 1 5AE8B200
 P 5750 3850
 F 0 "#PWR012" H 5750 3600 50  0001 C CNN
@@ -358,7 +358,7 @@ $EndComp
 Text GLabel 5750 3250 1    60   Output ~ 0
 VCCO_DDR
 $Comp
-L power1:GND #PWR013
+L power:GND #PWR013
 U 1 1 5AE8BE29
 P 7800 3850
 F 0 "#PWR013" H 7800 3600 50  0001 C CNN
@@ -371,7 +371,7 @@ $EndComp
 Text GLabel 7800 3200 1    60   Output ~ 0
 VCCO_MIO0
 $Comp
-L device:CP_Small C254
+L Device:CP_Small C254
 U 1 1 5AE8C444
 P 8700 3550
 F 0 "C254" H 8710 3620 50  0000 L CNN
@@ -388,7 +388,7 @@ F 9 "SPEC" H 8700 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR014
+L power:GND #PWR014
 U 1 1 5AE8C46C
 P 9150 3850
 F 0 "#PWR014" H 9150 3600 50  0001 C CNN
@@ -401,7 +401,7 @@ $EndComp
 Text GLabel 9150 3200 1    60   Output ~ 0
 VCCO_MIO1
 $Comp
-L power1:GND #PWR015
+L power:GND #PWR015
 U 1 1 5AE8F4DA
 P 1800 5750
 F 0 "#PWR015" H 1800 5500 50  0001 C CNN
@@ -414,7 +414,7 @@ $EndComp
 Text GLabel 1800 5100 1    60   Output ~ 0
 VCCO_13
 $Comp
-L power1:GND #PWR016
+L power:GND #PWR016
 U 1 1 5AE900AE
 P 4450 5750
 F 0 "#PWR016" H 4450 5500 50  0001 C CNN
@@ -427,7 +427,7 @@ $EndComp
 Text GLabel 4450 5100 1    60   Output ~ 0
 VCCO_34
 $Comp
-L power1:GND #PWR017
+L power:GND #PWR017
 U 1 1 5AE90BE3
 P 6950 5750
 F 0 "#PWR017" H 6950 5500 50  0001 C CNN
@@ -464,7 +464,7 @@ Only needed for\nCLG484 Package\n(Z-7012S/Z-7015)
 Text Notes 8650 4700 0    60   ~ 0
 VCC_PLL
 $Comp
-L power1:GND #PWR018
+L power:GND #PWR018
 U 1 1 5AEEEC20
 P 9350 5750
 F 0 "#PWR018" H 9350 5500 50  0001 C CNN
@@ -495,7 +495,7 @@ VCC_PAUX
 Text Label 4200 2750 3    60   ~ 0
 VCC_PAUX
 $Comp
-L power1:+3V3 #PWR019
+L power:+3V3 #PWR019
 U 1 1 5AF209EB
 P 7550 3150
 F 0 "#PWR019" H 7550 3000 50  0001 C CNN
@@ -1039,7 +1039,7 @@ Wire Wire Line
 	7550 3150 7550 3350
 Connection ~ 7550 3350
 $Comp
-L power1:+3V3 #PWR020
+L power:+3V3 #PWR020
 U 1 1 5AF21097
 P 8900 3150
 F 0 "#PWR020" H 8900 3000 50  0001 C CNN
@@ -1053,7 +1053,7 @@ Wire Wire Line
 	8900 3150 8900 3350
 Connection ~ 8900 3350
 $Comp
-L power1:+1V8 #PWR021
+L power:+1V8 #PWR021
 U 1 1 5AF2156D
 P 6250 5000
 F 0 "#PWR021" H 6250 4850 50  0001 C CNN
@@ -1064,7 +1064,7 @@ F 3 "" H 6250 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+1V8 #PWR022
+L power:+1V8 #PWR022
 U 1 1 5AF2198C
 P 4050 5000
 F 0 "#PWR022" H 4050 4850 50  0001 C CNN
@@ -1095,7 +1095,7 @@ Wire Wire Line
 	5300 3150 5300 3350
 Connection ~ 5300 3350
 $Comp
-L power1:+2V5 #PWR024
+L power:+2V5 #PWR024
 U 1 1 5AF6CDAF
 P 1050 4950
 F 0 "#PWR024" H 1050 4800 50  0001 C CNN
@@ -1109,7 +1109,7 @@ Wire Wire Line
 	1050 4950 1050 5250
 Connection ~ 1050 5250
 $Comp
-L power1:+1V8 #PWR025
+L power:+1V8 #PWR025
 U 1 1 5AF8A808
 P 950 3150
 F 0 "#PWR025" H 950 3000 50  0001 C CNN
@@ -1125,7 +1125,7 @@ Wire Wire Line
 	950  3300 1200 3300
 Connection ~ 1200 3300
 $Comp
-L device:C_Small C228
+L Device:C_Small C228
 U 1 1 5AFCE279
 P 4550 5450
 F 0 "C228" H 4560 5520 50  0000 L CNN
@@ -1145,7 +1145,7 @@ F 12 "6.3 V" H 4700 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C223
+L Device:C_Small C223
 U 1 1 5AFCE2B1
 P 3900 5450
 F 0 "C223" H 3910 5520 50  0000 L CNN
@@ -1381,7 +1381,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 3300 1200 3200
 $Comp
-L device:C_Small C203
+L Device:C_Small C203
 U 1 1 5B120C73
 P 1200 3550
 F 0 "C203" H 1210 3620 50  0000 L CNN
@@ -1401,7 +1401,7 @@ F 12 "6,3 V" H 1300 3350 50  0000 C BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C239
+L Device:C_Small C239
 U 1 1 5B120EBB
 P 5950 5450
 F 0 "C239" H 5960 5520 50  0000 L CNN
@@ -1421,7 +1421,7 @@ F 12 "6,3 V" H 6050 5250 50  0000 C BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C201
+L Device:C_Small C201
 U 1 1 5B121187
 P 800 5450
 F 0 "C201" H 810 5520 50  0000 L CNN
@@ -1457,7 +1457,7 @@ MGTAVTT
 Text Notes 1350 7650 0    50   ~ 0
 Todo: for MGTAVCC and MGTAVTT each add two 100 nF 0201 Cap and 1x 4.7 µF
 $Comp
-L device:C_Small C260
+L Device:C_Small C260
 U 1 1 5B29B922
 P 1600 6850
 F 0 "C260" H 1610 6920 50  0000 L CNN
@@ -1477,7 +1477,7 @@ F 12 "6,3 V" H 1700 6700 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C261
+L Device:C_Small C261
 U 1 1 5B2B25A6
 P 1900 6850
 F 0 "C261" H 1910 6920 50  0000 L CNN
@@ -1497,7 +1497,7 @@ F 12 "6,3 V" H 2050 6700 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C263
+L Device:C_Small C263
 U 1 1 5B2B2652
 P 3000 6850
 F 0 "C263" H 3010 6920 50  0000 L CNN
@@ -1517,7 +1517,7 @@ F 12 "6,3 V" H 3100 6700 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C264
+L Device:C_Small C264
 U 1 1 5B2B2726
 P 3300 6850
 F 0 "C264" H 3310 6920 50  0000 L CNN
@@ -1585,7 +1585,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 6250 3000 6650
 $Comp
-L power1:GND #PWR0203
+L power:GND #PWR0203
 U 1 1 5B414129
 P 1600 7150
 F 0 "#PWR0203" H 1600 6900 50  0001 C CNN
@@ -1598,7 +1598,7 @@ $EndComp
 Wire Wire Line
 	1600 7150 1600 7050
 $Comp
-L power1:GND #PWR0211
+L power:GND #PWR0211
 U 1 1 5B42F85C
 P 3000 7150
 F 0 "#PWR0211" H 3000 6900 50  0001 C CNN
@@ -1611,7 +1611,7 @@ $EndComp
 Wire Wire Line
 	3000 7050 3000 7150
 $Comp
-L device:C_Small C225
+L Device:C_Small C225
 U 1 1 5B46EA5B
 P 4150 5450
 F 0 "C225" H 4160 5520 50  0000 L CNN
@@ -1631,7 +1631,7 @@ F 12 "6,3 V" H 4250 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C243
+L Device:C_Small C243
 U 1 1 5B46EB09
 P 6400 5450
 F 0 "C243" H 6410 5520 50  0000 L CNN
@@ -1651,7 +1651,7 @@ F 12 "6,3 V" H 6500 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C245
+L Device:C_Small C245
 U 1 1 5B46EBD7
 P 6650 5450
 F 0 "C245" H 6660 5520 50  0000 L CNN
@@ -1671,7 +1671,7 @@ F 12 "6,3 V" H 6750 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C231
+L Device:C_Small C231
 U 1 1 5B46F9A2
 P 4850 5450
 F 0 "C231" H 4860 5520 50  0000 L CNN
@@ -1691,7 +1691,7 @@ F 12 "6.3 V" H 5000 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C233
+L Device:C_Small C233
 U 1 1 5B46FA46
 P 5150 5450
 F 0 "C233" H 5160 5520 50  0000 L CNN
@@ -1711,7 +1711,7 @@ F 12 "6.3 V" H 5300 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C235
+L Device:C_Small C235
 U 1 1 5B46FAEC
 P 5450 5450
 F 0 "C235" H 5460 5520 50  0000 L CNN
@@ -1731,7 +1731,7 @@ F 12 "6.3 V" H 5600 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C247
+L Device:C_Small C247
 U 1 1 5B46FB94
 P 7050 5450
 F 0 "C247" H 7060 5520 50  0000 L CNN
@@ -1751,7 +1751,7 @@ F 12 "6.3 V" H 7200 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C249
+L Device:C_Small C249
 U 1 1 5B46FC5E
 P 7350 5450
 F 0 "C249" H 7360 5520 50  0000 L CNN
@@ -1771,7 +1771,7 @@ F 12 "6.3 V" H 7500 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C250
+L Device:C_Small C250
 U 1 1 5B46FDF3
 P 7650 5450
 F 0 "C250" H 7660 5520 50  0000 L CNN
@@ -1791,7 +1791,7 @@ F 12 "6.3 V" H 7800 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C252
+L Device:C_Small C252
 U 1 1 5B46FEA1
 P 7950 5450
 F 0 "C252" H 7960 5520 50  0000 L CNN
@@ -1811,7 +1811,7 @@ F 12 "6.3 V" H 8100 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C209
+L Device:C_Small C209
 U 1 1 5B473F33
 P 1900 5450
 F 0 "C209" H 1910 5520 50  0000 L CNN
@@ -1831,7 +1831,7 @@ F 12 "6.3 V" H 2050 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C212
+L Device:C_Small C212
 U 1 1 5B473F43
 P 2200 5450
 F 0 "C212" H 2210 5520 50  0000 L CNN
@@ -1851,7 +1851,7 @@ F 12 "6.3 V" H 2350 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C214
+L Device:C_Small C214
 U 1 1 5B473F53
 P 2500 5450
 F 0 "C214" H 2510 5520 50  0000 L CNN
@@ -1871,7 +1871,7 @@ F 12 "6.3 V" H 2650 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C217
+L Device:C_Small C217
 U 1 1 5B473F63
 P 2800 5450
 F 0 "C217" H 2810 5520 50  0000 L CNN
@@ -1891,7 +1891,7 @@ F 12 "6.3 V" H 2950 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C238
+L Device:C_Small C238
 U 1 1 5B48FE3E
 P 5950 3550
 F 0 "C238" H 5960 3620 50  0000 L CNN
@@ -1911,7 +1911,7 @@ F 12 "6.3 V" H 6100 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C241
+L Device:C_Small C241
 U 1 1 5B48FE4E
 P 6250 3550
 F 0 "C241" H 6260 3620 50  0000 L CNN
@@ -1931,7 +1931,7 @@ F 12 "6.3 V" H 6400 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C244
+L Device:C_Small C244
 U 1 1 5B48FE5E
 P 6550 3550
 F 0 "C244" H 6560 3620 50  0000 L CNN
@@ -1951,7 +1951,7 @@ F 12 "6.3 V" H 6700 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C246
+L Device:C_Small C246
 U 1 1 5B48FE6E
 P 6850 3550
 F 0 "C246" H 6860 3620 50  0000 L CNN
@@ -1971,7 +1971,7 @@ F 12 "6.3 V" H 7000 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C210
+L Device:C_Small C210
 U 1 1 5B4ABB9C
 P 2150 1500
 F 0 "C210" H 2160 1570 50  0000 L CNN
@@ -1991,7 +1991,7 @@ F 12 "6.3 V" H 2300 1350 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C213
+L Device:C_Small C213
 U 1 1 5B4ABBAC
 P 2450 1500
 F 0 "C213" H 2460 1570 50  0000 L CNN
@@ -2011,7 +2011,7 @@ F 12 "6.3 V" H 2600 1350 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C216
+L Device:C_Small C216
 U 1 1 5B4ABBBC
 P 2750 1500
 F 0 "C216" H 2760 1570 50  0000 L CNN
@@ -2031,7 +2031,7 @@ F 12 "6.3 V" H 2900 1350 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C219
+L Device:C_Small C219
 U 1 1 5B4ABBCC
 P 3050 1500
 F 0 "C219" H 3060 1570 50  0000 L CNN
@@ -2051,7 +2051,7 @@ F 12 "6.3 V" H 3200 1350 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C227
+L Device:C_Small C227
 U 1 1 5B4C778B
 P 4350 1500
 F 0 "C227" H 4360 1570 50  0000 L CNN
@@ -2071,7 +2071,7 @@ F 12 "6.3 V" H 4500 1350 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C230
+L Device:C_Small C230
 U 1 1 5B4C779B
 P 4650 1500
 F 0 "C230" H 4660 1570 50  0000 L CNN
@@ -2091,7 +2091,7 @@ F 12 "6.3 V" H 4800 1350 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C240
+L Device:C_Small C240
 U 1 1 5B4C77AB
 P 6050 1500
 F 0 "C240" H 6060 1570 50  0000 L CNN
@@ -2111,7 +2111,7 @@ F 12 "6.3 V" H 6200 1350 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C242
+L Device:C_Small C242
 U 1 1 5B4C77BB
 P 6350 1500
 F 0 "C242" H 6360 1570 50  0000 L CNN
@@ -2131,7 +2131,7 @@ F 12 "6.3 V" H 6500 1350 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C215
+L Device:C_Small C215
 U 1 1 5B51AB73
 P 2600 3550
 F 0 "C215" H 2610 3620 50  0000 L CNN
@@ -2151,7 +2151,7 @@ F 12 "6.3 V" H 2750 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C218
+L Device:C_Small C218
 U 1 1 5B51AB83
 P 2900 3550
 F 0 "C218" H 2910 3620 50  0000 L CNN
@@ -2171,7 +2171,7 @@ F 12 "6.3 V" H 3050 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C220
+L Device:C_Small C220
 U 1 1 5B51AB93
 P 3200 3550
 F 0 "C220" H 3210 3620 50  0000 L CNN
@@ -2191,7 +2191,7 @@ F 12 "6.3 V" H 3350 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C229
+L Device:C_Small C229
 U 1 1 5B536903
 P 4600 3550
 F 0 "C229" H 4610 3620 50  0000 L CNN
@@ -2211,7 +2211,7 @@ F 12 "6.3 V" H 4750 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C253
+L Device:C_Small C253
 U 1 1 5B536DAA
 P 8200 3550
 F 0 "C253" H 8210 3620 50  0000 L CNN
@@ -2231,7 +2231,7 @@ F 12 "6.3 V" H 8350 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C257
+L Device:C_Small C257
 U 1 1 5B536F8C
 P 9550 3550
 F 0 "C257" H 9560 3620 50  0000 L CNN
@@ -2251,7 +2251,7 @@ F 12 "6.3 V" H 9700 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C258
+L Device:C_Small C258
 U 1 1 5B5371EE
 P 9600 5450
 F 0 "C258" H 9610 5520 50  0000 L CNN
@@ -2271,7 +2271,7 @@ F 12 "6.3 V" H 9750 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C226
+L Device:C_Small C226
 U 1 1 5B539582
 P 2650 6850
 F 0 "C226" H 2660 6920 50  0000 L CNN
@@ -2291,7 +2291,7 @@ F 12 "6,3 V" H 2750 6700 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C204
+L Device:C_Small C204
 U 1 1 5B539695
 P 1200 6850
 F 0 "C204" H 1210 6920 50  0000 L CNN
@@ -2311,7 +2311,7 @@ F 12 "6,3 V" H 1300 6700 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C205
+L Device:C_Small C205
 U 1 1 5B53985D
 P 1250 5450
 F 0 "C205" H 1260 5520 50  0000 L CNN
@@ -2331,7 +2331,7 @@ F 12 "6,3 V" H 1350 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C208
+L Device:C_Small C208
 U 1 1 5B539903
 P 1500 5450
 F 0 "C208" H 1510 5520 50  0000 L CNN
@@ -2351,7 +2351,7 @@ F 12 "6,3 V" H 1600 5300 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C224
+L Device:C_Small C224
 U 1 1 5B539BAD
 P 2150 3550
 F 0 "C224" H 2160 3620 50  0000 L CNN
@@ -2371,7 +2371,7 @@ F 12 "6,3 V" H 2250 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C237
+L Device:C_Small C237
 U 1 1 5B539C9B
 P 4200 3550
 F 0 "C237" H 4210 3620 50  0000 L CNN
@@ -2391,7 +2391,7 @@ F 12 "6,3 V" H 4300 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C251
+L Device:C_Small C251
 U 1 1 5B539D6F
 P 5550 3550
 F 0 "C251" H 5560 3620 50  0000 L CNN
@@ -2411,7 +2411,7 @@ F 12 "6,3 V" H 5650 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C259
+L Device:C_Small C259
 U 1 1 5B53A0A2
 P 7800 3550
 F 0 "C259" H 7810 3620 50  0000 L CNN
@@ -2431,7 +2431,7 @@ F 12 "6,3 V" H 7900 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C262
+L Device:C_Small C262
 U 1 1 5B53A17A
 P 9150 3550
 F 0 "C262" H 9160 3620 50  0000 L CNN
@@ -2451,7 +2451,7 @@ F 12 "6,3 V" H 9250 3400 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C256
+L Device:C_Small C256
 U 1 1 5B53A3CA
 P 5650 1500
 F 0 "C256" H 5660 1570 50  0000 L CNN
@@ -2471,7 +2471,7 @@ F 12 "6,3 V" H 5750 1350 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C236
+L Device:C_Small C236
 U 1 1 5B53A4EA
 P 3950 1500
 F 0 "C236" H 3960 1570 50  0000 L CNN
@@ -2491,7 +2491,7 @@ F 12 "6,3 V" H 4050 1350 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C211
+L Device:C_Small C211
 U 1 1 5B53A5B8
 P 1750 1500
 F 0 "C211" H 1760 1570 50  0000 L CNN
@@ -2511,7 +2511,7 @@ F 12 "6,3 V" H 1850 1350 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C206
+L Device:C_Small C206
 U 1 1 5B53A690
 P 1450 1500
 F 0 "C206" H 1460 1570 50  0000 L CNN

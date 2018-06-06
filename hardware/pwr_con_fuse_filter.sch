@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 22 22
+Sheet 21 21
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L conn:Conn_01x02 J2201
+L Connector_Generic:Conn_01x02 J2201
 U 1 1 5AFB123F
 P 1550 2800
 F 0 "J2201" H 1550 2900 50  0000 C CNN
@@ -33,7 +33,7 @@ F 10 "1" H 1550 2800 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:Transformer_1P_1S T2201
+L Device:Transformer_1P_1S T2201
 U 1 1 5AFB12DF
 P 3000 2850
 F 0 "T2201" V 3300 2850 50  0000 C CNN
@@ -73,7 +73,7 @@ F 11 "1" H 4050 2550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:Fuse F2201
+L Device:Fuse F2201
 U 1 1 5AFC9CDC
 P 2150 2450
 F 0 "F2201" V 2230 2450 50  0000 C CNN
@@ -112,7 +112,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 3250 3600 3450
 $Comp
-L device:D_TVS D2201
+L Device:D_TVS D2201
 U 1 1 5AFCA27A
 P 2500 2850
 F 0 "D2201" H 2500 2950 50  0000 C CNN
@@ -132,7 +132,7 @@ F 11 "1" H 2500 2850 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 $EndComp
 Connection ~ 3600 3250
 $Comp
-L power1:GND #PWR0263
+L power:GND #PWR0263
 U 1 1 5AFCA36D
 P 3600 3450
 F 0 "#PWR0263" H 3600 3200 50  0001 C CNN
@@ -151,7 +151,7 @@ Wire Wire Line
 	2500 3000 2500 3250
 Connection ~ 2500 3250
 $Comp
-L device:Q_Thyristor_KAG D2203
+L Device:Q_SCR_KAG D2203
 U 1 1 5B01386E
 P 3700 3000
 F 0 "D2203" H 3775 3025 50  0000 L CNN
@@ -172,7 +172,7 @@ $EndComp
 Wire Wire Line
 	3700 3250 3700 3150
 $Comp
-L device:D_Zener D2202
+L Device:D_Zener D2202
 U 1 1 5B01397F
 P 3450 2650
 F 0 "D2202" H 3450 2750 50  0000 C CNN
@@ -216,7 +216,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 3250 4050 3250
 $Comp
-L device:D_Schottky D2204
+L Device:D_Schottky D2204
 U 1 1 5B1B8794
 P 3450 2950
 F 0 "D2204" H 3450 3050 50  0000 C CNN

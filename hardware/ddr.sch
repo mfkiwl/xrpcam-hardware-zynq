@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 7 22
+Sheet 6 21
 Title ""
 Date ""
 Rev ""
@@ -62,7 +62,7 @@ Entry Wire Line
 Entry Wire Line
 	7000 3750 7100 3850
 $Comp
-L device:C_Small C702
+L Device:C_Small C702
 U 1 1 597E5D1A
 P 1800 9350
 F 0 "C702" H 1810 9420 50  0000 L CNN
@@ -81,7 +81,7 @@ F 11 "1" H 1800 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C704
+L Device:C_Small C704
 U 1 1 597E5D7D
 P 2050 9350
 F 0 "C704" H 2060 9420 50  0000 L CNN
@@ -100,7 +100,7 @@ F 11 "1" H 2050 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C707
+L Device:C_Small C707
 U 1 1 597E5D9F
 P 2300 9350
 F 0 "C707" H 2310 9420 50  0000 L CNN
@@ -119,7 +119,7 @@ F 11 "1" H 2300 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C710
+L Device:C_Small C710
 U 1 1 597E5DBE
 P 2550 9350
 F 0 "C710" H 2560 9420 50  0000 L CNN
@@ -154,7 +154,7 @@ LAYOUT NOTICE
 Text Notes 750  2200 0    60   ~ 0
 • For unidirectional signals, all ADDR/CMD/CTRL\n   signals must be matched to the CLK signal.\n   It is a good design practice to match each \n   transmission line segment (FPGA to DRAM1,\n   FPGA to DRAM2, FPGA to fly-by termination\n   resistor, etc.) to within a reasonable tolerance\n   of ±25ps. 
 $Comp
-L device:R_Small R701
+L Device:R_Small R701
 U 1 1 5984EE5F
 P 7050 6900
 F 0 "R701" H 7080 6920 50  0000 L CNN
@@ -220,7 +220,7 @@ VSS
 Text Label 10100 7550 1    60   ~ 0
 VSSQ
 $Comp
-L device:R_Small R704
+L Device:R_Small R704
 U 1 1 59850C46
 P 12200 6900
 F 0 "R704" H 12230 6920 50  0000 L CNN
@@ -297,7 +297,7 @@ DQ31
 Entry Bus Bus
 	12150 2000 12250 2100
 $Comp
-L device:C_Small C714
+L Device:C_Small C714
 U 1 1 59851AFB
 P 3050 9350
 F 0 "C714" H 3060 9420 50  0000 L CNN
@@ -316,7 +316,7 @@ F 11 "1" H 3050 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C717
+L Device:C_Small C717
 U 1 1 59851B02
 P 3300 9350
 F 0 "C717" H 3310 9420 50  0000 L CNN
@@ -335,7 +335,7 @@ F 11 "1" H 3300 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C719
+L Device:C_Small C719
 U 1 1 59851B09
 P 3550 9350
 F 0 "C719" H 3560 9420 50  0000 L CNN
@@ -354,7 +354,7 @@ F 11 "1" H 3550 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C722
+L Device:C_Small C722
 U 1 1 59851B10
 P 3800 9350
 F 0 "C722" H 3810 9420 50  0000 L CNN
@@ -373,7 +373,7 @@ F 11 "1" H 3800 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR064
+L power:GND #PWR064
 U 1 1 59852133
 P 2800 9850
 F 0 "#PWR064" H 2800 9600 50  0001 C CNN
@@ -384,7 +384,7 @@ F 3 "" H 2800 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR065
+L power:GND #PWR065
 U 1 1 59852F61
 P 5400 7650
 F 0 "#PWR065" H 5400 7400 50  0001 C CNN
@@ -395,7 +395,7 @@ F 3 "" H 5400 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR066
+L power:GND #PWR066
 U 1 1 59852F90
 P 10600 7650
 F 0 "#PWR066" H 10600 7400 50  0001 C CNN
@@ -410,7 +410,7 @@ Module 1
 Text Notes 5350 4700 0    60   ~ 12
 Module 0
 $Comp
-L device:R_Small R717
+L Device:R_Small R717
 U 1 1 59854BA4
 P 14600 3850
 F 0 "R717" V 14550 3850 50  0000 C BNN
@@ -613,7 +613,7 @@ A0
 Text Label 14800 3550 3    60   ~ 0
 VTT
 $Comp
-L device:R_Small R718
+L Device:R_Small R718
 U 1 1 5985FEC6
 P 14600 4050
 F 0 "R718" V 14550 4050 50  0000 C BNN
@@ -626,7 +626,7 @@ F 5 "R0402 40.2Ω 1%" V 14600 4050 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R719
+L Device:R_Small R719
 U 1 1 5985FF05
 P 14600 4250
 F 0 "R719" V 14550 4250 50  0000 C BNN
@@ -639,7 +639,7 @@ F 5 "R0402 40.2Ω 1%" V 14600 4250 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R720
+L Device:R_Small R720
 U 1 1 5985FF47
 P 14600 4450
 F 0 "R720" V 14550 4450 50  0000 C BNN
@@ -652,7 +652,7 @@ F 5 "R0402 40.2Ω 1%" V 14600 4450 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R721
+L Device:R_Small R721
 U 1 1 5985FF8C
 P 14600 4650
 F 0 "R721" V 14550 4650 50  0000 C BNN
@@ -665,7 +665,7 @@ F 5 "R0402 40.2Ω 1%" V 14600 4650 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R722
+L Device:R_Small R722
 U 1 1 5986001A
 P 14600 4850
 F 0 "R722" V 14550 4850 50  0000 C BNN
@@ -678,7 +678,7 @@ F 5 "R0402 40.2Ω 1%" V 14600 4850 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R723
+L Device:R_Small R723
 U 1 1 59860065
 P 14600 5050
 F 0 "R723" V 14550 5050 50  0000 C BNN
@@ -691,7 +691,7 @@ F 5 "R0402 40.2Ω 1%" V 14600 5050 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R724
+L Device:R_Small R724
 U 1 1 598600B3
 P 14600 5250
 F 0 "R724" V 14550 5250 50  0000 C BNN
@@ -704,7 +704,7 @@ F 5 "R0402 40.2Ω 1%" V 14600 5250 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R711
+L Device:R_Small R711
 U 1 1 59860104
 P 14350 5150
 F 0 "R711" V 14300 5150 50  0000 C BNN
@@ -717,7 +717,7 @@ F 5 "R0402 40.2Ω 1%" V 14350 5150 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R710
+L Device:R_Small R710
 U 1 1 5986015B
 P 14350 4950
 F 0 "R710" V 14300 4950 50  0000 C BNN
@@ -730,7 +730,7 @@ F 5 "R0402 40.2Ω 1%" V 14350 4950 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R709
+L Device:R_Small R709
 U 1 1 598601B2
 P 14350 4750
 F 0 "R709" V 14300 4750 50  0000 C BNN
@@ -743,7 +743,7 @@ F 5 "R0402 40.2Ω 1%" V 14350 4750 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R708
+L Device:R_Small R708
 U 1 1 5986020E
 P 14350 4550
 F 0 "R708" V 14300 4550 50  0000 C BNN
@@ -756,7 +756,7 @@ F 5 "R0402 40.2Ω 1%" V 14350 4550 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R707
+L Device:R_Small R707
 U 1 1 5986026B
 P 14350 4350
 F 0 "R707" V 14300 4350 50  0000 C BNN
@@ -769,7 +769,7 @@ F 5 "R0402 40.2Ω 1%" V 14350 4350 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R706
+L Device:R_Small R706
 U 1 1 598602CB
 P 14350 4150
 F 0 "R706" V 14300 4150 50  0000 C BNN
@@ -782,7 +782,7 @@ F 5 "R0402 40.2Ω 1%" V 14350 4150 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R705
+L Device:R_Small R705
 U 1 1 5986032E
 P 14350 3950
 F 0 "R705" V 14300 3950 50  0000 C BNN
@@ -797,7 +797,7 @@ $EndComp
 Text Notes 750  2550 0    60   ~ 0
 • Differencial Impedance: 80Ω\n\n• Single Ended Impedance: 40Ω
 $Comp
-L device:R_Small R725
+L Device:R_Small R725
 U 1 1 59862895
 P 14600 5500
 F 0 "R725" V 14550 5500 50  0000 C BNN
@@ -810,7 +810,7 @@ F 5 "R0402 40.2Ω 1%" V 14600 5500 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R726
+L Device:R_Small R726
 U 1 1 5986289D
 P 14600 5700
 F 0 "R726" V 14550 5700 50  0000 C BNN
@@ -823,7 +823,7 @@ F 5 "R0402 40.2Ω 1%" V 14600 5700 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R727
+L Device:R_Small R727
 U 1 1 598628A5
 P 14600 5900
 F 0 "R727" V 14550 5900 50  0000 C BNN
@@ -836,7 +836,7 @@ F 5 "R0402 40.2Ω 1%" V 14600 5900 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R728
+L Device:R_Small R728
 U 1 1 598628AD
 P 14600 6100
 F 0 "R728" V 14550 6100 50  0000 C BNN
@@ -849,7 +849,7 @@ F 5 "R0402 40.2Ω 1%" V 14600 6100 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R716
+L Device:R_Small R716
 U 1 1 598628B5
 P 14400 7400
 F 0 "R716" V 14350 7400 50  0000 C BNN
@@ -865,7 +865,7 @@ F 8 "1" H 14400 7400 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R713
+L Device:R_Small R713
 U 1 1 598628C5
 P 14350 5600
 F 0 "R713" V 14300 5600 50  0000 C BNN
@@ -878,7 +878,7 @@ F 5 "R0402 40.2Ω 1%" V 14350 5600 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R712
+L Device:R_Small R712
 U 1 1 598628CD
 P 14350 5400
 F 0 "R712" V 14300 5400 50  0000 C BNN
@@ -891,7 +891,7 @@ F 5 "R0402 40.2Ω 1%" V 14350 5400 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R715
+L Device:R_Small R715
 U 1 1 59862DA2
 P 14350 6700
 F 0 "R715" V 14300 6700 50  0000 C BNN
@@ -910,7 +910,7 @@ Micron DRAM Devices have on chip\ncapacitance, please add more caps\nfor other v
 Text Label 13100 6350 2    60   ~ 0
 VTT_REF
 $Comp
-L device:C_Small C756
+L Device:C_Small C756
 U 1 1 59865CBA
 P 12650 6550
 F 0 "C756" H 12660 6620 50  0000 L CNN
@@ -929,7 +929,7 @@ F 11 "1" H 12650 6550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR067
+L power:GND #PWR067
 U 1 1 59866164
 P 12650 6800
 F 0 "#PWR067" H 12650 6550 50  0001 C CNN
@@ -942,7 +942,7 @@ $EndComp
 Text Label 7950 6350 2    60   ~ 0
 VTT_REF
 $Comp
-L device:C_Small C745
+L Device:C_Small C745
 U 1 1 59866C81
 P 7500 6550
 F 0 "C745" H 7510 6620 50  0000 L CNN
@@ -961,7 +961,7 @@ F 11 "1" H 7500 6550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR068
+L power:GND #PWR068
 U 1 1 59866C8A
 P 7500 6800
 F 0 "#PWR068" H 7500 6550 50  0001 C CNN
@@ -997,7 +997,7 @@ VTT
 Text Label 7250 9000 0    60   ~ 0
 VDDQ
 $Comp
-L power1:+5V #PWR069
+L power:+5V #PWR069
 U 1 1 5986AD8D
 P 8050 8850
 F 0 "#PWR069" H 8050 8700 50  0001 C CNN
@@ -1008,7 +1008,7 @@ F 3 "" H 8050 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C747
+L Device:C_Small C747
 U 1 1 5986B8B6
 P 7600 9250
 F 0 "C747" H 7610 9320 50  0000 L CNN
@@ -1028,7 +1028,7 @@ F 12 "6,3 V" H 7750 9100 50  0000 C CNN "Voltage"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C751
+L Device:C_Small C751
 U 1 1 5986BB1F
 P 10000 9550
 F 0 "C751" H 10010 9620 50  0000 L CNN
@@ -1048,7 +1048,7 @@ F 12 "6,3 V" H 10400 9450 50  0000 C BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R702
+L Device:R_Small R702
 U 1 1 5986D0B7
 P 8250 9350
 F 0 "R702" V 8200 9350 50  0000 C BNN
@@ -1064,7 +1064,7 @@ F 8 "1" H 8250 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R703
+L Device:R_Small R703
 U 1 1 5986D4F3
 P 8250 9450
 F 0 "R703" V 8200 9450 50  0000 C BNN
@@ -1080,7 +1080,7 @@ F 8 "1" H 8250 9450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power1:GND #PWR070
+L power:GND #PWR070
 U 1 1 5986E7D8
 P 8050 10100
 F 0 "#PWR070" H 8050 9850 50  0001 C CNN
@@ -1091,7 +1091,7 @@ F 3 "" H 8050 10100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR071
+L power:GND #PWR071
 U 1 1 5986E870
 P 7600 10100
 F 0 "#PWR071" H 7600 9850 50  0001 C CNN
@@ -1102,7 +1102,7 @@ F 3 "" H 7600 10100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR072
+L power:GND #PWR072
 U 1 1 5986EDFB
 P 9850 10100
 F 0 "#PWR072" H 9850 9850 50  0001 C CNN
@@ -1115,7 +1115,7 @@ $EndComp
 Text Label 10400 9400 2    60   ~ 0
 VTT_REF
 $Comp
-L device:C_Small C750
+L Device:C_Small C750
 U 1 1 5987033E
 P 10000 9150
 F 0 "C750" H 10010 9220 50  0000 L CNN
@@ -1474,7 +1474,7 @@ DQ0
 Text GLabel 19600 9400 0    60   Input ~ 0
 VCCO_DDR
 $Comp
-L device:R_Small R731
+L Device:R_Small R731
 U 1 1 5AF40F8D
 P 19800 9100
 F 0 "R731" V 19750 9100 50  0000 C BNN
@@ -1487,7 +1487,7 @@ F 5 "R0402 40.2Ω 1%" V 19800 9100 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R732
+L Device:R_Small R732
 U 1 1 5AF412AF
 P 19800 9200
 F 0 "R732" V 19750 9200 50  0000 C BNN
@@ -1500,7 +1500,7 @@ F 5 "R0402 40.2Ω 1%" V 19800 9200 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power1:GND #PWR073
+L power:GND #PWR073
 U 1 1 5AF4192D
 P 19100 9200
 F 0 "#PWR073" H 19100 8950 50  0001 C CNN
@@ -1548,7 +1548,7 @@ $EndComp
 Text Label 19050 8900 0    60   ~ 0
 VREF
 $Comp
-L device:C_Small C762
+L Device:C_Small C762
 U 1 1 5AF79FC3
 P 18200 9100
 F 0 "C762" H 18210 9170 50  0000 L CNN
@@ -1568,7 +1568,7 @@ F 12 "10 V" H 18300 8950 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C761
+L Device:C_Small C761
 U 1 1 5AF7A0D7
 P 17850 9100
 F 0 "C761" H 17860 9170 50  0000 L CNN
@@ -1588,7 +1588,7 @@ F 12 "10 V" H 17950 8950 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR077
+L power:GND #PWR077
 U 1 1 5AF7A86C
 P 18050 9400
 F 0 "#PWR077" H 18050 9150 50  0001 C CNN
@@ -1601,7 +1601,7 @@ $EndComp
 Text Label 17850 8900 0    60   ~ 0
 VTT_REF
 $Comp
-L device:C_Small C701
+L Device:C_Small C701
 U 1 1 5B06959D
 P 1650 12050
 F 0 "C701" H 1660 12120 50  0000 L CNN
@@ -1621,7 +1621,7 @@ F 12 "4 V" H 1800 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C705
+L Device:C_Small C705
 U 1 1 5B0766E7
 P 2050 12050
 F 0 "C705" H 2060 12120 50  0000 L CNN
@@ -1641,7 +1641,7 @@ F 12 "6,3 V" H 2250 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR078
+L power:GND #PWR078
 U 1 1 5B07CA2D
 P 3100 12350
 F 0 "#PWR078" H 3100 12100 50  0001 C CNN
@@ -1656,7 +1656,7 @@ VDD
 Text Label 3100 12650 3    60   ~ 0
 VDDQ
 $Comp
-L power1:GND #PWR079
+L power:GND #PWR079
 U 1 1 5B07EE49
 P 3100 13600
 F 0 "#PWR079" H 3100 13350 50  0001 C CNN
@@ -1669,7 +1669,7 @@ $EndComp
 Text Notes 2050 11400 0    60   ~ 0
 Additional Decoupling Capacitors. May not be populated.
 $Comp
-L device:C_Small C728
+L Device:C_Small C728
 U 1 1 5B0F7924
 P 4900 12050
 F 0 "C728" H 4910 12120 50  0000 L CNN
@@ -1689,7 +1689,7 @@ F 12 "4 V" H 5050 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR080
+L power:GND #PWR080
 U 1 1 5B0F793F
 P 6350 12350
 F 0 "#PWR080" H 6350 12100 50  0001 C CNN
@@ -1704,7 +1704,7 @@ VDD
 Text Label 6350 12650 3    60   ~ 0
 VDDQ
 $Comp
-L power1:GND #PWR081
+L power:GND #PWR081
 U 1 1 5B0F9BA6
 P 6350 13600
 F 0 "#PWR081" H 6350 13350 50  0001 C CNN
@@ -1715,7 +1715,7 @@ F 3 "" H 6350 13600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR082
+L power:GND #PWR082
 U 1 1 5B1345E1
 P 14850 7400
 F 0 "#PWR082" H 14850 7150 50  0001 C CNN
@@ -1732,7 +1732,7 @@ DDR_BA1
 Text Label 13700 6300 0    60   ~ 0
 DDR_BA2
 $Comp
-L device:R_Small R729
+L Device:R_Small R729
 U 1 1 5B1361AB
 P 14600 6300
 F 0 "R729" V 14550 6300 50  0000 C BNN
@@ -1745,7 +1745,7 @@ F 5 "R0402 40.2Ω 1%" V 14600 6300 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R714
+L Device:R_Small R714
 U 1 1 5B136329
 P 14350 6400
 F 0 "R714" V 14300 6400 50  0000 C BNN
@@ -1758,7 +1758,7 @@ F 5 "R0402 40.2Ω 1%" V 14350 6400 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R730
+L Device:R_Small R730
 U 1 1 5B13744B
 P 14600 6500
 F 0 "R730" V 14550 6500 50  0000 C BNN
@@ -1771,7 +1771,7 @@ F 5 "R0402 40.2Ω 1%" V 14600 6500 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C754
+L Device:C_Small C754
 U 1 1 5B1424BA
 P 12050 9250
 F 0 "C754" H 12060 9320 50  0000 L CNN
@@ -1790,7 +1790,7 @@ F 11 "1" H 12050 9250 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C755
+L Device:C_Small C755
 U 1 1 5B142A6B
 P 12350 9250
 F 0 "C755" H 12360 9320 50  0000 L CNN
@@ -1809,7 +1809,7 @@ F 11 "1" H 12350 9250 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C757
+L Device:C_Small C757
 U 1 1 5B142C0D
 P 12700 9250
 F 0 "C757" H 12710 9320 50  0000 L CNN
@@ -1828,7 +1828,7 @@ F 11 "1" H 12700 9250 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C758
+L Device:C_Small C758
 U 1 1 5B14381C
 P 12950 9250
 F 0 "C758" H 12960 9320 50  0000 L CNN
@@ -1847,7 +1847,7 @@ F 11 "1" H 12950 9250 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C759
+L Device:C_Small C759
 U 1 1 5B143968
 P 13200 9250
 F 0 "C759" H 13210 9320 50  0000 L CNN
@@ -1866,7 +1866,7 @@ F 11 "1" H 13200 9250 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C760
+L Device:C_Small C760
 U 1 1 5B143AB7
 P 13450 9250
 F 0 "C760" H 13460 9320 50  0000 L CNN
@@ -1885,7 +1885,7 @@ F 11 "1" H 13450 9250 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR083
+L power:GND #PWR083
 U 1 1 5B1470FA
 P 12500 9550
 F 0 "#PWR083" H 12500 9300 50  0001 C CNN
@@ -3115,7 +3115,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 5250 7000 5250
 $Comp
-L device:C_Small C708
+L Device:C_Small C708
 U 1 1 5B050E7F
 P 2350 12050
 F 0 "C708" H 2360 12120 50  0000 L CNN
@@ -3135,7 +3135,7 @@ F 12 "6,3 V" H 2550 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C711
+L Device:C_Small C711
 U 1 1 5B0510DA
 P 2650 12050
 F 0 "C711" H 2660 12120 50  0000 L CNN
@@ -3155,7 +3155,7 @@ F 12 "6,3 V" H 2850 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C713
+L Device:C_Small C713
 U 1 1 5B0510E9
 P 2950 12050
 F 0 "C713" H 2960 12120 50  0000 L CNN
@@ -3175,7 +3175,7 @@ F 12 "6,3 V" H 3150 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C716
+L Device:C_Small C716
 U 1 1 5B051354
 P 3250 12050
 F 0 "C716" H 3260 12120 50  0000 L CNN
@@ -3195,7 +3195,7 @@ F 12 "6,3 V" H 3450 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C720
+L Device:C_Small C720
 U 1 1 5B051363
 P 3550 12050
 F 0 "C720" H 3560 12120 50  0000 L CNN
@@ -3215,7 +3215,7 @@ F 12 "6,3 V" H 3750 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C723
+L Device:C_Small C723
 U 1 1 5B051372
 P 3850 12050
 F 0 "C723" H 3860 12120 50  0000 L CNN
@@ -3235,7 +3235,7 @@ F 12 "6,3 V" H 4050 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C725
+L Device:C_Small C725
 U 1 1 5B051381
 P 4150 12050
 F 0 "C725" H 4160 12120 50  0000 L CNN
@@ -3255,7 +3255,7 @@ F 12 "6,3 V" H 4350 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C727
+L Device:C_Small C727
 U 1 1 5B051452
 P 4450 12050
 F 0 "C727" H 4460 12120 50  0000 L CNN
@@ -3275,7 +3275,7 @@ F 12 "6,3 V" H 4650 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C730
+L Device:C_Small C730
 U 1 1 5B053026
 P 5300 12050
 F 0 "C730" H 5310 12120 50  0000 L CNN
@@ -3295,7 +3295,7 @@ F 12 "6,3 V" H 5500 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C732
+L Device:C_Small C732
 U 1 1 5B053035
 P 5600 12050
 F 0 "C732" H 5610 12120 50  0000 L CNN
@@ -3315,7 +3315,7 @@ F 12 "6,3 V" H 5800 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C734
+L Device:C_Small C734
 U 1 1 5B053044
 P 5900 12050
 F 0 "C734" H 5910 12120 50  0000 L CNN
@@ -3335,7 +3335,7 @@ F 12 "6,3 V" H 6100 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C736
+L Device:C_Small C736
 U 1 1 5B053053
 P 6200 12050
 F 0 "C736" H 6210 12120 50  0000 L CNN
@@ -3355,7 +3355,7 @@ F 12 "6,3 V" H 6400 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C738
+L Device:C_Small C738
 U 1 1 5B053062
 P 6500 12050
 F 0 "C738" H 6510 12120 50  0000 L CNN
@@ -3375,7 +3375,7 @@ F 12 "6,3 V" H 6700 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C740
+L Device:C_Small C740
 U 1 1 5B053071
 P 6800 12050
 F 0 "C740" H 6810 12120 50  0000 L CNN
@@ -3395,7 +3395,7 @@ F 12 "6,3 V" H 7000 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C742
+L Device:C_Small C742
 U 1 1 5B053080
 P 7100 12050
 F 0 "C742" H 7110 12120 50  0000 L CNN
@@ -3415,7 +3415,7 @@ F 12 "6,3 V" H 7300 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C744
+L Device:C_Small C744
 U 1 1 5B05308F
 P 7400 12050
 F 0 "C744" H 7410 12120 50  0000 L CNN
@@ -3435,7 +3435,7 @@ F 12 "6,3 V" H 7600 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C748
+L Device:C_Small C748
 U 1 1 5B05309E
 P 7700 12050
 F 0 "C748" H 7710 12120 50  0000 L CNN
@@ -3455,7 +3455,7 @@ F 12 "6,3 V" H 7900 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C703
+L Device:C_Small C703
 U 1 1 5B053409
 P 1900 13250
 F 0 "C703" H 1910 13320 50  0000 L CNN
@@ -3475,7 +3475,7 @@ F 12 "6,3 V" H 2100 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C706
+L Device:C_Small C706
 U 1 1 5B053418
 P 2200 13250
 F 0 "C706" H 2210 13320 50  0000 L CNN
@@ -3495,7 +3495,7 @@ F 12 "6,3 V" H 2400 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C709
+L Device:C_Small C709
 U 1 1 5B053427
 P 2500 13250
 F 0 "C709" H 2510 13320 50  0000 L CNN
@@ -3515,7 +3515,7 @@ F 12 "6,3 V" H 2700 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C712
+L Device:C_Small C712
 U 1 1 5B053436
 P 2800 13250
 F 0 "C712" H 2810 13320 50  0000 L CNN
@@ -3535,7 +3535,7 @@ F 12 "6,3 V" H 3000 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C715
+L Device:C_Small C715
 U 1 1 5B053445
 P 3100 13250
 F 0 "C715" H 3110 13320 50  0000 L CNN
@@ -3555,7 +3555,7 @@ F 12 "6,3 V" H 3300 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C718
+L Device:C_Small C718
 U 1 1 5B053454
 P 3400 13250
 F 0 "C718" H 3410 13320 50  0000 L CNN
@@ -3575,7 +3575,7 @@ F 12 "6,3 V" H 3600 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C721
+L Device:C_Small C721
 U 1 1 5B053463
 P 3700 13250
 F 0 "C721" H 3710 13320 50  0000 L CNN
@@ -3595,7 +3595,7 @@ F 12 "6,3 V" H 3900 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C724
+L Device:C_Small C724
 U 1 1 5B053472
 P 4000 13250
 F 0 "C724" H 4010 13320 50  0000 L CNN
@@ -3615,7 +3615,7 @@ F 12 "6,3 V" H 4200 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C726
+L Device:C_Small C726
 U 1 1 5B053481
 P 4300 13250
 F 0 "C726" H 4310 13320 50  0000 L CNN
@@ -3635,7 +3635,7 @@ F 12 "6,3 V" H 4500 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C729
+L Device:C_Small C729
 U 1 1 5B053A4C
 P 5150 13250
 F 0 "C729" H 5160 13320 50  0000 L CNN
@@ -3655,7 +3655,7 @@ F 12 "6,3 V" H 5350 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C731
+L Device:C_Small C731
 U 1 1 5B053A5B
 P 5450 13250
 F 0 "C731" H 5460 13320 50  0000 L CNN
@@ -3675,7 +3675,7 @@ F 12 "6,3 V" H 5650 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C733
+L Device:C_Small C733
 U 1 1 5B053A6A
 P 5750 13250
 F 0 "C733" H 5760 13320 50  0000 L CNN
@@ -3695,7 +3695,7 @@ F 12 "6,3 V" H 5950 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C735
+L Device:C_Small C735
 U 1 1 5B053A79
 P 6050 13250
 F 0 "C735" H 6060 13320 50  0000 L CNN
@@ -3715,7 +3715,7 @@ F 12 "6,3 V" H 6250 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C737
+L Device:C_Small C737
 U 1 1 5B053A88
 P 6350 13250
 F 0 "C737" H 6360 13320 50  0000 L CNN
@@ -3735,7 +3735,7 @@ F 12 "6,3 V" H 6550 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C739
+L Device:C_Small C739
 U 1 1 5B053A97
 P 6650 13250
 F 0 "C739" H 6660 13320 50  0000 L CNN
@@ -3755,7 +3755,7 @@ F 12 "6,3 V" H 6850 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C741
+L Device:C_Small C741
 U 1 1 5B053AA6
 P 6950 13250
 F 0 "C741" H 6960 13320 50  0000 L CNN
@@ -3775,7 +3775,7 @@ F 12 "6,3 V" H 7150 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C743
+L Device:C_Small C743
 U 1 1 5B053AB5
 P 7250 13250
 F 0 "C743" H 7260 13320 50  0000 L CNN
@@ -3795,7 +3795,7 @@ F 12 "6,3 V" H 7450 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C746
+L Device:C_Small C746
 U 1 1 5B053AC4
 P 7550 13250
 F 0 "C746" H 7560 13320 50  0000 L CNN
@@ -3815,7 +3815,7 @@ F 12 "6,3 V" H 7750 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C749
+L Device:C_Small C749
 U 1 1 5B06A6EE
 P 8050 9850
 F 0 "C749" H 8060 9920 50  0000 L CNN

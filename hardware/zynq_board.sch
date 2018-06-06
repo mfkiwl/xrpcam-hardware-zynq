@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 1 22
+Sheet 1 21
 Title ""
 Date ""
 Rev ""
@@ -19,12 +19,6 @@ S 7450 2550 2750 2650
 U 596E752F
 F0 "Power" 60
 F1 "zynq_power.sch" 60
-$EndSheet
-$Sheet
-S 7450 15900 2750 3850
-U 596E753C
-F0 "Memory" 60
-F1 "zynq_memory.sch" 60
 $EndSheet
 $Sheet
 S 10500 12250 2750 5700
