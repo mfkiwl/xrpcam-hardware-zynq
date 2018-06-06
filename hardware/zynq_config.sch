@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:zynq_board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -240,10 +239,10 @@ V_BANK0
 Wire Wire Line
 	1650 1500 1650 1600
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J1001
 U 1 1 5B586617
 P 2200 3350
-F 0 "J?" H 2120 3767 50  0000 C CNN
+F 0 "J1001" H 2120 3767 50  0000 C CNN
 F 1 "Conn_01x06" H 2120 3676 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2200 3350 50  0001 C CNN
 F 3 "~" H 2200 3350 50  0001 C CNN

@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:zynq_board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 21
+Sheet 7 21
 Title ""
 Date ""
 Rev ""
@@ -393,4 +392,16 @@ Wire Wire Line
 	3200 1400 3200 1300
 Wire Wire Line
 	4800 5150 4900 5150
+Wire Wire Line
+	3350 1400 3350 1450
+Wire Wire Line
+	3350 1650 3350 1700
+Wire Wire Line
+	3350 3150 3350 3100
+Wire Wire Line
+	3350 3350 3350 3400
+Wire Wire Line
+	4900 3200 4900 3150
+Wire Wire Line
+	4900 3400 4900 3450
 $EndSCHEMATC

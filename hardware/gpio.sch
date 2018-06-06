@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:zynq_board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 21
+Sheet 16 21
 Title ""
 Date ""
 Rev ""
@@ -78,19 +77,6 @@ F 2 "" H 5450 3750 50  0001 C CNN
 F 3 "" H 5450 3750 50  0001 C CNN
 	1    5450 3750
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED_Small D1701
-U 1 1 5B1B21E2
-P 10500 3150
-F 0 "D1701" H 10500 3250 50  0000 C CNN
-F 1 "LED" H 10500 3050 50  0000 C CNN
-F 2 "LEDs:LED_0402" H 10500 3150 50  0001 C CNN
-F 3 "" H 10500 3150 50  0001 C CNN
-F 4 "1" H 10500 3150 60  0001 C CNN "Populated"
-F 5 "SPEC" H 10500 3150 60  0001 C CNN "Source"
-	1    10500 3150
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R1702
@@ -195,8 +181,27 @@ Text Notes 1600 4250 0    60   ~ 0
 TODO: Select footprint for connector. Maybe something high density. Just in Case for soldering a wire to it or somthing like that.
 Wire Wire Line
 	10400 4550 10500 4550
+$Comp
+L Device:LED_ALT D1601
+U 1 1 5B3144CD
+P 10500 3150
+F 0 "D1601" H 10491 3366 50  0000 C CNN
+F 1 "LED_ALT" H 10491 3275 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 10500 3150 50  0001 C CNN
+F 3 "http://www.qt-brightek.com/datasheet/QBLP617_series.pdf" H 10500 3150 50  0001 C CNN
+F 4 "QT Brightek (QTB)" H 10500 3150 50  0001 C CNN "MFG Name"
+F 5 "QBLP617-R" H 10500 3150 50  0001 C CNN "MFG Part Num"
+F 6 "1516-1081-1-ND" H 10500 3150 50  0001 C CNN "Digikey"
+F 7 "1" H 10500 3150 50  0001 C CNN "Populated"
+F 8 "LED RED CLEAR 2SMD R/A" H 10500 3150 50  0001 C CNN "Description"
+F 9 "SPEC" H 10500 3150 50  0001 C CNN "Source"
+F 10 "1" H 10500 3150 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 10500 3150 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    10500 3150
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	10500 3250 10500 3400
+	10500 2900 10500 3000
 Wire Wire Line
-	10500 2900 10500 3050
+	10500 3400 10500 3300
 $EndSCHEMATC

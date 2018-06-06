@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:zynq_board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 21
+Sheet 11 21
 Title ""
 Date ""
 Rev ""
@@ -51,22 +50,6 @@ Text Notes 7150 600  0    60   ~ 0
 1V5 or 1V8
 Text Notes 6450 600  0    60   ~ 0
 1V5 or 1V8
-$Comp
-L Device:C_Small C1201
-U 1 1 5ADD7A0B
-P 950 4350
-F 0 "C1201" H 960 4420 50  0000 L CNN
-F 1 "100 µF" H 960 4270 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 950 4350 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J107ME20-01.pdf" H 950 4350 50  0001 C CNN
-F 4 "Murata Electronics North America" H 950 4350 60  0001 C CNN "MFG Name"
-F 5 "GRM32ER60J107ME20L" H 950 4350 60  0001 C CNN "MFG Part Num"
-F 6 "490-3390-1-ND" H 950 4350 60  0001 C CNN "Digikey"
-F 7 "1" H 950 4350 60  0001 C CNN "Populated"
-F 8 "SPEC" H 950 4350 60  0001 C CNN "Source"
-	1    950  4350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C1203
 U 1 1 5ADFAF48
@@ -237,38 +220,6 @@ F 3 "" H 2150 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C1202
-U 1 1 5AE00750
-P 950 5800
-F 0 "C1202" H 960 5870 50  0000 L CNN
-F 1 "100 µF" H 960 5720 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 950 5800 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J107ME20-01.pdf" H 950 5800 50  0001 C CNN
-F 4 "Murata Electronics North America" H 950 5800 60  0001 C CNN "MFG Name"
-F 5 "GRM32ER60J107ME20L" H 950 5800 60  0001 C CNN "MFG Part Num"
-F 6 "490-3390-1-ND" H 950 5800 60  0001 C CNN "Digikey"
-F 7 "1" H 950 5800 60  0001 C CNN "Populated"
-F 8 "SPEC" H 950 5800 60  0001 C CNN "Source"
-	1    950  5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C1204
-U 1 1 5AE0075B
-P 1300 5800
-F 0 "C1204" H 1310 5870 50  0000 L CNN
-F 1 "4,7 µF" H 1310 5720 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1300 5800 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10A475KQ8NNNC.pdf" H 1300 5800 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 1300 5800 60  0001 C CNN "MFG Name"
-F 5 "CL10A475KQ8NNNC" H 1300 5800 60  0001 C CNN "MFG Part Num"
-F 6 "1276-1045-1-ND" H 1300 5800 60  0001 C CNN "Digikey"
-F 7 "1" H 1300 5800 60  0001 C CNN "Populated"
-F 8 "SPEC" H 1300 5800 60  0001 C CNN "Source"
-	1    1300 5800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C1206
 U 1 1 5AE00766
 P 1750 5800
@@ -362,40 +313,6 @@ F 1 "+1V0" H 5350 3890 50  0000 C CNN
 F 2 "" H 5350 3750 50  0001 C CNN
 F 3 "" H 5350 3750 50  0001 C CNN
 	1    5350 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C1217
-U 1 1 5AE013F5
-P 4150 4350
-F 0 "C1217" H 4160 4420 50  0000 L CNN
-F 1 "100 µF" H 4160 4270 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 4150 4350 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J107ME20-01.pdf" H 4150 4350 50  0001 C CNN
-F 4 "Murata Electronics North America" H 4150 4350 60  0001 C CNN "MFG Name"
-F 5 "GRM32ER60J107ME20L" H 4150 4350 60  0001 C CNN "MFG Part Num"
-F 6 "490-3390-1-ND" H 4150 4350 60  0001 C CNN "Digikey"
-F 7 "1" H 4150 4350 60  0001 C CNN "Populated"
-F 8 "SPEC" H 4150 4350 60  0001 C CNN "Source"
-F 9 "1" H 4150 4350 60  0001 C CNN "Populate for SBGA485(Z-7030)"
-F 10 "1" H 4150 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
-	1    4150 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C1219
-U 1 1 5AE01400
-P 4500 4350
-F 0 "C1219" H 4510 4420 50  0000 L CNN
-F 1 "4,7 µF" H 4510 4270 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4500 4350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10A475KQ8NNNC.pdf" H 4500 4350 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 4500 4350 60  0001 C CNN "MFG Name"
-F 5 "CL10A475KQ8NNNC" H 4500 4350 60  0001 C CNN "MFG Part Num"
-F 6 "1276-1045-1-ND" H 4500 4350 60  0001 C CNN "Digikey"
-F 7 "1" H 4500 4350 60  0001 C CNN "Populated"
-F 8 "SPEC" H 4500 4350 60  0001 C CNN "Source"
-	1    4500 4350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -808,38 +725,6 @@ F 3 "" H 8600 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C1232
-U 1 1 5AE0265F
-P 7400 4350
-F 0 "C1232" H 7410 4420 50  0000 L CNN
-F 1 "100 µF" H 7410 4270 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 7400 4350 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J107ME20-01.pdf" H 7400 4350 50  0001 C CNN
-F 4 "Murata Electronics North America" H 7400 4350 60  0001 C CNN "MFG Name"
-F 5 "GRM32ER60J107ME20L" H 7400 4350 60  0001 C CNN "MFG Part Num"
-F 6 "490-3390-1-ND" H 7400 4350 60  0001 C CNN "Digikey"
-F 7 "1" H 7400 4350 60  0001 C CNN "Populated"
-F 8 "SPEC" H 7400 4350 60  0001 C CNN "Source"
-	1    7400 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C1233
-U 1 1 5AE0266A
-P 7750 4350
-F 0 "C1233" H 7760 4420 50  0000 L CNN
-F 1 "4,7 µF" H 7760 4270 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7750 4350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10A475KQ8NNNC.pdf" H 7750 4350 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 7750 4350 60  0001 C CNN "MFG Name"
-F 5 "CL10A475KQ8NNNC" H 7750 4350 60  0001 C CNN "MFG Part Num"
-F 6 "1276-1045-1-ND" H 7750 4350 60  0001 C CNN "Digikey"
-F 7 "1" H 7750 4350 60  0001 C CNN "Populated"
-F 8 "SPEC" H 7750 4350 60  0001 C CNN "Source"
-	1    7750 4350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C1234
 U 1 1 5AE02675
 P 8200 4350
@@ -1014,38 +899,6 @@ VDDD
 Text Label 9750 4150 2    60   ~ 0
 VDDD
 $Comp
-L Device:C_Small C1214
-U 1 1 5AE05196
-P 3300 5800
-F 0 "C1214" H 3310 5870 50  0000 L CNN
-F 1 "100 µF" H 3310 5720 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3300 5800 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J107ME20-01.pdf" H 3300 5800 50  0001 C CNN
-F 4 "Murata Electronics North America" H 3300 5800 60  0001 C CNN "MFG Name"
-F 5 "GRM32ER60J107ME20L" H 3300 5800 60  0001 C CNN "MFG Part Num"
-F 6 "490-3390-1-ND" H 3300 5800 60  0001 C CNN "Digikey"
-F 7 "1" H 3300 5800 60  0001 C CNN "Populated"
-F 8 "SPEC" H 3300 5800 60  0001 C CNN "Source"
-	1    3300 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C1215
-U 1 1 5AE051A1
-P 3650 5800
-F 0 "C1215" H 3660 5870 50  0000 L CNN
-F 1 "4,7 µF" H 3660 5720 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" H 3650 5800 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10A475KQ8NNNC.pdf" H 3650 5800 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 3650 5800 60  0001 C CNN "MFG Name"
-F 5 "CL10A475KQ8NNNC" H 3650 5800 60  0001 C CNN "MFG Part Num"
-F 6 "1276-1045-1-ND" H 3650 5800 60  0001 C CNN "Digikey"
-F 7 "1" H 3650 5800 60  0001 C CNN "Populated"
-F 8 "SPEC" H 3650 5800 60  0001 C CNN "Source"
-	1    3650 5800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C1216
 U 1 1 5AE051AC
 P 4100 5800
@@ -1205,38 +1058,6 @@ Text Label 5350 5600 2    60   ~ 0
 VDDRA
 Text Label 6650 800  3    60   ~ 0
 VDDRA
-$Comp
-L Device:C_Small C1226
-U 1 1 5AE06447
-P 5850 5800
-F 0 "C1226" H 5860 5870 50  0000 L CNN
-F 1 "100 µF" H 5860 5720 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 5850 5800 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J107ME20-01.pdf" H 5850 5800 50  0001 C CNN
-F 4 "Murata Electronics North America" H 5850 5800 60  0001 C CNN "MFG Name"
-F 5 "GRM32ER60J107ME20L" H 5850 5800 60  0001 C CNN "MFG Part Num"
-F 6 "490-3390-1-ND" H 5850 5800 60  0001 C CNN "Digikey"
-F 7 "1" H 5850 5800 60  0001 C CNN "Populated"
-F 8 "SPEC" H 5850 5800 60  0001 C CNN "Source"
-	1    5850 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C1228
-U 1 1 5AE06452
-P 6200 5800
-F 0 "C1228" H 6210 5870 50  0000 L CNN
-F 1 "4,7 µF" H 6210 5720 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6200 5800 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10A475KQ8NNNC.pdf" H 6200 5800 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 6200 5800 60  0001 C CNN "MFG Name"
-F 5 "CL10A475KQ8NNNC" H 6200 5800 60  0001 C CNN "MFG Part Num"
-F 6 "1276-1045-1-ND" H 6200 5800 60  0001 C CNN "Digikey"
-F 7 "1" H 6200 5800 60  0001 C CNN "Populated"
-F 8 "SPEC" H 6200 5800 60  0001 C CNN "Source"
-	1    6200 5800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C1230
 U 1 1 5AE0645D
@@ -1628,4 +1449,204 @@ Wire Wire Line
 	6450 6000 6650 6000
 Wire Wire Line
 	6450 5600 6650 5600
+$Comp
+L Device:C_Small C1101
+U 1 1 5B352ED8
+P 950 4350
+F 0 "C1101" H 960 4420 50  0000 L CNN
+F 1 "47µF" H 960 4270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 950 4350 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf" H 950 4350 50  0001 C CNN
+F 4 "Murata" H 950 4350 60  0001 C CNN "MFG Name"
+F 5 "GRM188R60J476ME15D " H 950 4350 60  0001 C CNN "MFG Part Num"
+F 6 "490-13247-1-ND" H 950 4350 60  0001 C CNN "Digikey"
+F 7 "1" H 950 4350 60  0001 C CNN "Populated"
+F 8 "CAP CER 47UF 6.3V X5R 0603" H 950 4350 60  0001 C CNN "Description"
+F 9 "SPEC" H 950 4350 60  0001 C CNN "Source"
+F 10 "1" H 950 4350 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 950 4350 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+F 12 "6,3 V" H 1050 4150 50  0000 C BNN "Voltage"
+	1    950  4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1104
+U 1 1 5B3643B6
+P 4150 4350
+F 0 "C1104" H 4160 4420 50  0000 L CNN
+F 1 "47µF" H 4160 4270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4150 4350 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf" H 4150 4350 50  0001 C CNN
+F 4 "Murata" H 4150 4350 60  0001 C CNN "MFG Name"
+F 5 "GRM188R60J476ME15D " H 4150 4350 60  0001 C CNN "MFG Part Num"
+F 6 "490-13247-1-ND" H 4150 4350 60  0001 C CNN "Digikey"
+F 7 "1" H 4150 4350 60  0001 C CNN "Populated"
+F 8 "CAP CER 47UF 6.3V X5R 0603" H 4150 4350 60  0001 C CNN "Description"
+F 9 "SPEC" H 4150 4350 60  0001 C CNN "Source"
+F 10 "1" H 4150 4350 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 4150 4350 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+F 12 "6,3 V" H 4250 4150 50  0000 C BNN "Voltage"
+	1    4150 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1106
+U 1 1 5B364474
+P 7400 4350
+F 0 "C1106" H 7410 4420 50  0000 L CNN
+F 1 "47µF" H 7410 4270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7400 4350 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf" H 7400 4350 50  0001 C CNN
+F 4 "Murata" H 7400 4350 60  0001 C CNN "MFG Name"
+F 5 "GRM188R60J476ME15D " H 7400 4350 60  0001 C CNN "MFG Part Num"
+F 6 "490-13247-1-ND" H 7400 4350 60  0001 C CNN "Digikey"
+F 7 "1" H 7400 4350 60  0001 C CNN "Populated"
+F 8 "CAP CER 47UF 6.3V X5R 0603" H 7400 4350 60  0001 C CNN "Description"
+F 9 "SPEC" H 7400 4350 60  0001 C CNN "Source"
+F 10 "1" H 7400 4350 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 7400 4350 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+F 12 "6,3 V" H 7500 4150 50  0000 C BNN "Voltage"
+	1    7400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1105
+U 1 1 5B364530
+P 5850 5800
+F 0 "C1105" H 5860 5870 50  0000 L CNN
+F 1 "47µF" H 5860 5720 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5850 5800 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf" H 5850 5800 50  0001 C CNN
+F 4 "Murata" H 5850 5800 60  0001 C CNN "MFG Name"
+F 5 "GRM188R60J476ME15D " H 5850 5800 60  0001 C CNN "MFG Part Num"
+F 6 "490-13247-1-ND" H 5850 5800 60  0001 C CNN "Digikey"
+F 7 "1" H 5850 5800 60  0001 C CNN "Populated"
+F 8 "CAP CER 47UF 6.3V X5R 0603" H 5850 5800 60  0001 C CNN "Description"
+F 9 "SPEC" H 5850 5800 60  0001 C CNN "Source"
+F 10 "1" H 5850 5800 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 5850 5800 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+F 12 "6,3 V" H 5950 5600 50  0000 C BNN "Voltage"
+	1    5850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1103
+U 1 1 5B3645DC
+P 3300 5800
+F 0 "C1103" H 3310 5870 50  0000 L CNN
+F 1 "47µF" H 3310 5720 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3300 5800 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf" H 3300 5800 50  0001 C CNN
+F 4 "Murata" H 3300 5800 60  0001 C CNN "MFG Name"
+F 5 "GRM188R60J476ME15D " H 3300 5800 60  0001 C CNN "MFG Part Num"
+F 6 "490-13247-1-ND" H 3300 5800 60  0001 C CNN "Digikey"
+F 7 "1" H 3300 5800 60  0001 C CNN "Populated"
+F 8 "CAP CER 47UF 6.3V X5R 0603" H 3300 5800 60  0001 C CNN "Description"
+F 9 "SPEC" H 3300 5800 60  0001 C CNN "Source"
+F 10 "1" H 3300 5800 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 3300 5800 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+F 12 "6,3 V" H 3400 5600 50  0000 C BNN "Voltage"
+	1    3300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1102
+U 1 1 5B36467E
+P 950 5800
+F 0 "C1102" H 960 5870 50  0000 L CNN
+F 1 "47µF" H 960 5720 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 950 5800 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf" H 950 5800 50  0001 C CNN
+F 4 "Murata" H 950 5800 60  0001 C CNN "MFG Name"
+F 5 "GRM188R60J476ME15D " H 950 5800 60  0001 C CNN "MFG Part Num"
+F 6 "490-13247-1-ND" H 950 5800 60  0001 C CNN "Digikey"
+F 7 "1" H 950 5800 60  0001 C CNN "Populated"
+F 8 "CAP CER 47UF 6.3V X5R 0603" H 950 5800 60  0001 C CNN "Description"
+F 9 "SPEC" H 950 5800 60  0001 C CNN "Source"
+F 10 "1" H 950 5800 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 950 5800 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+F 12 "6,3 V" H 1050 5600 50  0000 C BNN "Voltage"
+	1    950  5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1109
+U 1 1 5B367280
+P 4500 4350
+F 0 "C1109" H 4510 4420 50  0000 L CNN
+F 1 "4,7 µF" H 4510 4270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4500 4350 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10A475KQ8NNNC.pdf" H 4500 4350 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4500 4350 60  0001 C CNN "MFG Name"
+F 5 "CL10A475KQ8NNNC" H 4500 4350 60  0001 C CNN "MFG Part Num"
+F 6 "1276-1045-1-ND" H 4500 4350 60  0001 C CNN "Digikey"
+F 7 "1" H 4500 4350 60  0001 C CNN "Populated"
+F 8 "SPEC" H 4500 4350 60  0001 C CNN "Source"
+	1    4500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1111
+U 1 1 5B367336
+P 7750 4350
+F 0 "C1111" H 7760 4420 50  0000 L CNN
+F 1 "4,7 µF" H 7760 4270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7750 4350 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10A475KQ8NNNC.pdf" H 7750 4350 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7750 4350 60  0001 C CNN "MFG Name"
+F 5 "CL10A475KQ8NNNC" H 7750 4350 60  0001 C CNN "MFG Part Num"
+F 6 "1276-1045-1-ND" H 7750 4350 60  0001 C CNN "Digikey"
+F 7 "1" H 7750 4350 60  0001 C CNN "Populated"
+F 8 "SPEC" H 7750 4350 60  0001 C CNN "Source"
+	1    7750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1110
+U 1 1 5B3673D8
+P 6200 5800
+F 0 "C1110" H 6210 5870 50  0000 L CNN
+F 1 "4,7 µF" H 6210 5720 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6200 5800 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10A475KQ8NNNC.pdf" H 6200 5800 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 6200 5800 60  0001 C CNN "MFG Name"
+F 5 "CL10A475KQ8NNNC" H 6200 5800 60  0001 C CNN "MFG Part Num"
+F 6 "1276-1045-1-ND" H 6200 5800 60  0001 C CNN "Digikey"
+F 7 "1" H 6200 5800 60  0001 C CNN "Populated"
+F 8 "SPEC" H 6200 5800 60  0001 C CNN "Source"
+	1    6200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1108
+U 1 1 5B36747E
+P 3650 5800
+F 0 "C1108" H 3660 5870 50  0000 L CNN
+F 1 "4,7 µF" H 3660 5720 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3650 5800 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10A475KQ8NNNC.pdf" H 3650 5800 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3650 5800 60  0001 C CNN "MFG Name"
+F 5 "CL10A475KQ8NNNC" H 3650 5800 60  0001 C CNN "MFG Part Num"
+F 6 "1276-1045-1-ND" H 3650 5800 60  0001 C CNN "Digikey"
+F 7 "1" H 3650 5800 60  0001 C CNN "Populated"
+F 8 "SPEC" H 3650 5800 60  0001 C CNN "Source"
+	1    3650 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1107
+U 1 1 5B36751A
+P 1300 5800
+F 0 "C1107" H 1310 5870 50  0000 L CNN
+F 1 "4,7 µF" H 1310 5720 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1300 5800 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10A475KQ8NNNC.pdf" H 1300 5800 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 1300 5800 60  0001 C CNN "MFG Name"
+F 5 "CL10A475KQ8NNNC" H 1300 5800 60  0001 C CNN "MFG Part Num"
+F 6 "1276-1045-1-ND" H 1300 5800 60  0001 C CNN "Digikey"
+F 7 "1" H 1300 5800 60  0001 C CNN "Populated"
+F 8 "SPEC" H 1300 5800 60  0001 C CNN "Source"
+	1    1300 5800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:zynq_board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -591,7 +590,6 @@ F 3 "" H 7800 1600 50  0000 C CNN
 	1    7800 1600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3950 3300
 Text Notes 700  3000 0    60   ~ 0
 TODO: correct MicroUSB Footprint
 Wire Wire Line
