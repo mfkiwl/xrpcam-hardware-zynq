@@ -24,37 +24,37 @@ F 3 "" H 5350 2150 60  0001 C CNN
 	5    5350 2150
 	1    0    0    -1  
 $EndComp
-Text HLabel 3300 2750 0    60   Input ~ 0
+Text HLabel 3300 2950 0    60   Input ~ 0
 MGTX_RX_0_N
 Text HLabel 3300 2850 0    60   Input ~ 0
 MGTX_RX_1_N
-Text HLabel 3300 2950 0    60   Input ~ 0
+Text HLabel 3300 2750 0    60   Input ~ 0
 MGTX_RX_2_N
 Text HLabel 3300 3050 0    60   Input ~ 0
 MGTX_RX_3_N
-Text HLabel 3300 3150 0    60   Input ~ 0
+Text HLabel 3300 3350 0    60   Input ~ 0
 MGTX_RX_0_P
 Text HLabel 3300 3250 0    60   Input ~ 0
 MGTX_RX_1_P
-Text HLabel 3300 3350 0    60   Input ~ 0
+Text HLabel 3300 3150 0    60   Input ~ 0
 MGTX_RX_2_P
 Text HLabel 3300 3450 0    60   Input ~ 0
 MGTX_RX_3_P
-Text HLabel 3300 3550 0    60   Output ~ 0
-MGTX_TX_0_N
-Text HLabel 3300 3650 0    60   Output ~ 0
-MGTX_TX_1_N
-Text HLabel 3300 3750 0    60   Output ~ 0
-MGTX_TX_2_N
-Text HLabel 3300 3850 0    60   Output ~ 0
-MGTX_TX_3_N
-Text HLabel 3300 3950 0    60   Output ~ 0
-MGTX_TX_0_P
-Text HLabel 3300 4050 0    60   Output ~ 0
-MGTX_TX_1_P
 Text HLabel 3300 4150 0    60   Output ~ 0
-MGTX_TX_2_P
+MGTX_TX_0_N
+Text HLabel 3300 4050 0    60   Output ~ 0
+MGTX_TX_1_N
+Text HLabel 3300 3950 0    60   Output ~ 0
+MGTX_TX_2_N
 Text HLabel 3300 4250 0    60   Output ~ 0
+MGTX_TX_3_N
+Text HLabel 3300 3750 0    60   Output ~ 0
+MGTX_TX_0_P
+Text HLabel 3300 3650 0    60   Output ~ 0
+MGTX_TX_1_P
+Text HLabel 3300 3550 0    60   Output ~ 0
+MGTX_TX_2_P
+Text HLabel 3300 3850 0    60   Output ~ 0
 MGTX_TX_3_P
 Text HLabel 3300 2250 0    60   Input ~ 0
 MGTREFCLK_0_N
@@ -125,68 +125,68 @@ Wire Wire Line
 Wire Wire Line
 	3300 2550 4150 2550
 Wire Wire Line
-	3300 2750 5350 2750
+	3300 2950 5350 2950
 Wire Wire Line
 	5350 2850 3300 2850
 Wire Wire Line
-	3300 2950 5350 2950
+	3300 2750 5350 2750
 Wire Wire Line
 	5350 3050 3300 3050
 Wire Wire Line
-	3300 3150 5350 3150
+	3300 3350 5350 3350
 Wire Wire Line
 	5350 3250 3300 3250
 Wire Wire Line
-	3300 3350 5350 3350
+	3300 3150 5350 3150
 Wire Wire Line
 	5350 3450 3300 3450
 Wire Wire Line
-	3300 3550 5350 3550
-Wire Wire Line
-	5350 3650 3300 3650
-Wire Wire Line
-	3300 3750 5350 3750
-Wire Wire Line
-	5350 3850 3300 3850
-Wire Wire Line
-	3300 3950 5350 3950
+	3300 4150 5350 4150
 Wire Wire Line
 	5350 4050 3300 4050
 Wire Wire Line
-	3300 4150 5350 4150
+	3300 3950 5350 3950
 Wire Wire Line
 	5350 4250 3300 4250
+Wire Wire Line
+	3300 3750 5350 3750
+Wire Wire Line
+	5350 3650 3300 3650
+Wire Wire Line
+	3300 3550 5350 3550
+Wire Wire Line
+	5350 3850 3300 3850
 Text Label 5250 2850 2    60   ~ 0
 MGTX_RX_1_N
-Text Label 5250 2950 2    60   ~ 0
+Text Label 5250 2750 2    60   ~ 0
 MGTX_RX_2_N
 Text Label 5250 3050 2    60   ~ 0
 MGTX_RX_3_N
 Text Label 5250 3250 2    60   ~ 0
 MGTX_RX_1_P
-Text Label 5250 3350 2    60   ~ 0
+Text Label 5250 3150 2    60   ~ 0
 MGTX_RX_2_P
 Text Label 5250 3450 2    60   ~ 0
 MGTX_RX_3_P
-Text Label 5250 3650 2    60   ~ 0
-MGTX_TX_1_N
-Text Label 5250 3750 2    60   ~ 0
-MGTX_TX_2_N
-Text Label 5250 3850 2    60   ~ 0
-MGTX_TX_3_N
 Text Label 5250 4050 2    60   ~ 0
-MGTX_TX_1_P
-Text Label 5250 4150 2    60   ~ 0
-MGTX_TX_2_P
-Text Label 5250 4250 2    60   ~ 0
-MGTX_TX_3_P
-Text Label 5250 3150 2    60   ~ 0
-MGTX_RX_0_P
-Text Label 5250 2750 2    60   ~ 0
-MGTX_RX_0_N
-Text Label 5250 3550 2    60   ~ 0
-MGTX_TX_0_N
+MGTX_TX_1_N
 Text Label 5250 3950 2    60   ~ 0
+MGTX_TX_2_N
+Text Label 5250 4250 2    60   ~ 0
+MGTX_TX_3_N
+Text Label 5250 3650 2    60   ~ 0
+MGTX_TX_1_P
+Text Label 5250 3550 2    60   ~ 0
+MGTX_TX_2_P
+Text Label 5250 3850 2    60   ~ 0
+MGTX_TX_3_P
+Text Label 5250 3350 2    60   ~ 0
+MGTX_RX_0_P
+Text Label 5250 2950 2    60   ~ 0
+MGTX_RX_0_N
+Text Label 5250 4150 2    60   ~ 0
+MGTX_TX_0_N
+Text Label 5250 3750 2    60   ~ 0
 MGTX_TX_0_P
 $Comp
 L Device:R_Small R1001
@@ -225,4 +225,16 @@ Wire Wire Line
 Connection ~ 5300 2150
 Wire Wire Line
 	5300 2150 5350 2150
+Wire Notes Line
+	2550 3500 5300 3500
+Wire Notes Line
+	5300 3500 5300 4350
+Wire Notes Line
+	5300 4350 2550 4350
+Wire Notes Line
+	2550 4350 2550 3500
+Text Notes 3200 4500 0    50   ~ 0
+TX Polarity has been swapped to ease routing
+Text Notes 500  3100 0    50   ~ 0
+Pair 2 and 0 have been swapped, to ease routing
 $EndSCHEMATC
