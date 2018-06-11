@@ -15,13 +15,13 @@ Comment4 ""
 $EndDescr
 Text HLabel 6000 6500 2    60   Output ~ 0
 TX_DISABLE
-Text HLabel 6000 6100 2    60   Input ~ 0
+Text HLabel 6000 6200 2    60   Input ~ 0
 TX_FAULT
 Text HLabel 10550 4350 2    60   BiDi ~ 0
 SFP_SDA
 Text HLabel 10550 4250 2    60   BiDi ~ 0
 SFP_SCL
-Text HLabel 6000 6200 2    60   Input ~ 0
+Text HLabel 6000 6100 2    60   Input ~ 0
 MODDET
 Text HLabel 6000 6000 2    60   Input ~ 0
 RX_LOS
@@ -554,9 +554,9 @@ NoConn ~ 3600 6700
 NoConn ~ 3600 6600
 Text HLabel 3250 6000 0    60   Output ~ 0
 RX_LOS_18
-Text HLabel 3250 6100 0    60   Output ~ 0
-TX_FAULT_18
 Text HLabel 3250 6200 0    60   Output ~ 0
+TX_FAULT_18
+Text HLabel 3250 6100 0    60   Output ~ 0
 MODDET_18
 Text HLabel 3250 6400 0    60   Input ~ 0
 SFP_GPIO_18

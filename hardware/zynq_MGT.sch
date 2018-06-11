@@ -56,74 +56,30 @@ Text HLabel 3300 3550 0    60   Output ~ 0
 MGTX_TX_2_P
 Text HLabel 3300 3850 0    60   Output ~ 0
 MGTX_TX_3_P
-Text HLabel 3300 2250 0    60   Input ~ 0
-MGTREFCLK_0_N
-Text HLabel 3300 2350 0    60   Input ~ 0
-MGTREFCLK_0_P
 Text HLabel 3300 2450 0    60   Input ~ 0
-MGTREFCLK_1_N
+MGTREFCLK_0_N
 Text HLabel 3300 2550 0    60   Input ~ 0
+MGTREFCLK_0_P
+Text HLabel 3300 2350 0    60   Input ~ 0
+MGTREFCLK_1_N
+Text HLabel 3300 2250 0    60   Input ~ 0
 MGTREFCLK_1_P
-$Comp
-L Device:C_Small C1004
-U 1 1 598A74A2
-P 4250 2550
-F 0 "C1004" H 4260 2620 50  0000 L CNN
-F 1 "C_Small" H 4260 2470 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4250 2550 50  0001 C CNN
-F 3 "" H 4250 2550 50  0000 C CNN
-	1    4250 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C1003
-U 1 1 598A7543
-P 4000 2450
-F 0 "C1003" H 4010 2520 50  0000 L CNN
-F 1 "C_Small" H 4010 2370 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4000 2450 50  0001 C CNN
-F 3 "" H 4000 2450 50  0000 C CNN
-	1    4000 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C1001
-U 1 1 598A7566
-P 3500 2250
-F 0 "C1001" H 3510 2320 50  0000 L CNN
-F 1 "C_Small" H 3510 2170 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3500 2250 50  0001 C CNN
-F 3 "" H 3500 2250 50  0000 C CNN
-	1    3500 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C1002
-U 1 1 598A75B1
-P 3750 2350
-F 0 "C1002" H 3760 2420 50  0000 L CNN
-F 1 "C_Small" H 3760 2270 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 2350 50  0001 C CNN
-F 3 "" H 3750 2350 50  0000 C CNN
-	1    3750 2350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	3600 2250 5350 2250
+	3600 2450 5350 2450
 Wire Wire Line
-	3850 2350 5350 2350
+	3850 2550 5350 2550
 Wire Wire Line
-	4100 2450 5350 2450
+	4100 2350 5350 2350
 Wire Wire Line
-	4350 2550 5350 2550
+	4350 2250 5350 2250
 Wire Wire Line
-	3300 2250 3400 2250
+	3300 2450 3400 2450
 Wire Wire Line
-	3300 2350 3650 2350
+	3300 2550 3650 2550
 Wire Wire Line
-	3300 2450 3900 2450
+	3300 2350 3900 2350
 Wire Wire Line
-	3300 2550 4150 2550
+	3300 2250 4150 2250
 Wire Wire Line
 	3300 2950 5350 2950
 Wire Wire Line
@@ -237,4 +193,76 @@ Text Notes 3200 4500 0    50   ~ 0
 TX Polarity has been swapped to ease routing
 Text Notes 500  3100 0    50   ~ 0
 Pair 2 and 0 have been swapped, to ease routing
+$Comp
+L Device:C_Small C908
+U 1 1 5BB22AAD
+P 3500 2450
+F 0 "C908" V 3550 2500 50  0000 L CNN
+F 1 "100 nF" V 3450 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 3500 2450 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3500 2450 50  0001 C CNN
+F 4 "Murata Electronics North America" H 3500 2450 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 3500 2450 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 3500 2450 60  0001 C CNN "Digikey"
+F 7 "1" V 3500 2450 60  0001 C CNN "Populated"
+F 8 "SPEC" H 3500 2450 60  0001 C CNN "Source"
+	1    3500 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C909
+U 1 1 5BB23111
+P 3750 2550
+F 0 "C909" V 3800 2600 50  0000 L CNN
+F 1 "100 nF" V 3700 2600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 3750 2550 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3750 2550 50  0001 C CNN
+F 4 "Murata Electronics North America" H 3750 2550 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 3750 2550 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 3750 2550 60  0001 C CNN "Digikey"
+F 7 "1" V 3750 2550 60  0001 C CNN "Populated"
+F 8 "SPEC" H 3750 2550 60  0001 C CNN "Source"
+	1    3750 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C910
+U 1 1 5BB23143
+P 4000 2350
+F 0 "C910" V 4050 2400 50  0000 L CNN
+F 1 "100 nF" V 3950 2400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 4000 2350 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 4000 2350 50  0001 C CNN
+F 4 "Murata Electronics North America" H 4000 2350 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 4000 2350 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 4000 2350 60  0001 C CNN "Digikey"
+F 7 "1" V 4000 2350 60  0001 C CNN "Populated"
+F 8 "SPEC" H 4000 2350 60  0001 C CNN "Source"
+	1    4000 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C911
+U 1 1 5BB231AA
+P 4250 2250
+F 0 "C911" V 4300 2300 50  0000 L CNN
+F 1 "100 nF" V 4200 2300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 4250 2250 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 4250 2250 50  0001 C CNN
+F 4 "Murata Electronics North America" H 4250 2250 60  0001 C CNN "MFG Name"
+F 5 "GRM033R60J104KE19D" H 4250 2250 60  0001 C CNN "MFG Part Num"
+F 6 "490-3167-1-ND" H 4250 2250 60  0001 C CNN "Digikey"
+F 7 "1" V 4250 2250 60  0001 C CNN "Populated"
+F 8 "SPEC" H 4250 2250 60  0001 C CNN "Source"
+	1    4250 2250
+	0    1    1    0   
+$EndComp
+Text Label 4450 2250 0    50   ~ 0
+MRC_1_P
+Text Label 4450 2350 0    50   ~ 0
+MRC_1_N
+Text Label 4450 2550 0    50   ~ 0
+MRC_0_P
+Text Label 4450 2450 0    50   ~ 0
+MRC_0_N
 $EndSCHEMATC

@@ -4222,7 +4222,7 @@ Connection ~ 6350 3800
 Wire Wire Line
 	6350 4250 6350 4050
 Wire Wire Line
-	10700 1800 12100 1800
+	10700 1800 11900 1800
 Wire Wire Line
 	10700 2000 10800 2000
 Wire Wire Line
@@ -4277,7 +4277,7 @@ Connection ~ 6650 3800
 Wire Wire Line
 	5400 4400 5400 4900
 Wire Wire Line
-	5400 4900 6650 4900
+	5400 4900 6400 4900
 Wire Wire Line
 	7600 4200 7600 4900
 Wire Wire Line
@@ -4286,12 +4286,12 @@ Wire Wire Line
 	2900 5900 7600 5900
 Connection ~ 7600 4900
 Wire Wire Line
-	10800 5800 8050 5800
+	10800 5800 9900 5800
 Wire Wire Line
 	8050 5800 8050 6850
 Connection ~ 10800 4350
 Wire Wire Line
-	5400 7650 7600 7650
+	5400 7650 6350 7650
 Wire Wire Line
 	7600 7650 7600 8200
 Connection ~ 5400 7000
@@ -4355,11 +4355,11 @@ Wire Wire Line
 Wire Wire Line
 	7150 3800 7150 3700
 Wire Wire Line
-	11300 8750 11050 8750
+	11300 8750 11150 8750
 Wire Wire Line
-	11300 6450 11050 6450
+	11300 6450 11150 6450
 Wire Wire Line
-	11300 3800 11050 3800
+	11300 3800 11100 3800
 Wire Wire Line
 	4250 5000 4250 5100
 Wire Wire Line
@@ -4589,7 +4589,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 2700 5050 2700
 Wire Wire Line
-	3500 1400 2850 1400
+	3500 1400 3150 1400
 Wire Wire Line
 	3150 2550 3300 2550
 Wire Wire Line
@@ -4661,11 +4661,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 7350 5900 7350
 Wire Wire Line
-	5900 6450 7150 6450
+	5900 6450 6600 6450
 Wire Wire Line
 	5650 9650 5900 9650
 Wire Wire Line
-	5900 8750 7150 8750
+	5900 8750 6550 8750
 Wire Wire Line
 	9800 7350 9900 7350
 Wire Wire Line
@@ -4791,13 +4791,13 @@ Wire Wire Line
 Wire Wire Line
 	9100 1400 9400 1400
 Wire Wire Line
-	6700 1400 7150 1400
+	6700 1400 6900 1400
 Wire Wire Line
 	6700 2350 7150 2350
 Wire Wire Line
 	6700 2350 6700 3300
 Wire Wire Line
-	6650 3800 7150 3800
+	6650 3800 6850 3800
 Wire Wire Line
 	7600 4900 7600 5900
 Wire Wire Line
@@ -4935,4 +4935,236 @@ Wire Wire Line
 	10150 1400 10800 1400
 Text Notes 10150 1550 0    50   ~ 0
 For 300 ms Delay a 40 kΩ to 200 kΩ\nResistor must be used!
+$Comp
+L Connector:Test_Point TP501
+U 1 1 5BA66623
+P 3150 1400
+F 0 "TP501" H 3208 1520 50  0000 L CNN
+F 1 "Test_Point" H 3208 1429 50  0000 L CNN
+F 2 "footprints:TestPoint_SMD_0.5mm" H 3350 1400 50  0001 C CNN
+F 3 "~" H 3350 1400 50  0001 C CNN
+F 4 "1" H 3150 1400 50  0001 C CNN "Populated"
+F 5 "SPEC" H 3150 1400 50  0001 C CNN "Source"
+F 6 "1" H 3150 1400 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 3150 1400 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    3150 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1400 2850 1400
+Connection ~ 3150 1400
+$Comp
+L Connector:Test_Point TP507
+U 1 1 5BA67D98
+P 6900 1400
+F 0 "TP507" H 6958 1520 50  0000 L CNN
+F 1 "Test_Point" H 6958 1429 50  0000 L CNN
+F 2 "footprints:TestPoint_SMD_0.5mm" H 7100 1400 50  0001 C CNN
+F 3 "~" H 7100 1400 50  0001 C CNN
+F 4 "1" H 6900 1400 50  0001 C CNN "Populated"
+F 5 "SPEC" H 6900 1400 50  0001 C CNN "Source"
+F 6 "1" H 6900 1400 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 6900 1400 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    6900 1400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6900 1400
+Wire Wire Line
+	6900 1400 7150 1400
+$Comp
+L Connector:Test_Point TP506
+U 1 1 5BA68001
+P 6850 3800
+F 0 "TP506" H 6908 3920 50  0000 L CNN
+F 1 "Test_Point" H 6908 3829 50  0000 L CNN
+F 2 "footprints:TestPoint_SMD_0.5mm" H 7050 3800 50  0001 C CNN
+F 3 "~" H 7050 3800 50  0001 C CNN
+F 4 "1" H 6850 3800 50  0001 C CNN "Populated"
+F 5 "SPEC" H 6850 3800 50  0001 C CNN "Source"
+F 6 "1" H 6850 3800 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 6850 3800 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    6850 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6850 3800
+Wire Wire Line
+	6850 3800 7150 3800
+$Comp
+L Connector:Test_Point TP509
+U 1 1 5BA68399
+P 11100 3800
+F 0 "TP509" H 11158 3920 50  0000 L CNN
+F 1 "Test_Point" H 11158 3829 50  0000 L CNN
+F 2 "footprints:TestPoint_SMD_0.5mm" H 11300 3800 50  0001 C CNN
+F 3 "~" H 11300 3800 50  0001 C CNN
+F 4 "1" H 11100 3800 50  0001 C CNN "Populated"
+F 5 "SPEC" H 11100 3800 50  0001 C CNN "Source"
+F 6 "1" H 11100 3800 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 11100 3800 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    11100 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 11100 3800
+Wire Wire Line
+	11100 3800 11050 3800
+$Comp
+L Connector:Test_Point TP510
+U 1 1 5BA6850D
+P 11150 6450
+F 0 "TP510" H 11208 6570 50  0000 L CNN
+F 1 "Test_Point" H 11208 6479 50  0000 L CNN
+F 2 "footprints:TestPoint_SMD_0.5mm" H 11350 6450 50  0001 C CNN
+F 3 "~" H 11350 6450 50  0001 C CNN
+F 4 "1" H 11150 6450 50  0001 C CNN "Populated"
+F 5 "SPEC" H 11150 6450 50  0001 C CNN "Source"
+F 6 "1" H 11150 6450 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 11150 6450 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    11150 6450
+	1    0    0    -1  
+$EndComp
+Connection ~ 11150 6450
+Wire Wire Line
+	11150 6450 11050 6450
+$Comp
+L Connector:Test_Point TP505
+U 1 1 5BA68943
+P 6600 6450
+F 0 "TP505" H 6658 6570 50  0000 L CNN
+F 1 "Test_Point" H 6658 6479 50  0000 L CNN
+F 2 "footprints:TestPoint_SMD_0.5mm" H 6800 6450 50  0001 C CNN
+F 3 "~" H 6800 6450 50  0001 C CNN
+F 4 "1" H 6600 6450 50  0001 C CNN "Populated"
+F 5 "SPEC" H 6600 6450 50  0001 C CNN "Source"
+F 6 "1" H 6600 6450 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 6600 6450 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    6600 6450
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 6450
+Wire Wire Line
+	6600 6450 7150 6450
+$Comp
+L Connector:Test_Point TP504
+U 1 1 5BA68D28
+P 6550 8750
+F 0 "TP504" H 6608 8870 50  0000 L CNN
+F 1 "Test_Point" H 6608 8779 50  0000 L CNN
+F 2 "footprints:TestPoint_SMD_0.5mm" H 6750 8750 50  0001 C CNN
+F 3 "~" H 6750 8750 50  0001 C CNN
+F 4 "1" H 6550 8750 50  0001 C CNN "Populated"
+F 5 "SPEC" H 6550 8750 50  0001 C CNN "Source"
+F 6 "1" H 6550 8750 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 6550 8750 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    6550 8750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6550 8750
+Wire Wire Line
+	6550 8750 7150 8750
+$Comp
+L Connector:Test_Point TP511
+U 1 1 5BA68F86
+P 11150 8750
+F 0 "TP511" H 11208 8870 50  0000 L CNN
+F 1 "Test_Point" H 11208 8779 50  0000 L CNN
+F 2 "footprints:TestPoint_SMD_0.5mm" H 11350 8750 50  0001 C CNN
+F 3 "~" H 11350 8750 50  0001 C CNN
+F 4 "1" H 11150 8750 50  0001 C CNN "Populated"
+F 5 "SPEC" H 11150 8750 50  0001 C CNN "Source"
+F 6 "1" H 11150 8750 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 11150 8750 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    11150 8750
+	1    0    0    -1  
+$EndComp
+Connection ~ 11150 8750
+Wire Wire Line
+	11150 8750 11050 8750
+$Comp
+L Connector:Test_Point TP513
+U 1 1 5BA692AB
+P 14800 6300
+F 0 "TP513" H 14858 6420 50  0000 L CNN
+F 1 "Test_Point" H 14858 6329 50  0000 L CNN
+F 2 "footprints:TestPoint_SMD_0.5mm" H 15000 6300 50  0001 C CNN
+F 3 "~" H 15000 6300 50  0001 C CNN
+F 4 "1" H 14800 6300 50  0001 C CNN "Populated"
+F 5 "SPEC" H 14800 6300 50  0001 C CNN "Source"
+F 6 "1" H 14800 6300 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 14800 6300 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    14800 6300
+	1    0    0    -1  
+$EndComp
+Connection ~ 14800 6300
+$Comp
+L Connector:Test_Point TP512
+U 1 1 5BA69713
+P 11900 1800
+F 0 "TP512" H 11958 1920 50  0000 L CNN
+F 1 "Test_Point" H 11958 1829 50  0000 L CNN
+F 2 "footprints:TestPoint_SMD_0.5mm" H 12100 1800 50  0001 C CNN
+F 3 "~" H 12100 1800 50  0001 C CNN
+F 4 "1" H 11900 1800 50  0001 C CNN "Populated"
+F 5 "SPEC" H 11900 1800 50  0001 C CNN "Source"
+F 6 "1" H 11900 1800 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 11900 1800 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    11900 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 11900 1800
+Wire Wire Line
+	11900 1800 12100 1800
+$Comp
+L Connector:Test_Point TP503
+U 1 1 5BA69BF2
+P 6400 4900
+F 0 "TP503" H 6458 5020 50  0000 L CNN
+F 1 "Test_Point" H 6458 4929 50  0000 L CNN
+F 2 "footprints:TestPoint_SMD_0.5mm" H 6600 4900 50  0001 C CNN
+F 3 "~" H 6600 4900 50  0001 C CNN
+F 4 "1" H 6400 4900 50  0001 C CNN "Populated"
+F 5 "SPEC" H 6400 4900 50  0001 C CNN "Source"
+F 6 "1" H 6400 4900 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 6400 4900 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    6400 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 6400 4900
+Wire Wire Line
+	6400 4900 6650 4900
+$Comp
+L Connector:Test_Point TP508
+U 1 1 5BA69F8C
+P 9900 5800
+F 0 "TP508" H 9958 5920 50  0000 L CNN
+F 1 "Test_Point" H 9958 5829 50  0000 L CNN
+F 2 "footprints:TestPoint_SMD_0.5mm" H 10100 5800 50  0001 C CNN
+F 3 "~" H 10100 5800 50  0001 C CNN
+F 4 "1" H 9900 5800 50  0001 C CNN "Populated"
+F 5 "SPEC" H 9900 5800 50  0001 C CNN "Source"
+F 6 "1" H 9900 5800 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 9900 5800 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    9900 5800
+	1    0    0    -1  
+$EndComp
+Connection ~ 9900 5800
+Wire Wire Line
+	9900 5800 8050 5800
+$Comp
+L Connector:Test_Point TP502
+U 1 1 5BA6AB30
+P 6350 7650
+F 0 "TP502" H 6408 7770 50  0000 L CNN
+F 1 "Test_Point" H 6408 7679 50  0000 L CNN
+F 2 "footprints:TestPoint_SMD_0.5mm" H 6550 7650 50  0001 C CNN
+F 3 "~" H 6550 7650 50  0001 C CNN
+F 4 "1" H 6350 7650 50  0001 C CNN "Populated"
+F 5 "SPEC" H 6350 7650 50  0001 C CNN "Source"
+F 6 "1" H 6350 7650 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 6350 7650 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    6350 7650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 7650
+Wire Wire Line
+	6350 7650 7600 7650
 $EndSCHEMATC

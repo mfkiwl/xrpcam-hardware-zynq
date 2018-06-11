@@ -1186,4 +1186,8 @@ Text Label 3850 3250 0    50   ~ 0
 OC_P
 Text Label 3900 3600 1    50   ~ 0
 OC_N
+Text Label 3600 2750 0    50   ~ 0
+REFCLK_P
+Text Label 3600 2850 0    50   ~ 0
+REFCLK_N
 $EndSCHEMATC
