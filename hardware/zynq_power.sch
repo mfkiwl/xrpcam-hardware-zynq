@@ -67,7 +67,7 @@ U 1 1 598743AB
 P 950 1500
 F 0 "C202" H 960 1570 50  0000 L CNN
 F 1 "330µF" H 960 1420 50  0000 L CNN
-F 2 "" H 950 1500 50  0001 C CNN
+F 2 "footprints:C7343-21_KEMET-V_10.22x5.6mm" H 950 1500 50  0001 C CNN
 F 3 "http://www.kemet.com/docfinder?Partnumber=T520" H 950 1500 50  0001 C CNN
 F 4 "KEMET" H 950 1500 60  0001 C CNN "MFG Name"
 F 5 "T520V337M2R5ATE025" H 950 1500 60  0001 C CNN "MFG Part Num"
@@ -75,19 +75,10 @@ F 6 "399-4105-1-ND" H 950 1500 60  0001 C CNN "Digikey"
 F 7 "1" H 950 1500 60  0001 C CNN "Populated"
 F 8 "CAP TANT POLY 330UF 2.5V 2917, ESR < 50mOhm" H 950 1500 60  0001 C CNN "Description"
 F 9 "SPEC" H 950 1500 60  0001 C CNN "Source"
+F 10 "1" H 950 1500 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 950 1500 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    950  1500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L_Small L202
-U 1 1 5AE1F2BF
-P 8950 1550
-F 0 "L202" H 8980 1590 50  0000 L CNN
-F 1 "100 Ohm @ 1Mhz" V 8900 1450 50  0000 L CNN
-F 2 "" H 8950 1550 50  0001 C CNN
-F 3 "" H 8950 1550 50  0001 C CNN
-	1    8950 1550
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR01
@@ -117,7 +108,7 @@ U 1 1 5ADEBC1C
 P 8950 1250
 F 0 "L201" H 8980 1290 50  0000 L CNN
 F 1 "120 Ohm @ 100Mhz" V 8900 1150 50  0000 L CNN
-F 2 "Inductors_SMD:L_0603" H 8950 1250 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 8950 1250 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 8950 1250 50  0001 C CNN
 F 4 "Murata Electronics North America" H 8950 1250 60  0001 C CNN "MFG Name"
 F 5 "BLM18SG121TN1D" H 8950 1250 60  0001 C CNN "MFG Part Num"
@@ -1453,8 +1444,6 @@ Text Label 1600 6250 3    50   ~ 0
 MGTAVCC
 Text Label 3000 6250 3    50   ~ 0
 MGTAVTT
-Text Notes 1350 7650 0    50   ~ 0
-Todo: for MGTAVCC and MGTAVTT each add two 100 nF 0201 Cap and 1x 4.7 µF
 $Comp
 L Device:C_Small C260
 U 1 1 5B29B922
@@ -2549,8 +2538,8 @@ F 6 "587-4906-1-ND" H 4250 6850 60  0001 C CNN "Digikey"
 F 7 "1" H 4250 6850 60  0001 C CNN "Populated"
 F 8 "CAP CER 4.7UF 6.3V X7R 0603" H 4250 6850 60  0001 C CNN "Description"
 F 9 "SPEC" H 4250 6850 60  0001 C CNN "Source"
-F 10 "1" H 4250 6850 60  0001 C CNN "Populate for SBGA485(Z-7030)"
-F 11 "1" H 4250 6850 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+F 10 "POPULATE" H 4250 6850 60  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "DNP" H 4250 6850 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 F 12 "6,3 V" H 4350 6700 50  0000 C CNN "Voltage"
 	1    4250 6850
 	1    0    0    -1  
@@ -2570,4 +2559,44 @@ Wire Wire Line
 	4250 6950 4250 7150
 Wire Wire Line
 	4250 6300 4250 6750
+$Comp
+L Device:L_Small L202
+U 1 1 5BC0494E
+P 8950 1550
+F 0 "L202" H 8980 1590 50  0000 L CNN
+F 1 "120 Ohm @ 100Mhz" V 8900 1450 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 8950 1550 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 8950 1550 50  0001 C CNN
+F 4 "Murata Electronics North America" H 8950 1550 60  0001 C CNN "MFG Name"
+F 5 "BLM18SG121TN1D" H 8950 1550 60  0001 C CNN "MFG Part Num"
+F 6 "490-3996-1-ND" H 8950 1550 60  0001 C CNN "Digikey"
+F 7 "1" H 8950 1550 60  0001 C CNN "Populated"
+F 8 "SPEC" H 8950 1550 60  0001 C CNN "Source"
+F 9 "POPULATE" H 8950 1550 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 10 "DNP" H 8950 1550 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    8950 1550
+	0    -1   -1   0   
+$EndComp
+Text Notes 8550 2250 0    50   ~ 0
+Populate only for Z-7030
+Wire Notes Line
+	8800 1500 8800 1600
+Wire Notes Line
+	8800 1600 9100 1600
+Wire Notes Line
+	9100 1600 9100 1500
+Wire Notes Line
+	9100 1500 8800 1500
+Wire Notes Line
+	8950 1550 8950 2200
+Wire Notes Line
+	3950 7400 4550 7400
+Wire Notes Line
+	4550 7400 4550 6250
+Wire Notes Line
+	4550 6250 3950 6250
+Wire Notes Line
+	3950 6250 3950 7400
+Text Notes 3800 7500 0    50   ~ 0
+Only needed for Z-7030
 $EndSCHEMATC

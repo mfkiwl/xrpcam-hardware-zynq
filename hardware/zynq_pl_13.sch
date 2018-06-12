@@ -252,25 +252,25 @@ Wire Wire Line
 	6300 3200 7200 3200
 Wire Wire Line
 	6300 3300 7200 3300
-Text HLabel 6300 3400 0    60   Output ~ 0
-LVDS_CLK0_N
 Text HLabel 6300 3500 0    60   Output ~ 0
+LVDS_CLK0_N
+Text HLabel 6300 3400 0    60   Output ~ 0
 LVDS_CLK0_P
 Text HLabel 6300 4000 0    60   Output ~ 0
 LVDS_CLK1_N
 Text HLabel 6300 4100 0    60   Output ~ 0
 LVDS_CLK1_P
 Wire Wire Line
-	6300 3400 7200 3400
+	6300 3500 7200 3500
 Wire Wire Line
-	7200 3500 6300 3500
+	7200 3400 6300 3400
 Wire Wire Line
 	6300 4000 7200 4000
 Wire Wire Line
 	7200 4100 6300 4100
-Text Label 7100 3400 2    60   ~ 0
-LVDS_CLK0_N
 Text Label 7100 3500 2    60   ~ 0
+LVDS_CLK0_N
+Text Label 7100 3400 2    60   ~ 0
 LVDS_CLK0_P
 Text Label 7100 3600 2    60   ~ 0
 CAM_CLK_0_N

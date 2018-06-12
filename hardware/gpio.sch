@@ -19,8 +19,12 @@ U 1 1 5B0F5739
 P 5150 3350
 F 0 "J1701" H 5200 3850 50  0000 C CNN
 F 1 "Conn_02x09_Counter_Clockwise" H 5200 2850 50  0000 C CNN
-F 2 "" H 5150 3350 50  0001 C CNN
+F 2 "footprints:Solder-Pin-Array_18Pins_TestPoint_SMD_0.5mm_0.75mm-pitch" H 5150 3350 50  0001 C CNN
 F 3 "" H 5150 3350 50  0001 C CNN
+F 4 "1" H 5150 3350 50  0001 C CNN "Populated"
+F 5 "SPEC" H 5150 3350 50  0001 C CNN "Source"
+F 6 "1" H 5150 3350 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 5150 3350 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    5150 3350
 	1    0    0    -1  
 $EndComp
