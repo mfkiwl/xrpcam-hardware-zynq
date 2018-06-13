@@ -26,27 +26,27 @@ F 5 "SPEC" H 5400 1400 60  0001 C CNN "Source"
 	4    5400 1400
 	1    0    0    -1  
 $EndComp
-Text HLabel 5050 6000 0    60   Output ~ 0
+Text HLabel 3100 6100 0    60   Output ~ 0
 FRAME_REQ_0_18
-Text HLabel 5050 4900 0    60   Output ~ 0
+Text HLabel 4300 5200 0    60   Output ~ 0
 T_EXP1_0_18
-Text HLabel 5050 4300 0    60   Output ~ 0
+Text HLabel 3400 5350 0    60   Output ~ 0
 T_EXP2_0_18
-Text HLabel 5050 4700 0    60   Output ~ 0
+Text HLabel 3950 4800 0    60   Output ~ 0
 FRAME_REQ_1_18
-Text HLabel 5050 4600 0    60   Output ~ 0
+Text HLabel 3300 4550 0    60   Output ~ 0
 T_EXP2_1_18
-Text HLabel 5050 4800 0    60   Output ~ 0
+Text HLabel 3800 5000 0    60   Output ~ 0
 T_EXP1_1_18
-Text HLabel 5050 4200 0    60   Output ~ 0
+Text HLabel 5050 4300 0    60   Output ~ 0
 CAM_SPI_CLK_18
-Text HLabel 5050 4400 0    60   Output ~ 0
-CAM_SPI_MOSI_18
-Text HLabel 5050 5000 0    60   Input ~ 0
-CAM_SPI_MISO_18
 Text HLabel 5050 5100 0    60   Output ~ 0
-CAM_SPI_EN_1_18
+CAM_SPI_MOSI_18
+Text HLabel 4050 5400 0    60   Input ~ 0
+CAM_SPI_MISO_18
 Text HLabel 5050 4500 0    60   Output ~ 0
+CAM_SPI_EN_1_18
+Text HLabel 5050 4400 0    60   Output ~ 0
 CAM_SPI_EN_0_18
 Text HLabel 5050 4100 0    60   Output ~ 0
 CAM_CLK0_REF_18
@@ -116,13 +116,13 @@ Text HLabel 5050 6200 0    60   Input ~ 0
 TRIG_IN_2
 Text HLabel 5050 6100 0    60   Input ~ 0
 TRIG_IN_3
-Text HLabel 5050 5300 0    60   Output ~ 0
+Text HLabel 5050 6000 0    60   Output ~ 0
 TRIG_OUT_0
-Text HLabel 5050 5400 0    60   Output ~ 0
+Text HLabel 5050 4700 0    60   Output ~ 0
 TRIG_OUT_2
-Text HLabel 5050 5900 0    60   Output ~ 0
+Text HLabel 5050 4900 0    60   Output ~ 0
 TRIG_OUT_1
-Text HLabel 5050 5600 0    60   Output ~ 0
+Text HLabel 5050 4800 0    60   Output ~ 0
 TRIG_OUT_3
 Wire Wire Line
 	5050 6100 5400 6100
@@ -176,9 +176,9 @@ Wire Wire Line
 	5050 5500 5400 5500
 Wire Wire Line
 	5400 5700 5050 5700
-Text HLabel 5050 2100 0    60   Output ~ 0
+Text HLabel 5050 5000 0    60   Output ~ 0
 LED1
-Text HLabel 5000 1600 0    60   Output ~ 0
+Text HLabel 5050 4600 0    60   Output ~ 0
 LED2
 Text HLabel 5050 1800 0    60   Input ~ 0
 BUTTON0

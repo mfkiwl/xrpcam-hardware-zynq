@@ -24,19 +24,19 @@ F 3 "" H 5250 800 60  0001 C CNN
 	3    5250 800 
 	1    0    0    -1  
 $EndComp
-Text HLabel 4800 2400 0    60   Output ~ 0
-SFP_GPIO_18
-Text HLabel 4800 2500 0    60   Input ~ 0
-RX_LOS_18
-Text HLabel 4800 2600 0    60   Input ~ 0
-MODDET_18
-Text HLabel 4800 2900 0    60   BiDi ~ 0
-SFP_SDA_18
-Text HLabel 4800 2800 0    60   BiDi ~ 0
-SFP_SCL_18
-Text HLabel 4800 3900 0    60   Input ~ 0
-TX_FAULT_18
 Text HLabel 4800 3800 0    60   Output ~ 0
+SFP_GPIO_18
+Text HLabel 4800 2600 0    60   Input ~ 0
+RX_LOS_18
+Text HLabel 4800 2800 0    60   Input ~ 0
+MODDET_18
+Text HLabel 4800 2500 0    60   BiDi ~ 0
+SFP_SDA_18
+Text HLabel 4800 2400 0    60   BiDi ~ 0
+SFP_SCL_18
+Text HLabel 4800 2900 0    60   Input ~ 0
+TX_FAULT_18
+Text HLabel 4800 3900 0    60   Output ~ 0
 TX_DISABLE_18
 Text HLabel 4800 4200 0    60   Output ~ 0
 ST

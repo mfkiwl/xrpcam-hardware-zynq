@@ -33,31 +33,31 @@ Text HLabel 10600 1900 2    60   BiDi ~ 0
 CAM_SDA
 Text HLabel 10600 1800 2    60   BiDi ~ 0
 CAM_SCL
-Text HLabel 5950 4100 2    60   Output ~ 0
-FRAME_REQ_0
-Text HLabel 5950 3900 2    60   Output ~ 0
-T_EXP1_0
-Text HLabel 5950 3800 2    60   Output ~ 0
-T_EXP2_0
-Text HLabel 5950 3700 2    60   Output ~ 0
-FRAME_REQ_1
-Text HLabel 5950 3600 2    60   Output ~ 0
-T_EXP1_1
-Text HLabel 5950 2100 2    60   Output ~ 0
-T_EXP2_1
 Text HLabel 5950 1900 2    60   Output ~ 0
+FRAME_REQ_0
+Text HLabel 5950 1800 2    60   Output ~ 0
+T_EXP1_0
+Text HLabel 5950 1600 2    60   Output ~ 0
+T_EXP2_0
+Text HLabel 5950 1500 2    60   Output ~ 0
+FRAME_REQ_1
+Text HLabel 5950 1400 2    60   Output ~ 0
+T_EXP1_1
+Text HLabel 5950 1300 2    60   Output ~ 0
+T_EXP2_1
+Text HLabel 5950 3700 2    60   Output ~ 0
 CAM_SPI_CLK
-Text HLabel 5950 2000 2    60   Output ~ 0
+Text HLabel 5950 4100 2    60   Output ~ 0
 CAM_SPI_MOSI
 Text HLabel 6650 4600 0    60   Input ~ 0
 CAM_SPI_MISO
-Text HLabel 5950 1800 2    60   Output ~ 0
+Text HLabel 5950 3900 2    60   Output ~ 0
 CAM_SPI_EN_0
-Text HLabel 5950 1600 2    60   Output ~ 0
+Text HLabel 5950 3800 2    60   Output ~ 0
 CAM_SPI_EN_1
-Text HLabel 5950 1300 2    60   Output ~ 0
+Text HLabel 5950 2000 2    60   Output ~ 0
 CAM1_CLK_REF
-Text HLabel 5950 1500 2    60   Output ~ 0
+Text HLabel 5950 3600 2    60   Output ~ 0
 CAM_RESET
 Text Notes 6950 4800 2    60   ~ 0
 Signals from/to Camera(3,3 V)
@@ -458,29 +458,29 @@ Text Notes 4800 3150 0    60   ~ 0
 DIR[1:2] = 10\nA[1:4] => B[1:4]; A[5:8] => B[5:8]
 Text Notes 4850 5500 0    60   ~ 0
 DIR[1:2] = 01\nA[1:4] <= B[1:4]; A[5:8] => B[5:8]
-Text HLabel 3250 1500 0    60   Input ~ 0
-CAM_RESET_18
-Text HLabel 3250 1300 0    60   Input ~ 0
-CAM_CLK1_REF_18
-Text HLabel 3250 1600 0    60   Input ~ 0
-CAM_SPI_EN_1_18
-Text HLabel 3250 1800 0    60   Input ~ 0
-CAM_SPI_EN_0_18
-Text HLabel 3250 2000 0    60   Input ~ 0
-CAM_SPI_MOSI_18
-Text HLabel 3250 1900 0    60   Input ~ 0
-CAM_SPI_CLK_18
-Text HLabel 3250 2100 0    60   Input ~ 0
-T_EXP2_1_18
 Text HLabel 3250 3600 0    60   Input ~ 0
-T_EXP1_1_18
-Text HLabel 3250 3700 0    60   Input ~ 0
-FRAME_REQ_1_18
+CAM_RESET_18
+Text HLabel 3250 2000 0    60   Input ~ 0
+CAM_CLK1_REF_18
 Text HLabel 3250 3800 0    60   Input ~ 0
-T_EXP2_0_18
+CAM_SPI_EN_1_18
 Text HLabel 3250 3900 0    60   Input ~ 0
-T_EXP1_0_18
+CAM_SPI_EN_0_18
 Text HLabel 3250 4100 0    60   Input ~ 0
+CAM_SPI_MOSI_18
+Text HLabel 3250 3700 0    60   Input ~ 0
+CAM_SPI_CLK_18
+Text HLabel 3250 1300 0    60   Input ~ 0
+T_EXP2_1_18
+Text HLabel 3250 1400 0    60   Input ~ 0
+T_EXP1_1_18
+Text HLabel 3250 1500 0    60   Input ~ 0
+FRAME_REQ_1_18
+Text HLabel 3250 1600 0    60   Input ~ 0
+T_EXP2_0_18
+Text HLabel 3250 1800 0    60   Input ~ 0
+T_EXP1_0_18
+Text HLabel 3250 1900 0    60   Input ~ 0
 FRAME_REQ_0_18
 Text HLabel 3250 5900 0    60   Output ~ 0
 CAM_SPI_MISO_18
@@ -753,11 +753,11 @@ Wire Wire Line
 	3250 3900 3550 3900
 Wire Wire Line
 	3550 4100 3250 4100
-Text HLabel 3250 1400 0    60   Input ~ 0
+Text HLabel 3250 2100 0    60   Input ~ 0
 CAM_CLK0_REF_18
 Wire Wire Line
 	3250 1400 3550 1400
-Text HLabel 5950 1400 2    60   Output ~ 0
+Text HLabel 5950 2100 2    60   Output ~ 0
 CAM0_CLK_REF
 Wire Wire Line
 	5950 1400 4550 1400
