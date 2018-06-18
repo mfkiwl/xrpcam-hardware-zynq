@@ -550,8 +550,6 @@ F 3 "" H 3200 7000 50  0001 C CNN
 	1    3200 7000
 	0    1    1    0   
 $EndComp
-NoConn ~ 3600 6700
-NoConn ~ 3600 6600
 Text HLabel 3250 6000 0    60   Output ~ 0
 RX_LOS_18
 Text HLabel 3250 6200 0    60   Output ~ 0
@@ -816,7 +814,6 @@ F 11 "1" H 4050 1700 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    4050 1700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3550 4400
 $Comp
 L lsf0102:LSF0102 U1405
 U 1 1 5AF08024
@@ -1387,4 +1384,7 @@ Wire Wire Line
 	5200 4300 5250 4300
 Wire Wire Line
 	4900 4300 4850 4300
+NoConn ~ 4600 6600
+NoConn ~ 4600 6700
+NoConn ~ 4550 4400
 $EndSCHEMATC

@@ -2755,8 +2755,6 @@ F 7 "1" H 12100 1500 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    12100 1500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9400 2300
-NoConn ~ 9400 2150
 $Bitmap
 Pos 14450 2000
 Scale 1.000000
@@ -3486,17 +3484,6 @@ $EndComp
 Text HLabel 12850 1800 2    60   Output ~ 0
 PS_POR_B
 $Comp
-L power:+3V3 #PWR046
-U 1 1 5AE3F062
-P 12100 1150
-F 0 "#PWR046" H 12100 1000 50  0001 C CNN
-F 1 "+3V3" H 12100 1290 50  0000 C CNN
-F 2 "" H 12100 1150 50  0001 C CNN
-F 3 "" H 12100 1150 50  0001 C CNN
-	1    12100 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR047
 U 1 1 5AE3F924
 P 7150 1250
@@ -3739,13 +3726,6 @@ Text Notes 13850 7300 0    60   ~ 0
 Text Notes 14200 5250 0    157  ~ 31
 2.5V
 NoConn ~ 11950 3000
-Wire Wire Line
-	5400 1500 5500 1500
-Wire Wire Line
-	5500 1500 5500 1400
-Wire Wire Line
-	5400 1400 5500 1400
-Connection ~ 5500 1400
 Wire Wire Line
 	5750 1400 5750 1450
 Connection ~ 5750 1400
@@ -4108,13 +4088,6 @@ Wire Wire Line
 	11300 3650 11300 3800
 Connection ~ 11300 3800
 Wire Wire Line
-	5400 3900 5500 3900
-Wire Wire Line
-	5500 3900 5500 3800
-Wire Wire Line
-	5400 3800 5500 3800
-Connection ~ 5500 3800
-Wire Wire Line
 	5750 3800 5750 3850
 Connection ~ 5750 3800
 Wire Wire Line
@@ -4249,13 +4222,6 @@ Wire Wire Line
 Connection ~ 9100 2400
 Wire Wire Line
 	8900 2400 9100 2400
-Wire Wire Line
-	9500 2000 9400 2000
-Wire Wire Line
-	9400 2000 9400 2150
-Wire Wire Line
-	9400 2400 9400 2300
-Connection ~ 9400 2400
 Connection ~ 9100 1400
 Wire Wire Line
 	5400 2000 5500 2000
@@ -4387,8 +4353,6 @@ Wire Wire Line
 Connection ~ 14100 6300
 Wire Wire Line
 	3600 1400 3500 1400
-Text HLabel 2450 1400 0    60   Input ~ 0
-V_IN
 $Comp
 L Device:C_Small C603
 U 1 1 5B0A5E8F
@@ -4581,8 +4545,6 @@ F 11 "1" H 11300 4250 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 1400 5750 1400
-Wire Wire Line
 	5750 1400 5950 1400
 Wire Wire Line
 	5750 1800 5750 1850
@@ -4729,8 +4691,6 @@ Wire Wire Line
 Wire Wire Line
 	11300 3800 11300 4150
 Wire Wire Line
-	5500 3800 5750 3800
-Wire Wire Line
 	5750 3800 6050 3800
 Wire Wire Line
 	5750 4200 5750 4250
@@ -4784,10 +4744,6 @@ Wire Wire Line
 	9100 1900 9500 1900
 Wire Wire Line
 	9100 1900 9100 2000
-Wire Wire Line
-	9100 2400 9400 2400
-Wire Wire Line
-	9400 2400 10000 2400
 Wire Wire Line
 	9100 1400 9400 1400
 Wire Wire Line
@@ -5167,4 +5123,26 @@ $EndComp
 Connection ~ 6350 7650
 Wire Wire Line
 	6350 7650 7600 7650
+Wire Wire Line
+	5400 3800 5750 3800
+Wire Wire Line
+	5400 1400 5750 1400
+$Comp
+L power_symbols:+V_IN #PWR0188
+U 1 1 5BE97F97
+P 2450 1250
+F 0 "#PWR0188" H 2450 1100 50  0001 C CNN
+F 1 "+V_IN" H 2465 1423 50  0000 C CNN
+F 2 "" H 2450 1250 50  0001 C CNN
+F 3 "" H 2450 1250 50  0001 C CNN
+	1    2450 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1250 2450 1400
+Text GLabel 12100 1150 1    60   Input ~ 0
+VCCO_MIO0
+Wire Wire Line
+	9100 2400 10000 2400
+NoConn ~ 9500 2000
 $EndSCHEMATC

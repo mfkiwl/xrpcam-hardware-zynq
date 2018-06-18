@@ -1,0 +1,9 @@
+(module EMPTY (layer F.Cu) (tedit 5B238A8B)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value EMPTY (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 connect circle (at 0 0) (size 1 1) (layers F.Mask))
+)

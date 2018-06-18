@@ -32,17 +32,17 @@ Text HLabel 6300 5900 0    60   Input ~ 0
 CAM_CTRL_0_P
 Text HLabel 6300 5800 0    60   Input ~ 0
 CAM_CTRL_0_N
-Text HLabel 6300 3700 0    60   Input ~ 0
+Text HLabel 6300 3900 0    60   Input ~ 0
 CAM_CLK_0_P
-Text HLabel 6300 3600 0    60   Input ~ 0
+Text HLabel 6300 3800 0    60   Input ~ 0
 CAM_CLK_0_N
 Text HLabel 6300 6100 0    60   Input ~ 0
 CAM_CTRL_1_P
 Text HLabel 6300 6000 0    60   Input ~ 0
 CAM_CTRL_1_N
-Text HLabel 6300 3900 0    60   Input ~ 0
+Text HLabel 6300 3700 0    60   Input ~ 0
 CAM_CLK_1_P
-Text HLabel 6300 3800 0    60   Input ~ 0
+Text HLabel 6300 3600 0    60   Input ~ 0
 CAM_CLK_1_N
 Text Label 7100 5600 2    60   ~ 0
 D15_N
@@ -72,9 +72,9 @@ Text Label 7100 4200 2    60   ~ 0
 D9_N
 Text Label 7100 4300 2    60   ~ 0
 D9_P
-Text HLabel 6300 1400 0    60   Output ~ 0
+Text HLabel 6300 3000 0    60   Output ~ 0
 D0_N
-Text HLabel 6300 1500 0    60   Output ~ 0
+Text HLabel 6300 3100 0    60   Output ~ 0
 D0_P
 Text HLabel 6300 1600 0    60   Output ~ 0
 D1_N
@@ -88,21 +88,21 @@ Text HLabel 6300 2000 0    60   Output ~ 0
 D3_N
 Text HLabel 6300 2100 0    60   Output ~ 0
 D3_P
-Text HLabel 6300 2200 0    60   Output ~ 0
+Text HLabel 6300 2800 0    60   Output ~ 0
 D4_N
-Text HLabel 6300 2300 0    60   Output ~ 0
+Text HLabel 6300 2900 0    60   Output ~ 0
 D4_P
 Text HLabel 6300 2600 0    60   Output ~ 0
 D5_N
 Text HLabel 6300 2700 0    60   Output ~ 0
 D5_P
-Text HLabel 6300 2800 0    60   Output ~ 0
+Text HLabel 6300 2200 0    60   Output ~ 0
 D6_N
-Text HLabel 6300 2900 0    60   Output ~ 0
+Text HLabel 6300 2300 0    60   Output ~ 0
 D6_P
-Text HLabel 6300 3000 0    60   Output ~ 0
+Text HLabel 6300 1400 0    60   Output ~ 0
 D7_N
-Text HLabel 6300 3100 0    60   Output ~ 0
+Text HLabel 6300 1500 0    60   Output ~ 0
 D7_P
 Text HLabel 6300 3200 0    60   Output ~ 0
 D8_N
@@ -136,9 +136,9 @@ Text HLabel 6300 5600 0    60   Output ~ 0
 D15_N
 Text HLabel 6300 5700 0    60   Output ~ 0
 D15_P
-Text Label 7100 1500 2    60   ~ 0
+Text Label 7100 3100 2    60   ~ 0
 D0_P
-Text Label 7100 1400 2    60   ~ 0
+Text Label 7100 3000 2    60   ~ 0
 D0_N
 Text Label 7100 1700 2    60   ~ 0
 D1_P
@@ -152,34 +152,34 @@ Text Label 7100 2100 2    60   ~ 0
 D3_P
 Text Label 7100 2000 2    60   ~ 0
 D3_N
-Text Label 7100 2300 2    60   ~ 0
+Text Label 7100 2900 2    60   ~ 0
 D4_P
-Text Label 7100 2200 2    60   ~ 0
+Text Label 7100 2800 2    60   ~ 0
 D4_N
 Text Label 7100 2700 2    60   ~ 0
 D5_P
 Text Label 7100 2600 2    60   ~ 0
 D5_N
-Text Label 7100 2900 2    60   ~ 0
+Text Label 7100 2300 2    60   ~ 0
 D6_P
-Text Label 7100 2800 2    60   ~ 0
+Text Label 7100 2200 2    60   ~ 0
 D6_N
-Text Label 7100 3100 2    60   ~ 0
+Text Label 7100 1500 2    60   ~ 0
 D7_P
-Text Label 7100 3000 2    60   ~ 0
+Text Label 7100 1400 2    60   ~ 0
 D7_N
 Text Label 7100 3300 2    60   ~ 0
 D8_P
 Text Label 7100 3200 2    60   ~ 0
 D8_N
 Wire Wire Line
-	6300 3600 7200 3600
-Wire Wire Line
-	6300 3700 7200 3700
-Wire Wire Line
-	7200 3800 6300 3800
+	6300 3800 7200 3800
 Wire Wire Line
 	6300 3900 7200 3900
+Wire Wire Line
+	7200 3600 6300 3600
+Wire Wire Line
+	6300 3700 7200 3700
 Wire Wire Line
 	6300 5800 7200 5800
 Wire Wire Line
@@ -272,13 +272,13 @@ Text Label 7100 3500 2    60   ~ 0
 LVDS_CLK0_N
 Text Label 7100 3400 2    60   ~ 0
 LVDS_CLK0_P
-Text Label 7100 3600 2    60   ~ 0
-CAM_CLK_0_N
-Text Label 7100 3700 2    60   ~ 0
-CAM_CLK_0_P
 Text Label 7100 3800 2    60   ~ 0
-CAM_CLK_1_N
+CAM_CLK_0_N
 Text Label 7100 3900 2    60   ~ 0
+CAM_CLK_0_P
+Text Label 7100 3600 2    60   ~ 0
+CAM_CLK_1_N
+Text Label 7100 3700 2    60   ~ 0
 CAM_CLK_1_P
 Text Label 7100 4000 2    60   ~ 0
 LVDS_CLK1_N
@@ -298,4 +298,10 @@ Text GLabel 6300 6200 0    60   Input ~ 0
 VCCO_13
 Wire Wire Line
 	6300 6200 7200 6200
+NoConn ~ 7200 1200
+NoConn ~ 7200 1300
+NoConn ~ 7200 2400
+NoConn ~ 7200 2500
+NoConn ~ 7200 5000
+NoConn ~ 7200 5100
 $EndSCHEMATC

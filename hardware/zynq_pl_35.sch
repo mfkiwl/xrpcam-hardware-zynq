@@ -198,4 +198,11 @@ Text GLabel 5050 6400 0    60   Input ~ 0
 VCCO_35
 Wire Wire Line
 	5050 6400 5400 6400
+NoConn ~ 5400 1700
+NoConn ~ 5400 2200
+NoConn ~ 5400 2300
+NoConn ~ 5400 2500
+NoConn ~ 5400 2600
+NoConn ~ 5400 2700
+NoConn ~ 5400 5200
 $EndSCHEMATC

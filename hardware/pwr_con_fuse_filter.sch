@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 21
+Sheet 20 21
 Title ""
 Date ""
 Rev ""
@@ -50,8 +50,6 @@ F 11 "1" H 3000 2850 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    3000 2850
 	0    1    1    0   
 $EndComp
-Text HLabel 4450 2450 2    60   Output ~ 0
-V_IN
 $Comp
 L dmp3056l:DMP3056L Q2201
 U 1 1 5AFC9627
@@ -142,7 +140,7 @@ F 3 "" H 3600 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6650 2950 0    60   ~ 0
-TODO: Footprint, maybe mor caps
+TODO: maybe mor caps
 Wire Wire Line
 	2500 2450 2500 2700
 Connection ~ 2500 2450
@@ -199,7 +197,7 @@ Connection ~ 3450 2450
 Connection ~ 3700 2450
 Connection ~ 3700 3250
 Wire Wire Line
-	4250 2450 4450 2450
+	4250 2450 4300 2450
 Wire Wire Line
 	2000 2450 1850 2450
 Wire Wire Line
@@ -233,4 +231,33 @@ F 11 "1" H 3450 2950 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    3450 2950
 	0    -1   -1   0   
 $EndComp
+$Comp
+L power_symbols:+V_IN #PWR0193
+U 1 1 5BE964AD
+P 4400 2300
+F 0 "#PWR0193" H 4400 2150 50  0001 C CNN
+F 1 "+V_IN" H 4415 2473 50  0000 C CNN
+F 2 "" H 4400 2300 50  0001 C CNN
+F 3 "" H 4400 2300 50  0001 C CNN
+	1    4400 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2450 4400 2300
+$Comp
+L fixme:POWER_OUTPUT PO2101
+U 1 1 5BEC2BFD
+P 4300 2300
+F 0 "PO2101" H 4300 2300 50  0001 C CNN
+F 1 "POWER_OUTPUT" H 4300 2450 50  0001 C CNN
+F 2 "footprints:EMPTY" H 4300 2300 50  0001 C CNN
+F 3 "" H 4300 2300 50  0001 C CNN
+	1    4300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2400 4300 2450
+Connection ~ 4300 2450
+Wire Wire Line
+	4300 2450 4400 2450
 $EndSCHEMATC

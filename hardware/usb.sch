@@ -410,25 +410,6 @@ F 3 "" H 5150 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8100 4400
-$Comp
-L osc:OSC U904
-U 1 1 5A98852C
-P 9500 4050
-F 0 "U904" H 9500 4000 60  0000 C CNN
-F 1 "OSC" H 9500 4100 60  0000 C CNN
-F 2 "footprints:Microchip_CDFN_3.2x2.5mm" H 9500 4050 60  0001 C CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en587489" H 9500 4050 60  0001 C CNN
-F 4 "Microchip Technology" H 9500 4050 60  0001 C CNN "MFG Name"
-F 5 "DSC6003CI2A-012.0000" H 9500 4050 60  0001 C CNN "MFG Part Num"
-F 6 "DSC6003CI2A-012.0000-ND" H 9500 4050 60  0001 C CNN "Digikey"
-F 7 "579-C6003CI2A0120000" H 9500 4050 60  0001 C CNN "Mouser"
-F 8 "1" H 9500 4050 60  0001 C CNN "Populated"
-F 9 "SPEC" H 9500 4050 60  0001 C CNN "Source"
-F 10 "1" H 9500 4050 50  0001 C CNN "Populate for SBGA485(Z-7030)"
-F 11 "1" H 9500 4050 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
-	1    9500 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8100 4500 10100 4500
 Wire Wire Line
@@ -450,10 +431,6 @@ Wire Wire Line
 	8900 4250 8900 4150
 Wire Wire Line
 	8900 4150 9000 4150
-Wire Wire Line
-	9000 3950 9000 3800
-Wire Wire Line
-	9000 3800 10050 3800
 Wire Wire Line
 	10050 3950 10000 3950
 Wire Wire Line
@@ -528,8 +505,6 @@ $EndComp
 Connection ~ 7800 1650
 Text Notes 5150 2400 0    60   ~ 0
 REFSEL[2:0] = 010\nto select 12 MHz\nREFCLK input
-Text HLabel 8100 2800 2    60   Input ~ 0
-RESETB
 Text Notes 9000 4750 0    60   ~ 0
 Oscillator: DSC6003CI2A-012.0000\n(12 MHz)
 $Comp
@@ -794,4 +769,27 @@ Wire Wire Line
 	1850 3600 1850 4250
 Text Notes 5300 1850 0    50   ~ 0
 Bypass Cap for external\n3,3 V Supply is only C_BYP\nwith 100 nF
+Text GLabel 8100 2800 2    50   Input ~ 0
+~USB_RESET_33~
+$Comp
+L osc:OSC U904
+U 1 1 5A98852C
+P 9500 4050
+F 0 "U904" H 9500 4000 60  0000 C CNN
+F 1 "OSC" H 9500 4100 60  0000 C CNN
+F 2 "footprints:Microchip_CDFN_3.2x2.5mm" H 9500 4050 60  0001 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en587489" H 9500 4050 60  0001 C CNN
+F 4 "Microchip Technology" H 9500 4050 60  0001 C CNN "MFG Name"
+F 5 "DSC6003CI2A-012.0000" H 9500 4050 60  0001 C CNN "MFG Part Num"
+F 6 "DSC6003CI2A-012.0000-ND" H 9500 4050 60  0001 C CNN "Digikey"
+F 7 "579-C6003CI2A0120000" H 9500 4050 60  0001 C CNN "Mouser"
+F 8 "1" H 9500 4050 60  0001 C CNN "Populated"
+F 9 "SPEC" H 9500 4050 60  0001 C CNN "Source"
+F 10 "1" H 9500 4050 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 9500 4050 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	1    9500 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 9000 3950 0    50   Input ~ 0
+USB_OSC_EN_18
 $EndSCHEMATC

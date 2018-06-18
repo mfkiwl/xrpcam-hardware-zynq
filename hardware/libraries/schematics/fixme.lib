@@ -1,0 +1,17 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# POWER_OUTPUT
+#
+DEF ~POWER_OUTPUT PO 0 25 N Y 1 F N
+F0 "PO" 0 0 50 H I C CNN
+F1 "POWER_OUTPUT" 0 150 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 50 50 0 1 0 F
+X PO ~ 0 -100 100 U 0 25 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

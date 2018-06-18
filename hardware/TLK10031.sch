@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 21
+Sheet 11 21
 Title ""
 Date ""
 Rev ""
@@ -27,6 +27,8 @@ F 6 "296-42414-ND" H 5150 3450 60  0001 C CNN "Digikey"
 F 7 "595-TLK10031CTR " H 5150 3450 60  0001 C CNN "Mouser"
 F 8 "1" H 5150 3450 60  0001 C CNN "Populated"
 F 9 "SPEC" H 5150 3450 60  0001 C CNN "Source"
+F 10 "1" H 5150 3450 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 5150 3450 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    5150 3450
 	1    0    0    -1  
 $EndComp
@@ -105,10 +107,6 @@ F 3 "" H 3350 3050 50  0001 C CNN
 $EndComp
 Text Notes 1250 3150 0    60   ~ 0
 Not used Ref Clocks should be grounded\nthrough an shared 100 Ω Resistor
-Text HLabel 2150 2750 0    60   Input ~ 0
-REFCLK0_P
-Text HLabel 2150 2850 0    60   Input ~ 0
-REFCLK0_N
 Text HLabel 7100 1050 2    60   Output ~ 0
 HSTXA_P
 Text HLabel 7100 1150 2    60   Output ~ 0
@@ -272,8 +270,6 @@ F 4 "0" V 3450 3450 60  0001 C CNN "Populated"
 $EndComp
 Text Notes 3700 5400 2    60   ~ 0
 TLK10031 only supports\n4 Bit MDIO Addresses
-Text HLabel 2450 5450 0    60   Input ~ 0
-~TLK_RESET~
 Text HLabel 2450 5550 0    60   Input ~ 0
 MDC
 $Comp
@@ -609,8 +605,6 @@ Wire Wire Line
 	2450 4650 3950 4650
 Text Notes 7650 1350 0    60   ~ 0
 AC-coupling Capacitors\nare inside the SFP+ Module
-Wire Wire Line
-	2450 5450 3950 5450
 Wire Wire Line
 	3950 5550 2450 5550
 Text HLabel 2450 5650 0    60   BiDi ~ 0
@@ -1190,4 +1184,10 @@ Text Label 3600 2750 0    50   ~ 0
 REFCLK_P
 Text Label 3600 2850 0    50   ~ 0
 REFCLK_N
+Text GLabel 3950 5450 0    50   Input ~ 0
+~TLK_RESET_18~
+Text GLabel 2150 2850 0    50   Input ~ 0
+REFCLK_TLK_N
+Text GLabel 2150 2750 0    50   Input ~ 0
+REFCLK_TLK_P
 $EndSCHEMATC

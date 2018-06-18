@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 21
+Sheet 21 21
 Title ""
 Date ""
 Rev ""
@@ -50,8 +50,6 @@ Text HLabel 4800 3400 0    60   Output ~ 0
 MDC
 Text HLabel 4800 3500 0    60   BiDi ~ 0
 MDIO
-Text HLabel 4800 3600 0    60   Output ~ 0
-~TLK_RESET~
 Wire Wire Line
 	4800 2800 5250 2800
 Wire Wire Line
@@ -78,8 +76,6 @@ Wire Wire Line
 	5250 3400 4800 3400
 Wire Wire Line
 	4800 3500 5250 3500
-Wire Wire Line
-	4800 3600 5250 3600
 Text HLabel 4800 4500 0    60   Input ~ 0
 RXD
 Text HLabel 4800 5000 0    60   Output ~ 0
@@ -146,4 +142,29 @@ Text GLabel 4800 5800 0    60   Input ~ 0
 VCCO_34
 Wire Wire Line
 	4800 5800 5250 5800
+NoConn ~ 5250 800 
+NoConn ~ 5250 900 
+NoConn ~ 5250 1000
+NoConn ~ 5250 1100
+NoConn ~ 5250 1200
+NoConn ~ 5250 1300
+NoConn ~ 5250 1400
+NoConn ~ 5250 1500
+NoConn ~ 5250 1600
+NoConn ~ 5250 1700
+NoConn ~ 5250 1800
+NoConn ~ 5250 1900
+NoConn ~ 5250 2000
+NoConn ~ 5250 2100
+NoConn ~ 5250 4600
+NoConn ~ 5250 4700
+NoConn ~ 5250 4800
+NoConn ~ 5250 4900
+NoConn ~ 5250 5500
+NoConn ~ 5250 5600
+NoConn ~ 5250 5700
+Text GLabel 4800 3600 0    50   Output ~ 0
+CLK_SEL
+Wire Wire Line
+	4800 3600 5250 3600
 $EndSCHEMATC

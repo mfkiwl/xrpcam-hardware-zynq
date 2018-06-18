@@ -15,4 +15,9 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +V_IN
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 #End Doc Library

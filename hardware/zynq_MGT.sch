@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 21
+Sheet 8 21
 Title ""
 Date ""
 Rev ""
@@ -56,30 +56,14 @@ Text HLabel 3300 3550 0    60   Output ~ 0
 MGTX_TX_2_P
 Text HLabel 3300 3850 0    60   Output ~ 0
 MGTX_TX_3_P
-Text HLabel 3300 2450 0    60   Input ~ 0
-MGTREFCLK_0_N
-Text HLabel 3300 2550 0    60   Input ~ 0
-MGTREFCLK_0_P
-Text HLabel 3300 2350 0    60   Input ~ 0
-MGTREFCLK_1_N
-Text HLabel 3300 2250 0    60   Input ~ 0
-MGTREFCLK_1_P
 Wire Wire Line
 	3600 2450 5350 2450
 Wire Wire Line
 	3850 2550 5350 2550
 Wire Wire Line
-	4100 2350 5350 2350
-Wire Wire Line
-	4350 2250 5350 2250
-Wire Wire Line
 	3300 2450 3400 2450
 Wire Wire Line
 	3300 2550 3650 2550
-Wire Wire Line
-	3300 2350 3900 2350
-Wire Wire Line
-	3300 2250 4150 2250
 Wire Wire Line
 	3300 2950 5350 2950
 Wire Wire Line
@@ -225,44 +209,12 @@ F 8 "SPEC" H 3750 2550 60  0001 C CNN "Source"
 	1    3750 2550
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C_Small C910
-U 1 1 5BB23143
-P 4000 2350
-F 0 "C910" V 4050 2400 50  0000 L CNN
-F 1 "100 nF" V 3950 2400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 4000 2350 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 4000 2350 50  0001 C CNN
-F 4 "Murata Electronics North America" H 4000 2350 60  0001 C CNN "MFG Name"
-F 5 "GRM033R60J104KE19D" H 4000 2350 60  0001 C CNN "MFG Part Num"
-F 6 "490-3167-1-ND" H 4000 2350 60  0001 C CNN "Digikey"
-F 7 "1" V 4000 2350 60  0001 C CNN "Populated"
-F 8 "SPEC" H 4000 2350 60  0001 C CNN "Source"
-	1    4000 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C911
-U 1 1 5BB231AA
-P 4250 2250
-F 0 "C911" V 4300 2300 50  0000 L CNN
-F 1 "100 nF" V 4200 2300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 4250 2250 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 4250 2250 50  0001 C CNN
-F 4 "Murata Electronics North America" H 4250 2250 60  0001 C CNN "MFG Name"
-F 5 "GRM033R60J104KE19D" H 4250 2250 60  0001 C CNN "MFG Part Num"
-F 6 "490-3167-1-ND" H 4250 2250 60  0001 C CNN "Digikey"
-F 7 "1" V 4250 2250 60  0001 C CNN "Populated"
-F 8 "SPEC" H 4250 2250 60  0001 C CNN "Source"
-	1    4250 2250
-	0    1    1    0   
-$EndComp
-Text Label 4450 2250 0    50   ~ 0
-MRC_1_P
-Text Label 4450 2350 0    50   ~ 0
-MRC_1_N
 Text Label 4450 2550 0    50   ~ 0
 MRC_0_P
 Text Label 4450 2450 0    50   ~ 0
 MRC_0_N
+Text GLabel 3300 2450 0    50   Input ~ 0
+MGT_REFCLK_FPGA_N
+Text GLabel 3300 2550 0    50   Input ~ 0
+MGT_REFCLK_FPGA_P
 $EndSCHEMATC
