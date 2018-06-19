@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 21
+Sheet 13 21
 Title ""
 Date ""
 Rev ""
@@ -1142,7 +1142,7 @@ Wire Wire Line
 Wire Notes Line
 	10300 5250 10650 5250
 Wire Wire Line
-	6300 4300 6600 4300
+	6300 4300 6350 4300
 $Comp
 L Device:C_Small C1509
 U 1 1 5AE9E531
@@ -1760,4 +1760,18 @@ Wire Wire Line
 Connection ~ 9050 5450
 Wire Wire Line
 	9050 5450 9150 5450
+$Comp
+L power:PWR_FLAG #FLG0113
+U 1 1 5C1F0DDD
+P 6350 4300
+F 0 "#FLG0113" H 6350 4375 50  0001 C CNN
+F 1 "PWR_FLAG" H 6350 4474 50  0000 C CNN
+F 2 "" H 6350 4300 50  0001 C CNN
+F 3 "~" H 6350 4300 50  0001 C CNN
+	1    6350 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 4300
+Wire Wire Line
+	6350 4300 6600 4300
 $EndSCHEMATC

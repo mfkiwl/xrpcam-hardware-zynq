@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 21
+Sheet 14 21
 Title ""
 Date ""
 Rev ""
@@ -13,13 +13,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 9400 5750 2    60   Output ~ 0
+Text HLabel 7300 4150 0    60   Output ~ 0
 CAM_CLK_1_N
-Text HLabel 7300 5750 0    60   Output ~ 0
+Text HLabel 9400 4050 2    60   Output ~ 0
 CAM_CLK_0_P
-Text HLabel 7300 5650 0    60   Output ~ 0
+Text HLabel 9400 3950 2    60   Output ~ 0
 CAM_CLK_0_N
-Text HLabel 9400 5850 2    60   Output ~ 0
+Text HLabel 7300 4250 0    60   Output ~ 0
 CAM_CLK_1_P
 Text HLabel 7300 2050 0    60   Input ~ 0
 FRAME_REQ_0
@@ -33,13 +33,13 @@ Text HLabel 7300 1650 0    60   Input ~ 0
 T_EXP1_1
 Text HLabel 7300 1550 0    60   Input ~ 0
 T_EXP2_1
-Text HLabel 7300 2750 0    60   Output ~ 0
+Text HLabel 9400 4650 2    60   Output ~ 0
 CAM_CTRL_0_P
-Text HLabel 7300 2650 0    60   Output ~ 0
+Text HLabel 9400 4550 2    60   Output ~ 0
 CAM_CTRL_0_N
-Text HLabel 9400 3950 2    60   Output ~ 0
+Text HLabel 9400 4250 2    60   Output ~ 0
 CAM_CTRL_1_P
-Text HLabel 9400 4050 2    60   Output ~ 0
+Text HLabel 9400 4350 2    60   Output ~ 0
 CAM_CTRL_1_N
 Text HLabel 7300 1450 0    60   Output ~ 0
 SPI_MISO
@@ -101,69 +101,69 @@ F 3 "" H 8850 800 50  0001 C CNN
 	1    8850 800 
 	1    0    0    -1  
 $EndComp
-Text HLabel 9400 3050 2    60   Output ~ 0
-D0_N
-Text HLabel 9400 3150 2    60   Output ~ 0
-D0_P
-Text HLabel 7300 2950 0    60   Output ~ 0
-D1_N
-Text HLabel 7300 3050 0    60   Output ~ 0
-D1_P
-Text HLabel 7300 3550 0    60   Output ~ 0
-D2_N
-Text HLabel 7300 3650 0    60   Output ~ 0
-D2_P
-Text HLabel 7300 3250 0    60   Output ~ 0
-D3_N
-Text HLabel 7300 3350 0    60   Output ~ 0
-D3_P
-Text HLabel 9400 3350 2    60   Output ~ 0
-D4_N
-Text HLabel 9400 3450 2    60   Output ~ 0
-D4_P
-Text HLabel 9400 3650 2    60   Output ~ 0
-D5_N
-Text HLabel 9400 3750 2    60   Output ~ 0
-D5_P
-Text HLabel 7300 4750 0    60   Output ~ 0
-D6_N
-Text HLabel 7300 4850 0    60   Output ~ 0
-D6_P
-Text HLabel 7300 3850 0    60   Output ~ 0
-D7_N
-Text HLabel 7300 3950 0    60   Output ~ 0
-D7_P
 Text HLabel 7300 4450 0    60   Output ~ 0
-D8_N
+D0_N
 Text HLabel 7300 4550 0    60   Output ~ 0
-D8_P
-Text HLabel 7300 5050 0    60   Output ~ 0
-D9_N
-Text HLabel 7300 5150 0    60   Output ~ 0
-D9_P
-Text HLabel 9400 4250 2    60   Output ~ 0
-D10_N
-Text HLabel 9400 4350 2    60   Output ~ 0
-D10_P
-Text HLabel 9400 4550 2    60   Output ~ 0
-D11_N
-Text HLabel 9400 4650 2    60   Output ~ 0
-D11_P
-Text HLabel 7300 5350 0    60   Output ~ 0
-D12_N
-Text HLabel 7300 5450 0    60   Output ~ 0
-D12_P
+D0_P
 Text HLabel 9400 4850 2    60   Output ~ 0
-D13_N
+D1_N
 Text HLabel 9400 4950 2    60   Output ~ 0
-D13_P
-Text HLabel 9400 5450 2    60   Output ~ 0
-D14_N
-Text HLabel 9400 5550 2    60   Output ~ 0
-D14_P
+D1_P
 Text HLabel 9400 5150 2    60   Output ~ 0
-D15_N
+D2_N
 Text HLabel 9400 5250 2    60   Output ~ 0
+D2_P
+Text HLabel 9400 5750 2    60   Output ~ 0
+D3_N
+Text HLabel 9400 5850 2    60   Output ~ 0
+D3_P
+Text HLabel 7300 5350 0    60   Output ~ 0
+D4_N
+Text HLabel 7300 5450 0    60   Output ~ 0
+D4_P
+Text HLabel 7300 5650 0    60   Output ~ 0
+D5_N
+Text HLabel 7300 5750 0    60   Output ~ 0
+D5_P
+Text HLabel 7300 5050 0    60   Output ~ 0
+D6_N
+Text HLabel 7300 5150 0    60   Output ~ 0
+D6_P
+Text HLabel 7300 4750 0    60   Output ~ 0
+D7_N
+Text HLabel 7300 4850 0    60   Output ~ 0
+D7_P
+Text HLabel 9400 5450 2    60   Output ~ 0
+D8_N
+Text HLabel 9400 5550 2    60   Output ~ 0
+D8_P
+Text HLabel 7300 2950 0    60   Output ~ 0
+D9_N
+Text HLabel 7300 3050 0    60   Output ~ 0
+D9_P
+Text HLabel 7300 3550 0    60   Output ~ 0
+D10_N
+Text HLabel 7300 3650 0    60   Output ~ 0
+D10_P
+Text HLabel 7300 3850 0    60   Output ~ 0
+D11_N
+Text HLabel 7300 3950 0    60   Output ~ 0
+D11_P
+Text HLabel 7300 3250 0    60   Output ~ 0
+D12_N
+Text HLabel 7300 3350 0    60   Output ~ 0
+D12_P
+Text HLabel 9400 3050 2    60   Output ~ 0
+D13_N
+Text HLabel 9400 3150 2    60   Output ~ 0
+D13_P
+Text HLabel 9400 3750 2    60   Output ~ 0
+D14_N
+Text HLabel 9400 3650 2    60   Output ~ 0
+D14_P
+Text HLabel 9400 3350 2    60   Output ~ 0
+D15_N
+Text HLabel 9400 3450 2    60   Output ~ 0
 D15_P
 Text HLabel 9400 2050 2    60   Output ~ 0
 IMU_SPI_MISO
@@ -185,13 +185,13 @@ Text HLabel 9400 2250 2    60   Output ~ 0
 IMU_INT1_GPIO1
 Text HLabel 9400 2350 2    60   Output ~ 0
 IMU_INT2_GPIO2
-Text HLabel 9400 2850 2    60   Input ~ 0
+Text HLabel 13250 3700 2    60   Input ~ 0
 LVDS_CLK0_N
-Text HLabel 9400 2750 2    60   Input ~ 0
+Text HLabel 13250 3600 2    60   Input ~ 0
 LVDS_CLK0_P
-Text HLabel 7300 4150 0    60   Input ~ 0
+Text HLabel 5100 3750 0    60   Input ~ 0
 LVDS_CLK1_N
-Text HLabel 7300 4250 0    60   Input ~ 0
+Text HLabel 5100 3850 0    60   Input ~ 0
 LVDS_CLK1_P
 Wire Wire Line
 	8650 5850 9400 5850
@@ -514,4 +514,6 @@ F 3 "" H 7300 800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7300 800  8050 800 
+Text Notes 9850 3750 0    50   ~ 0
+WARNING: D14 is polarity swaped!!!!\nInvert at sampling
 $EndSCHEMATC

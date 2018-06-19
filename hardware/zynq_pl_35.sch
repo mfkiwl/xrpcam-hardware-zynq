@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 21
+Sheet 18 21
 Title ""
 Date ""
 Rev ""
@@ -26,17 +26,17 @@ F 5 "SPEC" H 5400 1400 60  0001 C CNN "Source"
 	4    5400 1400
 	1    0    0    -1  
 $EndComp
-Text HLabel 3100 6100 0    60   Output ~ 0
+Text HLabel 5050 3800 0    60   Output ~ 0
 FRAME_REQ_0_18
-Text HLabel 4300 5200 0    60   Output ~ 0
+Text HLabel 5050 1800 0    60   Output ~ 0
 T_EXP1_0_18
-Text HLabel 3400 5350 0    60   Output ~ 0
+Text HLabel 5050 3700 0    60   Output ~ 0
 T_EXP2_0_18
-Text HLabel 3950 4800 0    60   Output ~ 0
+Text HLabel 5050 1900 0    60   Output ~ 0
 FRAME_REQ_1_18
-Text HLabel 3300 4550 0    60   Output ~ 0
+Text HLabel 5050 2900 0    60   Output ~ 0
 T_EXP2_1_18
-Text HLabel 3800 5000 0    60   Output ~ 0
+Text HLabel 5000 1600 0    60   Output ~ 0
 T_EXP1_1_18
 Text HLabel 5050 4300 0    60   Output ~ 0
 CAM_SPI_CLK_18
@@ -140,17 +140,17 @@ Wire Wire Line
 	5050 5400 5400 5400
 Wire Wire Line
 	5050 5600 5400 5600
-Text HLabel 5050 2900 0    60   BiDi ~ 0
+Text HLabel 3050 2600 0    60   BiDi ~ 0
 GPIO_0
 Text HLabel 5050 2000 0    60   BiDi ~ 0
 GPIO_1
-Text HLabel 5050 1900 0    60   BiDi ~ 0
+Text HLabel 2800 1950 0    60   BiDi ~ 0
 GPIO_2
-Text HLabel 5050 3700 0    60   BiDi ~ 0
+Text HLabel 3300 3600 0    60   BiDi ~ 0
 GPIO_3
 Text HLabel 5050 3600 0    60   BiDi ~ 0
 GPIO_4
-Text HLabel 5050 3800 0    60   BiDi ~ 0
+Text HLabel 3950 3650 0    60   BiDi ~ 0
 GPIO_5
 Text HLabel 5050 2400 0    60   BiDi ~ 0
 GPIO_6
@@ -180,7 +180,7 @@ Text HLabel 5050 5000 0    60   Output ~ 0
 LED1
 Text HLabel 5050 4600 0    60   Output ~ 0
 LED2
-Text HLabel 5050 1800 0    60   Input ~ 0
+Text HLabel 3700 2400 0    60   Input ~ 0
 BUTTON0
 Wire Wire Line
 	5000 1600 5400 1600

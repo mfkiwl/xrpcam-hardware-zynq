@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 21
+Sheet 20 21
 Title ""
 Date ""
 Rev ""
@@ -40,13 +40,13 @@ Text HLabel 4800 3900 0    60   Output ~ 0
 TX_DISABLE_18
 Text HLabel 4800 4200 0    60   Output ~ 0
 ST
-Text HLabel 4800 4100 0    60   Output ~ 0
-LS_OK_IN_A
-Text HLabel 4800 4000 0    60   Input ~ 0
-LS_OK_OUT_A
 Text HLabel 4800 4400 0    60   Output ~ 0
+LS_OK_IN_A
+Text HLabel 4800 3400 0    60   Input ~ 0
+LS_OK_OUT_A
+Text HLabel 4800 3600 0    60   Output ~ 0
 PRBSEN
-Text HLabel 4800 3400 0    60   Output ~ 0
+Text HLabel 4800 4000 0    60   Output ~ 0
 MDC
 Text HLabel 4800 3500 0    60   BiDi ~ 0
 MDIO
@@ -76,15 +76,15 @@ Wire Wire Line
 	5250 3400 4800 3400
 Wire Wire Line
 	4800 3500 5250 3500
-Text HLabel 4800 4500 0    60   Input ~ 0
+Text HLabel 4800 2700 0    60   Input ~ 0
 RXD
-Text HLabel 4800 5000 0    60   Output ~ 0
+Text HLabel 4800 3100 0    60   Output ~ 0
 ~RE~
-Text HLabel 4800 5200 0    60   Output ~ 0
+Text HLabel 4800 3200 0    60   Output ~ 0
 DE
 Text HLabel 4800 3000 0    60   Output ~ 0
 TXD
-Text HLabel 4800 2700 0    60   Output ~ 0
+Text HLabel 4800 5300 0    60   Output ~ 0
 ~SBA~
 Wire Wire Line
 	4800 2700 5250 2700
@@ -96,11 +96,11 @@ Wire Wire Line
 	4800 5000 5250 5000
 Wire Wire Line
 	4800 5200 5250 5200
-Text HLabel 4800 3100 0    60   BiDi ~ 0
+Text HLabel 3150 2900 0    60   BiDi ~ 0
 GPIO_9
-Text HLabel 4800 3200 0    60   BiDi ~ 0
+Text HLabel 3150 3150 0    60   BiDi ~ 0
 GPIO_10
-Text HLabel 4800 5300 0    60   BiDi ~ 0
+Text HLabel 3450 4900 0    60   BiDi ~ 0
 GPIO_11
 Text HLabel 4800 5100 0    60   BiDi ~ 0
 GPIO_12
@@ -163,7 +163,7 @@ NoConn ~ 5250 4900
 NoConn ~ 5250 5500
 NoConn ~ 5250 5600
 NoConn ~ 5250 5700
-Text GLabel 4800 3600 0    50   Output ~ 0
+Text GLabel 4800 4100 0    50   Output ~ 0
 CLK_SEL
 Wire Wire Line
 	4800 3600 5250 3600

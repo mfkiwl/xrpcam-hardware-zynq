@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 21
+Sheet 17 21
 Title ""
 Date ""
 Rev ""
@@ -287,8 +287,6 @@ Wire Wire Line
 Wire Wire Line
 	1650 2700 2300 2700
 Connection ~ 3250 2700
-Wire Wire Line
-	3250 2400 3250 2350
 Wire Wire Line
 	3250 1750 3450 1750
 Wire Wire Line
@@ -603,7 +601,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 2700 3250 3250
 Wire Wire Line
-	3450 1750 3750 1750
+	3450 1750 3600 1750
 Wire Wire Line
 	3750 1750 4150 1750
 Wire Wire Line
@@ -811,22 +809,20 @@ Wire Wire Line
 	2150 2900 2150 4650
 Wire Wire Line
 	2000 4550 2200 4550
-$Comp
-L fixme:POWER_OUTPUT PO1801
-U 1 1 5BEDB612
-P 3150 2350
-F 0 "PO1801" H 3150 2350 50  0001 C CNN
-F 1 "POWER_OUTPUT" H 3150 2500 50  0001 C CNN
-F 2 "footprints:EMPTY" H 3150 2350 50  0001 C CNN
-F 3 "" H 3150 2350 50  0001 C CNN
-F 4 "1" H 3150 2350 50  0001 C CNN "Populated"
-F 5 "SPEC" H 3150 2350 50  0001 C CNN "Source"
-F 6 "1" H 3150 2350 50  0001 C CNN "Populate for SBGA485(Z-7030)"
-F 7 "1" H 3150 2350 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
-	1    3150 2350
-	0    -1   -1   0   
-$EndComp
-Connection ~ 3250 2350
 Wire Wire Line
-	3250 2350 3250 1750
+	3250 1750 3250 2400
+$Comp
+L power:PWR_FLAG #FLG0111
+U 1 1 5C1EF5C0
+P 3600 1750
+F 0 "#FLG0111" H 3600 1825 50  0001 C CNN
+F 1 "PWR_FLAG" H 3600 1924 50  0000 C CNN
+F 2 "" H 3600 1750 50  0001 C CNN
+F 3 "~" H 3600 1750 50  0001 C CNN
+	1    3600 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 1750
+Wire Wire Line
+	3600 1750 3750 1750
 $EndSCHEMATC
