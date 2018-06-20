@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:zynq_board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -370,8 +371,6 @@ F 3 "" H 7300 3650 50  0001 C CNN
 	1    7300 3650
 	0    -1   -1   0   
 $EndComp
-Text Notes 3750 3550 0    60   ~ 0
-What to do with\nunsed output clocks?
 $Comp
 L Connector:Test_Point J1301
 U 1 1 5AC7FBF4
@@ -1056,8 +1055,6 @@ F 8 "SPEC" H 2650 2850 60  0001 C CNN "Source"
 	1    2650 2850
 	0    1    1    0   
 $EndComp
-Text Notes 1350 7600 0    60   ~ 0
-TODO: Select Footprint for JTAG Connector.\nFor Just in Case. We don't have enough information to do even an\nboundary scan. So it may not be useful ....
 Wire Wire Line
 	3900 3050 3900 3100
 Wire Wire Line
@@ -1190,4 +1187,6 @@ Text GLabel 2150 2850 0    50   Input ~ 0
 REFCLK_TLK_N
 Text GLabel 2150 2750 0    50   Input ~ 0
 REFCLK_TLK_P
+Text Notes 1900 6350 0    50   ~ 0
+TODO: Needs MDC an Pull-UP? AFAIK it does
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-(module Microchip_VDFN_3.2x2.5mm (layer F.Cu) (tedit 5B1A9F75)
+(module Microchip_VDFN_3.2x2.5mm (layer F.Cu) (tedit 5B2A3DFC)
   (descr "Footprint for Microchip DSC11x3C Oscillator")
   (fp_text reference REF** (at 0 3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

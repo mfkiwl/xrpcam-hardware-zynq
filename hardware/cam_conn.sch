@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:zynq_board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -165,26 +166,10 @@ Text HLabel 9400 3350 2    60   Output ~ 0
 D15_N
 Text HLabel 9400 3450 2    60   Output ~ 0
 D15_P
-Text HLabel 9400 2050 2    60   Output ~ 0
-IMU_SPI_MISO
-Text HLabel 9400 1950 2    60   Input ~ 0
-IMU_SPI_MOSI
-Text HLabel 9400 1850 2    60   Input ~ 0
-IMU_SPI_CLK
-Text HLabel 9400 1750 2    60   Input ~ 0
-IMU_SPI_EN_0
-Text HLabel 9400 1650 2    60   Input ~ 0
-IMU_SPI_EN_1
 Text Notes 10850 1950 2    60   ~ 0
 1.8 V only
 Text HLabel 7300 2250 0    60   Input ~ 0
 CAM_CLK_REF_1
-Text HLabel 9400 2150 2    60   Input ~ 0
-IMU_FRAME_GPIO0
-Text HLabel 9400 2250 2    60   Output ~ 0
-IMU_INT1_GPIO1
-Text HLabel 9400 2350 2    60   Output ~ 0
-IMU_INT2_GPIO2
 Text HLabel 13250 3700 2    60   Input ~ 0
 LVDS_CLK0_N
 Text HLabel 13250 3600 2    60   Input ~ 0
@@ -516,4 +501,22 @@ Wire Wire Line
 	7300 800  8050 800 
 Text Notes 9850 3750 0    50   ~ 0
 WARNING: D14 is polarity swaped!!!!\nInvert at sampling
+Text GLabel 9400 1650 2    50   Input ~ 0
+IMU_SPI_EN_1
+Text GLabel 9400 1750 2    50   Input ~ 0
+IMU_SPI_EN_0
+Text GLabel 9400 1850 2    50   Input ~ 0
+IMU_SPI_CLK
+Text GLabel 9400 1950 2    50   Input ~ 0
+IMU_SPI_MOSI
+Text GLabel 9400 2050 2    50   Output ~ 0
+IMU_SPI_MISO
+Text GLabel 9400 2150 2    50   Input ~ 0
+IMU_FRAME_GPIO0
+Text GLabel 9400 2250 2    50   Output ~ 0
+IMU_INT1_GPIO1
+Text GLabel 9400 2350 2    50   Output ~ 0
+IMU_INT2_GPIO2
+Text Notes 10400 2050 0    50   ~ 0
+BANK34
 $EndSCHEMATC

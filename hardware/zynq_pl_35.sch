@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:zynq_board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 21
+Sheet 21 21
 Title ""
 Date ""
 Rev ""
@@ -26,23 +27,23 @@ F 5 "SPEC" H 5400 1400 60  0001 C CNN "Source"
 	4    5400 1400
 	1    0    0    -1  
 $EndComp
-Text HLabel 5050 3800 0    60   Output ~ 0
+Text HLabel 5050 5300 0    60   Output ~ 0
 FRAME_REQ_0_18
-Text HLabel 5050 1800 0    60   Output ~ 0
+Text HLabel 5050 5900 0    60   Output ~ 0
 T_EXP1_0_18
-Text HLabel 5050 3700 0    60   Output ~ 0
+Text HLabel 5050 5500 0    60   Output ~ 0
 T_EXP2_0_18
-Text HLabel 5050 1900 0    60   Output ~ 0
+Text HLabel 5050 5400 0    60   Output ~ 0
 FRAME_REQ_1_18
-Text HLabel 5050 2900 0    60   Output ~ 0
+Text HLabel 5050 5700 0    60   Output ~ 0
 T_EXP2_1_18
-Text HLabel 5000 1600 0    60   Output ~ 0
+Text HLabel 5050 5600 0    60   Output ~ 0
 T_EXP1_1_18
 Text HLabel 5050 4300 0    60   Output ~ 0
 CAM_SPI_CLK_18
 Text HLabel 5050 5100 0    60   Output ~ 0
 CAM_SPI_MOSI_18
-Text HLabel 4050 5400 0    60   Input ~ 0
+Text HLabel 5050 5200 0    60   Input ~ 0
 CAM_SPI_MISO_18
 Text HLabel 5050 4500 0    60   Output ~ 0
 CAM_SPI_EN_1_18
@@ -58,16 +59,6 @@ Text HLabel 5050 3400 0    60   BiDi ~ 0
 CAM_SDA_18
 Text Notes 2000 4100 0    60   ~ 0
 CAM_CLK_REF is not really lowspeed(>40 MHz),\nroute this first and make it short as possible
-Text HLabel 5050 3200 0    60   Input ~ 0
-IMU_SPI_MISO
-Text HLabel 5050 3000 0    60   Output ~ 0
-IMU_SPI_MOSI
-Text HLabel 5050 3300 0    60   Output ~ 0
-IMU_SPI_CLK
-Text HLabel 5050 3100 0    60   Output ~ 0
-IMU_SPI_EN_0
-Text HLabel 5050 2800 0    60   Output ~ 0
-IMU_SPI_EN_1
 Wire Wire Line
 	5050 4100 5400 4100
 Wire Wire Line
@@ -152,11 +143,11 @@ Text HLabel 5050 3600 0    60   BiDi ~ 0
 GPIO_4
 Text HLabel 3950 3650 0    60   BiDi ~ 0
 GPIO_5
-Text HLabel 5050 2400 0    60   BiDi ~ 0
+Text HLabel 3100 2900 0    60   BiDi ~ 0
 GPIO_6
-Text HLabel 5050 5700 0    60   BiDi ~ 0
+Text HLabel 2700 5750 0    60   BiDi ~ 0
 GPIO_7
-Text HLabel 5050 5500 0    60   BiDi ~ 0
+Text HLabel 2400 5600 0    60   BiDi ~ 0
 GPIO_8
 Wire Wire Line
 	5050 1900 5400 1900
@@ -183,8 +174,6 @@ LED2
 Text HLabel 3700 2400 0    60   Input ~ 0
 BUTTON0
 Wire Wire Line
-	5000 1600 5400 1600
-Wire Wire Line
 	5050 1800 5400 1800
 Wire Wire Line
 	5050 2100 5400 2100
@@ -204,5 +193,16 @@ NoConn ~ 5400 2300
 NoConn ~ 5400 2500
 NoConn ~ 5400 2600
 NoConn ~ 5400 2700
-NoConn ~ 5400 5200
+Wire Wire Line
+	5050 5200 5400 5200
+Text GLabel 5050 2400 0    50   Input ~ 0
+~RS485_SBA~
+Text GLabel 5050 1900 0    50   Input ~ 0
+RS485_RXD
+Text GLabel 5050 3700 0    50   Output ~ 0
+~RS485_RE~
+Text GLabel 5050 1800 0    50   Output ~ 0
+RS485_DE
+Text GLabel 5050 3800 0    50   Output ~ 0
+RS485_TXD
 $EndSCHEMATC

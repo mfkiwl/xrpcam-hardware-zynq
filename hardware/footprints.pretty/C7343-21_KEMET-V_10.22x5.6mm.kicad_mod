@@ -1,4 +1,4 @@
-(module C7343-21_KEMET-V_10.22x5.6mm (layer F.Cu) (tedit 5B1FDBD3)
+(module C7343-21_KEMET-V_10.22x5.6mm (layer F.Cu) (tedit 5B2A3DFC)
   (descr "Footprint for KEMET T520, T521, T523, T525 and T530 Tantalium Capacitors of EIA 7343-21 Size")
   (tags Capacitor)
   (fp_text reference REF** (at 0 4.15) (layer F.SilkS)

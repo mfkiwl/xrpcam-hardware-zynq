@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:zynq_board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -29,21 +30,21 @@ Text HLabel 6000 6400 2    60   Output ~ 0
 SFP_GPIO
 Text Notes 6900 7060 2    60   ~ 0
 Signals from/to SFP+(3,3 V)
-Text HLabel 10600 1900 2    60   BiDi ~ 0
-CAM_SDA
 Text HLabel 10600 1800 2    60   BiDi ~ 0
+CAM_SDA
+Text HLabel 10600 1900 2    60   BiDi ~ 0
 CAM_SCL
-Text HLabel 5950 1900 2    60   Output ~ 0
+Text HLabel 5950 2100 2    60   Output ~ 0
 FRAME_REQ_0
-Text HLabel 5950 1800 2    60   Output ~ 0
+Text HLabel 5950 2000 2    60   Output ~ 0
 T_EXP1_0
-Text HLabel 5950 1600 2    60   Output ~ 0
+Text HLabel 5950 1900 2    60   Output ~ 0
 T_EXP2_0
-Text HLabel 5950 1500 2    60   Output ~ 0
+Text HLabel 5950 1800 2    60   Output ~ 0
 FRAME_REQ_1
-Text HLabel 5950 1400 2    60   Output ~ 0
+Text HLabel 5950 1600 2    60   Output ~ 0
 T_EXP1_1
-Text HLabel 5950 1300 2    60   Output ~ 0
+Text HLabel 5950 1500 2    60   Output ~ 0
 T_EXP2_1
 Text HLabel 5950 3700 2    60   Output ~ 0
 CAM_SPI_CLK
@@ -55,7 +56,7 @@ Text HLabel 5950 3900 2    60   Output ~ 0
 CAM_SPI_EN_0
 Text HLabel 5950 3800 2    60   Output ~ 0
 CAM_SPI_EN_1
-Text HLabel 5950 2000 2    60   Output ~ 0
+Text HLabel 5950 1300 2    60   Output ~ 0
 CAM1_CLK_REF
 Text HLabel 5950 3600 2    60   Output ~ 0
 CAM_RESET
@@ -413,9 +414,9 @@ F 3 "" H 3200 6800 50  0001 C CNN
 	1    3200 6800
 	0    -1   -1   0   
 $EndComp
-Text HLabel 8100 1800 0    60   BiDi ~ 0
-CAM_SCL_18
 Text HLabel 8100 1900 0    60   BiDi ~ 0
+CAM_SCL_18
+Text HLabel 8100 1800 0    60   BiDi ~ 0
 CAM_SDA_18
 Text HLabel 8050 4250 0    60   BiDi ~ 0
 SFP_SCL_18
@@ -460,7 +461,7 @@ Text Notes 4850 5500 0    60   ~ 0
 DIR[1:2] = 01\nA[1:4] <= B[1:4]; A[5:8] => B[5:8]
 Text HLabel 3250 3600 0    60   Input ~ 0
 CAM_RESET_18
-Text HLabel 3250 2000 0    60   Input ~ 0
+Text HLabel 3250 1300 0    60   Input ~ 0
 CAM_CLK1_REF_18
 Text HLabel 3250 3800 0    60   Input ~ 0
 CAM_SPI_EN_1_18
@@ -470,17 +471,17 @@ Text HLabel 3250 4100 0    60   Input ~ 0
 CAM_SPI_MOSI_18
 Text HLabel 3250 3700 0    60   Input ~ 0
 CAM_SPI_CLK_18
-Text HLabel 3250 1300 0    60   Input ~ 0
-T_EXP2_1_18
-Text HLabel 3250 1400 0    60   Input ~ 0
-T_EXP1_1_18
 Text HLabel 3250 1500 0    60   Input ~ 0
-FRAME_REQ_1_18
+T_EXP2_1_18
 Text HLabel 3250 1600 0    60   Input ~ 0
-T_EXP2_0_18
+T_EXP1_1_18
 Text HLabel 3250 1800 0    60   Input ~ 0
-T_EXP1_0_18
+FRAME_REQ_1_18
 Text HLabel 3250 1900 0    60   Input ~ 0
+T_EXP2_0_18
+Text HLabel 3250 2000 0    60   Input ~ 0
+T_EXP1_0_18
+Text HLabel 3250 2100 0    60   Input ~ 0
 FRAME_REQ_0_18
 Text HLabel 3250 5900 0    60   Output ~ 0
 CAM_SPI_MISO_18
@@ -704,21 +705,21 @@ Wire Wire Line
 Wire Wire Line
 	3250 6500 3600 6500
 Wire Wire Line
-	3250 1300 3550 1300
-Wire Wire Line
-	5950 1300 4550 1300
+	3250 1500 3550 1500
 Wire Wire Line
 	5950 1500 4550 1500
 Wire Wire Line
-	5950 1600 4550 1600
+	5950 1800 4550 1800
 Wire Wire Line
-	4550 1800 5950 1800
-Wire Wire Line
-	4550 1900 5950 1900
+	5950 1900 4550 1900
 Wire Wire Line
 	4550 2000 5950 2000
 Wire Wire Line
-	5950 2100 4550 2100
+	4550 2100 5950 2100
+Wire Wire Line
+	4550 1300 5950 1300
+Wire Wire Line
+	5950 1400 4550 1400
 Wire Wire Line
 	4550 3600 5950 3600
 Wire Wire Line
@@ -730,17 +731,17 @@ Wire Wire Line
 Wire Wire Line
 	4550 4100 5950 4100
 Wire Wire Line
-	3250 1800 3550 1800
-Wire Wire Line
-	3550 1600 3250 1600
-Wire Wire Line
-	3250 1500 3550 1500
-Wire Wire Line
-	3250 1900 3550 1900
-Wire Wire Line
 	3250 2000 3550 2000
 Wire Wire Line
-	3550 2100 3250 2100
+	3550 1900 3250 1900
+Wire Wire Line
+	3250 1800 3550 1800
+Wire Wire Line
+	3250 2100 3550 2100
+Wire Wire Line
+	3250 1300 3550 1300
+Wire Wire Line
+	3550 1400 3250 1400
 Wire Wire Line
 	3550 3600 3250 3600
 Wire Wire Line
@@ -751,14 +752,14 @@ Wire Wire Line
 	3250 3900 3550 3900
 Wire Wire Line
 	3550 4100 3250 4100
-Text HLabel 3250 2100 0    60   Input ~ 0
+Text HLabel 3250 1400 0    60   Input ~ 0
 CAM_CLK0_REF_18
 Wire Wire Line
-	3250 1400 3550 1400
-Text HLabel 5950 2100 2    60   Output ~ 0
+	3250 1600 3550 1600
+Text HLabel 5950 1400 2    60   Output ~ 0
 CAM0_CLK_REF
 Wire Wire Line
-	5950 1400 4550 1400
+	5950 1600 4550 1600
 Text Notes 4800 900  0    60   ~ 0
 DIR[1:2] = 10\nA[1:4] => B[1:4]; A[5:8] => B[5:8]
 $Comp

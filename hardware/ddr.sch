@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:zynq_board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
@@ -4334,6 +4335,9 @@ F 7 "1" H 9950 9000 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    9950 9000
 	1    0    0    -1  
 $EndComp
+Connection ~ 9950 9000
+Wire Wire Line
+	9950 9000 10000 9000
 Wire Bus Line
 	7100 2000 18200 2000
 Wire Bus Line
@@ -4352,7 +4356,4 @@ Wire Bus Line
 	12250 2100 12250 5350
 Wire Bus Line
 	18200 2000 18200 7600
-Connection ~ 9950 9000
-Wire Wire Line
-	9950 9000 10000 9000
 $EndSCHEMATC

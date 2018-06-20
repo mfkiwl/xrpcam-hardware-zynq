@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:zynq_board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -694,16 +695,6 @@ F 3 "" H 2050 6350 50  0001 C CNN
 $EndComp
 Text Notes 1450 6050 0    60   ~ 0
 Bypass Capacitors for the Triggerbus Levelshifters.\nPlace them as close as possible to their power inputs.
-Text HLabel 8350 2400 0    60   Output ~ 0
-RXD
-Text HLabel 8350 2300 0    60   Output ~ 0
-~SBA~
-Text HLabel 8350 2500 0    60   Input ~ 0
-~RE~
-Text HLabel 8350 2600 0    60   Input ~ 0
-DE
-Text HLabel 8350 2700 0    60   Input ~ 0
-TXD
 Text Label 5350 1400 2    60   ~ 0
 EXT_TRIG_IN_0
 Text Label 5350 1500 2    60   ~ 0
@@ -1774,4 +1765,26 @@ $EndComp
 Connection ~ 6350 4300
 Wire Wire Line
 	6350 4300 6600 4300
+Text GLabel 8200 2300 0    50   Output ~ 0
+~RS485_SBA~
+Text GLabel 8200 2400 0    50   Output ~ 0
+RS485_RXD
+Text GLabel 8200 2500 0    50   Input ~ 0
+~RS485_RE~
+Text GLabel 8200 2700 0    50   Input ~ 0
+RS485_DE
+Text GLabel 8200 2600 0    50   Input ~ 0
+RS485_TXD
+Wire Wire Line
+	8350 2300 8200 2300
+Wire Wire Line
+	8200 2400 8350 2400
+Wire Wire Line
+	8350 2500 8200 2500
+Wire Wire Line
+	8200 2600 8350 2600
+Wire Wire Line
+	8350 2700 8200 2700
+Text Notes 7700 2650 1    50   ~ 0
+BANK 35
 $EndSCHEMATC

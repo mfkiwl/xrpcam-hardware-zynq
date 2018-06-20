@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:zynq_board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 21
+Sheet 19 21
 Title ""
 Date ""
 Rev ""
@@ -76,16 +77,6 @@ Wire Wire Line
 	5250 3400 4800 3400
 Wire Wire Line
 	4800 3500 5250 3500
-Text HLabel 4800 2700 0    60   Input ~ 0
-RXD
-Text HLabel 4800 3100 0    60   Output ~ 0
-~RE~
-Text HLabel 4800 3200 0    60   Output ~ 0
-DE
-Text HLabel 4800 3000 0    60   Output ~ 0
-TXD
-Text HLabel 4800 5300 0    60   Output ~ 0
-~SBA~
 Wire Wire Line
 	4800 2700 5250 2700
 Wire Wire Line
@@ -102,7 +93,7 @@ Text HLabel 3150 3150 0    60   BiDi ~ 0
 GPIO_10
 Text HLabel 3450 4900 0    60   BiDi ~ 0
 GPIO_11
-Text HLabel 4800 5100 0    60   BiDi ~ 0
+Text HLabel 3300 5150 0    60   BiDi ~ 0
 GPIO_12
 Text HLabel 4800 5400 0    60   BiDi ~ 0
 GPIO_13
@@ -124,12 +115,6 @@ Wire Wire Line
 	4800 5400 5250 5400
 Wire Wire Line
 	4800 4300 5250 4300
-Text HLabel 4800 2300 0    60   Output ~ 0
-IMU_FRAME_GPIO0
-Text HLabel 4800 2200 0    60   Input ~ 0
-IMU_INT1_GPIO1
-Text HLabel 4800 3300 0    60   Input ~ 0
-IMU_INT0_GPIO2
 Wire Wire Line
 	4800 3300 5250 3300
 Wire Wire Line
@@ -167,4 +152,20 @@ Text GLabel 4800 4100 0    50   Output ~ 0
 CLK_SEL
 Wire Wire Line
 	4800 3600 5250 3600
+Text GLabel 4800 5000 0    50   Output ~ 0
+IMU_SPI_EN_1
+Text GLabel 4800 5100 0    50   Output ~ 0
+IMU_SPI_EN_0
+Text GLabel 4800 5200 0    50   Output ~ 0
+IMU_SPI_CLK
+Text GLabel 4800 5300 0    50   Output ~ 0
+IMU_SPI_MOSI
+Text GLabel 4800 3200 0    50   Input ~ 0
+IMU_SPI_MISO
+Text GLabel 4800 3100 0    50   Output ~ 0
+IMU_FRAME_GPIO0
+Text GLabel 4800 3000 0    50   Input ~ 0
+IMU_INT1_GPIO1
+Text GLabel 4800 2700 0    50   Input ~ 0
+IMU_INT2_GPIO2
 $EndSCHEMATC
