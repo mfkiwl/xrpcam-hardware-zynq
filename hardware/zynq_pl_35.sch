@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 21
+Sheet 20 21
 Title ""
 Date ""
 Rev ""
@@ -53,10 +53,6 @@ Text HLabel 5050 4100 0    60   Output ~ 0
 CAM_CLK0_REF_18
 Text HLabel 5050 4000 0    60   Output ~ 0
 CAM_RESET_18
-Text HLabel 5050 3500 0    60   BiDi ~ 0
-CAM_SCL_18
-Text HLabel 5050 3400 0    60   BiDi ~ 0
-CAM_SDA_18
 Text Notes 2000 4100 0    60   ~ 0
 CAM_CLK_REF is not really lowspeed(>40 MHz),\nroute this first and make it short as possible
 Wire Wire Line
@@ -131,24 +127,6 @@ Wire Wire Line
 	5050 5400 5400 5400
 Wire Wire Line
 	5050 5600 5400 5600
-Text HLabel 3050 2600 0    60   BiDi ~ 0
-GPIO_0
-Text HLabel 5050 2000 0    60   BiDi ~ 0
-GPIO_1
-Text HLabel 2800 1950 0    60   BiDi ~ 0
-GPIO_2
-Text HLabel 3300 3600 0    60   BiDi ~ 0
-GPIO_3
-Text HLabel 5050 3600 0    60   BiDi ~ 0
-GPIO_4
-Text HLabel 3950 3650 0    60   BiDi ~ 0
-GPIO_5
-Text HLabel 3100 2900 0    60   BiDi ~ 0
-GPIO_6
-Text HLabel 2700 5750 0    60   BiDi ~ 0
-GPIO_7
-Text HLabel 2400 5600 0    60   BiDi ~ 0
-GPIO_8
 Wire Wire Line
 	5050 1900 5400 1900
 Wire Wire Line

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 21
+Sheet 17 21
 Title ""
 Date ""
 Rev ""
@@ -424,8 +424,6 @@ CLOCK_125_SW_N
 Text Label 3950 3450 0    50   ~ 0
 CLOCK_125_SW_P
 Wire Wire Line
-	2800 3750 3700 3750
-Wire Wire Line
 	4350 2200 5150 2200
 Wire Wire Line
 	4750 3450 4750 2700
@@ -452,13 +450,15 @@ CLK_SEL
 Wire Wire Line
 	5000 3150 5000 3000
 Wire Wire Line
-	2750 3500 2800 3500
-Wire Wire Line
-	2800 3500 2800 3450
-Wire Wire Line
 	2800 3450 3700 3450
+Wire Wire Line
+	2750 3500 2850 3500
+Wire Wire Line
+	2850 3500 2850 3750
+Wire Wire Line
+	2850 3750 3700 3750
 Wire Wire Line
 	2750 3700 2800 3700
 Wire Wire Line
-	2800 3700 2800 3750
+	2800 3700 2800 3450
 $EndSCHEMATC

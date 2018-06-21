@@ -1188,5 +1188,5 @@ REFCLK_TLK_N
 Text GLabel 2150 2750 0    50   Input ~ 0
 REFCLK_TLK_P
 Text Notes 1900 6350 0    50   ~ 0
-TODO: Needs MDC an Pull-UP? AFAIK it does
+TODO: Needs MDC an Pull-UP? AFAIK it does not,\nbecause MDC is driven Push-Pull by the FPGA GPIO
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 21
+Sheet 18 21
 Title ""
 Date ""
 Rev ""
@@ -87,20 +87,6 @@ Wire Wire Line
 	4800 5000 5250 5000
 Wire Wire Line
 	4800 5200 5250 5200
-Text HLabel 3150 2900 0    60   BiDi ~ 0
-GPIO_9
-Text HLabel 3150 3150 0    60   BiDi ~ 0
-GPIO_10
-Text HLabel 3450 4900 0    60   BiDi ~ 0
-GPIO_11
-Text HLabel 3300 5150 0    60   BiDi ~ 0
-GPIO_12
-Text HLabel 4800 5400 0    60   BiDi ~ 0
-GPIO_13
-Text HLabel 4800 4300 0    60   BiDi ~ 0
-GPIO_14
-Text HLabel 4800 3700 0    60   BiDi ~ 0
-GPIO_15
 Wire Wire Line
 	4800 3100 5250 3100
 Wire Wire Line
@@ -148,24 +134,26 @@ NoConn ~ 5250 4900
 NoConn ~ 5250 5500
 NoConn ~ 5250 5600
 NoConn ~ 5250 5700
-Text GLabel 4800 4100 0    50   Output ~ 0
-CLK_SEL
 Wire Wire Line
 	4800 3600 5250 3600
-Text GLabel 4800 5000 0    50   Output ~ 0
+Text GLabel 4800 4300 0    50   Output ~ 0
 IMU_SPI_EN_1
-Text GLabel 4800 5100 0    50   Output ~ 0
+Text GLabel 4800 4500 0    50   Output ~ 0
 IMU_SPI_EN_0
-Text GLabel 4800 5200 0    50   Output ~ 0
+Text GLabel 4800 5000 0    50   Output ~ 0
 IMU_SPI_CLK
-Text GLabel 4800 5300 0    50   Output ~ 0
+Text GLabel 4800 5100 0    50   Output ~ 0
 IMU_SPI_MOSI
-Text GLabel 4800 3200 0    50   Input ~ 0
+Text GLabel 4800 5200 0    50   Input ~ 0
 IMU_SPI_MISO
-Text GLabel 4800 3100 0    50   Output ~ 0
+Text GLabel 4800 5300 0    50   Output ~ 0
 IMU_FRAME_GPIO0
-Text GLabel 4800 3000 0    50   Input ~ 0
+Text GLabel 4800 3200 0    50   Input ~ 0
 IMU_INT1_GPIO1
-Text GLabel 4800 2700 0    50   Input ~ 0
+Text GLabel 4800 3000 0    50   Input ~ 0
 IMU_INT2_GPIO2
+Text GLabel 4800 3100 0    50   BiDi ~ 0
+CAM_SDA_18
+Text GLabel 4800 2700 0    50   BiDi ~ 0
+CAM_SCL_18
 $EndSCHEMATC

@@ -414,10 +414,6 @@ F 3 "" H 3200 6800 50  0001 C CNN
 	1    3200 6800
 	0    -1   -1   0   
 $EndComp
-Text HLabel 8100 1900 0    60   BiDi ~ 0
-CAM_SCL_18
-Text HLabel 8100 1800 0    60   BiDi ~ 0
-CAM_SDA_18
 Text HLabel 8050 4250 0    60   BiDi ~ 0
 SFP_SCL_18
 Text HLabel 8050 4350 0    60   BiDi ~ 0
@@ -1388,4 +1384,8 @@ Wire Wire Line
 NoConn ~ 4600 6600
 NoConn ~ 4600 6700
 NoConn ~ 4550 4400
+Text GLabel 8100 1800 0    50   BiDi ~ 0
+CAM_SDA_18
+Text GLabel 8100 1900 0    50   BiDi ~ 0
+CAM_SCL_18
 $EndSCHEMATC

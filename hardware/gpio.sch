@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 21
+Sheet 21 21
 Title ""
 Date ""
 Rev ""
@@ -29,38 +29,6 @@ F 7 "1" H 5150 3350 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    5150 3350
 	1    0    0    -1  
 $EndComp
-Text HLabel 4950 2950 0    60   BiDi ~ 0
-GPIO_0
-Text HLabel 4950 3050 0    60   BiDi ~ 0
-GPIO_1
-Text HLabel 4950 3150 0    60   BiDi ~ 0
-GPIO_2
-Text HLabel 4950 3250 0    60   BiDi ~ 0
-GPIO_3
-Text HLabel 4950 3350 0    60   BiDi ~ 0
-GPIO_4
-Text HLabel 4950 3450 0    60   BiDi ~ 0
-GPIO_5
-Text HLabel 4950 3550 0    60   BiDi ~ 0
-GPIO_6
-Text HLabel 4950 3650 0    60   BiDi ~ 0
-GPIO_7
-Text HLabel 5450 3650 2    60   BiDi ~ 0
-GPIO_8
-Text HLabel 5450 3550 2    60   BiDi ~ 0
-GPIO_9
-Text HLabel 5450 3450 2    60   BiDi ~ 0
-GPIO_10
-Text HLabel 5450 3350 2    60   BiDi ~ 0
-GPIO_11
-Text HLabel 5450 3250 2    60   BiDi ~ 0
-GPIO_12
-Text HLabel 5450 3150 2    60   BiDi ~ 0
-GPIO_13
-Text HLabel 5450 3050 2    60   BiDi ~ 0
-GPIO_14
-Text HLabel 5450 2950 2    60   BiDi ~ 0
-GPIO_15
 $Comp
 L power:GND #PWR0220
 U 1 1 5B0F584E
@@ -209,4 +177,36 @@ Wire Wire Line
 	10500 2900 10500 3000
 Wire Wire Line
 	10500 3400 10500 3300
+Text GLabel 4950 2950 0    50   BiDi ~ 0
+GPIO_0
+Text GLabel 4950 3050 0    50   BiDi ~ 0
+GPIO_2
+Text GLabel 4950 3150 0    50   BiDi ~ 0
+GPIO_4
+Text GLabel 4950 3250 0    50   BiDi ~ 0
+GPIO_6
+Text GLabel 4950 3350 0    50   BiDi ~ 0
+GPIO_8
+Text GLabel 4950 3450 0    50   BiDi ~ 0
+GPIO_10
+Text GLabel 4950 3550 0    50   BiDi ~ 0
+GPIO_12
+Text GLabel 4950 3650 0    50   BiDi ~ 0
+GPIO_14
+Text GLabel 5450 3650 2    50   BiDi ~ 0
+GPIO_15
+Text GLabel 5450 3550 2    50   BiDi ~ 0
+GPIO_13
+Text GLabel 5450 3450 2    50   BiDi ~ 0
+GPIO_11
+Text GLabel 5450 3350 2    50   BiDi ~ 0
+GPIO_9
+Text GLabel 5450 3250 2    50   BiDi ~ 0
+GPIO_7
+Text GLabel 5450 3150 2    50   BiDi ~ 0
+GPIO_5
+Text GLabel 5450 3050 2    50   BiDi ~ 0
+GPIO_3
+Text GLabel 5450 2950 2    50   BiDi ~ 0
+GPIO_1
 $EndSCHEMATC
