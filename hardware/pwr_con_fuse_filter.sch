@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x02 J2201
+L Connector_Generic:Conn_01x02 J1601
 U 1 1 5AFB123F
 P 1550 2800
-F 0 "J2201" H 1550 2900 50  0000 C CNN
+F 0 "J1601" H 1550 2900 50  0000 C CNN
 F 1 "Conn_01x02" H 1550 2600 50  0000 C CNN
 F 2 "footprints:WAGO-890-802" H 1550 2800 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=C160%252FWAGO_890-802_DB.pdf" H 1550 2800 50  0001 C CNN
@@ -33,10 +33,10 @@ F 10 "1" H 1550 2800 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Transformer_1P_1S T2201
+L Device:Transformer_1P_1S T1601
 U 1 1 5AFB12DF
 P 3000 2850
-F 0 "T2201" V 3300 2850 50  0000 C CNN
+F 0 "T1601" V 3300 2850 50  0000 C CNN
 F 1 "500 Ohm@100 MHz" H 3000 2550 50  0000 C CNN
 F 2 "footprints:DLW5BTM_5.00x5.00mm" H 3000 2850 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796761587742/EFLC0025.pdf" H 3000 2850 50  0001 C CNN
@@ -52,10 +52,10 @@ F 11 "1" H 3000 2850 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    1    1    0   
 $EndComp
 $Comp
-L dmp3056l:DMP3056L Q2201
+L dmp3056l:DMP3056L Q1601
 U 1 1 5AFC9627
 P 4050 2550
-F 0 "Q2201" H 4250 2625 50  0000 L CNN
+F 0 "Q1601" H 4250 2625 50  0000 L CNN
 F 1 "DMP3056L" H 4250 2550 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 4250 2475 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/DMP3056L.pdf" H 4050 2550 50  0001 L CNN
@@ -71,10 +71,10 @@ F 11 "1" H 4050 2550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Fuse F2201
+L Device:Fuse F1601
 U 1 1 5AFC9CDC
 P 2150 2450
-F 0 "F2201" V 2230 2450 50  0000 C CNN
+F 0 "F1601" V 2230 2450 50  0000 C CNN
 F 1 "Fuse" V 2075 2450 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric" V 2080 2450 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AFA0000/AFA0000C7.pdf" H 2150 2450 50  0001 C CNN
@@ -110,10 +110,10 @@ Wire Wire Line
 Wire Wire Line
 	3600 3250 3600 3450
 $Comp
-L Device:D_TVS D2201
+L Device:D_TVS D1601
 U 1 1 5AFCA27A
 P 2500 2850
-F 0 "D2201" H 2500 2950 50  0000 C CNN
+F 0 "D1601" H 2500 2950 50  0000 C CNN
 F 1 "P0220SCMCLRP" H 2500 2750 50  0000 C CNN
 F 2 "footprints:DO-214AA" H 2500 2850 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/sidactors/littelfuse_sidactor_mc_do_214_datasheet.pdf.pdf" H 2500 2850 50  0001 C CNN
@@ -130,10 +130,10 @@ F 11 "1" H 2500 2850 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 $EndComp
 Connection ~ 3600 3250
 $Comp
-L power:GND #PWR0263
+L power:GND #PWR01601
 U 1 1 5AFCA36D
 P 3600 3450
-F 0 "#PWR0263" H 3600 3200 50  0001 C CNN
+F 0 "#PWR01601" H 3600 3200 50  0001 C CNN
 F 1 "GND" H 3600 3300 50  0000 C CNN
 F 2 "" H 3600 3450 50  0001 C CNN
 F 3 "" H 3600 3450 50  0001 C CNN
@@ -149,10 +149,10 @@ Wire Wire Line
 	2500 3000 2500 3250
 Connection ~ 2500 3250
 $Comp
-L Device:Q_SCR_KAG D2203
+L Device:Q_SCR_KAG D1604
 U 1 1 5B01386E
 P 3700 3000
-F 0 "D2203" H 3775 3025 50  0000 L CNN
+F 0 "D1604" H 3775 3025 50  0000 L CNN
 F 1 "TN1515-600B-TR" H 3775 2950 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:TO-252-2" V 3700 3000 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/14/b4/09/ab/1a/e3/49/f7/CD00099707.pdf/files/CD00099707.pdf/jcr:content/translations/en.CD00099707.pdf" V 3700 3000 50  0001 C CNN
@@ -170,10 +170,10 @@ $EndComp
 Wire Wire Line
 	3700 3250 3700 3150
 $Comp
-L Device:D_Zener D2202
+L Device:D_Zener D1602
 U 1 1 5B01397F
 P 3450 2650
-F 0 "D2202" H 3450 2750 50  0000 C CNN
+F 0 "D1602" H 3450 2750 50  0000 C CNN
 F 1 "15 V" H 3450 2550 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-123" H 3450 2650 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds18004.pdf" H 3450 2650 50  0001 C CNN
@@ -212,10 +212,10 @@ Wire Wire Line
 Wire Wire Line
 	3700 3250 4050 3250
 $Comp
-L Device:D_Schottky D2204
+L Device:D_Schottky D1603
 U 1 1 5B1B8794
 P 3450 2950
-F 0 "D2204" H 3450 3050 50  0000 C CNN
+F 0 "D1603" H 3450 3050 50  0000 C CNN
 F 1 "PMEG3020EGWX" H 3250 2850 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-123" H 3450 2950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG3020EGW.pdf" H 3450 2950 50  0001 C CNN
@@ -231,10 +231,10 @@ F 11 "1" H 3450 2950 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power_symbols:+V_IN #PWR0193
+L power_symbols:+V_IN #PWR01602
 U 1 1 5BE964AD
 P 4400 2300
-F 0 "#PWR0193" H 4400 2150 50  0001 C CNN
+F 0 "#PWR01602" H 4400 2150 50  0001 C CNN
 F 1 "+V_IN" H 4415 2473 50  0000 C CNN
 F 2 "" H 4400 2300 50  0001 C CNN
 F 3 "" H 4400 2300 50  0001 C CNN
@@ -246,10 +246,10 @@ Wire Wire Line
 Wire Wire Line
 	4250 2450 4300 2450
 $Comp
-L power:PWR_FLAG #FLG0112
+L power:PWR_FLAG #FLG01601
 U 1 1 5C1ED3DC
 P 4300 2450
-F 0 "#FLG0112" H 4300 2525 50  0001 C CNN
+F 0 "#FLG01601" H 4300 2525 50  0001 C CNN
 F 1 "PWR_FLAG" V 4250 2800 50  0000 C CNN
 F 2 "" H 4300 2450 50  0001 C CNN
 F 3 "~" H 4300 2450 50  0001 C CNN

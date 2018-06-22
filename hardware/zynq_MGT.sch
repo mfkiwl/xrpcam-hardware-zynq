@@ -15,13 +15,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xilinx_zynq_clg485:xc7z030sbg485 U201
+L xilinx_zynq_clg485:xc7z030sbg485 U1
 U 5 1 596E7F00
 P 5350 2150
-F 0 "U201" H 5550 2400 60  0000 L CNN
+F 0 "U1" H 5550 2400 60  0000 L CNN
 F 1 "xc7z030sbg485" H 5550 2300 60  0000 L CNN
 F 2 "footprints:SBG485_22x22_19.0x19.0mm_Pitch0.8mm" H 5350 2150 60  0001 C CNN
 F 3 "" H 5350 2150 60  0001 C CNN
+F 4 "1" H 5350 2150 50  0001 C CNN "Populated"
+F 5 "SPEC" H 5350 2150 50  0001 C CNN "Source"
+F 6 "1" H 5350 2150 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 5350 2150 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	5    5350 2150
 	1    0    0    -1  
 $EndComp
@@ -130,10 +134,10 @@ MGTX_TX_0_N
 Text Label 5250 3750 2    60   ~ 0
 MGTX_TX_0_P
 $Comp
-L Device:R_Small R1001
+L Device:R_Small R801
 U 1 1 5ADF6841
 P 5100 2150
-F 0 "R1001" H 5130 2170 50  0000 L CNN
+F 0 "R801" H 5130 2170 50  0000 L CNN
 F 1 "100Ω, 1%" V 5000 1950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 5100 2150 50  0001 C CNN
 F 3 "" H 5100 2150 50  0001 C CNN
@@ -151,10 +155,10 @@ Wire Wire Line
 Text Notes 4600 1600 0    60   ~ 0
 Traces to MGTREF and MGTAVTTRCAL\nhave to be the same length / geometry! \nSee UG476 Figure 5-3.
 $Comp
-L power_symbols:+1V2_MGT #PWR0119
+L power_symbols:+1V2_MGT #PWR0801
 U 1 1 5ADF709F
 P 5300 1950
-F 0 "#PWR0119" H 5300 1800 50  0001 C CNN
+F 0 "#PWR0801" H 5300 1800 50  0001 C CNN
 F 1 "+1V2_MGT" H 5300 2090 50  0000 C CNN
 F 2 "" H 5300 1950 50  0001 C CNN
 F 3 "" H 5300 1950 50  0001 C CNN
@@ -179,10 +183,10 @@ TX Polarity has been swapped to ease routing
 Text Notes 500  3100 0    50   ~ 0
 Pair 2 and 0 have been swapped, to ease routing
 $Comp
-L Device:C_Small C908
+L Device:C_Small C801
 U 1 1 5BB22AAD
 P 3500 2450
-F 0 "C908" V 3550 2500 50  0000 L CNN
+F 0 "C801" V 3550 2500 50  0000 L CNN
 F 1 "100 nF" V 3450 2500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 3500 2450 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3500 2450 50  0001 C CNN
@@ -195,10 +199,10 @@ F 8 "SPEC" H 3500 2450 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C909
+L Device:C_Small C802
 U 1 1 5BB23111
 P 3750 2550
-F 0 "C909" V 3800 2600 50  0000 L CNN
+F 0 "C802" V 3800 2600 50  0000 L CNN
 F 1 "100 nF" V 3700 2600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 3750 2550 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3750 2550 50  0001 C CNN

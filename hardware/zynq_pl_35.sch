@@ -15,15 +15,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xilinx_zynq_clg485:xc7z030sbg485 U201
+L xilinx_zynq_clg485:xc7z030sbg485 U1
 U 4 1 596E7B8E
 P 5400 1400
-F 0 "U201" H 5600 1650 60  0000 L CNN
+F 0 "U1" H 5600 1650 60  0000 L CNN
 F 1 "xc7z030sbg485" H 5600 1550 60  0000 L CNN
 F 2 "footprints:SBG485_22x22_19.0x19.0mm_Pitch0.8mm" H 5400 1400 60  0001 C CNN
 F 3 "" H 5400 1400 60  0001 C CNN
 F 4 "1" H 5400 1400 60  0001 C CNN "Populated"
 F 5 "SPEC" H 5400 1400 60  0001 C CNN "Source"
+F 6 "1" H 5400 1400 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 5400 1400 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	4    5400 1400
 	1    0    0    -1  
 $EndComp
@@ -62,10 +64,6 @@ Wire Wire Line
 Wire Wire Line
 	5050 3100 5400 3100
 Wire Wire Line
-	5050 3300 5400 3300
-Wire Wire Line
-	5050 3000 5400 3000
-Wire Wire Line
 	5050 3200 5400 3200
 Wire Wire Line
 	5050 3400 5400 3400
@@ -77,8 +75,6 @@ Wire Wire Line
 	5400 5100 5050 5100
 Wire Wire Line
 	5400 4500 5050 4500
-Wire Wire Line
-	5050 4200 5400 4200
 Wire Wire Line
 	5050 4400 5400 4400
 Wire Wire Line
@@ -134,8 +130,6 @@ Wire Wire Line
 Wire Wire Line
 	5050 2900 5400 2900
 Wire Wire Line
-	5400 3600 5050 3600
-Wire Wire Line
 	5050 3700 5400 3700
 Wire Wire Line
 	5400 3800 5050 3800
@@ -153,8 +147,6 @@ Text HLabel 3700 2400 0    60   Input ~ 0
 BUTTON0
 Wire Wire Line
 	5050 1800 5400 1800
-Wire Wire Line
-	5050 2100 5400 2100
 Text HLabel 5050 3900 0    60   Output ~ 0
 CAM_CLK1_REF_18
 Wire Wire Line
@@ -165,7 +157,6 @@ Text GLabel 5050 6400 0    60   Input ~ 0
 VCCO_35
 Wire Wire Line
 	5050 6400 5400 6400
-NoConn ~ 5400 1700
 NoConn ~ 5400 2200
 NoConn ~ 5400 2300
 NoConn ~ 5400 2500
@@ -183,4 +174,33 @@ Text GLabel 5050 1800 0    50   Output ~ 0
 RS485_DE
 Text GLabel 5050 3800 0    50   Output ~ 0
 RS485_TXD
+Text GLabel 5050 3200 0    50   BiDi ~ 0
+GPIO_6
+Text GLabel 5050 3500 0    50   BiDi ~ 0
+GPIO_8
+Text GLabel 5050 3400 0    50   BiDi ~ 0
+GPIO_10
+Text GLabel 5050 2800 0    50   BiDi ~ 0
+GPIO_11
+Text GLabel 5050 2900 0    50   BiDi ~ 0
+GPIO_9
+Text GLabel 5050 3100 0    50   BiDi ~ 0
+GPIO_7
+Text GLabel 5050 2000 0    50   BiDi ~ 0
+GPIO_12
+Text GLabel 5050 1600 0    50   BiDi ~ 0
+GPIO_14
+Text GLabel 5050 1700 0    50   BiDi ~ 0
+GPIO_16
+Wire Wire Line
+	5400 1700 5050 1700
+Wire Wire Line
+	5050 1600 5400 1600
+NoConn ~ 5400 1400
+NoConn ~ 5400 1500
+NoConn ~ 5400 2100
+NoConn ~ 5400 3000
+NoConn ~ 5400 3300
+NoConn ~ 5400 3600
+NoConn ~ 5400 4200
 $EndSCHEMATC

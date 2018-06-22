@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ddr:DDR3_SDRAM_x16 U701
+L ddr:DDR3_SDRAM_x16 U601
 U 1 1 597DF825
 P 5550 5200
-F 0 "U701" H 5550 5000 60  0000 C CNN
+F 0 "U601" H 5550 5000 60  0000 C CNN
 F 1 "MT41K128M8" H 5550 5400 60  0000 C CNN
 F 2 "Housings_BGA:BGA-96_2x3x16_9.0x13.0mm_Pitch0.8mm" H 5550 5200 60  0001 C CNN
 F 3 "https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf" H 5550 5200 60  0001 C CNN
@@ -62,10 +62,10 @@ Entry Wire Line
 Entry Wire Line
 	7000 3750 7100 3850
 $Comp
-L Device:C_Small C702
+L Device:C_Small C602
 U 1 1 597E5D1A
 P 1800 9350
-F 0 "C702" H 1810 9420 50  0000 L CNN
+F 0 "C602" H 1810 9420 50  0000 L CNN
 F 1 "1µF" H 1810 9270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 1800 9350 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf" H 1800 9350 50  0001 C CNN
@@ -81,10 +81,10 @@ F 11 "1" H 1800 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C704
+L Device:C_Small C604
 U 1 1 597E5D7D
 P 2050 9350
-F 0 "C704" H 2060 9420 50  0000 L CNN
+F 0 "C604" H 2060 9420 50  0000 L CNN
 F 1 "1µF" H 2060 9270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2050 9350 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf" H 2050 9350 50  0001 C CNN
@@ -100,10 +100,10 @@ F 11 "1" H 2050 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C707
+L Device:C_Small C607
 U 1 1 597E5D9F
 P 2300 9350
-F 0 "C707" H 2310 9420 50  0000 L CNN
+F 0 "C607" H 2310 9420 50  0000 L CNN
 F 1 "1µF" H 2310 9270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2300 9350 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf" H 2300 9350 50  0001 C CNN
@@ -119,10 +119,10 @@ F 11 "1" H 2300 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C710
+L Device:C_Small C610
 U 1 1 597E5DBE
 P 2550 9350
-F 0 "C710" H 2560 9420 50  0000 L CNN
+F 0 "C610" H 2560 9420 50  0000 L CNN
 F 1 "1µF" H 2560 9270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2550 9350 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf" H 2550 9350 50  0001 C CNN
@@ -154,10 +154,10 @@ LAYOUT NOTICE
 Text Notes 750  2200 0    60   ~ 0
 • For unidirectional signals, all ADDR/CMD/CTRL\n   signals must be matched to the CLK signal.\n   It is a good design practice to match each \n   transmission line segment (FPGA to DRAM1,\n   FPGA to DRAM2, FPGA to fly-by termination\n   resistor, etc.) to within a reasonable tolerance\n   of ±25ps. 
 $Comp
-L Device:R_Small R701
+L Device:R_Small R601
 U 1 1 5984EE5F
 P 7050 6900
-F 0 "R701" H 7080 6920 50  0000 L CNN
+F 0 "R601" H 7080 6920 50  0000 L CNN
 F 1 "240Ω" H 7080 6860 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7050 6900 50  0001 C CNN
 F 3 "" H 7050 6900 50  0001 C CNN
@@ -165,10 +165,10 @@ F 3 "" H 7050 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr:DDR3_SDRAM_x16 U703
+L ddr:DDR3_SDRAM_x16 U603
 U 1 1 59850C08
 P 10700 5200
-F 0 "U703" H 10700 5000 60  0000 C CNN
+F 0 "U603" H 10700 5000 60  0000 C CNN
 F 1 "MT41K128M8" H 10700 5400 60  0000 C CNN
 F 2 "Housings_BGA:BGA-96_2x3x16_9.0x13.0mm_Pitch0.8mm" H 10700 5200 60  0001 C CNN
 F 3 "https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf" H 10700 5200 60  0001 C CNN
@@ -220,10 +220,10 @@ VSS
 Text Label 10100 7550 1    60   ~ 0
 VSSQ
 $Comp
-L Device:R_Small R704
+L Device:R_Small R604
 U 1 1 59850C46
 P 12200 6900
-F 0 "R704" H 12230 6920 50  0000 L CNN
+F 0 "R604" H 12230 6920 50  0000 L CNN
 F 1 "240Ω" H 12230 6860 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 12200 6900 50  0001 C CNN
 F 3 "" H 12200 6900 50  0001 C CNN
@@ -297,10 +297,10 @@ DQ31
 Entry Bus Bus
 	12150 2000 12250 2100
 $Comp
-L Device:C_Small C714
+L Device:C_Small C614
 U 1 1 59851AFB
 P 3050 9350
-F 0 "C714" H 3060 9420 50  0000 L CNN
+F 0 "C614" H 3060 9420 50  0000 L CNN
 F 1 "1µF" H 3060 9270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3050 9350 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf" H 3050 9350 50  0001 C CNN
@@ -316,10 +316,10 @@ F 11 "1" H 3050 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C717
+L Device:C_Small C617
 U 1 1 59851B02
 P 3300 9350
-F 0 "C717" H 3310 9420 50  0000 L CNN
+F 0 "C617" H 3310 9420 50  0000 L CNN
 F 1 "1µF" H 3310 9270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3300 9350 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf" H 3300 9350 50  0001 C CNN
@@ -335,10 +335,10 @@ F 11 "1" H 3300 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C719
+L Device:C_Small C619
 U 1 1 59851B09
 P 3550 9350
-F 0 "C719" H 3560 9420 50  0000 L CNN
+F 0 "C619" H 3560 9420 50  0000 L CNN
 F 1 "1µF" H 3560 9270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3550 9350 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf" H 3550 9350 50  0001 C CNN
@@ -354,10 +354,10 @@ F 11 "1" H 3550 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C722
+L Device:C_Small C622
 U 1 1 59851B10
 P 3800 9350
-F 0 "C722" H 3810 9420 50  0000 L CNN
+F 0 "C622" H 3810 9420 50  0000 L CNN
 F 1 "1µF" H 3810 9270 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3800 9350 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_lowprofile_en.pdf" H 3800 9350 50  0001 C CNN
@@ -373,10 +373,10 @@ F 11 "1" H 3800 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR064
+L power:GND #PWR0602
 U 1 1 59852133
 P 2800 9850
-F 0 "#PWR064" H 2800 9600 50  0001 C CNN
+F 0 "#PWR0602" H 2800 9600 50  0001 C CNN
 F 1 "GND" H 2800 9700 50  0000 C CNN
 F 2 "" H 2800 9850 50  0001 C CNN
 F 3 "" H 2800 9850 50  0001 C CNN
@@ -384,10 +384,10 @@ F 3 "" H 2800 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR065
+L power:GND #PWR0605
 U 1 1 59852F61
 P 5400 7650
-F 0 "#PWR065" H 5400 7400 50  0001 C CNN
+F 0 "#PWR0605" H 5400 7400 50  0001 C CNN
 F 1 "GND" H 5400 7500 50  0000 C CNN
 F 2 "" H 5400 7650 50  0001 C CNN
 F 3 "" H 5400 7650 50  0001 C CNN
@@ -395,10 +395,10 @@ F 3 "" H 5400 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR066
+L power:GND #PWR0614
 U 1 1 59852F90
 P 10600 7650
-F 0 "#PWR066" H 10600 7400 50  0001 C CNN
+F 0 "#PWR0614" H 10600 7400 50  0001 C CNN
 F 1 "GND" H 10600 7500 50  0000 C CNN
 F 2 "" H 10600 7650 50  0001 C CNN
 F 3 "" H 10600 7650 50  0001 C CNN
@@ -410,10 +410,10 @@ Module 1
 Text Notes 5350 4700 0    60   ~ 12
 Module 0
 $Comp
-L Device:R_Small R717
+L Device:R_Small R617
 U 1 1 59854BA4
 P 14600 3850
-F 0 "R717" V 14550 3850 50  0000 C BNN
+F 0 "R617" V 14550 3850 50  0000 C BNN
 F 1 "40.2Ω" V 14600 3850 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14600 3850 50  0001 C CNN
 F 3 "" H 14600 3850 50  0001 C CNN
@@ -613,10 +613,10 @@ A0
 Text Label 14800 3550 3    60   ~ 0
 VTT
 $Comp
-L Device:R_Small R718
+L Device:R_Small R618
 U 1 1 5985FEC6
 P 14600 4050
-F 0 "R718" V 14550 4050 50  0000 C BNN
+F 0 "R618" V 14550 4050 50  0000 C BNN
 F 1 "40.2Ω" V 14600 4050 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14600 4050 50  0001 C CNN
 F 3 "" H 14600 4050 50  0001 C CNN
@@ -626,10 +626,10 @@ F 5 "R0402 40.2Ω 1%" V 14600 4050 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R719
+L Device:R_Small R619
 U 1 1 5985FF05
 P 14600 4250
-F 0 "R719" V 14550 4250 50  0000 C BNN
+F 0 "R619" V 14550 4250 50  0000 C BNN
 F 1 "40.2Ω" V 14600 4250 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14600 4250 50  0001 C CNN
 F 3 "" H 14600 4250 50  0001 C CNN
@@ -639,10 +639,10 @@ F 5 "R0402 40.2Ω 1%" V 14600 4250 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R720
+L Device:R_Small R620
 U 1 1 5985FF47
 P 14600 4450
-F 0 "R720" V 14550 4450 50  0000 C BNN
+F 0 "R620" V 14550 4450 50  0000 C BNN
 F 1 "40.2Ω" V 14600 4450 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14600 4450 50  0001 C CNN
 F 3 "" H 14600 4450 50  0001 C CNN
@@ -652,10 +652,10 @@ F 5 "R0402 40.2Ω 1%" V 14600 4450 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R721
+L Device:R_Small R621
 U 1 1 5985FF8C
 P 14600 4650
-F 0 "R721" V 14550 4650 50  0000 C BNN
+F 0 "R621" V 14550 4650 50  0000 C BNN
 F 1 "40.2Ω" V 14600 4650 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14600 4650 50  0001 C CNN
 F 3 "" H 14600 4650 50  0001 C CNN
@@ -665,10 +665,10 @@ F 5 "R0402 40.2Ω 1%" V 14600 4650 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R722
+L Device:R_Small R622
 U 1 1 5986001A
 P 14600 4850
-F 0 "R722" V 14550 4850 50  0000 C BNN
+F 0 "R622" V 14550 4850 50  0000 C BNN
 F 1 "40.2Ω" V 14600 4850 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14600 4850 50  0001 C CNN
 F 3 "" H 14600 4850 50  0001 C CNN
@@ -678,10 +678,10 @@ F 5 "R0402 40.2Ω 1%" V 14600 4850 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R723
+L Device:R_Small R623
 U 1 1 59860065
 P 14600 5050
-F 0 "R723" V 14550 5050 50  0000 C BNN
+F 0 "R623" V 14550 5050 50  0000 C BNN
 F 1 "40.2Ω" V 14600 5050 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14600 5050 50  0001 C CNN
 F 3 "" H 14600 5050 50  0001 C CNN
@@ -691,10 +691,10 @@ F 5 "R0402 40.2Ω 1%" V 14600 5050 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R724
+L Device:R_Small R624
 U 1 1 598600B3
 P 14600 5250
-F 0 "R724" V 14550 5250 50  0000 C BNN
+F 0 "R624" V 14550 5250 50  0000 C BNN
 F 1 "40.2Ω" V 14600 5250 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14600 5250 50  0001 C CNN
 F 3 "" H 14600 5250 50  0001 C CNN
@@ -704,10 +704,10 @@ F 5 "R0402 40.2Ω 1%" V 14600 5250 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R711
+L Device:R_Small R611
 U 1 1 59860104
 P 14350 5150
-F 0 "R711" V 14300 5150 50  0000 C BNN
+F 0 "R611" V 14300 5150 50  0000 C BNN
 F 1 "40.2Ω" V 14350 5150 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14350 5150 50  0001 C CNN
 F 3 "" H 14350 5150 50  0001 C CNN
@@ -717,10 +717,10 @@ F 5 "R0402 40.2Ω 1%" V 14350 5150 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R710
+L Device:R_Small R610
 U 1 1 5986015B
 P 14350 4950
-F 0 "R710" V 14300 4950 50  0000 C BNN
+F 0 "R610" V 14300 4950 50  0000 C BNN
 F 1 "40.2Ω" V 14350 4950 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14350 4950 50  0001 C CNN
 F 3 "" H 14350 4950 50  0001 C CNN
@@ -730,10 +730,10 @@ F 5 "R0402 40.2Ω 1%" V 14350 4950 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R709
+L Device:R_Small R609
 U 1 1 598601B2
 P 14350 4750
-F 0 "R709" V 14300 4750 50  0000 C BNN
+F 0 "R609" V 14300 4750 50  0000 C BNN
 F 1 "40.2Ω" V 14350 4750 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14350 4750 50  0001 C CNN
 F 3 "" H 14350 4750 50  0001 C CNN
@@ -743,10 +743,10 @@ F 5 "R0402 40.2Ω 1%" V 14350 4750 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R708
+L Device:R_Small R608
 U 1 1 5986020E
 P 14350 4550
-F 0 "R708" V 14300 4550 50  0000 C BNN
+F 0 "R608" V 14300 4550 50  0000 C BNN
 F 1 "40.2Ω" V 14350 4550 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14350 4550 50  0001 C CNN
 F 3 "" H 14350 4550 50  0001 C CNN
@@ -756,10 +756,10 @@ F 5 "R0402 40.2Ω 1%" V 14350 4550 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R707
+L Device:R_Small R607
 U 1 1 5986026B
 P 14350 4350
-F 0 "R707" V 14300 4350 50  0000 C BNN
+F 0 "R607" V 14300 4350 50  0000 C BNN
 F 1 "40.2Ω" V 14350 4350 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14350 4350 50  0001 C CNN
 F 3 "" H 14350 4350 50  0001 C CNN
@@ -769,10 +769,10 @@ F 5 "R0402 40.2Ω 1%" V 14350 4350 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R706
+L Device:R_Small R606
 U 1 1 598602CB
 P 14350 4150
-F 0 "R706" V 14300 4150 50  0000 C BNN
+F 0 "R606" V 14300 4150 50  0000 C BNN
 F 1 "40.2Ω" V 14350 4150 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14350 4150 50  0001 C CNN
 F 3 "" H 14350 4150 50  0001 C CNN
@@ -782,10 +782,10 @@ F 5 "R0402 40.2Ω 1%" V 14350 4150 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R705
+L Device:R_Small R605
 U 1 1 5986032E
 P 14350 3950
-F 0 "R705" V 14300 3950 50  0000 C BNN
+F 0 "R605" V 14300 3950 50  0000 C BNN
 F 1 "40.2Ω" V 14350 3950 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14350 3950 50  0001 C CNN
 F 3 "" H 14350 3950 50  0001 C CNN
@@ -797,10 +797,10 @@ $EndComp
 Text Notes 750  2550 0    60   ~ 0
 • Differencial Impedance: 80Ω\n\n• Single Ended Impedance: 40Ω
 $Comp
-L Device:R_Small R725
+L Device:R_Small R625
 U 1 1 59862895
 P 14600 5500
-F 0 "R725" V 14550 5500 50  0000 C BNN
+F 0 "R625" V 14550 5500 50  0000 C BNN
 F 1 "40.2Ω" V 14600 5500 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14600 5500 50  0001 C CNN
 F 3 "" H 14600 5500 50  0001 C CNN
@@ -810,10 +810,10 @@ F 5 "R0402 40.2Ω 1%" V 14600 5500 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R726
+L Device:R_Small R626
 U 1 1 5986289D
 P 14600 5700
-F 0 "R726" V 14550 5700 50  0000 C BNN
+F 0 "R626" V 14550 5700 50  0000 C BNN
 F 1 "40.2Ω" V 14600 5700 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14600 5700 50  0001 C CNN
 F 3 "" H 14600 5700 50  0001 C CNN
@@ -823,10 +823,10 @@ F 5 "R0402 40.2Ω 1%" V 14600 5700 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R727
+L Device:R_Small R627
 U 1 1 598628A5
 P 14600 5900
-F 0 "R727" V 14550 5900 50  0000 C BNN
+F 0 "R627" V 14550 5900 50  0000 C BNN
 F 1 "40.2Ω" V 14600 5900 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14600 5900 50  0001 C CNN
 F 3 "" H 14600 5900 50  0001 C CNN
@@ -836,10 +836,10 @@ F 5 "R0402 40.2Ω 1%" V 14600 5900 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R728
+L Device:R_Small R628
 U 1 1 598628AD
 P 14600 6100
-F 0 "R728" V 14550 6100 50  0000 C BNN
+F 0 "R628" V 14550 6100 50  0000 C BNN
 F 1 "40.2Ω" V 14600 6100 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14600 6100 50  0001 C CNN
 F 3 "" H 14600 6100 50  0001 C CNN
@@ -849,10 +849,10 @@ F 5 "R0402 40.2Ω 1%" V 14600 6100 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R716
+L Device:R_Small R616
 U 1 1 598628B5
 P 14400 7400
-F 0 "R716" V 14350 7400 50  0000 C BNN
+F 0 "R616" V 14350 7400 50  0000 C BNN
 F 1 "4.7 kΩ" V 14400 7400 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14400 7400 50  0001 C CNN
 F 3 "" H 14400 7400 50  0001 C CNN
@@ -865,10 +865,10 @@ F 8 "1" H 14400 7400 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R713
+L Device:R_Small R613
 U 1 1 598628C5
 P 14350 5600
-F 0 "R713" V 14300 5600 50  0000 C BNN
+F 0 "R613" V 14300 5600 50  0000 C BNN
 F 1 "40.2Ω" V 14350 5600 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14350 5600 50  0001 C CNN
 F 3 "" H 14350 5600 50  0001 C CNN
@@ -878,10 +878,10 @@ F 5 "R0402 40.2Ω 1%" V 14350 5600 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R712
+L Device:R_Small R612
 U 1 1 598628CD
 P 14350 5400
-F 0 "R712" V 14300 5400 50  0000 C BNN
+F 0 "R612" V 14300 5400 50  0000 C BNN
 F 1 "40.2Ω" V 14350 5400 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14350 5400 50  0001 C CNN
 F 3 "" H 14350 5400 50  0001 C CNN
@@ -891,10 +891,10 @@ F 5 "R0402 40.2Ω 1%" V 14350 5400 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R715
+L Device:R_Small R615
 U 1 1 59862DA2
 P 14350 6700
-F 0 "R715" V 14300 6700 50  0000 C BNN
+F 0 "R615" V 14300 6700 50  0000 C BNN
 F 1 "80.6Ω" V 14350 6700 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14350 6700 50  0001 C CNN
 F 3 "" H 14350 6700 50  0001 C CNN
@@ -910,10 +910,10 @@ Micron DRAM Devices have on chip\ncapacitance, please add more caps\nfor other v
 Text Label 13100 6350 2    60   ~ 0
 VTT_REF
 $Comp
-L Device:C_Small C756
+L Device:C_Small C656
 U 1 1 59865CBA
 P 12650 6550
-F 0 "C756" H 12660 6620 50  0000 L CNN
+F 0 "C656" H 12660 6620 50  0000 L CNN
 F 1 "0.01µF" H 12660 6470 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 12650 6550 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 12650 6550 50  0001 C CNN
@@ -929,10 +929,10 @@ F 11 "1" H 12650 6550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR067
+L power:GND #PWR0617
 U 1 1 59866164
 P 12650 6800
-F 0 "#PWR067" H 12650 6550 50  0001 C CNN
+F 0 "#PWR0617" H 12650 6550 50  0001 C CNN
 F 1 "GND" H 12650 6650 50  0000 C CNN
 F 2 "" H 12650 6800 50  0001 C CNN
 F 3 "" H 12650 6800 50  0001 C CNN
@@ -942,10 +942,10 @@ $EndComp
 Text Label 7950 6350 2    60   ~ 0
 VTT_REF
 $Comp
-L Device:C_Small C745
+L Device:C_Small C645
 U 1 1 59866C81
 P 7500 6550
-F 0 "C745" H 7510 6620 50  0000 L CNN
+F 0 "C645" H 7510 6620 50  0000 L CNN
 F 1 "0.01µF" H 7510 6470 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 7500 6550 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 7500 6550 50  0001 C CNN
@@ -961,10 +961,10 @@ F 11 "1" H 7500 6550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR068
+L power:GND #PWR0609
 U 1 1 59866C8A
 P 7500 6800
-F 0 "#PWR068" H 7500 6550 50  0001 C CNN
+F 0 "#PWR0609" H 7500 6550 50  0001 C CNN
 F 1 "GND" H 7500 6650 50  0000 C CNN
 F 2 "" H 7500 6800 50  0001 C CNN
 F 3 "" H 7500 6800 50  0001 C CNN
@@ -974,10 +974,10 @@ $EndComp
 Text Notes 13350 3500 0    60   ~ 0
 Termination
 $Comp
-L misc:TPS51206 U702
+L misc:TPS51206 U602
 U 1 1 59869039
 P 9100 9400
-F 0 "U702" H 9100 9400 60  0000 C CNN
+F 0 "U602" H 9100 9400 60  0000 C CNN
 F 1 "TPS51206" H 9100 8900 60  0000 C CNN
 F 2 "footprints:TI_PWSON-N10_2.0x2.0mm" H 9100 9400 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps51206.pdf" H 9100 9400 60  0001 C CNN
@@ -997,10 +997,10 @@ VTT
 Text Label 7250 9000 0    60   ~ 0
 VDDQ
 $Comp
-L power:+5V #PWR069
+L power:+5V #PWR0611
 U 1 1 5986AD8D
 P 8050 8850
-F 0 "#PWR069" H 8050 8700 50  0001 C CNN
+F 0 "#PWR0611" H 8050 8700 50  0001 C CNN
 F 1 "+5V" H 8050 8990 50  0000 C CNN
 F 2 "" H 8050 8850 50  0001 C CNN
 F 3 "" H 8050 8850 50  0001 C CNN
@@ -1008,10 +1008,10 @@ F 3 "" H 8050 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C747
+L Device:C_Small C647
 U 1 1 5986B8B6
 P 7600 9250
-F 0 "C747" H 7610 9320 50  0000 L CNN
+F 0 "C647" H 7610 9320 50  0000 L CNN
 F 1 "10µF" H 7610 9170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7600 9250 50  0001 C CNN
 F 3 "" H 7600 9250 50  0001 C CNN
@@ -1028,10 +1028,10 @@ F 12 "6,3 V" H 7750 9100 50  0000 C CNN "Voltage"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C751
+L Device:C_Small C651
 U 1 1 5986BB1F
 P 10000 9550
-F 0 "C751" H 10010 9620 50  0000 L CNN
+F 0 "C651" H 10010 9620 50  0000 L CNN
 F 1 "0.22µF" H 10010 9470 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10000 9550 50  0001 C CNN
 F 3 "" H 10000 9550 50  0001 C CNN
@@ -1048,10 +1048,10 @@ F 12 "6,3 V" H 10400 9450 50  0000 C BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R702
+L Device:R_Small R602
 U 1 1 5986D0B7
 P 8250 9350
-F 0 "R702" V 8200 9350 50  0000 C BNN
+F 0 "R602" V 8200 9350 50  0000 C BNN
 F 1 "10kΩ" V 8250 9350 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8250 9350 50  0001 C CNN
 F 3 "" H 8250 9350 50  0001 C CNN
@@ -1064,10 +1064,10 @@ F 8 "1" H 8250 9350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R703
+L Device:R_Small R603
 U 1 1 5986D4F3
 P 8250 9450
-F 0 "R703" V 8200 9450 50  0000 C BNN
+F 0 "R603" V 8200 9450 50  0000 C BNN
 F 1 "10kΩ" V 8250 9450 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8250 9450 50  0001 C CNN
 F 3 "" H 8250 9450 50  0001 C CNN
@@ -1080,10 +1080,10 @@ F 8 "1" H 8250 9450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR070
+L power:GND #PWR0612
 U 1 1 5986E7D8
 P 8050 10100
-F 0 "#PWR070" H 8050 9850 50  0001 C CNN
+F 0 "#PWR0612" H 8050 9850 50  0001 C CNN
 F 1 "GND" H 8050 9950 50  0000 C CNN
 F 2 "" H 8050 10100 50  0001 C CNN
 F 3 "" H 8050 10100 50  0001 C CNN
@@ -1091,10 +1091,10 @@ F 3 "" H 8050 10100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR071
+L power:GND #PWR0610
 U 1 1 5986E870
 P 7600 10100
-F 0 "#PWR071" H 7600 9850 50  0001 C CNN
+F 0 "#PWR0610" H 7600 9850 50  0001 C CNN
 F 1 "GND" H 7600 9950 50  0000 C CNN
 F 2 "" H 7600 10100 50  0001 C CNN
 F 3 "" H 7600 10100 50  0001 C CNN
@@ -1102,10 +1102,10 @@ F 3 "" H 7600 10100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR072
+L power:GND #PWR0613
 U 1 1 5986EDFB
 P 9850 10100
-F 0 "#PWR072" H 9850 9850 50  0001 C CNN
+F 0 "#PWR0613" H 9850 9850 50  0001 C CNN
 F 1 "GND" H 9850 9950 50  0000 C CNN
 F 2 "" H 9850 10100 50  0001 C CNN
 F 3 "" H 9850 10100 50  0001 C CNN
@@ -1115,10 +1115,10 @@ $EndComp
 Text Label 10400 9400 2    60   ~ 0
 VTT_REF
 $Comp
-L Device:C_Small C750
+L Device:C_Small C650
 U 1 1 5987033E
 P 10000 9150
-F 0 "C750" H 10010 9220 50  0000 L CNN
+F 0 "C650" H 10010 9220 50  0000 L CNN
 F 1 "10µF" H 10010 9070 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10000 9150 50  0001 C CNN
 F 3 "" H 10000 9150 50  0001 C CNN
@@ -1135,13 +1135,17 @@ F 12 "6.3 V," H 10350 9050 50  0000 C BNN "Voltage"
 	1    0    0    1   
 $EndComp
 $Comp
-L xilinx_zynq_clg485:xc7z030sbg485 U201
+L xilinx_zynq_clg485:xc7z030sbg485 U1
 U 8 1 5ADEA2A7
 P 20050 1900
-F 0 "U201" H 20250 2150 60  0000 L CNN
+F 0 "U1" H 20250 2150 60  0000 L CNN
 F 1 "xc7z030sbg485" H 20250 2050 60  0000 L CNN
 F 2 "footprints:SBG485_22x22_19.0x19.0mm_Pitch0.8mm" H 20050 1900 60  0001 C CNN
 F 3 "" H 20050 1900 60  0001 C CNN
+F 4 "1" H 20050 1900 50  0001 C CNN "Populated"
+F 5 "SPEC" H 20050 1900 50  0001 C CNN "Source"
+F 6 "1" H 20050 1900 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 20050 1900 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	8    20050 1900
 	1    0    0    -1  
 $EndComp
@@ -1474,10 +1478,10 @@ DQ0
 Text GLabel 19600 9400 0    60   Input ~ 0
 VCCO_DDR
 $Comp
-L Device:R_Small R731
+L Device:R_Small R631
 U 1 1 5AF40F8D
 P 19800 9100
-F 0 "R731" V 19750 9100 50  0000 C BNN
+F 0 "R631" V 19750 9100 50  0000 C BNN
 F 1 "80.6Ω" V 19800 9100 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 19800 9100 50  0001 C CNN
 F 3 "" H 19800 9100 50  0001 C CNN
@@ -1487,10 +1491,10 @@ F 5 "R0402 40.2Ω 1%" V 19800 9100 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R732
+L Device:R_Small R632
 U 1 1 5AF412AF
 P 19800 9200
-F 0 "R732" V 19750 9200 50  0000 C BNN
+F 0 "R632" V 19750 9200 50  0000 C BNN
 F 1 "80.6Ω" V 19800 9200 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 19800 9200 50  0001 C CNN
 F 3 "" H 19800 9200 50  0001 C CNN
@@ -1500,10 +1504,10 @@ F 5 "R0402 40.2Ω 1%" V 19800 9200 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR073
+L power:GND #PWR0620
 U 1 1 5AF4192D
 P 19100 9200
-F 0 "#PWR073" H 19100 8950 50  0001 C CNN
+F 0 "#PWR0620" H 19100 8950 50  0001 C CNN
 F 1 "GND" H 19100 9050 50  0000 C CNN
 F 2 "" H 19100 9200 50  0001 C CNN
 F 3 "" H 19100 9200 50  0001 C CNN
@@ -1513,10 +1517,10 @@ $EndComp
 Text GLabel 19600 9100 0    60   Input ~ 0
 VCCO_DDR
 $Comp
-L power_symbols:+V_DDR #PWR074
+L power_symbols:+V_DDR #PWR0601
 U 1 1 5AF4B702
 P 2800 8850
-F 0 "#PWR074" H 2800 8700 50  0001 C CNN
+F 0 "#PWR0601" H 2800 8700 50  0001 C CNN
 F 1 "+V_DDR" H 2800 8990 50  0000 C CNN
 F 2 "" H 2800 8850 50  0001 C CNN
 F 3 "" H 2800 8850 50  0001 C CNN
@@ -1524,10 +1528,10 @@ F 3 "" H 2800 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power_symbols:+V_DDR #PWR075
+L power_symbols:+V_DDR #PWR0606
 U 1 1 5AF4B7A1
 P 5550 2900
-F 0 "#PWR075" H 5550 2750 50  0001 C CNN
+F 0 "#PWR0606" H 5550 2750 50  0001 C CNN
 F 1 "+V_DDR" H 5550 3040 50  0000 C CNN
 F 2 "" H 5550 2900 50  0001 C CNN
 F 3 "" H 5550 2900 50  0001 C CNN
@@ -1535,10 +1539,10 @@ F 3 "" H 5550 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power_symbols:+V_DDR #PWR076
+L power_symbols:+V_DDR #PWR0615
 U 1 1 5AF4B9E0
 P 10650 2900
-F 0 "#PWR076" H 10650 2750 50  0001 C CNN
+F 0 "#PWR0615" H 10650 2750 50  0001 C CNN
 F 1 "+V_DDR" H 10650 3040 50  0000 C CNN
 F 2 "" H 10650 2900 50  0001 C CNN
 F 3 "" H 10650 2900 50  0001 C CNN
@@ -1548,10 +1552,10 @@ $EndComp
 Text Label 19050 8900 0    60   ~ 0
 VREF
 $Comp
-L Device:C_Small C762
+L Device:C_Small C662
 U 1 1 5AF79FC3
 P 18200 9100
-F 0 "C762" H 18210 9170 50  0000 L CNN
+F 0 "C662" H 18210 9170 50  0000 L CNN
 F 1 "0.01µF" H 18210 9020 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 18200 9100 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 18200 9100 50  0001 C CNN
@@ -1568,10 +1572,10 @@ F 12 "10 V" H 18300 8950 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C761
+L Device:C_Small C661
 U 1 1 5AF7A0D7
 P 17850 9100
-F 0 "C761" H 17860 9170 50  0000 L CNN
+F 0 "C661" H 17860 9170 50  0000 L CNN
 F 1 "0.01µF" H 17860 9020 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 17850 9100 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 17850 9100 50  0001 C CNN
@@ -1588,10 +1592,10 @@ F 12 "10 V" H 17950 8950 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR077
+L power:GND #PWR0619
 U 1 1 5AF7A86C
 P 18050 9400
-F 0 "#PWR077" H 18050 9150 50  0001 C CNN
+F 0 "#PWR0619" H 18050 9150 50  0001 C CNN
 F 1 "GND" H 18050 9250 50  0000 C CNN
 F 2 "" H 18050 9400 50  0001 C CNN
 F 3 "" H 18050 9400 50  0001 C CNN
@@ -1601,10 +1605,10 @@ $EndComp
 Text Label 17850 8900 0    60   ~ 0
 VTT_REF
 $Comp
-L Device:C_Small C701
+L Device:C_Small C601
 U 1 1 5B06959D
 P 1650 12050
-F 0 "C701" H 1660 12120 50  0000 L CNN
+F 0 "C601" H 1660 12120 50  0000 L CNN
 F 1 "10 µF" H 1660 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 12050 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1650 12050 50  0001 C CNN
@@ -1621,10 +1625,10 @@ F 12 "4 V" H 1800 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C705
+L Device:C_Small C605
 U 1 1 5B0766E7
 P 2050 12050
-F 0 "C705" H 2060 12120 50  0000 L CNN
+F 0 "C605" H 2060 12120 50  0000 L CNN
 F 1 "100 nF" H 2060 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 2050 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2050 12050 50  0001 C CNN
@@ -1641,10 +1645,10 @@ F 12 "6,3 V" H 2250 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR078
+L power:GND #PWR0603
 U 1 1 5B07CA2D
 P 3100 12350
-F 0 "#PWR078" H 3100 12100 50  0001 C CNN
+F 0 "#PWR0603" H 3100 12100 50  0001 C CNN
 F 1 "GND" H 3100 12200 50  0000 C CNN
 F 2 "" H 3100 12350 50  0001 C CNN
 F 3 "" H 3100 12350 50  0001 C CNN
@@ -1656,10 +1660,10 @@ VDD
 Text Label 3100 12650 3    60   ~ 0
 VDDQ
 $Comp
-L power:GND #PWR079
+L power:GND #PWR0604
 U 1 1 5B07EE49
 P 3100 13600
-F 0 "#PWR079" H 3100 13350 50  0001 C CNN
+F 0 "#PWR0604" H 3100 13350 50  0001 C CNN
 F 1 "GND" H 3100 13450 50  0000 C CNN
 F 2 "" H 3100 13600 50  0001 C CNN
 F 3 "" H 3100 13600 50  0001 C CNN
@@ -1669,10 +1673,10 @@ $EndComp
 Text Notes 2050 11400 0    60   ~ 0
 Additional Decoupling Capacitors. May not be populated.
 $Comp
-L Device:C_Small C728
+L Device:C_Small C628
 U 1 1 5B0F7924
 P 4900 12050
-F 0 "C728" H 4910 12120 50  0000 L CNN
+F 0 "C628" H 4910 12120 50  0000 L CNN
 F 1 "10 µF" H 4910 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4900 12050 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4900 12050 50  0001 C CNN
@@ -1689,10 +1693,10 @@ F 12 "4 V" H 5050 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR080
+L power:GND #PWR0607
 U 1 1 5B0F793F
 P 6350 12350
-F 0 "#PWR080" H 6350 12100 50  0001 C CNN
+F 0 "#PWR0607" H 6350 12100 50  0001 C CNN
 F 1 "GND" H 6350 12200 50  0000 C CNN
 F 2 "" H 6350 12350 50  0001 C CNN
 F 3 "" H 6350 12350 50  0001 C CNN
@@ -1704,10 +1708,10 @@ VDD
 Text Label 6350 12650 3    60   ~ 0
 VDDQ
 $Comp
-L power:GND #PWR081
+L power:GND #PWR0608
 U 1 1 5B0F9BA6
 P 6350 13600
-F 0 "#PWR081" H 6350 13350 50  0001 C CNN
+F 0 "#PWR0608" H 6350 13350 50  0001 C CNN
 F 1 "GND" H 6350 13450 50  0000 C CNN
 F 2 "" H 6350 13600 50  0001 C CNN
 F 3 "" H 6350 13600 50  0001 C CNN
@@ -1715,10 +1719,10 @@ F 3 "" H 6350 13600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR082
+L power:GND #PWR0618
 U 1 1 5B1345E1
 P 14850 7400
-F 0 "#PWR082" H 14850 7150 50  0001 C CNN
+F 0 "#PWR0618" H 14850 7150 50  0001 C CNN
 F 1 "GND" H 14850 7250 50  0000 C CNN
 F 2 "" H 14850 7400 50  0001 C CNN
 F 3 "" H 14850 7400 50  0001 C CNN
@@ -1732,10 +1736,10 @@ DDR_BA1
 Text Label 13700 6300 0    60   ~ 0
 DDR_BA2
 $Comp
-L Device:R_Small R729
+L Device:R_Small R629
 U 1 1 5B1361AB
 P 14600 6300
-F 0 "R729" V 14550 6300 50  0000 C BNN
+F 0 "R629" V 14550 6300 50  0000 C BNN
 F 1 "40.2Ω" V 14600 6300 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14600 6300 50  0001 C CNN
 F 3 "" H 14600 6300 50  0001 C CNN
@@ -1745,10 +1749,10 @@ F 5 "R0402 40.2Ω 1%" V 14600 6300 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R714
+L Device:R_Small R614
 U 1 1 5B136329
 P 14350 6400
-F 0 "R714" V 14300 6400 50  0000 C BNN
+F 0 "R614" V 14300 6400 50  0000 C BNN
 F 1 "40.2Ω" V 14350 6400 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14350 6400 50  0001 C CNN
 F 3 "" H 14350 6400 50  0001 C CNN
@@ -1758,10 +1762,10 @@ F 5 "R0402 40.2Ω 1%" V 14350 6400 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R730
+L Device:R_Small R630
 U 1 1 5B13744B
 P 14600 6500
-F 0 "R730" V 14550 6500 50  0000 C BNN
+F 0 "R630" V 14550 6500 50  0000 C BNN
 F 1 "40.2Ω" V 14600 6500 31  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 14600 6500 50  0001 C CNN
 F 3 "" H 14600 6500 50  0001 C CNN
@@ -1771,10 +1775,10 @@ F 5 "R0402 40.2Ω 1%" V 14600 6500 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C754
+L Device:C_Small C654
 U 1 1 5B1424BA
 P 12050 9250
-F 0 "C754" H 12060 9320 50  0000 L CNN
+F 0 "C654" H 12060 9320 50  0000 L CNN
 F 1 "4,7 µF" H 12060 9170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 12050 9250 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 12050 9250 50  0001 C CNN
@@ -1790,10 +1794,10 @@ F 11 "1" H 12050 9250 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C755
+L Device:C_Small C655
 U 1 1 5B142A6B
 P 12350 9250
-F 0 "C755" H 12360 9320 50  0000 L CNN
+F 0 "C655" H 12360 9320 50  0000 L CNN
 F 1 "4,7 µF" H 12360 9170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 12350 9250 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 12350 9250 50  0001 C CNN
@@ -1809,10 +1813,10 @@ F 11 "1" H 12350 9250 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C757
+L Device:C_Small C657
 U 1 1 5B142C0D
 P 12700 9250
-F 0 "C757" H 12710 9320 50  0000 L CNN
+F 0 "C657" H 12710 9320 50  0000 L CNN
 F 1 "10 nF" H 12710 9170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 12700 9250 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 12700 9250 50  0001 C CNN
@@ -1828,10 +1832,10 @@ F 11 "1" H 12700 9250 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C758
+L Device:C_Small C658
 U 1 1 5B14381C
 P 12950 9250
-F 0 "C758" H 12960 9320 50  0000 L CNN
+F 0 "C658" H 12960 9320 50  0000 L CNN
 F 1 "10 nF" H 12960 9170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 12950 9250 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 12950 9250 50  0001 C CNN
@@ -1847,10 +1851,10 @@ F 11 "1" H 12950 9250 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C759
+L Device:C_Small C659
 U 1 1 5B143968
 P 13200 9250
-F 0 "C759" H 13210 9320 50  0000 L CNN
+F 0 "C659" H 13210 9320 50  0000 L CNN
 F 1 "10 nF" H 13210 9170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 13200 9250 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 13200 9250 50  0001 C CNN
@@ -1866,10 +1870,10 @@ F 11 "1" H 13200 9250 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C760
+L Device:C_Small C660
 U 1 1 5B143AB7
 P 13450 9250
-F 0 "C760" H 13460 9320 50  0000 L CNN
+F 0 "C660" H 13460 9320 50  0000 L CNN
 F 1 "10 nF" H 13460 9170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 13450 9250 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 13450 9250 50  0001 C CNN
@@ -1885,10 +1889,10 @@ F 11 "1" H 13450 9250 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR083
+L power:GND #PWR0616
 U 1 1 5B1470FA
 P 12500 9550
-F 0 "#PWR083" H 12500 9300 50  0001 C CNN
+F 0 "#PWR0616" H 12500 9300 50  0001 C CNN
 F 1 "GND" H 12500 9400 50  0000 C CNN
 F 2 "" H 12500 9550 50  0001 C CNN
 F 3 "" H 12500 9550 50  0001 C CNN
@@ -3115,10 +3119,10 @@ Wire Wire Line
 Wire Wire Line
 	6800 5250 7000 5250
 $Comp
-L Device:C_Small C708
+L Device:C_Small C608
 U 1 1 5B050E7F
 P 2350 12050
-F 0 "C708" H 2360 12120 50  0000 L CNN
+F 0 "C608" H 2360 12120 50  0000 L CNN
 F 1 "100 nF" H 2360 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 2350 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2350 12050 50  0001 C CNN
@@ -3135,10 +3139,10 @@ F 12 "6,3 V" H 2550 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C711
+L Device:C_Small C611
 U 1 1 5B0510DA
 P 2650 12050
-F 0 "C711" H 2660 12120 50  0000 L CNN
+F 0 "C611" H 2660 12120 50  0000 L CNN
 F 1 "100 nF" H 2660 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 2650 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2650 12050 50  0001 C CNN
@@ -3155,10 +3159,10 @@ F 12 "6,3 V" H 2850 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C713
+L Device:C_Small C613
 U 1 1 5B0510E9
 P 2950 12050
-F 0 "C713" H 2960 12120 50  0000 L CNN
+F 0 "C613" H 2960 12120 50  0000 L CNN
 F 1 "100 nF" H 2960 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 2950 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2950 12050 50  0001 C CNN
@@ -3175,10 +3179,10 @@ F 12 "6,3 V" H 3150 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C716
+L Device:C_Small C616
 U 1 1 5B051354
 P 3250 12050
-F 0 "C716" H 3260 12120 50  0000 L CNN
+F 0 "C616" H 3260 12120 50  0000 L CNN
 F 1 "100 nF" H 3260 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 3250 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3250 12050 50  0001 C CNN
@@ -3195,10 +3199,10 @@ F 12 "6,3 V" H 3450 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C720
+L Device:C_Small C620
 U 1 1 5B051363
 P 3550 12050
-F 0 "C720" H 3560 12120 50  0000 L CNN
+F 0 "C620" H 3560 12120 50  0000 L CNN
 F 1 "100 nF" H 3560 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 3550 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3550 12050 50  0001 C CNN
@@ -3215,10 +3219,10 @@ F 12 "6,3 V" H 3750 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C723
+L Device:C_Small C623
 U 1 1 5B051372
 P 3850 12050
-F 0 "C723" H 3860 12120 50  0000 L CNN
+F 0 "C623" H 3860 12120 50  0000 L CNN
 F 1 "100 nF" H 3860 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 3850 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3850 12050 50  0001 C CNN
@@ -3235,10 +3239,10 @@ F 12 "6,3 V" H 4050 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C725
+L Device:C_Small C625
 U 1 1 5B051381
 P 4150 12050
-F 0 "C725" H 4160 12120 50  0000 L CNN
+F 0 "C625" H 4160 12120 50  0000 L CNN
 F 1 "100 nF" H 4160 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 4150 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 4150 12050 50  0001 C CNN
@@ -3255,10 +3259,10 @@ F 12 "6,3 V" H 4350 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C727
+L Device:C_Small C627
 U 1 1 5B051452
 P 4450 12050
-F 0 "C727" H 4460 12120 50  0000 L CNN
+F 0 "C627" H 4460 12120 50  0000 L CNN
 F 1 "100 nF" H 4460 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 4450 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 4450 12050 50  0001 C CNN
@@ -3275,10 +3279,10 @@ F 12 "6,3 V" H 4650 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C730
+L Device:C_Small C630
 U 1 1 5B053026
 P 5300 12050
-F 0 "C730" H 5310 12120 50  0000 L CNN
+F 0 "C630" H 5310 12120 50  0000 L CNN
 F 1 "100 nF" H 5310 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 5300 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 5300 12050 50  0001 C CNN
@@ -3295,10 +3299,10 @@ F 12 "6,3 V" H 5500 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C732
+L Device:C_Small C632
 U 1 1 5B053035
 P 5600 12050
-F 0 "C732" H 5610 12120 50  0000 L CNN
+F 0 "C632" H 5610 12120 50  0000 L CNN
 F 1 "100 nF" H 5610 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 5600 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 5600 12050 50  0001 C CNN
@@ -3315,10 +3319,10 @@ F 12 "6,3 V" H 5800 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C734
+L Device:C_Small C634
 U 1 1 5B053044
 P 5900 12050
-F 0 "C734" H 5910 12120 50  0000 L CNN
+F 0 "C634" H 5910 12120 50  0000 L CNN
 F 1 "100 nF" H 5910 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 5900 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 5900 12050 50  0001 C CNN
@@ -3335,10 +3339,10 @@ F 12 "6,3 V" H 6100 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C736
+L Device:C_Small C636
 U 1 1 5B053053
 P 6200 12050
-F 0 "C736" H 6210 12120 50  0000 L CNN
+F 0 "C636" H 6210 12120 50  0000 L CNN
 F 1 "100 nF" H 6210 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 6200 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 6200 12050 50  0001 C CNN
@@ -3355,10 +3359,10 @@ F 12 "6,3 V" H 6400 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C738
+L Device:C_Small C638
 U 1 1 5B053062
 P 6500 12050
-F 0 "C738" H 6510 12120 50  0000 L CNN
+F 0 "C638" H 6510 12120 50  0000 L CNN
 F 1 "100 nF" H 6510 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 6500 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 6500 12050 50  0001 C CNN
@@ -3375,10 +3379,10 @@ F 12 "6,3 V" H 6700 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C740
+L Device:C_Small C640
 U 1 1 5B053071
 P 6800 12050
-F 0 "C740" H 6810 12120 50  0000 L CNN
+F 0 "C640" H 6810 12120 50  0000 L CNN
 F 1 "100 nF" H 6810 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 6800 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 6800 12050 50  0001 C CNN
@@ -3395,10 +3399,10 @@ F 12 "6,3 V" H 7000 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C742
+L Device:C_Small C642
 U 1 1 5B053080
 P 7100 12050
-F 0 "C742" H 7110 12120 50  0000 L CNN
+F 0 "C642" H 7110 12120 50  0000 L CNN
 F 1 "100 nF" H 7110 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 7100 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 7100 12050 50  0001 C CNN
@@ -3415,10 +3419,10 @@ F 12 "6,3 V" H 7300 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C744
+L Device:C_Small C644
 U 1 1 5B05308F
 P 7400 12050
-F 0 "C744" H 7410 12120 50  0000 L CNN
+F 0 "C644" H 7410 12120 50  0000 L CNN
 F 1 "100 nF" H 7410 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 7400 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 7400 12050 50  0001 C CNN
@@ -3435,10 +3439,10 @@ F 12 "6,3 V" H 7600 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C748
+L Device:C_Small C648
 U 1 1 5B05309E
 P 7700 12050
-F 0 "C748" H 7710 12120 50  0000 L CNN
+F 0 "C648" H 7710 12120 50  0000 L CNN
 F 1 "100 nF" H 7710 11970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 7700 12050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 7700 12050 50  0001 C CNN
@@ -3455,10 +3459,10 @@ F 12 "6,3 V" H 7900 11850 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C703
+L Device:C_Small C603
 U 1 1 5B053409
 P 1900 13250
-F 0 "C703" H 1910 13320 50  0000 L CNN
+F 0 "C603" H 1910 13320 50  0000 L CNN
 F 1 "100 nF" H 1910 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 1900 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 1900 13250 50  0001 C CNN
@@ -3475,10 +3479,10 @@ F 12 "6,3 V" H 2100 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C706
+L Device:C_Small C606
 U 1 1 5B053418
 P 2200 13250
-F 0 "C706" H 2210 13320 50  0000 L CNN
+F 0 "C606" H 2210 13320 50  0000 L CNN
 F 1 "100 nF" H 2210 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 2200 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2200 13250 50  0001 C CNN
@@ -3495,10 +3499,10 @@ F 12 "6,3 V" H 2400 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C709
+L Device:C_Small C609
 U 1 1 5B053427
 P 2500 13250
-F 0 "C709" H 2510 13320 50  0000 L CNN
+F 0 "C609" H 2510 13320 50  0000 L CNN
 F 1 "100 nF" H 2510 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 2500 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2500 13250 50  0001 C CNN
@@ -3515,10 +3519,10 @@ F 12 "6,3 V" H 2700 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C712
+L Device:C_Small C612
 U 1 1 5B053436
 P 2800 13250
-F 0 "C712" H 2810 13320 50  0000 L CNN
+F 0 "C612" H 2810 13320 50  0000 L CNN
 F 1 "100 nF" H 2810 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 2800 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2800 13250 50  0001 C CNN
@@ -3535,10 +3539,10 @@ F 12 "6,3 V" H 3000 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C715
+L Device:C_Small C615
 U 1 1 5B053445
 P 3100 13250
-F 0 "C715" H 3110 13320 50  0000 L CNN
+F 0 "C615" H 3110 13320 50  0000 L CNN
 F 1 "100 nF" H 3110 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 3100 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3100 13250 50  0001 C CNN
@@ -3555,10 +3559,10 @@ F 12 "6,3 V" H 3300 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C718
+L Device:C_Small C618
 U 1 1 5B053454
 P 3400 13250
-F 0 "C718" H 3410 13320 50  0000 L CNN
+F 0 "C618" H 3410 13320 50  0000 L CNN
 F 1 "100 nF" H 3410 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 3400 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3400 13250 50  0001 C CNN
@@ -3575,10 +3579,10 @@ F 12 "6,3 V" H 3600 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C721
+L Device:C_Small C621
 U 1 1 5B053463
 P 3700 13250
-F 0 "C721" H 3710 13320 50  0000 L CNN
+F 0 "C621" H 3710 13320 50  0000 L CNN
 F 1 "100 nF" H 3710 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 3700 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3700 13250 50  0001 C CNN
@@ -3595,10 +3599,10 @@ F 12 "6,3 V" H 3900 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C724
+L Device:C_Small C624
 U 1 1 5B053472
 P 4000 13250
-F 0 "C724" H 4010 13320 50  0000 L CNN
+F 0 "C624" H 4010 13320 50  0000 L CNN
 F 1 "100 nF" H 4010 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 4000 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 4000 13250 50  0001 C CNN
@@ -3615,10 +3619,10 @@ F 12 "6,3 V" H 4200 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C726
+L Device:C_Small C626
 U 1 1 5B053481
 P 4300 13250
-F 0 "C726" H 4310 13320 50  0000 L CNN
+F 0 "C626" H 4310 13320 50  0000 L CNN
 F 1 "100 nF" H 4310 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 4300 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 4300 13250 50  0001 C CNN
@@ -3635,10 +3639,10 @@ F 12 "6,3 V" H 4500 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C729
+L Device:C_Small C629
 U 1 1 5B053A4C
 P 5150 13250
-F 0 "C729" H 5160 13320 50  0000 L CNN
+F 0 "C629" H 5160 13320 50  0000 L CNN
 F 1 "100 nF" H 5160 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 5150 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 5150 13250 50  0001 C CNN
@@ -3655,10 +3659,10 @@ F 12 "6,3 V" H 5350 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C731
+L Device:C_Small C631
 U 1 1 5B053A5B
 P 5450 13250
-F 0 "C731" H 5460 13320 50  0000 L CNN
+F 0 "C631" H 5460 13320 50  0000 L CNN
 F 1 "100 nF" H 5460 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 5450 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 5450 13250 50  0001 C CNN
@@ -3675,10 +3679,10 @@ F 12 "6,3 V" H 5650 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C733
+L Device:C_Small C633
 U 1 1 5B053A6A
 P 5750 13250
-F 0 "C733" H 5760 13320 50  0000 L CNN
+F 0 "C633" H 5760 13320 50  0000 L CNN
 F 1 "100 nF" H 5760 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 5750 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 5750 13250 50  0001 C CNN
@@ -3695,10 +3699,10 @@ F 12 "6,3 V" H 5950 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C735
+L Device:C_Small C635
 U 1 1 5B053A79
 P 6050 13250
-F 0 "C735" H 6060 13320 50  0000 L CNN
+F 0 "C635" H 6060 13320 50  0000 L CNN
 F 1 "100 nF" H 6060 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 6050 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 6050 13250 50  0001 C CNN
@@ -3715,10 +3719,10 @@ F 12 "6,3 V" H 6250 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C737
+L Device:C_Small C637
 U 1 1 5B053A88
 P 6350 13250
-F 0 "C737" H 6360 13320 50  0000 L CNN
+F 0 "C637" H 6360 13320 50  0000 L CNN
 F 1 "100 nF" H 6360 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 6350 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 6350 13250 50  0001 C CNN
@@ -3735,10 +3739,10 @@ F 12 "6,3 V" H 6550 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C739
+L Device:C_Small C639
 U 1 1 5B053A97
 P 6650 13250
-F 0 "C739" H 6660 13320 50  0000 L CNN
+F 0 "C639" H 6660 13320 50  0000 L CNN
 F 1 "100 nF" H 6660 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 6650 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 6650 13250 50  0001 C CNN
@@ -3755,10 +3759,10 @@ F 12 "6,3 V" H 6850 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C741
+L Device:C_Small C641
 U 1 1 5B053AA6
 P 6950 13250
-F 0 "C741" H 6960 13320 50  0000 L CNN
+F 0 "C641" H 6960 13320 50  0000 L CNN
 F 1 "100 nF" H 6960 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 6950 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 6950 13250 50  0001 C CNN
@@ -3775,10 +3779,10 @@ F 12 "6,3 V" H 7150 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C743
+L Device:C_Small C643
 U 1 1 5B053AB5
 P 7250 13250
-F 0 "C743" H 7260 13320 50  0000 L CNN
+F 0 "C643" H 7260 13320 50  0000 L CNN
 F 1 "100 nF" H 7260 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 7250 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 7250 13250 50  0001 C CNN
@@ -3795,10 +3799,10 @@ F 12 "6,3 V" H 7450 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C746
+L Device:C_Small C646
 U 1 1 5B053AC4
 P 7550 13250
-F 0 "C746" H 7560 13320 50  0000 L CNN
+F 0 "C646" H 7560 13320 50  0000 L CNN
 F 1 "100 nF" H 7560 13170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 7550 13250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 7550 13250 50  0001 C CNN
@@ -3815,10 +3819,10 @@ F 12 "6,3 V" H 7750 13050 50  0000 R BNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C749
+L Device:C_Small C649
 U 1 1 5B06A6EE
 P 8050 9850
-F 0 "C749" H 8060 9920 50  0000 L CNN
+F 0 "C649" H 8060 9920 50  0000 L CNN
 F 1 "100 nF" H 8060 9770 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 8050 9850 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 8050 9850 50  0001 C CNN
@@ -4259,10 +4263,10 @@ Wire Wire Line
 Wire Wire Line
 	6350 3200 6450 3200
 $Comp
-L Device:C_Small C623
+L Device:C_Small C652
 U 1 1 5B5B50E2
 P 11300 9250
-F 0 "C623" H 11100 9350 50  0000 L CNN
+F 0 "C652" H 11100 9350 50  0000 L CNN
 F 1 "100uF" H 11050 9200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 11300 9250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J107ME20-01.pdf" H 11300 9250 50  0001 C CNN
@@ -4289,10 +4293,10 @@ Wire Wire Line
 	11300 9450 11300 9350
 Connection ~ 12050 9450
 $Comp
-L Device:C_Small C624
+L Device:C_Small C653
 U 1 1 5B8F1E5B
 P 11650 9250
-F 0 "C624" H 11450 9350 50  0000 L CNN
+F 0 "C653" H 11450 9350 50  0000 L CNN
 F 1 "100uF" H 11400 9200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 11650 9250 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER60J107ME20-01.pdf" H 11650 9250 50  0001 C CNN

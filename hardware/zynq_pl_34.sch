@@ -15,13 +15,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xilinx_zynq_clg485:xc7z030sbg485 U201
+L xilinx_zynq_clg485:xc7z030sbg485 U1
 U 3 1 596E796D
 P 5250 800
-F 0 "U201" H 5450 1050 60  0000 L CNN
+F 0 "U1" H 5450 1050 60  0000 L CNN
 F 1 "xc7z030sbg485" H 5450 950 60  0000 L CNN
 F 2 "footprints:SBG485_22x22_19.0x19.0mm_Pitch0.8mm" H 5250 800 60  0001 C CNN
 F 3 "" H 5250 800 60  0001 C CNN
+F 4 "1" H 5250 800 50  0001 C CNN "Populated"
+F 5 "SPEC" H 5250 800 50  0001 C CNN "Source"
+F 6 "1" H 5250 800 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 5250 800 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	3    5250 800 
 	1    0    0    -1  
 $EndComp
@@ -45,7 +49,7 @@ Text HLabel 4800 4400 0    60   Output ~ 0
 LS_OK_IN_A
 Text HLabel 4800 3400 0    60   Input ~ 0
 LS_OK_OUT_A
-Text HLabel 4800 3600 0    60   Output ~ 0
+Text HLabel 4800 5400 0    60   Output ~ 0
 PRBSEN
 Text HLabel 4800 4000 0    60   Output ~ 0
 MDC
@@ -65,8 +69,6 @@ Wire Wire Line
 	4800 3800 5250 3800
 Wire Wire Line
 	5250 3900 4800 3900
-Wire Wire Line
-	5250 4100 4800 4100
 Wire Wire Line
 	4800 4000 5250 4000
 Wire Wire Line
@@ -156,4 +158,15 @@ Text GLabel 4800 3100 0    50   BiDi ~ 0
 CAM_SDA_18
 Text GLabel 4800 2700 0    50   BiDi ~ 0
 CAM_SCL_18
+Text GLabel 4800 3700 0    50   BiDi ~ 0
+GPIO_18
+Text GLabel 4800 2300 0    50   BiDi ~ 0
+GPIO_15
+Text GLabel 4800 3600 0    50   BiDi ~ 0
+GPIO_13
+Text GLabel 4800 3300 0    50   BiDi ~ 0
+GPIO_19
+Text GLabel 4800 2200 0    50   BiDi ~ 0
+GPIO_17
+NoConn ~ 5250 4100
 $EndSCHEMATC

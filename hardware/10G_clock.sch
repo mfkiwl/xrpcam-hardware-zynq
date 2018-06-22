@@ -25,10 +25,10 @@ Text Notes 1850 1850 0    60   ~ 0
 Text Notes 8400 4150 0    60   ~ 0
 Note: clocks are AC-coupled at receiving device.
 $Comp
-L power:GND #PWR084
+L power:GND #PWR01702
 U 1 1 598A8A47
 P 1250 3800
-F 0 "#PWR084" H 1250 3550 50  0001 C CNN
+F 0 "#PWR01702" H 1250 3550 50  0001 C CNN
 F 1 "GND" H 1250 3650 50  0000 C CNN
 F 2 "" H 1250 3800 50  0000 C CNN
 F 3 "" H 1250 3800 50  0000 C CNN
@@ -42,10 +42,10 @@ Wire Wire Line
 NoConn ~ 6750 2700
 NoConn ~ 6750 2800
 $Comp
-L Device:R R804
+L Device:R R1701
 U 1 1 598F277A
 P 4350 2350
-F 0 "R804" V 4430 2350 50  0000 C CNN
+F 0 "R1701" V 4430 2350 50  0000 C CNN
 F 1 "100" V 4350 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4280 2350 50  0001 C CNN
 F 3 "" H 4350 2350 50  0000 C CNN
@@ -59,10 +59,10 @@ Wire Wire Line
 Connection ~ 4350 2200
 Connection ~ 4350 2500
 $Comp
-L power:GND #PWR085
+L power:GND #PWR01705
 U 1 1 598F2A12
 P 2900 1950
-F 0 "#PWR085" H 2900 1700 50  0001 C CNN
+F 0 "#PWR01705" H 2900 1700 50  0001 C CNN
 F 1 "GND" H 2900 1800 50  0000 C CNN
 F 2 "" H 2900 1950 50  0000 C CNN
 F 3 "" H 2900 1950 50  0000 C CNN
@@ -70,10 +70,10 @@ F 3 "" H 2900 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR086
+L power:+3V3 #PWR01703
 U 1 1 598F2A6C
 P 2750 1550
-F 0 "#PWR086" H 2750 1400 50  0001 C CNN
+F 0 "#PWR01703" H 2750 1400 50  0001 C CNN
 F 1 "+3V3" H 2750 1690 50  0000 C CNN
 F 2 "" H 2750 1550 50  0000 C CNN
 F 3 "" H 2750 1550 50  0000 C CNN
@@ -86,10 +86,10 @@ Wire Wire Line
 	2750 1650 2900 1650
 Connection ~ 2750 1650
 $Comp
-L power:GND #PWR087
+L power:GND #PWR01709
 U 1 1 598F3107
 P 6150 1750
-F 0 "#PWR087" H 6150 1500 50  0001 C CNN
+F 0 "#PWR01709" H 6150 1500 50  0001 C CNN
 F 1 "GND" H 6150 1600 50  0000 C CNN
 F 2 "" H 6150 1750 50  0000 C CNN
 F 3 "" H 6150 1750 50  0000 C CNN
@@ -97,10 +97,10 @@ F 3 "" H 6150 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR088
+L power:+3V3 #PWR01707
 U 1 1 598F312D
 P 5950 1350
-F 0 "#PWR088" H 5950 1200 50  0001 C CNN
+F 0 "#PWR01707" H 5950 1200 50  0001 C CNN
 F 1 "+3V3" H 5950 1490 50  0000 C CNN
 F 2 "" H 5950 1350 50  0000 C CNN
 F 3 "" H 5950 1350 50  0000 C CNN
@@ -113,10 +113,10 @@ Wire Wire Line
 	5950 1450 6150 1450
 Connection ~ 5950 1450
 $Comp
-L power:GND #PWR089
+L power:GND #PWR01706
 U 1 1 598F3974
 P 2900 3200
-F 0 "#PWR089" H 2900 2950 50  0001 C CNN
+F 0 "#PWR01706" H 2900 2950 50  0001 C CNN
 F 1 "GND" H 2900 3050 50  0000 C CNN
 F 2 "" H 2900 3200 50  0000 C CNN
 F 3 "" H 2900 3200 50  0000 C CNN
@@ -124,10 +124,10 @@ F 3 "" H 2900 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR090
+L power:+3V3 #PWR01704
 U 1 1 598F397A
 P 2750 2800
-F 0 "#PWR090" H 2750 2650 50  0001 C CNN
+F 0 "#PWR01704" H 2750 2650 50  0001 C CNN
 F 1 "+3V3" H 2750 2940 50  0000 C CNN
 F 2 "" H 2750 2800 50  0000 C CNN
 F 3 "" H 2750 2800 50  0000 C CNN
@@ -140,10 +140,10 @@ Wire Wire Line
 	2750 3300 2750 2900
 Connection ~ 2750 2900
 $Comp
-L power:GND #PWR091
+L power:GND #PWR01701
 U 1 1 598F433B
 P 1250 2550
-F 0 "#PWR091" H 1250 2300 50  0001 C CNN
+F 0 "#PWR01701" H 1250 2300 50  0001 C CNN
 F 1 "GND" H 1250 2400 50  0000 C CNN
 F 2 "" H 1250 2550 50  0000 C CNN
 F 3 "" H 1250 2550 50  0000 C CNN
@@ -159,10 +159,10 @@ Output requirements:\n\nAEL2005:\nDifferential peak-to-peak input swing: 400 mV 
 Text Notes 8400 3850 0    60   ~ 0
 Output specs:\n\nDSC1123:\nPeak-to-peak output swing (single-ended): 350 mV (typ.)\nOutput rise/fall time: 200 ps typ.\nDuty cycle (differential): 48% (min.), 52% (max.)\nOutput termination: 100Ω\n\nSI53340:\nPeak-to-peak output voltage (single-ended): 200 mV (min.), 490 mV (max.)\nOutput rise/fall time: 350 ps (max.)\nDuty cycle (50% input duty cycle): 47% (min.), 53% (max.)\nOutput termination: 100Ω
 $Comp
-L power:GND #PWR092
+L power:GND #PWR01708
 U 1 1 598F54B6
 P 6050 3500
-F 0 "#PWR092" H 6050 3250 50  0001 C CNN
+F 0 "#PWR01708" H 6050 3250 50  0001 C CNN
 F 1 "GND" H 6050 3350 50  0000 C CNN
 F 2 "" H 6050 3500 50  0000 C CNN
 F 3 "" H 6050 3500 50  0000 C CNN
@@ -205,10 +205,10 @@ Wire Wire Line
 Wire Wire Line
 	6150 1700 6150 1750
 $Comp
-L Device:C_Small C752
+L Device:C_Small C1702
 U 1 1 5BB23B70
 P 2900 3050
-F 0 "C752" H 2950 2950 50  0000 L CNN
+F 0 "C1702" H 2950 2950 50  0000 L CNN
 F 1 "100 nF" H 2950 3150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 2900 3050 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2900 3050 50  0001 C CNN
@@ -221,10 +221,10 @@ F 8 "SPEC" H 2900 3050 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C753
+L Device:C_Small C1701
 U 1 1 5BB241FD
 P 2900 1800
-F 0 "C753" H 2950 1700 50  0000 L CNN
+F 0 "C1701" H 2950 1700 50  0000 L CNN
 F 1 "100 nF" H 2950 1900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 2900 1800 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 2900 1800 50  0001 C CNN
@@ -237,10 +237,10 @@ F 8 "SPEC" H 2900 1800 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C763
+L Device:C_Small C1703
 U 1 1 5BB258C7
 P 3800 2200
-F 0 "C763" V 3900 2150 50  0000 L CNN
+F 0 "C1703" V 3900 2150 50  0000 L CNN
 F 1 "100 nF" V 3700 2050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 3800 2200 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3800 2200 50  0001 C CNN
@@ -253,10 +253,10 @@ F 8 "SPEC" H 3800 2200 60  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C764
+L Device:C_Small C1704
 U 1 1 5BB25943
 P 3800 2500
-F 0 "C764" V 3900 2450 50  0000 L CNN
+F 0 "C1704" V 3900 2450 50  0000 L CNN
 F 1 "100 nF" V 3700 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 3800 2500 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3800 2500 50  0001 C CNN
@@ -269,10 +269,10 @@ F 8 "SPEC" H 3800 2500 60  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C765
+L Device:C_Small C1707
 U 1 1 5BB25983
 P 6150 1600
-F 0 "C765" H 6200 1500 50  0000 L CNN
+F 0 "C1707" H 6200 1500 50  0000 L CNN
 F 1 "100 nF" H 6200 1700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 6150 1600 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 6150 1600 50  0001 C CNN
@@ -307,10 +307,10 @@ Wire Wire Line
 Text Notes 3450 2000 0    50   ~ 0
 Note: Clock phase changed\nto ease routing :)
 $Comp
-L si53340:SI53340 U803
+L si53340:SI53340 U1703
 U 1 1 598F204D
 P 5950 2600
-F 0 "U803" H 5950 2550 60  0000 C CNN
+F 0 "U1703" H 5950 2550 60  0000 C CNN
 F 1 "SI53340" H 5950 2650 60  0000 C CNN
 F 2 "Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm_ThermalVias" H 5950 2600 60  0001 C CNN
 F 3 "http://www.silabs.com/documents/public/data-sheets/si5334x-datasheet.pdf" H 5950 2600 60  0001 C CNN
@@ -327,10 +327,10 @@ $EndComp
 NoConn ~ 6750 2100
 NoConn ~ 6750 2200
 $Comp
-L diff_osc:DIFF_OSC U801
+L diff_osc:DIFF_OSC U1702
 U 1 1 598A6684
 P 2050 3500
-F 0 "U801" H 2050 3400 60  0000 C CNN
+F 0 "U1702" H 2050 3400 60  0000 C CNN
 F 1 "DIFF_OSC" H 2050 3600 60  0000 C CNN
 F 2 "footprints:Microchip_VDFN_3.2x2.5mm" H 2050 3500 60  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005745A.pdf" H 2050 3500 60  0001 C CNN
@@ -345,10 +345,10 @@ F 10 "1" H 2050 3500 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L diff_osc:DIFF_OSC U802
+L diff_osc:DIFF_OSC U1701
 U 1 1 598A6719
 P 2050 2250
-F 0 "U802" H 2050 2150 60  0000 C CNN
+F 0 "U1701" H 2050 2150 60  0000 C CNN
 F 1 "DIFF_OSC" H 2050 2350 60  0000 C CNN
 F 2 "footprints:Microchip_VDFN_3.2x2.5mm" H 2050 2250 60  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005745A.pdf" H 2050 2250 60  0001 C CNN
@@ -367,10 +367,10 @@ OSC_125_EN_33
 Text GLabel 1350 2050 0    50   Input ~ 0
 OSC_156.25_EN_33
 $Comp
-L Device:R R2101
+L Device:R R1702
 U 1 1 5BFD58CF
 P 4350 3600
-F 0 "R2101" V 4430 3600 50  0000 C CNN
+F 0 "R1702" V 4430 3600 50  0000 C CNN
 F 1 "100" V 4350 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4280 3600 50  0001 C CNN
 F 3 "" H 4350 3600 50  0000 C CNN
@@ -384,10 +384,10 @@ Wire Wire Line
 Connection ~ 4350 3450
 Connection ~ 4350 3750
 $Comp
-L Device:C_Small C2101
+L Device:C_Small C1705
 U 1 1 5BFD58E0
 P 3800 3450
-F 0 "C2101" V 3900 3400 50  0000 L CNN
+F 0 "C1705" V 3900 3400 50  0000 L CNN
 F 1 "100 nF" V 3700 3300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 3800 3450 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3800 3450 50  0001 C CNN
@@ -400,10 +400,10 @@ F 8 "SPEC" H 3800 3450 60  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C2102
+L Device:C_Small C1706
 U 1 1 5BFD58EB
 P 3800 3750
-F 0 "C2102" V 3900 3700 50  0000 L CNN
+F 0 "C1706" V 3900 3700 50  0000 L CNN
 F 1 "100 nF" V 3700 3600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 3800 3750 50  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R60J104KE19-01.pdf" H 3800 3750 50  0001 C CNN
