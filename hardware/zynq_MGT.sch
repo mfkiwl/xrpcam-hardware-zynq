@@ -222,4 +222,6 @@ Text GLabel 3300 2450 0    50   Input ~ 0
 MGT_REFCLK_FPGA_N
 Text GLabel 3300 2550 0    50   Input ~ 0
 MGT_REFCLK_FPGA_P
+NoConn ~ 5350 2250
+NoConn ~ 5350 2350
 $EndSCHEMATC

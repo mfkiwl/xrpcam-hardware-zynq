@@ -473,7 +473,6 @@ Wire Wire Line
 	6350 3250 7850 3250
 Wire Wire Line
 	7750 3350 7750 3450
-Connection ~ 7750 3350
 Wire Wire Line
 	7350 3350 7350 3150
 Connection ~ 7350 3150
@@ -1066,8 +1065,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 4900 1550 5250
 Wire Wire Line
-	7750 3350 7850 3350
-Wire Wire Line
 	7350 3150 6350 3150
 Wire Wire Line
 	6450 3550 6350 3550
@@ -1112,7 +1109,6 @@ F 7 "1" H 7850 2850 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    7850 2850
 	0    1    1    0   
 $EndComp
-NoConn ~ 7850 3350
 $Comp
 L Connector:Test_Point J1104
 U 1 1 5B376607

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 21
+Sheet 18 21
 Title ""
 Date ""
 Rev ""
@@ -64,7 +64,7 @@ U 1 1 5ACC34F1
 P 8350 3400
 F 0 "J1901" H 8350 850 60  0000 C CNN
 F 1 "LSHM-150-xxx-x-DV-A-S" V 8350 3400 60  0000 C CNN
-F 2 "Connectors_Samtec:LSHM-150-xxx-x-DV-A-S" H 8350 4550 60  0001 C CNN
+F 2 "Connector_Samtec:Samtec_LSHM-150-xx.x-x-DV-S_2x50-1SH_P0.50mm_Vertical" H 8350 4550 60  0001 C CNN
 F 3 "http://suddendocs.samtec.com/catalog_english/lshm_dv.pdf" H 8350 4550 60  0001 C CNN
 F 4 "Samtech" H 8350 3400 60  0001 C CNN "MFG Name"
 F 5 "LSHM-150-04.0-L-DV-A-S-K-TR" H 8350 3400 60  0001 C CNN "MFG Part Num"
@@ -170,13 +170,13 @@ Text Notes 10850 1950 2    60   ~ 0
 1.8 V only
 Text HLabel 7300 2250 0    60   Input ~ 0
 CAM_CLK_REF_1
-Text HLabel 13250 3700 2    60   Input ~ 0
+Text HLabel 9700 2850 2    60   Input ~ 0
 LVDS_CLK0_N
-Text HLabel 13250 3600 2    60   Input ~ 0
+Text HLabel 9700 2750 2    60   Input ~ 0
 LVDS_CLK0_P
-Text HLabel 5100 3750 0    60   Input ~ 0
+Text HLabel 7050 2650 0    60   Input ~ 0
 LVDS_CLK1_N
-Text HLabel 5100 3850 0    60   Input ~ 0
+Text HLabel 7050 2750 0    60   Input ~ 0
 LVDS_CLK1_P
 Wire Wire Line
 	8650 5850 9400 5850
@@ -519,4 +519,12 @@ Text GLabel 9400 2350 2    50   Output ~ 0
 IMU_INT2_GPIO2
 Text Notes 10400 2050 0    50   ~ 0
 BANK34
+NoConn ~ 7300 2650
+NoConn ~ 7300 2750
+NoConn ~ 9400 2750
+NoConn ~ 9400 2850
+NoConn ~ 7050 2650
+NoConn ~ 7050 2750
+NoConn ~ 9700 2750
+NoConn ~ 9700 2850
 $EndSCHEMATC

@@ -312,7 +312,7 @@ U 1 1 598F204D
 P 5950 2600
 F 0 "U1703" H 5950 2550 60  0000 C CNN
 F 1 "SI53340" H 5950 2650 60  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm_ThermalVias" H 5950 2600 60  0001 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 5950 2600 60  0001 C CNN
 F 3 "http://www.silabs.com/documents/public/data-sheets/si5334x-datasheet.pdf" H 5950 2600 60  0001 C CNN
 F 4 "Silicon Labs" H 5950 2600 60  0001 C CNN "MFG Name"
 F 5 "SI53340-B-GM " H 5950 2600 60  0001 C CNN "MFG Part Num"
