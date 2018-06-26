@@ -5146,4 +5146,8 @@ VCCO_MIO0
 Wire Wire Line
 	9100 2400 10000 2400
 NoConn ~ 9500 2000
+Text Label 5200 2700 0    50   ~ 0
+AGND_5V
+Text Label 5250 5100 0    50   ~ 0
+AGND_1V
 $EndSCHEMATC

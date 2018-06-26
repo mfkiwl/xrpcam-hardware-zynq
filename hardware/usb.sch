@@ -793,4 +793,8 @@ F 11 "1" H 9800 4050 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 $EndComp
 Text GLabel 9300 3950 0    50   Input ~ 0
 USB_OSC_EN_18
+Text Label 3250 4000 0    50   ~ 0
+USB_OTG_ID
+Text Label 3250 3600 0    50   ~ 0
+USB_OTG_VBUS
 $EndSCHEMATC
