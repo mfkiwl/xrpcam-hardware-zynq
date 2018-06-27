@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 21
+Sheet 20 21
 Title ""
 Date ""
 Rev ""
@@ -27,21 +27,6 @@ F 5 "SPEC" H 10000 1400 50  0001 C CNN "Source"
 F 6 "1" H 10000 1400 50  0001 C CNN "Populate for SBGA485(Z-7030)"
 F 7 "1" H 10000 1400 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	6    10000 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L xilinx_zynq_clg485:xc7z030sbg485 U1
-U 7 1 596E7E6B
-P 5500 1450
-F 0 "U1" H 5700 1700 60  0000 L CNN
-F 1 "xc7z030sbg485" H 5700 1600 60  0000 L CNN
-F 2 "footprints:SBG485_22x22_19.0x19.0mm_Pitch0.8mm" H 5500 1450 60  0001 C CNN
-F 3 "" H 5500 1450 60  0001 C CNN
-F 4 "1" H 5500 1450 50  0001 C CNN "Populated"
-F 5 "SPEC" H 5500 1450 50  0001 C CNN "Source"
-F 6 "1" H 5500 1450 50  0001 C CNN "Populate for SBGA485(Z-7030)"
-F 7 "1" H 5500 1450 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
-	7    5500 1450
 	1    0    0    -1  
 $EndComp
 Text HLabel 5500 3050 0    60   BiDi ~ 0
@@ -648,12 +633,8 @@ F 11 "1" H 8150 5850 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    8150 5850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9900 3100 10000 3100
 Text Label 4950 5350 0    60   ~ 0
 PS_RESET
-Text HLabel 9900 3100 0    60   Input ~ 0
-PS_POR_B
 Text GLabel 7550 1050 1    60   Input ~ 0
 VCCO_MIO0
 Text GLabel 5150 5450 0    60   Input ~ 0
@@ -822,7 +803,7 @@ Wire Wire Line
 Connection ~ 7950 1150
 Text GLabel 5500 1850 0    50   Output ~ 0
 ~USB_RESET_33~
-Text GLabel 10000 2600 0    50   Output ~ 0
+Text GLabel 9700 2500 0    50   Output ~ 0
 ~TLK_RESET_18~
 Text GLabel 5500 4850 0    50   Output ~ 0
 OSC_125_EN_33
@@ -877,7 +858,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 2300 8350 2450
 NoConn ~ 9150 5600
-Text GLabel 10000 2900 0    50   Output ~ 0
+Text GLabel 9700 2900 0    50   Output ~ 0
 USB_OSC_EN_18
 NoConn ~ 5500 1450
 Text GLabel 5500 4650 0    50   Output ~ 0
@@ -941,7 +922,7 @@ F 3 "" H 2700 2150 50  0001 C CNN
 	1    2700 2150
 	1    0    0    -1  
 $EndComp
-Text GLabel 10000 1600 0    50   BiDi ~ 0
+Text GLabel 9650 1500 0    50   BiDi ~ 0
 GPIO_0
 Text GLabel 5500 2550 0    50   BiDi ~ 0
 GPIO_2
@@ -954,6 +935,40 @@ GPIO_1
 Text GLabel 5500 4550 0    50   BiDi ~ 0
 GPIO_4
 NoConn ~ 5500 2150
-NoConn ~ 5500 2250
 NoConn ~ 10000 3000
+Text GLabel 9700 3100 0    50   Input ~ 0
+SYS_PG
+Wire Wire Line
+	9700 3100 10000 3100
+Wire Wire Line
+	9700 2900 10000 2900
+Wire Wire Line
+	9700 2500 9850 2500
+Wire Wire Line
+	9850 2500 9850 2600
+Wire Wire Line
+	9850 2600 10000 2600
+Wire Wire Line
+	9650 1500 9850 1500
+Wire Wire Line
+	9850 1500 9850 1600
+Wire Wire Line
+	9850 1600 10000 1600
+Text GLabel 5500 2250 0    50   Input ~ 0
+VBUS_FAULT
+$Comp
+L xilinx_zynq_clg485:xc7z030sbg485 U1
+U 7 1 596E7E6B
+P 5500 1450
+F 0 "U1" H 5700 1700 60  0000 L CNN
+F 1 "xc7z030sbg485" H 5700 1600 60  0000 L CNN
+F 2 "footprints:SBG485_22x22_19.0x19.0mm_Pitch0.8mm" H 5500 1450 60  0001 C CNN
+F 3 "" H 5500 1450 60  0001 C CNN
+F 4 "1" H 5500 1450 50  0001 C CNN "Populated"
+F 5 "SPEC" H 5500 1450 50  0001 C CNN "Source"
+F 6 "1" H 5500 1450 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 7 "1" H 5500 1450 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
+	7    5500 1450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

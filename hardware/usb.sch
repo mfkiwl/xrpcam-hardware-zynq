@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 21
+Sheet 21 21
 Title ""
 Date ""
 Rev ""
@@ -20,13 +20,15 @@ U 1 1 59915033
 P 7100 3800
 F 0 "U703" H 7100 3750 60  0000 C CNN
 F 1 "USB3320" H 7100 3850 60  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" H 7100 3800 60  0001 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 7100 3800 60  0001 C CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562261" H 7100 3800 60  0001 C CNN
 F 4 "Microchip Technology" H 7100 3800 60  0001 C CNN "MFG Name"
 F 5 "USB3320C-EZK" H 7100 3800 60  0001 C CNN "MFG Part Num"
 F 6 "USB3320C-EZK-ND" H 7100 3800 60  0001 C CNN "Digikey"
 F 7 "1" H 7100 3800 60  0001 C CNN "Populated"
 F 8 "SPEC" H 7100 3800 60  0001 C CNN "Source"
+F 9 "1" H 7100 3800 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 10 "1" H 7100 3800 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    7100 3800
 	1    0    0    -1  
 $EndComp
@@ -392,24 +394,11 @@ F 3 "" H 5150 3100 50  0000 C CNN
 	1    5150 3100
 	1    0    0    -1  
 $EndComp
-Text HLabel 5250 3300 2    60   Output ~ 0
-VBUS_FAULT
 Wire Wire Line
 	4500 3300 5150 3300
 Wire Wire Line
 	5150 3300 5150 3250
 Connection ~ 5150 3300
-$Comp
-L power:+1V8 #PWR0709
-U 1 1 5A9861C7
-P 5150 2950
-F 0 "#PWR0709" H 5150 2800 50  0001 C CNN
-F 1 "+1V8" H 5150 3090 50  0000 C CNN
-F 2 "" H 5150 2950 50  0000 C CNN
-F 3 "" H 5150 2950 50  0000 C CNN
-	1    5150 2950
-	1    0    0    -1  
-$EndComp
 NoConn ~ 8100 4400
 Wire Wire Line
 	8100 4500 10400 4500
@@ -797,4 +786,19 @@ Text Label 3250 4000 0    50   ~ 0
 USB_OTG_ID
 Text Label 3250 3600 0    50   ~ 0
 USB_OTG_VBUS
+Text GLabel 5250 3300 2    50   Output ~ 0
+VBUS_FAULT
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 5B7C1810
+P 5150 2900
+F 0 "#PWR0101" H 5150 2750 50  0001 C CNN
+F 1 "+3V3" H 5150 3040 50  0000 C CNN
+F 2 "" H 5150 2900 50  0000 C CNN
+F 3 "" H 5150 2900 50  0000 C CNN
+	1    5150 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2900 5150 2950
 $EndSCHEMATC

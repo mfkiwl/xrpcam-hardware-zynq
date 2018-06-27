@@ -20,7 +20,7 @@ U 1 1 597DF825
 P 5550 5200
 F 0 "U601" H 5550 5000 60  0000 C CNN
 F 1 "MT41K128M8" H 5550 5400 60  0000 C CNN
-F 2 "Housings_BGA:BGA-96_2x3x16_9.0x13.0mm_Pitch0.8mm" H 5550 5200 60  0001 C CNN
+F 2 "Package_BGA:BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm" H 5550 5200 60  0001 C CNN
 F 3 "https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf" H 5550 5200 60  0001 C CNN
 F 4 "Micron" H 5550 5200 60  0001 C CNN "MFG Name"
 F 5 "MT41K128M8" H 5550 5200 60  0001 C CNN "MFG Part Num"
@@ -170,7 +170,7 @@ U 1 1 59850C08
 P 10700 5200
 F 0 "U603" H 10700 5000 60  0000 C CNN
 F 1 "MT41K128M8" H 10700 5400 60  0000 C CNN
-F 2 "Housings_BGA:BGA-96_2x3x16_9.0x13.0mm_Pitch0.8mm" H 10700 5200 60  0001 C CNN
+F 2 "Package_BGA:BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm" H 10700 5200 60  0001 C CNN
 F 3 "https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf" H 10700 5200 60  0001 C CNN
 F 4 "Micron" H 10700 5200 60  0001 C CNN "MFG Name"
 F 5 "MT41K128M8" H 10700 5200 60  0001 C CNN "MFG Part Num"

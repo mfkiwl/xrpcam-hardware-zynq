@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 21
+Sheet 17 21
 Title ""
 Date ""
 Rev ""
@@ -43,17 +43,17 @@ Text HLabel 5050 5600 0    60   Output ~ 0
 T_EXP1_1_18
 Text HLabel 5050 4300 0    60   Output ~ 0
 CAM_SPI_CLK_18
-Text HLabel 5050 5100 0    60   Output ~ 0
+Text HLabel 5050 4400 0    60   Output ~ 0
 CAM_SPI_MOSI_18
 Text HLabel 5050 5200 0    60   Input ~ 0
 CAM_SPI_MISO_18
-Text HLabel 5050 4500 0    60   Output ~ 0
+Text HLabel 5050 4000 0    60   Output ~ 0
 CAM_SPI_EN_1_18
-Text HLabel 5050 4400 0    60   Output ~ 0
+Text HLabel 5050 4500 0    60   Output ~ 0
 CAM_SPI_EN_0_18
 Text HLabel 5050 4100 0    60   Output ~ 0
 CAM_CLK0_REF_18
-Text HLabel 5050 4000 0    60   Output ~ 0
+Text HLabel 5050 3000 0    60   Output ~ 0
 CAM_RESET_18
 Text Notes 2000 4100 0    60   ~ 0
 CAM_CLK_REF is not really lowspeed(>40 MHz),\nroute this first and make it short as possible
@@ -139,12 +139,6 @@ Wire Wire Line
 	5050 5500 5400 5500
 Wire Wire Line
 	5400 5700 5050 5700
-Text HLabel 5050 5000 0    60   Output ~ 0
-LED1
-Text HLabel 5050 4600 0    60   Output ~ 0
-LED2
-Text HLabel 3700 2400 0    60   Input ~ 0
-BUTTON0
 Wire Wire Line
 	5050 1800 5400 1800
 Text HLabel 5050 3900 0    60   Output ~ 0
@@ -198,9 +192,18 @@ Wire Wire Line
 	5050 1600 5400 1600
 NoConn ~ 5400 1400
 NoConn ~ 5400 1500
-NoConn ~ 5400 2100
-NoConn ~ 5400 3000
-NoConn ~ 5400 3300
 NoConn ~ 5400 3600
 NoConn ~ 5400 4200
+Text GLabel 5050 5000 0    50   Input ~ 0
+LED2
+Text GLabel 5050 4600 0    50   Input ~ 0
+LED3
+Text GLabel 5050 5100 0    50   Input ~ 0
+LED1
+Wire Wire Line
+	5400 3000 5050 3000
+Text GLabel 5050 2100 0    50   Input ~ 0
+BUTTON0
+Wire Wire Line
+	5050 2100 5400 2100
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 21
+Sheet 13 21
 Title ""
 Date ""
 Rev ""
@@ -20,7 +20,7 @@ U 1 1 5AD9638F
 P 5600 2950
 F 0 "U1502" H 5900 2450 60  0000 C CNN
 F 1 "FT234XD" V 5600 3000 60  0000 C CNN
-F 2 "Housings_DFN_QFN:DFN-12-1EP_3x3mm_Pitch0.45mm" H 5650 3250 60  0001 C CNN
+F 2 "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.45mm_EP1.66x2.38mm" H 5650 3250 60  0001 C CNN
 F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf" H 5650 3250 60  0001 C CNN
 F 4 "FTDI, Future Technology Devices International Ltd" H 5600 2950 60  0001 C CNN "MFG Name"
 F 5 "FT234XD-R" H 5600 2950 60  0001 C CNN "MFG Part Num"
@@ -186,7 +186,7 @@ U 1 1 5AD9ECD6
 P 3250 2500
 F 0 "L1501" H 3280 2540 50  0000 L CNN
 F 1 "600R@100MHz" H 3280 2460 50  0000 L CNN
-F 2 "Inductors_SMD:L_0603" H 3250 2500 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 3250 2500 50  0001 C CNN
 F 3 "http://katalog.we-online.de/pbs/datasheet/742792651.pdf" H 3250 2500 50  0001 C CNN
 F 4 "Wurth Electronics Inc." H 3250 2500 60  0001 C CNN "MFG Name"
 F 5 "742792651" H 3250 2500 60  0001 C CNN "MFG Part Num"

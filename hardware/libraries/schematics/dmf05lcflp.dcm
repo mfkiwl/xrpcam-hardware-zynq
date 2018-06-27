@@ -1,7 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP MAX14854
-D 25 Mbps Full-Duplex RS-485/RS-422 Transceiver with 35 kV EDS Protection
-$ENDCMP
-#
 #End Doc Library

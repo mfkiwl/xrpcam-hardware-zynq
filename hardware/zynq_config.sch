@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 21
+Sheet 8 21
 Title ""
 Date ""
 Rev ""
@@ -103,7 +103,6 @@ Wire Wire Line
 	3850 2950 4250 2950
 Wire Wire Line
 	4450 2950 4550 2950
-NoConn ~ 4550 2550
 $Comp
 L power:GND #PWR0907
 U 1 1 5ADFC840
@@ -303,4 +302,8 @@ Wire Wire Line
 Wire Wire Line
 	1650 1750 1650 1600
 Connection ~ 1650 1600
+Text GLabel 4200 2550 0    50   Output ~ 0
+FPGA_DONE
+Wire Wire Line
+	4200 2550 4550 2550
 $EndSCHEMATC
