@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SFP_plus:SFPP_CONN U401
+L SFP_plus:SFPP_CONN J401
 U 1 1 5973C22F
 P 5400 3900
-F 0 "U401" H 5400 3850 60  0000 C CNN
+F 0 "J401" H 5400 3850 60  0000 C CNN
 F 1 "SFPP_CONN" H 5400 3950 60  0000 C CNN
 F 2 "footprints:SFP+_Connector_with_Cage" H 5400 3900 60  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/Ux76-A20-x00xx.pdf" H 5400 3900 60  0001 C CNN
@@ -28,6 +28,8 @@ F 6 "UE76-A20-3000TCT-ND, U77-A1613-1001-ND" H 5400 3900 60  0001 C CNN "Digikey
 F 7 "1" H 5400 3900 60  0001 C CNN "Populated"
 F 8 "Don't forget Cage!" H 5400 3900 60  0001 C CNN "Description"
 F 9 "SPEC" H 5400 3900 60  0001 C CNN "Source"
+F 10 "1" H 5400 3900 50  0001 C CNN "Populate for SBGA485(Z-7030)"
+F 11 "1" H 5400 3900 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    5400 3900
 	1    0    0    -1  
 $EndComp

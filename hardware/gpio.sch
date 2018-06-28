@@ -491,4 +491,6 @@ F 3 "" H 10300 3500 50  0001 C CNN
 	1    10300 3500
 	1    0    0    -1  
 $EndComp
+Text Notes 3050 2850 0    100  ~ 20
+GPIOs
 $EndSCHEMATC
