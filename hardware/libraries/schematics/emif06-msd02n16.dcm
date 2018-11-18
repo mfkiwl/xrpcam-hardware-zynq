@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EMIF06-MSD02N16
+D 6-line IPADTM, EMI filter and ESD protection
+K SD-Card, ESD, EMI
+$ENDCMP
+#
+#End Doc Library

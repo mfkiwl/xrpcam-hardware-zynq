@@ -43,12 +43,21 @@ LIBS:misc
 LIBS:tlk10031
 LIBS:lshm-150-xxx-x-dv-a-s
 LIBS:sn74axc8t245
+LIBS:sn74lvc2t45
+LIBS:dmf05lcflp
+LIBS:bss138ps
+LIBS:max14854
+LIBS:switches
+LIBS:ft234xd
+LIBS:sn74lv1t126
+LIBS:emif06-msd02n16
+LIBS:cat24c02tdi-gt3
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 19
+Sheet 9 21
 Title ""
 Date ""
 Rev ""
@@ -80,8 +89,13 @@ U 1 1 598A6684
 P 2500 2000
 F 0 "U?" H 2500 1900 60  0000 C CNN
 F 1 "DIFF_OSC" H 2500 2100 60  0000 C CNN
-F 2 "" H 2500 2000 60  0001 C CNN
-F 3 "" H 2500 2000 60  0001 C CNN
+F 2 "footprints:VDFN_3.2x2.5mm" H 2500 2000 60  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005745A.pdf" H 2500 2000 60  0001 C CNN
+F 4 "Microchip Technology" H 2500 2000 60  0001 C CNN "MFG Name"
+F 5 "DSC1123CI5-125.0000" H 2500 2000 60  0001 C CNN "MFG Part Num"
+F 6 "576-4652-ND" H 2500 2000 60  0001 C CNN "Digikey"
+F 7 "1" H 2500 2000 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2500 2000 60  0001 C CNN "Source"
 	1    2500 2000
 	1    0    0    -1  
 $EndComp
@@ -91,8 +105,13 @@ U 1 1 598A6719
 P 2500 3700
 F 0 "U?" H 2500 3600 60  0000 C CNN
 F 1 "DIFF_OSC" H 2500 3800 60  0000 C CNN
-F 2 "" H 2500 3700 60  0001 C CNN
-F 3 "" H 2500 3700 60  0001 C CNN
+F 2 "footprints:VDFN_3.2x2.5mm" H 2500 3700 60  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005745A.pdf" H 2500 3700 60  0001 C CNN
+F 4 "Microchip Technology" H 2500 3700 60  0001 C CNN "MFG Name"
+F 5 "DSC1123CI5-156.2500" H 2500 3700 60  0001 C CNN "MFG Part Num"
+F 6 "DSC1123CI5-156.2500-ND" H 2500 3700 60  0001 C CNN "Digikey"
+F 7 "1" H 2500 3700 60  0001 C CNN "Populated"
+F 8 "SPEC" H 2500 3700 60  0001 C CNN "Source"
 	1    2500 3700
 	1    0    0    -1  
 $EndComp
@@ -123,8 +142,13 @@ U 1 1 598F204D
 P 4700 4300
 F 0 "U?" H 4700 4250 60  0000 C CNN
 F 1 "SI53340" H 4700 4350 60  0000 C CNN
-F 2 "" H 4700 4300 60  0001 C CNN
-F 3 "" H 4700 4300 60  0001 C CNN
+F 2 "Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm_ThermalVias" H 4700 4300 60  0001 C CNN
+F 3 "http://www.silabs.com/documents/public/data-sheets/si5334x-datasheet.pdf" H 4700 4300 60  0001 C CNN
+F 4 "Silicon Labs" H 4700 4300 60  0001 C CNN "MFG Name"
+F 5 "SI53340-B-GM " H 4700 4300 60  0001 C CNN "MFG Part Num"
+F 6 "336-2499-ND " H 4700 4300 60  0001 C CNN "Digikey"
+F 7 "1" H 4700 4300 60  0001 C CNN "Populated"
+F 8 "SPEC" H 4700 4300 60  0001 C CNN "Source"
 	1    4700 4300
 	1    0    0    -1  
 $EndComp

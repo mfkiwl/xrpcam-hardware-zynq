@@ -43,12 +43,21 @@ LIBS:misc
 LIBS:tlk10031
 LIBS:lshm-150-xxx-x-dv-a-s
 LIBS:sn74axc8t245
+LIBS:sn74lvc2t45
+LIBS:dmf05lcflp
+LIBS:bss138ps
+LIBS:max14854
+LIBS:switches
+LIBS:ft234xd
+LIBS:sn74lv1t126
+LIBS:emif06-msd02n16
+LIBS:cat24c02tdi-gt3
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 19
+Sheet 6 21
 Title ""
 Date ""
 Rev ""
@@ -64,8 +73,14 @@ U 1 1 5973C22F
 P 5400 3900
 F 0 "U?" H 5400 3850 60  0000 C CNN
 F 1 "SFPP_CONN" H 5400 3950 60  0000 C CNN
-F 2 "" H 5400 3900 60  0001 C CNN
-F 3 "" H 5400 3900 60  0001 C CNN
+F 2 "footprints:SFP+_Connector_with_Cage" H 5400 3900 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/Ux76-A20-x00xx.pdf" H 5400 3900 60  0001 C CNN
+F 4 "Amphenol Commercial Products" H 5400 3900 60  0001 C CNN "MFG Name"
+F 5 "UE76-A20-3000T, U77-A1613-1001" H 5400 3900 60  0001 C CNN "MFG Part Num"
+F 6 "UE76-A20-3000TCT-ND, U77-A1613-1001-ND" H 5400 3900 60  0001 C CNN "Digikey"
+F 7 "1" H 5400 3900 60  0001 C CNN "Populated"
+F 8 "Don't forget Cage!" H 5400 3900 60  0001 C CNN "Description"
+F 9 "SPEC" H 5400 3900 60  0001 C CNN "Source"
 	1    5400 3900
 	1    0    0    -1  
 $EndComp

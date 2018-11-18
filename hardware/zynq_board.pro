@@ -1,4 +1,4 @@
-update=Mo 09 Apr 2018 16:13:48 CEST
+update=Fr 20 Apr 2018 17:45:28 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -73,3 +73,12 @@ LibName41=libraries/schematics/misc
 LibName42=libraries/schematics/tlk10031
 LibName43=libraries/schematics/lshm-150-xxx-x-dv-a-s
 LibName44=libraries/schematics/sn74axc8t245
+LibName45=libraries/schematics/sn74lvc2t45
+LibName46=libraries/schematics/dmf05lcflp
+LibName47=libraries/schematics/bss138ps
+LibName48=libraries/schematics/max14854
+LibName49=switches
+LibName50=libraries/schematics/ft234xd
+LibName51=libraries/schematics/sn74lv1t126
+LibName52=libraries/schematics/emif06-msd02n16
+LibName53=libraries/schematics/cat24c02tdi-gt3

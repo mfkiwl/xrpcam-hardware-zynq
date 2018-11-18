@@ -43,12 +43,21 @@ LIBS:misc
 LIBS:tlk10031
 LIBS:lshm-150-xxx-x-dv-a-s
 LIBS:sn74axc8t245
+LIBS:sn74lvc2t45
+LIBS:dmf05lcflp
+LIBS:bss138ps
+LIBS:max14854
+LIBS:switches
+LIBS:ft234xd
+LIBS:sn74lv1t126
+LIBS:emif06-msd02n16
+LIBS:cat24c02tdi-gt3
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 19
+Sheet 9 21
 Title ""
 Date ""
 Rev ""
@@ -64,8 +73,13 @@ U 1 1 59915033
 P 7100 3800
 F 0 "U?" H 7100 3750 60  0000 C CNN
 F 1 "USB3320" H 7100 3850 60  0000 C CNN
-F 2 "" H 7100 3800 60  0001 C CNN
-F 3 "" H 7100 3800 60  0001 C CNN
+F 2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" H 7100 3800 60  0001 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562261" H 7100 3800 60  0001 C CNN
+F 4 "Microchip Technology" H 7100 3800 60  0001 C CNN "MFG Name"
+F 5 "USB3320C-EZK" H 7100 3800 60  0001 C CNN "MFG Part Num"
+F 6 "USB3320C-EZK-ND" H 7100 3800 60  0001 C CNN "Digikey"
+F 7 "1" H 7100 3800 60  0001 C CNN "Populated"
+F 8 "SPEC" H 7100 3800 60  0001 C CNN "Source"
 	1    7100 3800
 	1    0    0    -1  
 $EndComp
@@ -340,8 +354,13 @@ U 1 1 5A971EC5
 P 3800 3200
 F 0 "U?" H 3800 3150 60  0000 C CNN
 F 1 "NX5P3090" H 3800 3250 60  0000 C CNN
-F 2 "" H 3800 3200 60  0001 C CNN
-F 3 "" H 3800 3200 60  0001 C CNN
+F 2 "footprints:WLCSP12_3x4_1.35x1.65mm_Pitch0.4mm" H 3800 3200 60  0001 C CNN
+F 3 "http://cache.nxp.com/documents/data_sheet/NX5P3090.pdf" H 3800 3200 60  0001 C CNN
+F 4 "NXP USA Inc." H 3800 3200 60  0001 C CNN "MFG Name"
+F 5 "NX5P3090UKZ" H 3800 3200 60  0001 C CNN "MFG Part Num"
+F 6 "568-13049-1-ND" H 3800 3200 60  0001 C CNN "Digikey"
+F 7 "1" H 3800 3200 60  0001 C CNN "Populated"
+F 8 "SPEC" H 3800 3200 60  0001 C CNN "Source"
 	1    3800 3200
 	1    0    0    -1  
 $EndComp
@@ -352,7 +371,12 @@ P 3800 4600
 F 0 "U?" H 3800 4550 60  0000 C CNN
 F 1 "SMP1255PUTG" H 3800 4650 60  0000 C CNN
 F 2 "" H 3800 4600 60  0001 C CNN
-F 3 "" H 3800 4600 60  0001 C CNN
+F 3 "http://www.smc-diodes.com/propdf/SMP1255PUTG%20N1749%20REV.A.pdf" H 3800 4600 60  0001 C CNN
+F 4 "SMC Diode Solutions" H 3800 4600 60  0001 C CNN "MFG Name"
+F 5 "SMP1255PUTGTR" H 3800 4600 60  0001 C CNN "MFG Part Num"
+F 6 "1655-1698-1-ND" H 3800 4600 60  0001 C CNN "Digikey"
+F 7 "1" H 3800 4600 60  0001 C CNN "Populated"
+F 8 "SPEC" H 3800 4600 60  0001 C CNN "Source"
 	1    3800 4600
 	1    0    0    -1  
 $EndComp
@@ -509,8 +533,14 @@ U 1 1 5A98852C
 P 9500 4050
 F 0 "U?" H 9500 4000 60  0000 C CNN
 F 1 "OSC" H 9500 4100 60  0000 C CNN
-F 2 "" H 9500 4050 60  0001 C CNN
-F 3 "" H 9500 4050 60  0001 C CNN
+F 2 "footprints:VDFN_3.2x2.5mm" H 9500 4050 60  0001 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en587489" H 9500 4050 60  0001 C CNN
+F 4 "Microchip Technology" H 9500 4050 60  0001 C CNN "MFG Name"
+F 5 "DSC6003CI2A-012.0000" H 9500 4050 60  0001 C CNN "MFG Part Num"
+F 6 "DSC6003CI2A-012.0000-ND" H 9500 4050 60  0001 C CNN "Digikey"
+F 7 "579-C6003CI2A0120000" H 9500 4050 60  0001 C CNN "Mouser"
+F 8 "1" H 9500 4050 60  0001 C CNN "Populated"
+F 9 "SPEC" H 9500 4050 60  0001 C CNN "Source"
 	1    9500 4050
 	1    0    0    -1  
 $EndComp
@@ -635,8 +665,6 @@ F 3 "" H 7800 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7800 1650
-Text Notes 7550 1500 0    60   ~ 0
-VDDIO: TBD
 Text Notes 5150 2400 0    60   ~ 0
 REFSEL[2:0] = 010\nto select 12 MHz\nREFCLK input
 Text HLabel 8100 2800 2    60   Input ~ 0
@@ -685,4 +713,15 @@ Wire Wire Line
 	1000 4300 1100 4300
 Wire Wire Line
 	1100 4300 1100 4200
+$Comp
+L +3V3 #PWR?
+U 1 1 5B1F6406
+P 7800 1600
+F 0 "#PWR?" H 7800 1450 50  0001 C CNN
+F 1 "+3V3" H 7800 1740 50  0000 C CNN
+F 2 "" H 7800 1600 50  0000 C CNN
+F 3 "" H 7800 1600 50  0000 C CNN
+	1    7800 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
