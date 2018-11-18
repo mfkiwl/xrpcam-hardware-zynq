@@ -57,12 +57,13 @@ LIBS:ti_power_modules
 LIBS:mdr20
 LIBS:dm3cs
 LIBS:lsf0102
+LIBS:dmp3056l
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 3 21
+Sheet 3 22
 Title ""
 Date ""
 Rev ""

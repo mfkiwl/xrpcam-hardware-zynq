@@ -57,12 +57,13 @@ LIBS:ti_power_modules
 LIBS:mdr20
 LIBS:dm3cs
 LIBS:lsf0102
+LIBS:dmp3056l
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 21
+Sheet 4 22
 Title ""
 Date ""
 Rev ""

@@ -1,4 +1,4 @@
-update=Fr 27 Apr 2018 13:52:52 CEST
+update=Mo 07 Mai 2018 17:54:34 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -86,3 +86,5 @@ LibName54=libraries/schematics/power_symbols
 LibName55=libraries/schematics/ti_power_modules
 LibName56=libraries/schematics/mdr20
 LibName57=libraries/schematics/dm3cs
+LibName58=libraries/schematics/lsf0102
+LibName59=libraries/schematics/dmp3056l

@@ -57,12 +57,13 @@ LIBS:ti_power_modules
 LIBS:mdr20
 LIBS:dm3cs
 LIBS:lsf0102
+LIBS:dmp3056l
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 1 21
+Sheet 1 22
 Title ""
 Date ""
 Rev ""
@@ -159,6 +160,7 @@ U 596E8178
 F0 "PMIC" 60
 F1 "pmic.sch" 60
 F2 "PS_POR_B" O R 6500 6700 60 
+F3 "V_IN" I R 6500 5950 60 
 $EndSheet
 $Sheet
 S 5000 15900 1450 3850
@@ -1260,4 +1262,19 @@ Wire Wire Line
 	14950 8500 14450 8500
 Wire Wire Line
 	14950 8600 14450 8600
+$Sheet
+S 5000 3200 1500 1150
+U 5AFB0E10
+F0 "Power Connector, Protection" 60
+F1 "pwr_con_fuse_filter.sch" 60
+F2 "V_IN" O R 6500 3800 60 
+$EndSheet
+Wire Wire Line
+	6500 3800 7050 3800
+Text Label 7050 3800 2    60   ~ 0
+V_IN
+Wire Wire Line
+	6500 5950 7050 5950
+Text Label 7050 5950 2    60   ~ 0
+V_IN
 $EndSCHEMATC
