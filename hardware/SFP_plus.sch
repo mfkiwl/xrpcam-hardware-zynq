@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -20,7 +20,7 @@ U 1 1 5973C22F
 P 5400 3900
 F 0 "J401" H 5400 3850 60  0000 C CNN
 F 1 "SFPP_CONN" H 5400 3950 60  0000 C CNN
-F 2 "footprints:SFP+_Connector_with_Cage" H 5400 3900 60  0001 C CNN
+F 2 "footprints:Conn_SFP+" H 5400 3900 60  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/Ux76-A20-x00xx.pdf" H 5400 3900 60  0001 C CNN
 F 4 "Amphenol Commercial Products" H 5400 3900 60  0001 C CNN "MFG Name"
 F 5 "UE76-A20-3000T, U77-A1613-1001" H 5400 3900 60  0001 C CNN "MFG Part Num"

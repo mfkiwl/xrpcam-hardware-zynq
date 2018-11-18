@@ -1,4 +1,4 @@
-update=Mo 04 Jun 2018 12:15:07 CEST
+update=Mi 18 Jul 2018 20:57:28 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,7 +31,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=../../../Dokumente/Praxisphase/export/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

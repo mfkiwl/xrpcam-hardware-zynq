@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -20,7 +20,7 @@ U 1 1 5AD49888
 P 4500 1900
 F 0 "U503" H 3900 2550 60  0000 C CNN
 F 1 "TPSM84424" H 4500 2000 60  0000 C CNN
-F 2 "footprints:TI_QFM-24_MOL0024A" H 4350 1800 60  0001 C CNN
+F 2 "footprints:Texas_QFM-24_MOL0024A" H 4350 1800 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpsm84424.pdf" H 4350 1800 60  0001 C CNN
 F 4 "Texas Instruments" H 4500 1900 60  0001 C CNN "MFG Name"
 F 5 "TPSM84424MOLR" H 4500 1900 60  0001 C CNN "MFG Part Num"
@@ -375,7 +375,7 @@ U 1 1 5AD4AB44
 P 6250 1550
 F 0 "C512" H 6260 1620 50  0000 L CNN
 F 1 "220uF 6.3V 15mΩ" H 6260 1470 50  0000 L CNN
-F 2 "footprints:C7343-31_KEMET-D_10.22x5.6mm" H 6250 1550 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D" H 6250 1550 50  0001 C CNN
 F 3 "https://search.kemet.com/component-edge/download/datasheet/T520D227M006ATE015.pdf" H 6250 1550 50  0001 C CNN
 F 4 "Kemet" H 6250 1550 60  0001 C CNN "MFG Name"
 F 5 "T520D227M006ATE015" H 6250 1550 60  0001 C CNN "MFG Part Num"
@@ -401,7 +401,7 @@ U 1 1 5AD594ED
 P 4400 9000
 F 0 "U502" H 4100 9400 60  0000 C CNN
 F 1 "TPS8208x" H 4400 9050 60  0000 C CNN
-F 2 "footprints:TI_MicroSiP_2.9x3.1mm" H 4450 8900 60  0001 C CNN
+F 2 "footprints:Texas_MicroSiP_2.9x3.1mm" H 4450 8900 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps82084.pdf" H 4450 8900 60  0001 C CNN
 F 4 "Texas Instruments" H 4400 9000 60  0001 C CNN "MFG Name"
 F 5 "TPS82084SILT" H 4400 9000 60  0001 C CNN "MFG Part Num"
@@ -767,7 +767,7 @@ U 1 1 5AD5CCBE
 P 4400 6700
 F 0 "U501" H 4100 7100 60  0000 C CNN
 F 1 "TPS8208x" H 4400 6750 60  0000 C CNN
-F 2 "footprints:TI_MicroSiP_2.9x3.1mm" H 4450 6600 60  0001 C CNN
+F 2 "footprints:Texas_MicroSiP_2.9x3.1mm" H 4450 6600 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps82084.pdf" H 4450 6600 60  0001 C CNN
 F 4 "Texas Instruments" H 4400 6700 60  0001 C CNN "MFG Name"
 F 5 "TPS82084SILT" H 4400 6700 60  0001 C CNN "MFG Part Num"
@@ -1148,7 +1148,7 @@ U 1 1 5AD5EDA4
 P 9800 6700
 F 0 "U506" H 9500 7100 60  0000 C CNN
 F 1 "TPS8208x" H 9800 6750 60  0000 C CNN
-F 2 "footprints:TI_MicroSiP_2.9x3.1mm" H 9850 6600 60  0001 C CNN
+F 2 "footprints:Texas_MicroSiP_2.9x3.1mm" H 9850 6600 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps82084.pdf" H 9850 6600 60  0001 C CNN
 F 4 "Texas Instruments" H 9800 6700 60  0001 C CNN "MFG Name"
 F 5 "TPS82084SILT" H 9800 6700 60  0001 C CNN "MFG Part Num"
@@ -1514,7 +1514,7 @@ U 1 1 5AD612AC
 P 9800 9000
 F 0 "U507" H 9500 9400 60  0000 C CNN
 F 1 "TPS8208x" H 9800 9050 60  0000 C CNN
-F 2 "footprints:TI_MicroSiP_2.9x3.1mm" H 9850 8900 60  0001 C CNN
+F 2 "footprints:Texas_MicroSiP_2.9x3.1mm" H 9850 8900 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps82084.pdf" H 9850 8900 60  0001 C CNN
 F 4 "Texas Instruments" H 9800 9000 60  0001 C CNN "MFG Name"
 F 5 "TPS82084SILT" H 9800 9000 60  0001 C CNN "MFG Part Num"
@@ -1880,7 +1880,7 @@ U 1 1 5AD68B0B
 P 9800 4050
 F 0 "U505" H 9500 4450 60  0000 C CNN
 F 1 "TPS8208x" H 9800 4100 60  0000 C CNN
-F 2 "footprints:TI_MicroSiP_2.9x3.1mm" H 9850 3950 60  0001 C CNN
+F 2 "footprints:Texas_MicroSiP_2.9x3.1mm" H 9850 3950 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps82084.pdf" H 9850 3950 60  0001 C CNN
 F 4 "Texas Instruments" H 9800 4050 60  0001 C CNN "MFG Name"
 F 5 "TPS82084SILT" H 9800 4050 60  0001 C CNN "MFG Part Num"
@@ -2261,7 +2261,7 @@ U 1 1 5AD6B614
 P 4500 4300
 F 0 "U504" H 3900 4950 60  0000 C CNN
 F 1 "TPSM84424" H 4500 4400 60  0000 C CNN
-F 2 "footprints:TI_QFM-24_MOL0024A" H 4350 4200 60  0001 C CNN
+F 2 "footprints:Texas_QFM-24_MOL0024A" H 4350 4200 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpsm84424.pdf" H 4350 4200 60  0001 C CNN
 F 4 "Texas Instruments" H 4500 4300 60  0001 C CNN "MFG Name"
 F 5 "TPSM84424MOLR" H 4500 4300 60  0001 C CNN "MFG Part Num"
@@ -2584,7 +2584,7 @@ U 1 1 5AD7130D
 P 6350 3950
 F 0 "C513" H 6438 3996 50  0000 L CNN
 F 1 "220uF 6.3V 15mΩ" H 6438 3905 50  0000 L CNN
-F 2 "footprints:C7343-31_KEMET-D_10.22x5.6mm" H 6350 3950 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D" H 6350 3950 50  0001 C CNN
 F 3 "https://search.kemet.com/component-edge/download/datasheet/T520D227M006ATE015.pdf" H 6350 3950 50  0001 C CNN
 F 4 "Kemet" H 6350 3950 60  0001 C CNN "MFG Name"
 F 5 "T520D227M006ATE015" H 6350 3950 60  0001 C CNN "MFG Part Num"
@@ -4194,8 +4194,6 @@ Connection ~ 6350 3800
 Wire Wire Line
 	6350 4250 6350 4050
 Wire Wire Line
-	10700 1800 11900 1800
-Wire Wire Line
 	10700 2000 10800 2000
 Wire Wire Line
 	10800 2000 10800 2400
@@ -4242,8 +4240,6 @@ Connection ~ 6650 3800
 Wire Wire Line
 	5400 4400 5400 4900
 Wire Wire Line
-	5400 4900 6400 4900
-Wire Wire Line
 	7600 4200 7600 4900
 Wire Wire Line
 	2900 6850 2900 5900
@@ -4251,12 +4247,8 @@ Wire Wire Line
 	2900 5900 7600 5900
 Connection ~ 7600 4900
 Wire Wire Line
-	10800 5800 9900 5800
-Wire Wire Line
 	8050 5800 8050 6850
 Connection ~ 10800 4350
-Wire Wire Line
-	5400 7650 6350 7650
 Wire Wire Line
 	7600 7650 7600 8200
 Connection ~ 5400 7000
@@ -4319,12 +4311,6 @@ Wire Wire Line
 	7150 6450 7150 6350
 Wire Wire Line
 	7150 3800 7150 3700
-Wire Wire Line
-	11300 8750 11150 8750
-Wire Wire Line
-	11300 6450 11150 6450
-Wire Wire Line
-	11300 3800 11100 3800
 Wire Wire Line
 	4250 5000 4250 5100
 Wire Wire Line
@@ -4550,8 +4536,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 2700 5050 2700
 Wire Wire Line
-	3500 1400 3150 1400
-Wire Wire Line
 	3150 2550 3300 2550
 Wire Wire Line
 	3150 2550 3150 2800
@@ -4622,11 +4606,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 7350 5900 7350
 Wire Wire Line
-	5900 6450 6600 6450
-Wire Wire Line
 	5650 9650 5900 9650
-Wire Wire Line
-	5900 8750 6550 8750
 Wire Wire Line
 	9800 7350 9900 7350
 Wire Wire Line
@@ -4746,13 +4726,9 @@ Wire Wire Line
 Wire Wire Line
 	9100 1400 9400 1400
 Wire Wire Line
-	6700 1400 6900 1400
-Wire Wire Line
 	6700 2350 7150 2350
 Wire Wire Line
 	6700 2350 6700 3300
-Wire Wire Line
-	6650 3800 6850 3800
 Wire Wire Line
 	7600 4900 7600 5900
 Wire Wire Line
@@ -4781,8 +4757,6 @@ Wire Wire Line
 	14500 6700 14900 6700
 Wire Wire Line
 	14900 6300 15000 6300
-Wire Wire Line
-	14100 6300 14150 6300
 Connection ~ 6650 4900
 Wire Wire Line
 	6650 4900 7600 4900
@@ -4905,9 +4879,6 @@ F 7 "1" H 3150 1400 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    3150 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3150 1400 2850 1400
-Connection ~ 3150 1400
 $Comp
 L Connector:TestPoint TP507
 U 1 1 5BA67D98
@@ -4923,9 +4894,6 @@ F 7 "1" H 6900 1400 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    6900 1400
 	1    0    0    -1  
 $EndComp
-Connection ~ 6900 1400
-Wire Wire Line
-	6900 1400 7150 1400
 $Comp
 L Connector:TestPoint TP506
 U 1 1 5BA68001
@@ -4941,9 +4909,6 @@ F 7 "1" H 6850 3800 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    6850 3800
 	1    0    0    -1  
 $EndComp
-Connection ~ 6850 3800
-Wire Wire Line
-	6850 3800 7150 3800
 $Comp
 L Connector:TestPoint TP509
 U 1 1 5BA68399
@@ -4959,9 +4924,6 @@ F 7 "1" H 11100 3800 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    11100 3800
 	1    0    0    -1  
 $EndComp
-Connection ~ 11100 3800
-Wire Wire Line
-	11100 3800 11050 3800
 $Comp
 L Connector:TestPoint TP510
 U 1 1 5BA6850D
@@ -4977,9 +4939,6 @@ F 7 "1" H 11150 6450 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    11150 6450
 	1    0    0    -1  
 $EndComp
-Connection ~ 11150 6450
-Wire Wire Line
-	11150 6450 11050 6450
 $Comp
 L Connector:TestPoint TP505
 U 1 1 5BA68943
@@ -4995,9 +4954,6 @@ F 7 "1" H 6600 6450 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    6600 6450
 	1    0    0    -1  
 $EndComp
-Connection ~ 6600 6450
-Wire Wire Line
-	6600 6450 7150 6450
 $Comp
 L Connector:TestPoint TP504
 U 1 1 5BA68D28
@@ -5013,9 +4969,6 @@ F 7 "1" H 6550 8750 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    6550 8750
 	1    0    0    -1  
 $EndComp
-Connection ~ 6550 8750
-Wire Wire Line
-	6550 8750 7150 8750
 $Comp
 L Connector:TestPoint TP511
 U 1 1 5BA68F86
@@ -5031,9 +4984,6 @@ F 7 "1" H 11150 8750 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    11150 8750
 	1    0    0    -1  
 $EndComp
-Connection ~ 11150 8750
-Wire Wire Line
-	11150 8750 11050 8750
 $Comp
 L Connector:TestPoint TP513
 U 1 1 5BA692AB
@@ -5049,7 +4999,6 @@ F 7 "1" H 14800 6300 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    14800 6300
 	1    0    0    -1  
 $EndComp
-Connection ~ 14800 6300
 $Comp
 L Connector:TestPoint TP512
 U 1 1 5BA69713
@@ -5065,9 +5014,6 @@ F 7 "1" H 11900 1800 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    11900 1800
 	1    0    0    -1  
 $EndComp
-Connection ~ 11900 1800
-Wire Wire Line
-	11900 1800 12100 1800
 $Comp
 L Connector:TestPoint TP503
 U 1 1 5BA69BF2
@@ -5083,9 +5029,6 @@ F 7 "1" H 6400 4900 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    6400 4900
 	1    0    0    -1  
 $EndComp
-Connection ~ 6400 4900
-Wire Wire Line
-	6400 4900 6650 4900
 $Comp
 L Connector:TestPoint TP508
 U 1 1 5BA69F8C
@@ -5101,9 +5044,6 @@ F 7 "1" H 9900 5800 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    9900 5800
 	1    0    0    -1  
 $EndComp
-Connection ~ 9900 5800
-Wire Wire Line
-	9900 5800 8050 5800
 $Comp
 L Connector:TestPoint TP502
 U 1 1 5BA6AB30
@@ -5119,9 +5059,6 @@ F 7 "1" H 6350 7650 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    6350 7650
 	1    0    0    -1  
 $EndComp
-Connection ~ 6350 7650
-Wire Wire Line
-	6350 7650 7600 7650
 Wire Wire Line
 	5400 3800 5750 3800
 Wire Wire Line
@@ -5163,11 +5100,34 @@ F 7 "1" H 14150 6300 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    14150 6300
 	1    0    0    -1  
 $EndComp
-Connection ~ 14150 6300
-Wire Wire Line
-	14150 6300 14200 6300
 Text GLabel 12850 1800 2    50   Output ~ 0
 SYS_PG
 Text Notes 12850 1950 0    50   ~ 0
 PS_POR
+Wire Wire Line
+	10700 1800 12100 1800
+Wire Wire Line
+	5400 4900 6650 4900
+Wire Wire Line
+	8050 5800 10800 5800
+Wire Wire Line
+	5400 7650 7600 7650
+Wire Wire Line
+	11050 8750 11300 8750
+Wire Wire Line
+	11050 6450 11300 6450
+Wire Wire Line
+	11050 3800 11300 3800
+Wire Wire Line
+	2850 1400 3500 1400
+Wire Wire Line
+	5900 6450 7150 6450
+Wire Wire Line
+	5900 8750 7150 8750
+Wire Wire Line
+	6700 1400 7150 1400
+Wire Wire Line
+	6650 3800 7150 3800
+Wire Wire Line
+	14100 6300 14200 6300
 $EndSCHEMATC

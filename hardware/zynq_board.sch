@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8

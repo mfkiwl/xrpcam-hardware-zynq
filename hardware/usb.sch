@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -253,7 +253,7 @@ U 1 1 5A971EC5
 P 3800 3200
 F 0 "U701" H 3800 3150 60  0000 C CNN
 F 1 "NX5P3090" H 3800 3250 60  0000 C CNN
-F 2 "footprints:WLCSP12_3x4_1.35x1.65mm_Pitch0.4mm" H 3800 3200 60  0001 C CNN
+F 2 "footprints:NXP_WLCSP12_3x4_1.35x1.65mm_Pitch0.4mm" H 3800 3200 60  0001 C CNN
 F 3 "http://cache.nxp.com/documents/data_sheet/NX5P3090.pdf" H 3800 3200 60  0001 C CNN
 F 4 "NXP USA Inc." H 3800 3200 60  0001 C CNN "MFG Name"
 F 5 "NX5P3090UKZ" H 3800 3200 60  0001 C CNN "MFG Part Num"
@@ -503,11 +503,11 @@ U 1 1 5ACE0B3C
 P 1200 3800
 F 0 "J701" H 1000 4250 50  0000 L CNN
 F 1 "USB_OTG" H 1000 4150 50  0000 L CNN
-F 2 "Connectors:USB_Micro-B" H 1350 3750 50  0001 C CNN
+F 2 "footprints:Conn_Amphenol_microUSB_B" H 1350 3750 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 1350 3750 50  0001 C CNN
-F 4 "Amphenol FCI" H 1200 3800 60  0001 C CNN "MFG Name"
-F 5 "10118194-0001LF" H 1200 3800 60  0001 C CNN "MFG Part Num"
-F 6 "609-4618-1-ND " H 1200 3800 60  0001 C CNN "Digikey"
+F 4 "609-4618-1-ND " H 1200 3800 60  0001 C CNN "Digikey"
+F 5 "Amphenol FCI" H 1200 3800 60  0001 C CNN "MFG Name"
+F 6 "10118194-0001LF" H 1200 3800 60  0001 C CNN "MFG Part Num"
 F 7 "1" H 1200 3800 60  0001 C CNN "Populated"
 F 8 "SPEC" H 1200 3800 60  0001 C CNN "Source"
 F 9 "1" H 1200 3800 60  0001 C CNN "Populate for SBGA485(Z-7030)"

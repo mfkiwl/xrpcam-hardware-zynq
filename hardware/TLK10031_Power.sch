@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 21
+Sheet 9 21
 Title ""
 Date ""
 Rev ""
@@ -20,7 +20,7 @@ U 2 1 5ACA3B74
 P 5550 1950
 F 0 "U1001" H 5550 1900 60  0000 C CNN
 F 1 "TLK10031" H 5550 2000 60  0000 C CNN
-F 2 "footprints:TI-CTR_FCBGA_N144_12x12_13x13mm_Pitch1.0mm" H 5250 1450 60  0001 C CNN
+F 2 "footprints:Texas_CTR_FCBGA_N144_12x12_13x13mm_Pitch1.0mm" H 5250 1450 60  0001 C CNN
 F 3 "" H 5250 1450 60  0001 C CNN
 	2    5550 1950
 	1    0    0    -1  

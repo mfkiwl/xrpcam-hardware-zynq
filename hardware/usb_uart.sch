@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -42,7 +42,7 @@ U 1 1 5AD9C9C2
 P 1350 2900
 F 0 "J1501" H 1150 3350 50  0000 L CNN
 F 1 "USB_OTG" H 1150 3250 50  0000 L CNN
-F 2 "Connectors:USB_Micro-B" H 1500 2850 50  0001 C CNN
+F 2 "footprints:Conn_Amphenol_microUSB_B" H 1500 2850 50  0001 C CNN
 F 3 "" H 1500 2850 50  0001 C CNN
 F 4 "1" H 1350 2900 60  0001 C CNN "Populated"
 F 5 "SPEC" H 1350 2900 60  0001 C CNN "Source"

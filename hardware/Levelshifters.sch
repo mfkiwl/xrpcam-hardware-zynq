@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -68,7 +68,7 @@ U 1 1 5ADF1B0D
 P 2500 6300
 F 0 "U1203" H 2500 5250 60  0000 C CNN
 F 1 "SN74AXC8T245" V 2500 6250 60  0000 C CNN
-F 2 "footprints:TI_RHL_R-PVQFN-N24_3.5x5.5mm_0.5mm-pitch" H 2450 6300 60  0001 C CNN
+F 2 "footprints:Texas_RHL_R-PVQFN-N24_3.5x5.5mm_0.5mm-pitch" H 2450 6300 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf" H 2450 6300 60  0001 C CNN
 F 4 "Texas Instruments" H 2500 6300 60  0001 C CNN "MFG Name"
 F 5 "SN74AXC8T245" H 2500 6300 60  0001 C CNN "MFG Part Num"
@@ -177,7 +177,7 @@ U 1 1 5ADF5FD5
 P 2450 4000
 F 0 "U1202" H 2450 3000 60  0000 C CNN
 F 1 "SN74AXC8T245" V 2450 3950 60  0000 C CNN
-F 2 "footprints:TI_RHL_R-PVQFN-N24_3.5x5.5mm_0.5mm-pitch" H 2400 4000 60  0001 C CNN
+F 2 "footprints:Texas_RHL_R-PVQFN-N24_3.5x5.5mm_0.5mm-pitch" H 2400 4000 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf" H 2400 4000 60  0001 C CNN
 F 4 "Texas Instruments" H 2450 4000 60  0001 C CNN "MFG Name"
 F 5 "SN74AXC8T245" H 2450 4000 60  0001 C CNN "MFG Part Num"
@@ -798,7 +798,7 @@ U 1 1 5ADF547B
 P 2450 1700
 F 0 "U1201" H 2450 650 60  0000 C CNN
 F 1 "SN74AXC8T245" V 2450 1650 60  0000 C CNN
-F 2 "footprints:TI_RHL_R-PVQFN-N24_3.5x5.5mm_0.5mm-pitch" H 2400 1700 60  0001 C CNN
+F 2 "footprints:Texas_RHL_R-PVQFN-N24_3.5x5.5mm_0.5mm-pitch" H 2400 1700 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf" H 2400 1700 60  0001 C CNN
 F 4 "Texas Instruments" H 2450 1700 60  0001 C CNN "MFG Name"
 F 5 "SN74AXC8T245" H 2450 1700 60  0001 C CNN "MFG Part Num"

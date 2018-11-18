@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -20,7 +20,7 @@ U 4 1 596E7B8E
 P 5400 1400
 F 0 "U1" H 5600 1650 60  0000 L CNN
 F 1 "xc7z030sbg485" H 5600 1550 60  0000 L CNN
-F 2 "footprints:SBG485_22x22_19.0x19.0mm_Pitch0.8mm" H 5400 1400 60  0001 C CNN
+F 2 "footprints:Xilinx_SBG485_22x22_19.0x19.0mm_Pitch0.8mm" H 5400 1400 60  0001 C CNN
 F 3 "" H 5400 1400 60  0001 C CNN
 F 4 "1" H 5400 1400 60  0001 C CNN "Populated"
 F 5 "SPEC" H 5400 1400 60  0001 C CNN "Source"
