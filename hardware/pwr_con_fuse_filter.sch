@@ -1,65 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:zynq_board-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:xilinx_zynq_clg485
-LIBS:SFP_plus
-LIBS:ael2005
-LIBS:diff_osc
-LIBS:si53340
-LIBS:usb3320
-LIBS:nx5p3090
-LIBS:smp1255putg
-LIBS:osc
-LIBS:ddr
-LIBS:misc
-LIBS:tlk10031
-LIBS:lshm-150-xxx-x-dv-a-s
-LIBS:sn74axc8t245
-LIBS:sn74lvc2t45
-LIBS:dmf05lcflp
-LIBS:bss138ps
-LIBS:max14854
-LIBS:switches
-LIBS:ft234xd
-LIBS:sn74lv1t126
-LIBS:emif06-msd02n16
-LIBS:cat24c02tdi-gt3
-LIBS:power_symbols
-LIBS:ti_power_modules
-LIBS:mdr20
-LIBS:dm3cs
-LIBS:lsf0102
-LIBS:dmp3056l
+EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -74,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_01x02 J2201
+L conn:Conn_01x02 J2201
 U 1 1 5AFB123F
 P 1550 2800
 F 0 "J2201" H 1550 2900 50  0000 C CNN
@@ -92,7 +33,7 @@ F 10 "1" H 1550 2800 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Transformer_1P_1S T2201
+L device:Transformer_1P_1S T2201
 U 1 1 5AFB12DF
 P 3000 2850
 F 0 "T2201" V 3300 2850 50  0000 C CNN
@@ -113,7 +54,7 @@ $EndComp
 Text HLabel 4450 2450 2    60   Output ~ 0
 V_IN
 $Comp
-L DMP3056L Q2201
+L dmp3056l:DMP3056L Q2201
 U 1 1 5AFC9627
 P 4050 2550
 F 0 "Q2201" H 4250 2625 50  0000 L CNN
@@ -132,7 +73,7 @@ F 11 "1" H 4050 2550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Fuse F2201
+L device:Fuse F2201
 U 1 1 5AFC9CDC
 P 2150 2450
 F 0 "F2201" V 2230 2450 50  0000 C CNN
@@ -151,7 +92,7 @@ F 11 "1" H 2150 2450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2300 2450 2800 2450
+	2300 2450 2500 2450
 Wire Wire Line
 	1850 2450 1850 2800
 Wire Wire Line
@@ -161,17 +102,17 @@ Wire Wire Line
 Wire Wire Line
 	1850 2900 1850 3250
 Wire Wire Line
-	1850 3250 2800 3250
+	1850 3250 2500 3250
 Wire Wire Line
-	3200 2450 3850 2450
+	3200 2450 3450 2450
 Wire Wire Line
-	3200 3250 4050 3250
+	3200 3250 3600 3250
 Wire Wire Line
 	4050 3250 4050 2750
 Wire Wire Line
 	3600 3250 3600 3450
 $Comp
-L D_TVS D2201
+L device:D_TVS D2201
 U 1 1 5AFCA27A
 P 2500 2850
 F 0 "D2201" H 2500 2950 50  0000 C CNN
@@ -191,7 +132,7 @@ F 11 "1" H 2500 2850 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 $EndComp
 Connection ~ 3600 3250
 $Comp
-L GND #PWR0263
+L power1:GND #PWR0263
 U 1 1 5AFCA36D
 P 3600 3450
 F 0 "#PWR0263" H 3600 3200 50  0001 C CNN
@@ -210,7 +151,7 @@ Wire Wire Line
 	2500 3000 2500 3250
 Connection ~ 2500 3250
 $Comp
-L Q_Thyristor_KAG D2203
+L device:Q_Thyristor_KAG D2203
 U 1 1 5B01386E
 P 3700 3000
 F 0 "D2203" H 3775 3025 50  0000 L CNN
@@ -231,7 +172,7 @@ $EndComp
 Wire Wire Line
 	3700 3250 3700 3150
 $Comp
-L D_Zener D2202
+L device:D_Zener D2202
 U 1 1 5B01397F
 P 3450 2650
 F 0 "D2202" H 3450 2750 50  0000 C CNN
@@ -263,7 +204,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 2450 1850 2450
 $Comp
-L D_Schottky D2204
+L device:D_Schottky D2204
 U 1 1 5B074FD5
 P 3450 2950
 F 0 "D2204" H 3450 2850 50  0000 C CNN
@@ -281,4 +222,16 @@ F 11 "1" H 3450 2950 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    3450 2950
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3600 3250 3700 3250
+Wire Wire Line
+	2500 2450 2800 2450
+Wire Wire Line
+	2500 3250 2800 3250
+Wire Wire Line
+	3450 2450 3700 2450
+Wire Wire Line
+	3700 2450 3850 2450
+Wire Wire Line
+	3700 3250 4050 3250
 $EndSCHEMATC

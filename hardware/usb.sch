@@ -1,65 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:zynq_board-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:xilinx_zynq_clg485
-LIBS:SFP_plus
-LIBS:ael2005
-LIBS:diff_osc
-LIBS:si53340
-LIBS:usb3320
-LIBS:nx5p3090
-LIBS:smp1255putg
-LIBS:osc
-LIBS:ddr
-LIBS:misc
-LIBS:tlk10031
-LIBS:lshm-150-xxx-x-dv-a-s
-LIBS:sn74axc8t245
-LIBS:sn74lvc2t45
-LIBS:dmf05lcflp
-LIBS:bss138ps
-LIBS:max14854
-LIBS:switches
-LIBS:ft234xd
-LIBS:sn74lv1t126
-LIBS:emif06-msd02n16
-LIBS:cat24c02tdi-gt3
-LIBS:power_symbols
-LIBS:ti_power_modules
-LIBS:mdr20
-LIBS:dm3cs
-LIBS:lsf0102
-LIBS:dmp3056l
+EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -74,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L USB3320 U903
+L usb3320:USB3320 U903
 U 1 1 59915033
 P 7100 3800
 F 0 "U903" H 7100 3750 60  0000 C CNN
@@ -114,7 +55,7 @@ DIR
 Text HLabel 8100 4200 2    60   Output ~ 0
 CLK
 $Comp
-L GND #PWR096
+L power1:GND #PWR096
 U 1 1 59921269
 P 7100 5100
 F 0 "#PWR096" H 7100 4850 50  0001 C CNN
@@ -127,7 +68,7 @@ $EndComp
 NoConn ~ 6100 4600
 NoConn ~ 6100 4700
 $Comp
-L R R905
+L device:R R905
 U 1 1 59921EA9
 P 8250 4700
 F 0 "R905" V 8330 4700 50  0000 C CNN
@@ -138,7 +79,7 @@ F 3 "" H 8250 4700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR097
+L power1:GND #PWR097
 U 1 1 59921EDC
 P 8500 4800
 F 0 "#PWR097" H 8500 4550 50  0001 C CNN
@@ -153,7 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 4700 8500 4800
 $Comp
-L GND #PWR098
+L power1:GND #PWR098
 U 1 1 59921F43
 P 1200 4700
 F 0 "#PWR098" H 1200 4450 50  0001 C CNN
@@ -164,7 +105,7 @@ F 3 "" H 1200 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R901
+L device:R R901
 U 1 1 59922379
 P 1000 4550
 F 0 "R901" V 1080 4550 50  0000 C CNN
@@ -175,7 +116,7 @@ F 3 "" H 1000 4550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR099
+L power1:GND #PWR099
 U 1 1 599223A7
 P 1000 4700
 F 0 "#PWR099" H 1000 4450 50  0001 C CNN
@@ -186,7 +127,7 @@ F 3 "" H 1000 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R904
+L device:R R904
 U 1 1 599227D7
 P 5750 3600
 F 0 "R904" V 5830 3600 50  0000 C CNN
@@ -197,7 +138,7 @@ F 3 "" H 5750 3600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C901
+L device:C C901
 U 1 1 599228B6
 P 1850 4350
 F 0 "C901" H 1875 4450 50  0000 L CNN
@@ -213,7 +154,7 @@ Connection ~ 1850 3600
 Wire Wire Line
 	1200 4200 1200 4700
 $Comp
-L GND #PWR0100
+L power1:GND #PWR0100
 U 1 1 599229B3
 P 1850 4700
 F 0 "#PWR0100" H 1850 4450 50  0001 C CNN
@@ -226,7 +167,7 @@ $EndComp
 Wire Wire Line
 	1850 4700 1850 4500
 $Comp
-L +1V8 #PWR0101
+L power1:+1V8 #PWR0101
 U 1 1 59922E8F
 P 6850 1600
 F 0 "#PWR0101" H 6850 1450 50  0001 C CNN
@@ -237,7 +178,7 @@ F 3 "" H 6850 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C904
+L device:C C904
 U 1 1 5992426F
 P 6850 1850
 F 0 "C904" H 6875 1950 50  0000 L CNN
@@ -248,7 +189,7 @@ F 3 "" H 6850 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C905
+L device:C C905
 U 1 1 59924337
 P 7350 1850
 F 0 "C905" H 7375 1950 50  0000 L CNN
@@ -261,7 +202,7 @@ $EndComp
 Wire Wire Line
 	6850 1600 6850 1700
 $Comp
-L +1V8 #PWR0102
+L power1:+1V8 #PWR0102
 U 1 1 599243A9
 P 7350 1600
 F 0 "#PWR0102" H 7350 1450 50  0001 C CNN
@@ -274,7 +215,7 @@ $EndComp
 Wire Wire Line
 	7350 1700 7350 1600
 $Comp
-L GND #PWR0103
+L power1:GND #PWR0103
 U 1 1 5992454D
 P 7350 2000
 F 0 "#PWR0103" H 7350 1750 50  0001 C CNN
@@ -285,7 +226,7 @@ F 3 "" H 7350 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0104
+L power1:GND #PWR0104
 U 1 1 5992459D
 P 6850 2000
 F 0 "#PWR0104" H 6850 1750 50  0001 C CNN
@@ -304,7 +245,7 @@ Wire Wire Line
 	7100 1650 7100 2500
 Connection ~ 6850 1650
 $Comp
-L C C903
+L device:C C903
 U 1 1 59924B0A
 P 6400 1850
 F 0 "C903" H 6425 1950 50  0000 L CNN
@@ -317,7 +258,7 @@ $EndComp
 Wire Wire Line
 	6850 1650 7100 1650
 $Comp
-L +3V3 #PWR0105
+L power1:+3V3 #PWR0105
 U 1 1 59924C11
 P 6400 1600
 F 0 "#PWR0105" H 6400 1450 50  0001 C CNN
@@ -328,7 +269,7 @@ F 3 "" H 6400 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0106
+L power1:GND #PWR0106
 U 1 1 59924C37
 P 6400 2000
 F 0 "#PWR0106" H 6400 1750 50  0001 C CNN
@@ -355,7 +296,7 @@ Connection ~ 6750 2350
 Text Notes 4850 5200 0    60   ~ 0
 VBUS overvoltage protection resistor\nPower rating for 30V protection: 0.625W
 $Comp
-L NX5P3090 U901
+L nx5p3090:NX5P3090 U901
 U 1 1 5A971EC5
 P 3800 3200
 F 0 "U901" H 3800 3150 60  0000 C CNN
@@ -371,7 +312,7 @@ F 8 "SPEC" H 3800 3200 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SMP1255PUTG U902
+L smp1255putg:SMP1255PUTG U902
 U 1 1 5A98470D
 P 3800 4600
 F 0 "U902" H 3800 4550 60  0000 C CNN
@@ -412,7 +353,7 @@ Wire Wire Line
 	4600 4700 4700 4700
 Connection ~ 4700 4700
 $Comp
-L GND #PWR0107
+L power1:GND #PWR0107
 U 1 1 5A984E78
 P 4700 4800
 F 0 "#PWR0107" H 4700 4550 50  0001 C CNN
@@ -423,7 +364,7 @@ F 3 "" H 4700 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0108
+L power1:GND #PWR0108
 U 1 1 5A985319
 P 3100 3400
 F 0 "#PWR0108" H 3100 3150 50  0001 C CNN
@@ -440,7 +381,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 3500 6100 3500
 $Comp
-L C C902
+L device:C C902
 U 1 1 5A9853C5
 P 4700 2750
 F 0 "C902" H 4725 2850 50  0000 L CNN
@@ -451,7 +392,7 @@ F 3 "" H 4700 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0109
+L power1:GND #PWR0109
 U 1 1 5A985418
 P 4700 2900
 F 0 "#PWR0109" H 4700 2650 50  0001 C CNN
@@ -462,7 +403,7 @@ F 3 "" H 4700 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0110
+L power1:+5V #PWR0110
 U 1 1 5A985450
 P 4700 2400
 F 0 "#PWR0110" H 4700 2250 50  0001 C CNN
@@ -482,7 +423,7 @@ Connection ~ 4700 2500
 Wire Wire Line
 	4700 4600 4700 4800
 $Comp
-L R R902
+L device:R R902
 U 1 1 5A985A8D
 P 4650 3200
 F 0 "R902" V 4730 3200 50  0000 C CNN
@@ -493,7 +434,7 @@ F 3 "" H 4650 3200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0111
+L power1:GND #PWR0111
 U 1 1 5A985AE5
 P 4800 3200
 F 0 "#PWR0111" H 4800 2950 50  0001 C CNN
@@ -506,7 +447,7 @@ $EndComp
 Text Notes 2600 2700 0    60   ~ 0
 ILIM current limit adjustment resistor:\nR=100k for I_ocp=581 mA typ.
 $Comp
-L R R903
+L device:R R903
 U 1 1 5A986061
 P 5150 3100
 F 0 "R903" V 5230 3100 50  0000 C CNN
@@ -524,7 +465,7 @@ Wire Wire Line
 	5150 3300 5150 3250
 Connection ~ 5150 3300
 $Comp
-L +1V8 #PWR0112
+L power1:+1V8 #PWR0112
 U 1 1 5A9861C7
 P 5150 2950
 F 0 "#PWR0112" H 5150 2800 50  0001 C CNN
@@ -536,7 +477,7 @@ F 3 "" H 5150 2950 50  0000 C CNN
 $EndComp
 NoConn ~ 8100 4400
 $Comp
-L OSC U904
+L osc:OSC U904
 U 1 1 5A98852C
 P 9500 4050
 F 0 "U904" H 9500 4000 60  0000 C CNN
@@ -559,7 +500,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 4150 10000 4150
 $Comp
-L GND #PWR0113
+L power1:GND #PWR0113
 U 1 1 5A98862B
 P 8900 4250
 F 0 "#PWR0113" H 8900 4000 50  0001 C CNN
@@ -574,7 +515,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 4150 9000 4150
 $Comp
-L C C907
+L device:C C907
 U 1 1 5A98874B
 P 10350 4100
 F 0 "C907" H 10375 4200 50  0000 L CNN
@@ -596,7 +537,7 @@ Wire Wire Line
 	10050 3700 10050 3950
 Connection ~ 10050 3800
 $Comp
-L +1V8 #PWR0114
+L power1:+1V8 #PWR0114
 U 1 1 5A9888CB
 P 10050 3700
 F 0 "#PWR0114" H 10050 3550 50  0001 C CNN
@@ -607,7 +548,7 @@ F 3 "" H 10050 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0115
+L power1:GND #PWR0115
 U 1 1 5A988966
 P 10350 4250
 F 0 "#PWR0115" H 10350 4000 50  0001 C CNN
@@ -618,7 +559,7 @@ F 3 "" H 10350 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0116
+L power1:GND #PWR0116
 U 1 1 5A988E5D
 P 6000 3300
 F 0 "#PWR0116" H 6000 3050 50  0001 C CNN
@@ -642,7 +583,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 2450 7650 2450
 $Comp
-L C C906
+L device:C C906
 U 1 1 5A9894AA
 P 7800 1850
 F 0 "C906" H 7825 1950 50  0000 L CNN
@@ -662,7 +603,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 1600 7800 1700
 $Comp
-L GND #PWR0117
+L power1:GND #PWR0117
 U 1 1 5A989692
 P 7800 2000
 F 0 "#PWR0117" H 7800 1750 50  0001 C CNN
@@ -680,7 +621,7 @@ RESETB
 Text Notes 9000 4750 0    60   ~ 0
 Oscillator: DSC6003CI2A-012.0000\n(12 MHz)
 $Comp
-L USB_OTG J901
+L conn:USB_OTG J901
 U 1 1 5ACE0B3C
 P 1200 3800
 F 0 "J901" H 1000 4250 50  0000 L CNN
@@ -729,7 +670,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 4300 1100 4200
 $Comp
-L +3V3 #PWR0118
+L power1:+3V3 #PWR0118
 U 1 1 5B1F6406
 P 7800 1600
 F 0 "#PWR0118" H 7800 1450 50  0001 C CNN

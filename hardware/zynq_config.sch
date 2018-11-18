@@ -1,65 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:zynq_board-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:xilinx_zynq_clg485
-LIBS:SFP_plus
-LIBS:ael2005
-LIBS:diff_osc
-LIBS:si53340
-LIBS:usb3320
-LIBS:nx5p3090
-LIBS:smp1255putg
-LIBS:osc
-LIBS:ddr
-LIBS:misc
-LIBS:tlk10031
-LIBS:lshm-150-xxx-x-dv-a-s
-LIBS:sn74axc8t245
-LIBS:sn74lvc2t45
-LIBS:dmf05lcflp
-LIBS:bss138ps
-LIBS:max14854
-LIBS:switches
-LIBS:ft234xd
-LIBS:sn74lv1t126
-LIBS:emif06-msd02n16
-LIBS:cat24c02tdi-gt3
-LIBS:power_symbols
-LIBS:ti_power_modules
-LIBS:mdr20
-LIBS:dm3cs
-LIBS:lsf0102
-LIBS:dmp3056l
+EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -74,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xc7z030sbg485 U201
+L xilinx_zynq_clg485:xc7z030sbg485 U201
 U 1 1 5AC336D4
 P 4550 2450
 F 0 "U201" H 4750 2700 60  0000 L CNN
@@ -85,7 +26,7 @@ F 3 "" H 4550 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x05 J1101
+L conn:Conn_01x05 J1101
 U 1 1 5AE1C32D
 P 3100 3750
 F 0 "J1101" H 3100 4050 50  0000 C CNN
@@ -104,7 +45,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 3850 3300 3850
 $Comp
-L GND #PWR0120
+L power1:GND #PWR0120
 U 1 1 5AE1DF94
 P 3400 4050
 F 0 "#PWR0120" H 3400 3800 50  0001 C CNN
@@ -127,7 +68,7 @@ Wire Wire Line
 Text Label 2100 1600 2    60   ~ 0
 VCCO
 $Comp
-L GND #PWR0121
+L power1:GND #PWR0121
 U 1 1 5AE1E08B
 P 3850 2450
 F 0 "#PWR0121" H 3850 2200 50  0001 C CNN
@@ -142,7 +83,7 @@ Wire Wire Line
 Text Notes 6150 4500 0    60   ~ 0
 CFGBVS is connected to GND if VCCO is 1,8 V or lower. If VCCO is 2,5 or\n3,3 V, connect CFGBVS to VCCO.\n\nDONE is open-drain. Singals High if configuration sequence is completed.\n\nDXN and DXP are the Temperature-sensing diode. When not used, tie to GND.\nTemperature Monitoring can use the temperature Sensore inside the XADC Block.\n\nGNDADC is the ground reference for the XADC. Tie to GND even if not used.\n\nINIT_B is open-drain. Hold low to delay pl configuration. Will signal low if an\nconfiguration error has been occured.\n\nPROGRAMM_B is the active low Reset for PL.\n\nRSVDGND - Tie to GND\n\nRSVDVCC[1-3] - Tie to VCCO\n\nVCCADC is the analog supply for the XADCs. Tie to VCCAUX even if the XADCs are not used.\n\nVCCBATT is Backup Power for AES Key. Is not related to VCCO. Connect to GND or VCCAUX.\n\nVN and VP are the dedicated differential Analog Input to the XADC. Tie to GND if them are not used.\n\nVREFN and VREFP are the differential reference voltage input for the XADC.\nConnect to GND if not used.
 $Comp
-L R_Small R1102
+L device:R_Small R1102
 U 1 1 5AE1E0D7
 P 4350 3050
 F 0 "R1102" V 4400 3150 50  0000 L CNN
@@ -161,7 +102,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 3050 4550 3050
 $Comp
-L R_Small R1101
+L device:R_Small R1101
 U 1 1 5AE1E489
 P 4350 2950
 F 0 "R1101" V 4400 3050 50  0000 L CNN
@@ -181,7 +122,7 @@ Wire Wire Line
 	4450 2950 4550 2950
 NoConn ~ 4550 2550
 $Comp
-L GND #PWR0122
+L power1:GND #PWR0122
 U 1 1 5ADFC840
 P 3850 4050
 F 0 "#PWR0122" H 3850 3800 50  0001 C CNN
@@ -194,7 +135,7 @@ $EndComp
 Wire Wire Line
 	3850 4050 4550 4050
 $Comp
-L GND #PWR0123
+L power1:GND #PWR0123
 U 1 1 5ADFC883
 P 3850 2650
 F 0 "#PWR0123" H 3850 2400 50  0001 C CNN
@@ -207,7 +148,7 @@ $EndComp
 Wire Wire Line
 	3850 2650 4550 2650
 $Comp
-L GND #PWR0124
+L power1:GND #PWR0124
 U 1 1 5ADFC8A4
 P 3850 2750
 F 0 "#PWR0124" H 3850 2500 50  0001 C CNN
@@ -220,7 +161,7 @@ $EndComp
 Wire Wire Line
 	3850 2750 4550 2750
 $Comp
-L GND #PWR0125
+L power1:GND #PWR0125
 U 1 1 5ADFC914
 P 3850 2850
 F 0 "#PWR0125" H 3850 2600 50  0001 C CNN
@@ -233,7 +174,7 @@ $EndComp
 Wire Wire Line
 	3850 2850 4550 2850
 $Comp
-L GND #PWR0126
+L power1:GND #PWR0126
 U 1 1 5ADFC9B4
 P 3850 4250
 F 0 "#PWR0126" H 3850 4000 50  0001 C CNN
@@ -246,7 +187,7 @@ $EndComp
 Wire Wire Line
 	3850 4250 4550 4250
 $Comp
-L GND #PWR0127
+L power1:GND #PWR0127
 U 1 1 5ADFC9BB
 P 3850 4350
 F 0 "#PWR0127" H 3850 4100 50  0001 C CNN
@@ -259,7 +200,7 @@ $EndComp
 Wire Wire Line
 	3850 4350 4550 4350
 $Comp
-L GND #PWR0128
+L power1:GND #PWR0128
 U 1 1 5ADFC9D4
 P 3850 4450
 F 0 "#PWR0128" H 3850 4200 50  0001 C CNN
@@ -272,7 +213,7 @@ $EndComp
 Wire Wire Line
 	3850 4450 4550 4450
 $Comp
-L GND #PWR0129
+L power1:GND #PWR0129
 U 1 1 5ADFC9DB
 P 3850 4550
 F 0 "#PWR0129" H 3850 4300 50  0001 C CNN
@@ -297,7 +238,7 @@ Wire Wire Line
 Text Label 3850 3450 0    60   ~ 0
 VCCO
 $Comp
-L GND #PWR0130
+L power1:GND #PWR0130
 U 1 1 5ADFCAC7
 P 3850 3150
 F 0 "#PWR0130" H 3850 2900 50  0001 C CNN

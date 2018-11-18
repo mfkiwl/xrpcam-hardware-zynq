@@ -1,65 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:zynq_board-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:xilinx_zynq_clg485
-LIBS:SFP_plus
-LIBS:ael2005
-LIBS:diff_osc
-LIBS:si53340
-LIBS:usb3320
-LIBS:nx5p3090
-LIBS:smp1255putg
-LIBS:osc
-LIBS:ddr
-LIBS:misc
-LIBS:tlk10031
-LIBS:lshm-150-xxx-x-dv-a-s
-LIBS:sn74axc8t245
-LIBS:sn74lvc2t45
-LIBS:dmf05lcflp
-LIBS:bss138ps
-LIBS:max14854
-LIBS:switches
-LIBS:ft234xd
-LIBS:sn74lv1t126
-LIBS:emif06-msd02n16
-LIBS:cat24c02tdi-gt3
-LIBS:power_symbols
-LIBS:ti_power_modules
-LIBS:mdr20
-LIBS:dm3cs
-LIBS:lsf0102
-LIBS:dmp3056l
+EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -74,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TLK10031 U1201
+L tlk10031:TLK10031 U1201
 U 2 1 5ACA3B74
 P 5550 1950
 F 0 "U1201" H 5550 1900 60  0000 C CNN
@@ -85,7 +26,7 @@ F 3 "" H 5250 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0131
+L power1:GND #PWR0131
 U 1 1 5ACA4579
 P 5450 2800
 F 0 "#PWR0131" H 5450 2550 50  0001 C CNN
@@ -96,7 +37,7 @@ F 3 "" H 5450 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V0 #PWR0132
+L power1:+1V0 #PWR0132
 U 1 1 5ACA5A88
 P 2150 3750
 F 0 "#PWR0132" H 2150 3600 50  0001 C CNN
@@ -111,7 +52,7 @@ Text Notes 7150 600  0    60   ~ 0
 Text Notes 6450 600  0    60   ~ 0
 1V5 or 1V8
 $Comp
-L C_Small C1201
+L device:C_Small C1201
 U 1 1 5ADD7A0B
 P 950 4350
 F 0 "C1201" H 960 4420 50  0000 L CNN
@@ -127,7 +68,7 @@ F 8 "SPEC" H 950 4350 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1203
+L device:C_Small C1203
 U 1 1 5ADFAF48
 P 1300 4350
 F 0 "C1203" H 1310 4420 50  0000 L CNN
@@ -143,7 +84,7 @@ F 8 "SPEC" H 1300 4350 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1205
+L device:C_Small C1205
 U 1 1 5ADFAFDF
 P 1750 4350
 F 0 "C1205" H 1760 4420 50  0000 L CNN
@@ -162,7 +103,7 @@ F 11 "1" H 1750 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1207
+L device:C_Small C1207
 U 1 1 5ADFC071
 P 2050 4350
 F 0 "C1207" H 2060 4420 50  0000 L CNN
@@ -181,7 +122,7 @@ F 11 "1" H 2050 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1209
+L device:C_Small C1209
 U 1 1 5ADFC0B6
 P 2350 4350
 F 0 "C1209" H 2360 4420 50  0000 L CNN
@@ -200,7 +141,7 @@ F 11 "1" H 2350 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1211
+L device:C_Small C1211
 U 1 1 5ADFC1D4
 P 2650 4350
 F 0 "C1211" H 2660 4420 50  0000 L CNN
@@ -219,7 +160,7 @@ F 11 "1" H 2650 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1212
+L device:C_Small C1212
 U 1 1 5ADFC1DF
 P 2950 4350
 F 0 "C1212" H 2960 4420 50  0000 L CNN
@@ -238,7 +179,7 @@ F 11 "1" H 2950 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1213
+L device:C_Small C1213
 U 1 1 5ADFC1EA
 P 3250 4350
 F 0 "C1213" H 3260 4420 50  0000 L CNN
@@ -257,7 +198,7 @@ F 11 "1" H 3250 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0133
+L power1:GND #PWR0133
 U 1 1 5ADFCA86
 P 2150 4650
 F 0 "#PWR0133" H 2150 4400 50  0001 C CNN
@@ -272,7 +213,7 @@ VDDA
 Text Label 3250 800  3    60   ~ 0
 VDDA
 $Comp
-L R_Small R1201
+L device:R_Small R1201
 U 1 1 5ADFCD86
 P 2150 3950
 F 0 "R1201" H 2180 3970 50  0000 L CNN
@@ -285,7 +226,7 @@ F 5 "SPEC" H 2150 3950 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V0 #PWR0134
+L power1:+1V0 #PWR0134
 U 1 1 5AE00745
 P 2150 5200
 F 0 "#PWR0134" H 2150 5050 50  0001 C CNN
@@ -296,7 +237,7 @@ F 3 "" H 2150 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1202
+L device:C_Small C1202
 U 1 1 5AE00750
 P 950 5800
 F 0 "C1202" H 960 5870 50  0000 L CNN
@@ -312,7 +253,7 @@ F 8 "SPEC" H 950 5800 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1204
+L device:C_Small C1204
 U 1 1 5AE0075B
 P 1300 5800
 F 0 "C1204" H 1310 5870 50  0000 L CNN
@@ -328,7 +269,7 @@ F 8 "SPEC" H 1300 5800 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1206
+L device:C_Small C1206
 U 1 1 5AE00766
 P 1750 5800
 F 0 "C1206" H 1760 5870 50  0000 L CNN
@@ -347,7 +288,7 @@ F 11 "1" H 1750 5800 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1208
+L device:C_Small C1208
 U 1 1 5AE00771
 P 2050 5800
 F 0 "C1208" H 2060 5870 50  0000 L CNN
@@ -366,7 +307,7 @@ F 11 "1" H 2050 5800 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1210
+L device:C_Small C1210
 U 1 1 5AE0077C
 P 2350 5800
 F 0 "C1210" H 2360 5870 50  0000 L CNN
@@ -385,7 +326,7 @@ F 11 "1" H 2350 5800 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0135
+L power1:GND #PWR0135
 U 1 1 5AE00796
 P 2150 6100
 F 0 "#PWR0135" H 2150 5850 50  0001 C CNN
@@ -396,7 +337,7 @@ F 3 "" H 2150 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1202
+L device:R_Small R1202
 U 1 1 5AE007A2
 P 2150 5400
 F 0 "R1202" H 2180 5420 50  0000 L CNN
@@ -413,7 +354,7 @@ VDDT
 Text Label 4150 800  3    60   ~ 0
 VDDT
 $Comp
-L +1V0 #PWR0136
+L power1:+1V0 #PWR0136
 U 1 1 5AE013EA
 P 5350 3750
 F 0 "#PWR0136" H 5350 3600 50  0001 C CNN
@@ -424,7 +365,7 @@ F 3 "" H 5350 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1217
+L device:C_Small C1217
 U 1 1 5AE013F5
 P 4150 4350
 F 0 "C1217" H 4160 4420 50  0000 L CNN
@@ -442,7 +383,7 @@ F 10 "1" H 4150 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1219
+L device:C_Small C1219
 U 1 1 5AE01400
 P 4500 4350
 F 0 "C1219" H 4510 4420 50  0000 L CNN
@@ -458,7 +399,7 @@ F 8 "SPEC" H 4500 4350 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1221
+L device:C_Small C1221
 U 1 1 5AE0140B
 P 4950 4350
 F 0 "C1221" H 4960 4420 50  0000 L CNN
@@ -477,7 +418,7 @@ F 11 "1" H 4950 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1223
+L device:C_Small C1223
 U 1 1 5AE01416
 P 5250 4350
 F 0 "C1223" H 5260 4420 50  0000 L CNN
@@ -496,7 +437,7 @@ F 11 "1" H 5250 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1224
+L device:C_Small C1224
 U 1 1 5AE01421
 P 5550 4350
 F 0 "C1224" H 5560 4420 50  0000 L CNN
@@ -515,7 +456,7 @@ F 11 "1" H 5550 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1225
+L device:C_Small C1225
 U 1 1 5AE0142C
 P 5850 4350
 F 0 "C1225" H 5860 4420 50  0000 L CNN
@@ -534,7 +475,7 @@ F 11 "1" H 5850 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1227
+L device:C_Small C1227
 U 1 1 5AE01437
 P 6150 4350
 F 0 "C1227" H 6160 4420 50  0000 L CNN
@@ -553,7 +494,7 @@ F 11 "1" H 6150 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1229
+L device:C_Small C1229
 U 1 1 5AE01442
 P 6450 4350
 F 0 "C1229" H 6460 4420 50  0000 L CNN
@@ -572,7 +513,7 @@ F 11 "1" H 6450 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0137
+L power1:GND #PWR0137
 U 1 1 5AE01466
 P 5350 4650
 F 0 "#PWR0137" H 5350 4400 50  0001 C CNN
@@ -585,7 +526,7 @@ $EndComp
 Text Label 6750 4150 2    60   ~ 0
 DVDD
 $Comp
-L R_Small R1204
+L device:R_Small R1204
 U 1 1 5AE01473
 P 5350 3950
 F 0 "R1204" H 5380 3970 50  0000 L CNN
@@ -856,7 +797,7 @@ Wire Wire Line
 Text Label 5850 800  3    60   ~ 0
 DVDD
 $Comp
-L +1V0 #PWR0138
+L power1:+1V0 #PWR0138
 U 1 1 5AE02654
 P 8600 3750
 F 0 "#PWR0138" H 8600 3600 50  0001 C CNN
@@ -867,7 +808,7 @@ F 3 "" H 8600 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1232
+L device:C_Small C1232
 U 1 1 5AE0265F
 P 7400 4350
 F 0 "C1232" H 7410 4420 50  0000 L CNN
@@ -883,7 +824,7 @@ F 8 "SPEC" H 7400 4350 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1233
+L device:C_Small C1233
 U 1 1 5AE0266A
 P 7750 4350
 F 0 "C1233" H 7760 4420 50  0000 L CNN
@@ -899,7 +840,7 @@ F 8 "SPEC" H 7750 4350 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1234
+L device:C_Small C1234
 U 1 1 5AE02675
 P 8200 4350
 F 0 "C1234" H 8210 4420 50  0000 L CNN
@@ -918,7 +859,7 @@ F 11 "1" H 8200 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1235
+L device:C_Small C1235
 U 1 1 5AE02680
 P 8500 4350
 F 0 "C1235" H 8510 4420 50  0000 L CNN
@@ -937,7 +878,7 @@ F 11 "1" H 8500 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1236
+L device:C_Small C1236
 U 1 1 5AE0268B
 P 8800 4350
 F 0 "C1236" H 8810 4420 50  0000 L CNN
@@ -956,7 +897,7 @@ F 11 "1" H 8800 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1237
+L device:C_Small C1237
 U 1 1 5AE02696
 P 9100 4350
 F 0 "C1237" H 9110 4420 50  0000 L CNN
@@ -975,7 +916,7 @@ F 11 "1" H 9100 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1238
+L device:C_Small C1238
 U 1 1 5AE026A1
 P 9400 4350
 F 0 "C1238" H 9410 4420 50  0000 L CNN
@@ -994,7 +935,7 @@ F 11 "1" H 9400 4350 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0139
+L power1:GND #PWR0139
 U 1 1 5AE026A7
 P 8600 4650
 F 0 "#PWR0139" H 8600 4400 50  0001 C CNN
@@ -1005,7 +946,7 @@ F 3 "" H 8600 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1206
+L device:R_Small R1206
 U 1 1 5AE026AF
 P 8600 3950
 F 0 "R1206" H 8630 3970 50  0000 L CNN
@@ -1073,7 +1014,7 @@ VDDD
 Text Label 9750 4150 2    60   ~ 0
 VDDD
 $Comp
-L C_Small C1214
+L device:C_Small C1214
 U 1 1 5AE05196
 P 3300 5800
 F 0 "C1214" H 3310 5870 50  0000 L CNN
@@ -1089,7 +1030,7 @@ F 8 "SPEC" H 3300 5800 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1215
+L device:C_Small C1215
 U 1 1 5AE051A1
 P 3650 5800
 F 0 "C1215" H 3660 5870 50  0000 L CNN
@@ -1105,7 +1046,7 @@ F 8 "SPEC" H 3650 5800 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1216
+L device:C_Small C1216
 U 1 1 5AE051AC
 P 4100 5800
 F 0 "C1216" H 4110 5870 50  0000 L CNN
@@ -1124,7 +1065,7 @@ F 11 "1" H 4100 5800 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1218
+L device:C_Small C1218
 U 1 1 5AE051B7
 P 4400 5800
 F 0 "C1218" H 4410 5870 50  0000 L CNN
@@ -1143,7 +1084,7 @@ F 11 "1" H 4400 5800 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1220
+L device:C_Small C1220
 U 1 1 5AE051C2
 P 4700 5800
 F 0 "C1220" H 4710 5870 50  0000 L CNN
@@ -1162,7 +1103,7 @@ F 11 "1" H 4700 5800 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1222
+L device:C_Small C1222
 U 1 1 5AE051CD
 P 5000 5800
 F 0 "C1222" H 5010 5870 50  0000 L CNN
@@ -1181,7 +1122,7 @@ F 11 "1" H 5000 5800 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0140
+L power1:GND #PWR0140
 U 1 1 5AE051D3
 P 4500 6100
 F 0 "#PWR0140" H 4500 5850 50  0001 C CNN
@@ -1192,7 +1133,7 @@ F 3 "" H 4500 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1203
+L device:R_Small R1203
 U 1 1 5AE051DB
 P 4500 5400
 F 0 "R1203" H 4530 5420 50  0000 L CNN
@@ -1246,7 +1187,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 5900 3300 6000
 $Comp
-L +1V8 #PWR0141
+L power1:+1V8 #PWR0141
 U 1 1 5AE05277
 P 4500 5200
 F 0 "#PWR0141" H 4500 5050 50  0001 C CNN
@@ -1265,7 +1206,7 @@ VDDRA
 Text Label 6650 800  3    60   ~ 0
 VDDRA
 $Comp
-L C_Small C1226
+L device:C_Small C1226
 U 1 1 5AE06447
 P 5850 5800
 F 0 "C1226" H 5860 5870 50  0000 L CNN
@@ -1281,7 +1222,7 @@ F 8 "SPEC" H 5850 5800 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1228
+L device:C_Small C1228
 U 1 1 5AE06452
 P 6200 5800
 F 0 "C1228" H 6210 5870 50  0000 L CNN
@@ -1297,7 +1238,7 @@ F 8 "SPEC" H 6200 5800 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1230
+L device:C_Small C1230
 U 1 1 5AE0645D
 P 6650 5800
 F 0 "C1230" H 6660 5870 50  0000 L CNN
@@ -1316,7 +1257,7 @@ F 11 "1" H 6650 5800 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1231
+L device:C_Small C1231
 U 1 1 5AE06468
 P 6950 5800
 F 0 "C1231" H 6960 5870 50  0000 L CNN
@@ -1335,7 +1276,7 @@ F 11 "1" H 6950 5800 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0142
+L power1:GND #PWR0142
 U 1 1 5AE06484
 P 6450 6100
 F 0 "#PWR0142" H 6450 5850 50  0001 C CNN
@@ -1346,7 +1287,7 @@ F 3 "" H 6450 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1205
+L device:R_Small R1205
 U 1 1 5AE0648C
 P 6450 5400
 F 0 "R1205" H 6480 5420 50  0000 L CNN
@@ -1386,7 +1327,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 5900 5850 6000
 $Comp
-L +1V8 #PWR0143
+L power1:+1V8 #PWR0143
 U 1 1 5AE064AC
 P 6450 5200
 F 0 "#PWR0143" H 6450 5050 50  0001 C CNN

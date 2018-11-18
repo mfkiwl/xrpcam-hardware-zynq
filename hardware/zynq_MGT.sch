@@ -1,65 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:zynq_board-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:xilinx_zynq_clg485
-LIBS:SFP_plus
-LIBS:ael2005
-LIBS:diff_osc
-LIBS:si53340
-LIBS:usb3320
-LIBS:nx5p3090
-LIBS:smp1255putg
-LIBS:osc
-LIBS:ddr
-LIBS:misc
-LIBS:tlk10031
-LIBS:lshm-150-xxx-x-dv-a-s
-LIBS:sn74axc8t245
-LIBS:sn74lvc2t45
-LIBS:dmf05lcflp
-LIBS:bss138ps
-LIBS:max14854
-LIBS:switches
-LIBS:ft234xd
-LIBS:sn74lv1t126
-LIBS:emif06-msd02n16
-LIBS:cat24c02tdi-gt3
-LIBS:power_symbols
-LIBS:ti_power_modules
-LIBS:mdr20
-LIBS:dm3cs
-LIBS:lsf0102
-LIBS:dmp3056l
+EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -74,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xc7z030sbg485 U201
+L xilinx_zynq_clg485:xc7z030sbg485 U201
 U 5 1 596E7F00
 P 5350 2150
 F 0 "U201" H 5550 2400 60  0000 L CNN
@@ -125,7 +66,7 @@ MGTREFCLK_1_N
 Text HLabel 3300 2550 0    60   Input ~ 0
 MGTREFCLK_1_P
 $Comp
-L C_Small C1004
+L device:C_Small C1004
 U 1 1 598A74A2
 P 4250 2550
 F 0 "C1004" H 4260 2620 50  0000 L CNN
@@ -136,7 +77,7 @@ F 3 "" H 4250 2550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1003
+L device:C_Small C1003
 U 1 1 598A7543
 P 4000 2450
 F 0 "C1003" H 4010 2520 50  0000 L CNN
@@ -147,7 +88,7 @@ F 3 "" H 4000 2450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1001
+L device:C_Small C1001
 U 1 1 598A7566
 P 3500 2250
 F 0 "C1001" H 3510 2320 50  0000 L CNN
@@ -158,7 +99,7 @@ F 3 "" H 3500 2250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1002
+L device:C_Small C1002
 U 1 1 598A75B1
 P 3750 2350
 F 0 "C1002" H 3760 2420 50  0000 L CNN
@@ -249,7 +190,7 @@ MGTX_TX_0_N
 Text Label 5250 3950 2    60   ~ 0
 MGTX_TX_0_P
 $Comp
-L R_Small R1001
+L device:R_Small R1001
 U 1 1 5ADF6841
 P 5100 2150
 F 0 "R1001" H 5130 2170 50  0000 L CNN
@@ -270,7 +211,7 @@ Wire Wire Line
 Text Notes 4600 1600 0    60   ~ 0
 Traces to MGTREF and MGTAVTTRCAL\nhave to be the same length / geometry! \nSee UG476 Figure 5-3.
 $Comp
-L +1V2_MGT #PWR0119
+L power_symbols:+1V2_MGT #PWR0119
 U 1 1 5ADF709F
 P 5300 1950
 F 0 "#PWR0119" H 5300 1800 50  0001 C CNN

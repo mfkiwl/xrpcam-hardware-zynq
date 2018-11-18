@@ -1,65 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:zynq_board-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:xilinx_zynq_clg485
-LIBS:SFP_plus
-LIBS:ael2005
-LIBS:diff_osc
-LIBS:si53340
-LIBS:usb3320
-LIBS:nx5p3090
-LIBS:smp1255putg
-LIBS:osc
-LIBS:ddr
-LIBS:misc
-LIBS:tlk10031
-LIBS:lshm-150-xxx-x-dv-a-s
-LIBS:sn74axc8t245
-LIBS:sn74lvc2t45
-LIBS:dmf05lcflp
-LIBS:bss138ps
-LIBS:max14854
-LIBS:switches
-LIBS:ft234xd
-LIBS:sn74lv1t126
-LIBS:emif06-msd02n16
-LIBS:cat24c02tdi-gt3
-LIBS:power_symbols
-LIBS:ti_power_modules
-LIBS:mdr20
-LIBS:dm3cs
-LIBS:lsf0102
-LIBS:dmp3056l
+EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -74,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xc7z030sbg485 U201
+L xilinx_zynq_clg485:xc7z030sbg485 U201
 U 9 1 596E7E11
 P 9900 1250
 F 0 "U201" H 10100 1500 60  0000 L CNN
@@ -85,7 +26,7 @@ F 3 "" H 9900 350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C258
+L device:C_Small C258
 U 1 1 59872421
 P 9600 5450
 F 0 "C258" H 9610 5520 50  0000 L CNN
@@ -102,7 +43,7 @@ F 9 "SPEC" H 9600 5450 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C255
+L device:C_Small C255
 U 1 1 59872474
 P 9100 5450
 F 0 "C255" H 9110 5520 50  0000 L CNN
@@ -139,12 +80,12 @@ VCC_PAUX
 Text Notes 4950 2800 0    60   ~ 0
 VCCO_DDR
 $Comp
-L CP_Small C202
+L device:CP_Small C202
 U 1 1 598743AB
 P 950 1500
 F 0 "C202" H 960 1570 50  0000 L CNN
 F 1 "330µF" H 960 1420 50  0000 L CNN
-F 2 "C_2917" H 950 1500 50  0001 C CNN
+F 2 "" H 950 1500 50  0001 C CNN
 F 3 "http://www.kemet.com/docfinder?Partnumber=T520" H 950 1500 50  0001 C CNN
 F 4 "KEMET" H 950 1500 60  0001 C CNN "MFG Name"
 F 5 "T520V337M2R5ATE025" H 950 1500 60  0001 C CNN "MFG Part Num"
@@ -156,7 +97,7 @@ F 9 "SPEC" H 950 1500 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C210
+L device:C_Small C210
 U 1 1 5987452E
 P 2150 1500
 F 0 "C210" H 2160 1570 50  0000 L CNN
@@ -175,7 +116,7 @@ F 11 "Populate" H 2150 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C205
+L device:C_Small C205
 U 1 1 5987453A
 P 1450 1500
 F 0 "C205" H 1460 1570 50  0000 L CNN
@@ -192,7 +133,7 @@ F 9 "SPEC" H 1450 1500 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C208
+L device:C_Small C208
 U 1 1 59874596
 P 1750 1500
 F 0 "C208" H 1760 1570 50  0000 L CNN
@@ -211,7 +152,7 @@ F 11 "Populate" H 1750 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_Small L202
+L device:L_Small L202
 U 1 1 5AE1F2BF
 P 8950 1550
 F 0 "L202" H 8980 1590 50  0000 L CNN
@@ -222,7 +163,7 @@ F 3 "" H 8950 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR01
+L power1:GND #PWR01
 U 1 1 5ADEB33E
 P 9800 2450
 F 0 "#PWR01" H 9800 2200 50  0001 C CNN
@@ -233,7 +174,7 @@ F 3 "" H 9800 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V8 #PWR02
+L power1:+1V8 #PWR02
 U 1 1 5ADEB37F
 P 8750 950
 F 0 "#PWR02" H 8750 800 50  0001 C CNN
@@ -244,7 +185,7 @@ F 3 "" H 8750 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_Small L201
+L device:L_Small L201
 U 1 1 5ADEBC1C
 P 8950 1250
 F 0 "L201" H 8980 1290 50  0000 L CNN
@@ -260,7 +201,7 @@ F 8 "SPEC" H 8950 1250 60  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +1V0 #PWR03
+L power1:+1V0 #PWR03
 U 1 1 5ADF2035
 P 7800 950
 F 0 "#PWR03" H 7800 800 50  0001 C CNN
@@ -271,7 +212,7 @@ F 3 "" H 7800 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V0_MGT #PWR04
+L power_symbols:+1V0_MGT #PWR04
 U 1 1 5ADF36DC
 P 9800 950
 F 0 "#PWR04" H 9800 800 50  0001 C CNN
@@ -282,7 +223,7 @@ F 3 "" H 9800 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V2_MGT #PWR05
+L power_symbols:+1V2_MGT #PWR05
 U 1 1 5ADF3720
 P 9250 950
 F 0 "#PWR05" H 9250 800 50  0001 C CNN
@@ -295,7 +236,7 @@ $EndComp
 Text GLabel 8350 1650 0    60   Input ~ 0
 VCC_AUX
 $Comp
-L CP_Small C221
+L device:CP_Small C221
 U 1 1 5AE693FF
 P 3500 1500
 F 0 "C221" H 3510 1570 50  0000 L CNN
@@ -312,7 +253,7 @@ F 9 "SPEC" H 3500 1500 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C227
+L device:C_Small C227
 U 1 1 5AE6986D
 P 4350 1500
 F 0 "C227" H 4360 1570 50  0000 L CNN
@@ -329,7 +270,7 @@ F 9 "SPEC" H 4350 1500 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C230
+L device:C_Small C230
 U 1 1 5AE69B3D
 P 4650 1500
 F 0 "C230" H 4660 1570 50  0000 L CNN
@@ -348,7 +289,7 @@ F 11 "DNP" H 4650 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C224
+L device:C_Small C224
 U 1 1 5AE69C03
 P 3950 1500
 F 0 "C224" H 3960 1570 50  0000 L CNN
@@ -367,7 +308,7 @@ $EndComp
 Text Notes 5350 800  0    60   ~ 0
 VCC_AUX
 $Comp
-L C_Small C234
+L device:C_Small C234
 U 1 1 5AE69D6F
 P 5250 1500
 F 0 "C234" H 5260 1570 50  0000 L CNN
@@ -384,7 +325,7 @@ F 9 "SPEC" H 5250 1500 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C237
+L device:C_Small C237
 U 1 1 5AE69E80
 P 5650 1500
 F 0 "C237" H 5660 1570 50  0000 L CNN
@@ -403,7 +344,7 @@ F 11 "Populate" H 5650 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C203
+L device:C_Small C203
 U 1 1 5AE7068A
 P 1200 3550
 F 0 "C203" H 1210 3620 50  0000 L CNN
@@ -420,7 +361,7 @@ F 9 "SPEC" H 1200 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP_Small C207
+L device:CP_Small C207
 U 1 1 5AE72084
 P 1700 3550
 F 0 "C207" H 1710 3620 50  0000 L CNN
@@ -437,7 +378,7 @@ F 9 "SPEC" H 1700 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP_Small C222
+L device:CP_Small C222
 U 1 1 5AE72476
 P 3750 3550
 F 0 "C222" H 3760 3620 50  0000 L CNN
@@ -454,7 +395,7 @@ F 9 "SPEC" H 3750 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C226
+L device:C_Small C226
 U 1 1 5AE72515
 P 4200 3550
 F 0 "C226" H 4210 3620 50  0000 L CNN
@@ -471,7 +412,7 @@ F 9 "SPEC" H 4200 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C229
+L device:C_Small C229
 U 1 1 5AE725CF
 P 4600 3550
 F 0 "C229" H 4610 3620 50  0000 L CNN
@@ -488,7 +429,7 @@ F 9 "SPEC" H 4600 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP_Small C232
+L device:CP_Small C232
 U 1 1 5AE72A74
 P 5150 3550
 F 0 "C232" H 5160 3620 50  0000 L CNN
@@ -507,7 +448,7 @@ $EndComp
 Text Notes 7100 2800 0    60   ~ 0
 VCCO_MIO0
 $Comp
-L CP_Small C248
+L device:CP_Small C248
 U 1 1 5AE732C2
 P 7350 3550
 F 0 "C248" H 7360 3620 50  0000 L CNN
@@ -524,7 +465,7 @@ F 9 "SPEC" H 7350 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C251
+L device:C_Small C251
 U 1 1 5AE73388
 P 7800 3550
 F 0 "C251" H 7810 3620 50  0000 L CNN
@@ -541,7 +482,7 @@ F 9 "SPEC" H 7800 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C253
+L device:C_Small C253
 U 1 1 5AE7344D
 P 8200 3550
 F 0 "C253" H 8210 3620 50  0000 L CNN
@@ -560,7 +501,7 @@ $EndComp
 Text Notes 8450 2800 0    60   ~ 0
 VCCO_MIO1
 $Comp
-L C_Small C201
+L device:C_Small C201
 U 1 1 5AE73C22
 P 800 5450
 F 0 "C201" H 810 5520 50  0000 L CNN
@@ -577,7 +518,7 @@ F 9 "SPEC" H 800 5450 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power1:GND #PWR06
 U 1 1 5AE7C463
 P 1950 1800
 F 0 "#PWR06" H 1950 1550 50  0001 C CNN
@@ -588,7 +529,7 @@ F 3 "" H 1950 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L power1:GND #PWR07
 U 1 1 5AE7E589
 P 4150 1800
 F 0 "#PWR07" H 4150 1550 50  0001 C CNN
@@ -599,7 +540,7 @@ F 3 "" H 4150 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power1:GND #PWR08
 U 1 1 5AE7F51C
 P 5850 1800
 F 0 "#PWR08" H 5850 1550 50  0001 C CNN
@@ -612,7 +553,7 @@ $EndComp
 Text GLabel 5850 1150 1    60   Output ~ 0
 VCC_AUX
 $Comp
-L GND #PWR09
+L power1:GND #PWR09
 U 1 1 5AE7FA73
 P 1200 3850
 F 0 "#PWR09" H 1200 3600 50  0001 C CNN
@@ -625,7 +566,7 @@ $EndComp
 Text GLabel 1200 3200 1    60   Output ~ 0
 V_BANK0
 $Comp
-L GND #PWR010
+L power1:GND #PWR010
 U 1 1 5AE89821
 P 2400 3850
 F 0 "#PWR010" H 2400 3600 50  0001 C CNN
@@ -636,7 +577,7 @@ F 3 "" H 2400 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L power1:GND #PWR011
 U 1 1 5AE8A8F2
 P 4200 3850
 F 0 "#PWR011" H 4200 3600 50  0001 C CNN
@@ -647,7 +588,7 @@ F 3 "" H 4200 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L power1:GND #PWR012
 U 1 1 5AE8B200
 P 5750 3850
 F 0 "#PWR012" H 5750 3600 50  0001 C CNN
@@ -660,7 +601,7 @@ $EndComp
 Text GLabel 5750 3250 1    60   Output ~ 0
 VCCO_DDR
 $Comp
-L GND #PWR013
+L power1:GND #PWR013
 U 1 1 5AE8BE29
 P 7800 3850
 F 0 "#PWR013" H 7800 3600 50  0001 C CNN
@@ -673,7 +614,7 @@ $EndComp
 Text GLabel 7800 3200 1    60   Output ~ 0
 VCCO_MIO0
 $Comp
-L CP_Small C254
+L device:CP_Small C254
 U 1 1 5AE8C444
 P 8700 3550
 F 0 "C254" H 8710 3620 50  0000 L CNN
@@ -690,7 +631,7 @@ F 9 "SPEC" H 8700 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C256
+L device:C_Small C256
 U 1 1 5AE8C450
 P 9150 3550
 F 0 "C256" H 9160 3620 50  0000 L CNN
@@ -707,7 +648,7 @@ F 9 "SPEC" H 9150 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C257
+L device:C_Small C257
 U 1 1 5AE8C45C
 P 9550 3550
 F 0 "C257" H 9560 3620 50  0000 L CNN
@@ -724,7 +665,7 @@ F 9 "SPEC" H 9550 3550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L power1:GND #PWR014
 U 1 1 5AE8C46C
 P 9150 3850
 F 0 "#PWR014" H 9150 3600 50  0001 C CNN
@@ -737,7 +678,7 @@ $EndComp
 Text GLabel 9150 3200 1    60   Output ~ 0
 VCCO_MIO1
 $Comp
-L GND #PWR015
+L power1:GND #PWR015
 U 1 1 5AE8F4DA
 P 1800 5750
 F 0 "#PWR015" H 1800 5500 50  0001 C CNN
@@ -750,7 +691,7 @@ $EndComp
 Text GLabel 1800 5100 1    60   Output ~ 0
 VCCO_13
 $Comp
-L GND #PWR016
+L power1:GND #PWR016
 U 1 1 5AE900AE
 P 4450 5750
 F 0 "#PWR016" H 4450 5500 50  0001 C CNN
@@ -763,7 +704,7 @@ $EndComp
 Text GLabel 4450 5100 1    60   Output ~ 0
 VCCO_34
 $Comp
-L C_Small C239
+L device:C_Small C239
 U 1 1 5AE90BAB
 P 5950 5450
 F 0 "C239" H 5960 5520 50  0000 L CNN
@@ -780,7 +721,7 @@ F 9 "SPEC" H 5950 5450 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L power1:GND #PWR017
 U 1 1 5AE90BE3
 P 6950 5750
 F 0 "#PWR017" H 6950 5500 50  0001 C CNN
@@ -817,7 +758,7 @@ Only needed for\nCLG484 Package\n(Z-7012S/Z-7015)
 Text Notes 8650 4700 0    60   ~ 0
 VCC_PLL
 $Comp
-L GND #PWR018
+L power1:GND #PWR018
 U 1 1 5AEEEC20
 P 9350 5750
 F 0 "#PWR018" H 9350 5500 50  0001 C CNN
@@ -848,7 +789,7 @@ VCC_PAUX
 Text Label 4200 2750 3    60   ~ 0
 VCC_PAUX
 $Comp
-L +3V3 #PWR019
+L power1:+3V3 #PWR019
 U 1 1 5AF209EB
 P 7550 3150
 F 0 "#PWR019" H 7550 3000 50  0001 C CNN
@@ -863,9 +804,9 @@ Wire Wire Line
 Wire Wire Line
 	8750 1550 8850 1550
 Wire Wire Line
-	8750 950  8750 1950
+	8750 950  8750 1250
 Wire Wire Line
-	9050 1250 9900 1250
+	9050 1250 9550 1250
 Wire Wire Line
 	9900 2150 9800 2150
 Wire Wire Line
@@ -875,17 +816,17 @@ Wire Wire Line
 Connection ~ 8750 1250
 Connection ~ 8750 1550
 Wire Wire Line
-	7200 1950 9900 1950
+	7200 1950 8750 1950
 Connection ~ 8750 1650
 Wire Wire Line
-	7200 1850 9900 1850
+	7200 1850 7800 1850
 Wire Wire Line
-	7800 950  7800 2050
+	7800 950  7800 1750
 Wire Wire Line
-	7200 2050 9900 2050
+	7200 2050 7800 2050
 Connection ~ 7800 1850
 Wire Wire Line
-	7200 1750 9900 1750
+	7200 1750 7800 1750
 Connection ~ 7800 1750
 Wire Wire Line
 	9900 1350 9800 1350
@@ -898,7 +839,7 @@ Wire Wire Line
 Wire Wire Line
 	950  1600 950  1700
 Wire Wire Line
-	950  1700 3050 1700
+	950  1700 1450 1700
 Wire Wire Line
 	3050 1700 3050 1600
 Wire Wire Line
@@ -919,7 +860,7 @@ Connection ~ 1450 1700
 Wire Wire Line
 	950  1400 950  1300
 Wire Wire Line
-	950  1300 3050 1300
+	950  1300 1450 1300
 Wire Wire Line
 	3050 1300 3050 1400
 Wire Wire Line
@@ -946,13 +887,13 @@ Connection ~ 1950 1300
 Wire Wire Line
 	3500 1400 3500 1300
 Wire Wire Line
-	3500 1300 4650 1300
+	3500 1300 3950 1300
 Wire Wire Line
 	4650 1300 4650 1400
 Wire Wire Line
 	3500 1600 3500 1700
 Wire Wire Line
-	3500 1700 4650 1700
+	3500 1700 3950 1700
 Wire Wire Line
 	4650 1700 4650 1600
 Wire Wire Line
@@ -976,13 +917,13 @@ Connection ~ 4150 1300
 Wire Wire Line
 	5250 1400 5250 1300
 Wire Wire Line
-	5250 1300 6350 1300
+	5250 1300 5650 1300
 Wire Wire Line
 	6350 1300 6350 1400
 Wire Wire Line
 	6350 1600 6350 1700
 Wire Wire Line
-	6350 1700 5250 1700
+	6350 1700 6050 1700
 Wire Wire Line
 	5250 1700 5250 1600
 Wire Wire Line
@@ -1006,17 +947,17 @@ Connection ~ 5850 1300
 Wire Wire Line
 	1200 3650 1200 3850
 Wire Wire Line
-	1200 3450 1200 3200
+	1200 3450 1200 3300
 Wire Wire Line
 	1700 3450 1700 3350
 Wire Wire Line
-	1700 3350 3200 3350
+	1700 3350 2150 3350
 Wire Wire Line
 	3200 3350 3200 3450
 Wire Wire Line
 	3200 3650 3200 3750
 Wire Wire Line
-	3200 3750 1700 3750
+	3200 3750 2900 3750
 Wire Wire Line
 	1700 3750 1700 3650
 Wire Wire Line
@@ -1046,79 +987,79 @@ Connection ~ 2400 3350
 Wire Wire Line
 	3750 3450 3750 3350
 Wire Wire Line
-	3750 3350 4600 3350
+	3750 3350 4200 3350
 Wire Wire Line
 	4600 3350 4600 3450
 Wire Wire Line
 	4600 3650 4600 3750
 Wire Wire Line
-	4600 3750 3750 3750
+	4600 3750 4200 3750
 Wire Wire Line
 	3750 3750 3750 3650
 Wire Wire Line
-	4200 2750 4200 3450
+	4200 2750 4200 3350
 Connection ~ 4200 3350
 Wire Wire Line
-	4200 3650 4200 3850
+	4200 3650 4200 3750
 Connection ~ 4200 3750
 Wire Wire Line
 	5150 3450 5150 3350
 Wire Wire Line
-	5150 3350 6850 3350
+	5150 3350 5300 3350
 Wire Wire Line
 	5550 3350 5550 3450
 Wire Wire Line
 	5150 3650 5150 3750
 Wire Wire Line
-	5150 3750 6850 3750
+	5150 3750 5550 3750
 Wire Wire Line
 	5550 3750 5550 3650
 Wire Wire Line
 	7350 3450 7350 3350
 Wire Wire Line
-	7350 3350 8200 3350
+	7350 3350 7550 3350
 Wire Wire Line
 	8200 3350 8200 3450
 Wire Wire Line
 	8200 3650 8200 3750
 Wire Wire Line
-	8200 3750 7350 3750
+	8200 3750 7800 3750
 Wire Wire Line
 	7350 3750 7350 3650
 Wire Wire Line
-	7800 3200 7800 3450
+	7800 3200 7800 3350
 Connection ~ 7800 3350
 Wire Wire Line
-	7800 3650 7800 3850
+	7800 3650 7800 3750
 Connection ~ 7800 3750
 Wire Wire Line
 	8700 3450 8700 3350
 Wire Wire Line
-	8700 3350 9550 3350
+	8700 3350 8900 3350
 Wire Wire Line
 	9550 3350 9550 3450
 Wire Wire Line
 	9550 3650 9550 3750
 Wire Wire Line
-	9550 3750 8700 3750
+	9550 3750 9150 3750
 Wire Wire Line
 	8700 3750 8700 3650
 Wire Wire Line
-	9150 3200 9150 3450
+	9150 3200 9150 3350
 Connection ~ 9150 3350
 Wire Wire Line
-	9150 3650 9150 3850
+	9150 3650 9150 3750
 Connection ~ 9150 3750
 Wire Wire Line
 	2800 5350 2800 5250
 Wire Wire Line
-	2800 5250 800  5250
+	2800 5250 2500 5250
 Wire Wire Line
 	800  5250 800  5350
 Wire Wire Line
 	800  5550 800  5650
 Wire Wire Line
-	800  5650 2800 5650
+	800  5650 1250 5650
 Wire Wire Line
 	2800 5650 2800 5550
 Wire Wire Line
@@ -1198,13 +1139,13 @@ Connection ~ 4450 5250
 Wire Wire Line
 	7950 5350 7950 5250
 Wire Wire Line
-	7950 5250 5950 5250
+	7950 5250 7650 5250
 Wire Wire Line
 	5950 5250 5950 5350
 Wire Wire Line
 	5950 5550 5950 5650
 Wire Wire Line
-	5950 5650 7950 5650
+	5950 5650 6400 5650
 Wire Wire Line
 	7950 5650 7950 5550
 Wire Wire Line
@@ -1244,9 +1185,9 @@ Wire Wire Line
 	6950 5100 6950 5250
 Connection ~ 6950 5250
 Wire Wire Line
-	3900 5250 5450 5250
+	3900 5250 4050 5250
 Wire Wire Line
-	3900 5650 5450 5650
+	3900 5650 4150 5650
 Wire Notes Line
 	3600 4400 3600 6150
 Wire Notes Line
@@ -1368,13 +1309,13 @@ Wire Notes Line
 Wire Wire Line
 	9100 5350 9100 5250
 Wire Wire Line
-	9100 5250 9600 5250
+	9100 5250 9350 5250
 Wire Wire Line
 	9600 5250 9600 5350
 Wire Wire Line
 	9600 5650 9600 5550
 Wire Wire Line
-	9100 5650 9600 5650
+	9100 5650 9350 5650
 Wire Wire Line
 	9100 5650 9100 5550
 Wire Wire Line
@@ -1388,13 +1329,13 @@ Wire Wire Line
 Connection ~ 9550 1250
 Connection ~ 7800 2050
 Wire Wire Line
-	8350 1650 9900 1650
+	8350 1650 8750 1650
 Connection ~ 8750 1950
 Wire Wire Line
 	7550 3150 7550 3350
 Connection ~ 7550 3350
 $Comp
-L +3V3 #PWR020
+L power1:+3V3 #PWR020
 U 1 1 5AF21097
 P 8900 3150
 F 0 "#PWR020" H 8900 3000 50  0001 C CNN
@@ -1408,7 +1349,7 @@ Wire Wire Line
 	8900 3150 8900 3350
 Connection ~ 8900 3350
 $Comp
-L +1V8 #PWR021
+L power1:+1V8 #PWR021
 U 1 1 5AF2156D
 P 6250 5000
 F 0 "#PWR021" H 6250 4850 50  0001 C CNN
@@ -1419,7 +1360,7 @@ F 3 "" H 6250 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V8 #PWR022
+L power1:+1V8 #PWR022
 U 1 1 5AF2198C
 P 4050 5000
 F 0 "#PWR022" H 4050 4850 50  0001 C CNN
@@ -1436,7 +1377,7 @@ Wire Wire Line
 	6250 5000 6250 5250
 Connection ~ 6250 5250
 $Comp
-L +V_DDR #PWR023
+L power_symbols:+V_DDR #PWR023
 U 1 1 5AF3A999
 P 5300 3150
 F 0 "#PWR023" H 5300 3000 50  0001 C CNN
@@ -1450,7 +1391,7 @@ Wire Wire Line
 	5300 3150 5300 3350
 Connection ~ 5300 3350
 $Comp
-L +2V5 #PWR024
+L power1:+2V5 #PWR024
 U 1 1 5AF6CDAF
 P 1050 4950
 F 0 "#PWR024" H 1050 4800 50  0001 C CNN
@@ -1464,7 +1405,7 @@ Wire Wire Line
 	1050 4950 1050 5250
 Connection ~ 1050 5250
 $Comp
-L +1V8 #PWR025
+L power1:+1V8 #PWR025
 U 1 1 5AF8A808
 P 950 3150
 F 0 "#PWR025" H 950 3000 50  0001 C CNN
@@ -1480,7 +1421,7 @@ Wire Wire Line
 	950  3300 1200 3300
 Connection ~ 1200 3300
 $Comp
-L C_Small C213
+L device:C_Small C213
 U 1 1 5AFCA75E
 P 2450 1500
 F 0 "C213" H 2460 1570 50  0000 L CNN
@@ -1499,7 +1440,7 @@ F 11 "Populate" H 2450 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C216
+L device:C_Small C216
 U 1 1 5AFCA837
 P 2750 1500
 F 0 "C216" H 2760 1570 50  0000 L CNN
@@ -1518,7 +1459,7 @@ F 11 "Populate" H 2750 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C219
+L device:C_Small C219
 U 1 1 5AFCA917
 P 3050 1500
 F 0 "C219" H 3060 1570 50  0000 L CNN
@@ -1537,7 +1478,7 @@ F 11 "Populate" H 3050 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C240
+L device:C_Small C240
 U 1 1 5AFCB900
 P 6050 1500
 F 0 "C240" H 6060 1570 50  0000 L CNN
@@ -1556,7 +1497,7 @@ F 11 "Populate" H 6050 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C242
+L device:C_Small C242
 U 1 1 5AFCBA08
 P 6350 1500
 F 0 "C242" H 6360 1570 50  0000 L CNN
@@ -1575,7 +1516,7 @@ F 11 "Populate" H 6350 1500 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C215
+L device:C_Small C215
 U 1 1 5AFCBF78
 P 2600 3550
 F 0 "C215" H 2610 3620 50  0000 L CNN
@@ -1594,7 +1535,7 @@ F 11 "Populate" H 2600 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C211
+L device:C_Small C211
 U 1 1 5AFCBF86
 P 2150 3550
 F 0 "C211" H 2160 3620 50  0000 L CNN
@@ -1613,7 +1554,7 @@ F 11 "Populate" H 2150 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C218
+L device:C_Small C218
 U 1 1 5AFCBF94
 P 2900 3550
 F 0 "C218" H 2910 3620 50  0000 L CNN
@@ -1632,7 +1573,7 @@ F 11 "Populate" H 2900 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C220
+L device:C_Small C220
 U 1 1 5AFCBFA2
 P 3200 3550
 F 0 "C220" H 3210 3620 50  0000 L CNN
@@ -1651,7 +1592,7 @@ F 11 "Populate" H 3200 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C236
+L device:C_Small C236
 U 1 1 5AFCCEBE
 P 5550 3550
 F 0 "C236" H 5560 3620 50  0000 L CNN
@@ -1670,7 +1611,7 @@ F 11 "Populate" H 5550 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C238
+L device:C_Small C238
 U 1 1 5AFCD169
 P 5950 3550
 F 0 "C238" H 5960 3620 50  0000 L CNN
@@ -1689,7 +1630,7 @@ F 11 "Populate" H 5950 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C241
+L device:C_Small C241
 U 1 1 5AFCD177
 P 6250 3550
 F 0 "C241" H 6260 3620 50  0000 L CNN
@@ -1708,7 +1649,7 @@ F 11 "Populate" H 6250 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C244
+L device:C_Small C244
 U 1 1 5AFCD185
 P 6550 3550
 F 0 "C244" H 6560 3620 50  0000 L CNN
@@ -1727,7 +1668,7 @@ F 11 "Populate" H 6550 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C246
+L device:C_Small C246
 U 1 1 5AFCD20B
 P 6850 3550
 F 0 "C246" H 6860 3620 50  0000 L CNN
@@ -1746,7 +1687,7 @@ F 11 "Populate" H 6850 3550 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C206
+L device:C_Small C206
 U 1 1 5AFCD7AF
 P 1500 5450
 F 0 "C206" H 1510 5520 50  0000 L CNN
@@ -1765,7 +1706,7 @@ F 11 "Populate" H 1500 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C209
+L device:C_Small C209
 U 1 1 5AFCD7BD
 P 1900 5450
 F 0 "C209" H 1910 5520 50  0000 L CNN
@@ -1784,7 +1725,7 @@ F 11 "Populate" H 1900 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C212
+L device:C_Small C212
 U 1 1 5AFCD7CB
 P 2200 5450
 F 0 "C212" H 2210 5520 50  0000 L CNN
@@ -1803,7 +1744,7 @@ F 11 "Populate" H 2200 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C214
+L device:C_Small C214
 U 1 1 5AFCD7D9
 P 2500 5450
 F 0 "C214" H 2510 5520 50  0000 L CNN
@@ -1822,7 +1763,7 @@ F 11 "Populate" H 2500 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C217
+L device:C_Small C217
 U 1 1 5AFCD7E7
 P 2800 5450
 F 0 "C217" H 2810 5520 50  0000 L CNN
@@ -1841,7 +1782,7 @@ F 11 "Populate" H 2800 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C204
+L device:C_Small C204
 U 1 1 5AFCD9D5
 P 1250 5450
 F 0 "C204" H 1260 5520 50  0000 L CNN
@@ -1860,7 +1801,7 @@ F 11 "Populate" H 1250 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C225
+L device:C_Small C225
 U 1 1 5AFCE26B
 P 4150 5450
 F 0 "C225" H 4160 5520 50  0000 L CNN
@@ -1879,7 +1820,7 @@ F 11 "Populate" H 4150 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C228
+L device:C_Small C228
 U 1 1 5AFCE279
 P 4550 5450
 F 0 "C228" H 4560 5520 50  0000 L CNN
@@ -1898,7 +1839,7 @@ F 11 "Populate" H 4550 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C231
+L device:C_Small C231
 U 1 1 5AFCE287
 P 4850 5450
 F 0 "C231" H 4860 5520 50  0000 L CNN
@@ -1917,7 +1858,7 @@ F 11 "Populate" H 4850 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C233
+L device:C_Small C233
 U 1 1 5AFCE295
 P 5150 5450
 F 0 "C233" H 5160 5520 50  0000 L CNN
@@ -1936,7 +1877,7 @@ F 11 "Populate" H 5150 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C235
+L device:C_Small C235
 U 1 1 5AFCE2A3
 P 5450 5450
 F 0 "C235" H 5460 5520 50  0000 L CNN
@@ -1955,7 +1896,7 @@ F 11 "Populate" H 5450 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C223
+L device:C_Small C223
 U 1 1 5AFCE2B1
 P 3900 5450
 F 0 "C223" H 3910 5520 50  0000 L CNN
@@ -1974,7 +1915,7 @@ F 11 "Populate" H 3900 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C245
+L device:C_Small C245
 U 1 1 5AFCE765
 P 6650 5450
 F 0 "C245" H 6660 5520 50  0000 L CNN
@@ -1993,7 +1934,7 @@ F 11 "Populate" H 6650 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C247
+L device:C_Small C247
 U 1 1 5AFCE773
 P 7050 5450
 F 0 "C247" H 7060 5520 50  0000 L CNN
@@ -2012,7 +1953,7 @@ F 11 "Populate" H 7050 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C249
+L device:C_Small C249
 U 1 1 5AFCE781
 P 7350 5450
 F 0 "C249" H 7360 5520 50  0000 L CNN
@@ -2031,7 +1972,7 @@ F 11 "Populate" H 7350 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C250
+L device:C_Small C250
 U 1 1 5AFCE78F
 P 7650 5450
 F 0 "C250" H 7660 5520 50  0000 L CNN
@@ -2050,7 +1991,7 @@ F 11 "Populate" H 7650 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C252
+L device:C_Small C252
 U 1 1 5AFCE79D
 P 7950 5450
 F 0 "C252" H 7960 5520 50  0000 L CNN
@@ -2069,7 +2010,7 @@ F 11 "Populate" H 7950 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C243
+L device:C_Small C243
 U 1 1 5AFCE7AB
 P 6400 5450
 F 0 "C243" H 6410 5520 50  0000 L CNN
@@ -2087,4 +2028,220 @@ F 11 "Populate" H 6400 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    6400 5450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8750 1250 8750 1550
+Wire Wire Line
+	8750 1550 8750 1650
+Wire Wire Line
+	8750 1650 9900 1650
+Wire Wire Line
+	8750 1650 8750 1950
+Wire Wire Line
+	7800 1850 9900 1850
+Wire Wire Line
+	7800 1850 7800 2050
+Wire Wire Line
+	7800 1750 7800 1850
+Wire Wire Line
+	7800 1750 9900 1750
+Wire Wire Line
+	2750 1700 3050 1700
+Wire Wire Line
+	2450 1700 2750 1700
+Wire Wire Line
+	2150 1700 2450 1700
+Wire Wire Line
+	1750 1700 1950 1700
+Wire Wire Line
+	1450 1700 1750 1700
+Wire Wire Line
+	1450 1300 1750 1300
+Wire Wire Line
+	1750 1300 1950 1300
+Wire Wire Line
+	2150 1300 2450 1300
+Wire Wire Line
+	2450 1300 2750 1300
+Wire Wire Line
+	2750 1300 3050 1300
+Wire Wire Line
+	1950 1700 2150 1700
+Wire Wire Line
+	1950 1300 2150 1300
+Wire Wire Line
+	3950 1300 4150 1300
+Wire Wire Line
+	4350 1300 4650 1300
+Wire Wire Line
+	3950 1700 4150 1700
+Wire Wire Line
+	4350 1700 4650 1700
+Wire Wire Line
+	4150 1700 4350 1700
+Wire Wire Line
+	4150 1300 4350 1300
+Wire Wire Line
+	5650 1300 5850 1300
+Wire Wire Line
+	6050 1300 6350 1300
+Wire Wire Line
+	5650 1700 5250 1700
+Wire Wire Line
+	6050 1700 5850 1700
+Wire Wire Line
+	5850 1700 5650 1700
+Wire Wire Line
+	5850 1300 6050 1300
+Wire Wire Line
+	2150 3350 2400 3350
+Wire Wire Line
+	2600 3350 2900 3350
+Wire Wire Line
+	2900 3350 3200 3350
+Wire Wire Line
+	2900 3750 2600 3750
+Wire Wire Line
+	2600 3750 2400 3750
+Wire Wire Line
+	2150 3750 1700 3750
+Wire Wire Line
+	2400 3750 2150 3750
+Wire Wire Line
+	2400 3350 2600 3350
+Wire Wire Line
+	4200 3350 4600 3350
+Wire Wire Line
+	4200 3350 4200 3450
+Wire Wire Line
+	4200 3750 3750 3750
+Wire Wire Line
+	4200 3750 4200 3850
+Wire Wire Line
+	7800 3350 8200 3350
+Wire Wire Line
+	7800 3350 7800 3450
+Wire Wire Line
+	7800 3750 7350 3750
+Wire Wire Line
+	7800 3750 7800 3850
+Wire Wire Line
+	9150 3350 9550 3350
+Wire Wire Line
+	9150 3350 9150 3450
+Wire Wire Line
+	9150 3750 8700 3750
+Wire Wire Line
+	9150 3750 9150 3850
+Wire Wire Line
+	2500 5250 2200 5250
+Wire Wire Line
+	2200 5250 1900 5250
+Wire Wire Line
+	1900 5250 1800 5250
+Wire Wire Line
+	1500 5250 1250 5250
+Wire Wire Line
+	1250 5250 1050 5250
+Wire Wire Line
+	1250 5650 1500 5650
+Wire Wire Line
+	1500 5650 1800 5650
+Wire Wire Line
+	1900 5650 2200 5650
+Wire Wire Line
+	2200 5650 2500 5650
+Wire Wire Line
+	2500 5650 2800 5650
+Wire Wire Line
+	1800 5650 1900 5650
+Wire Wire Line
+	1800 5250 1500 5250
+Wire Wire Line
+	5150 5250 5450 5250
+Wire Wire Line
+	4850 5250 5150 5250
+Wire Wire Line
+	4550 5250 4850 5250
+Wire Wire Line
+	4150 5250 4450 5250
+Wire Wire Line
+	4150 5650 4450 5650
+Wire Wire Line
+	4550 5650 4850 5650
+Wire Wire Line
+	4850 5650 5150 5650
+Wire Wire Line
+	5150 5650 5450 5650
+Wire Wire Line
+	4450 5650 4550 5650
+Wire Wire Line
+	4450 5250 4550 5250
+Wire Wire Line
+	7650 5250 7350 5250
+Wire Wire Line
+	7350 5250 7050 5250
+Wire Wire Line
+	7050 5250 6950 5250
+Wire Wire Line
+	6650 5250 6400 5250
+Wire Wire Line
+	6400 5250 6250 5250
+Wire Wire Line
+	6400 5650 6650 5650
+Wire Wire Line
+	6650 5650 6950 5650
+Wire Wire Line
+	7050 5650 7350 5650
+Wire Wire Line
+	7350 5650 7650 5650
+Wire Wire Line
+	7650 5650 7950 5650
+Wire Wire Line
+	6950 5650 7050 5650
+Wire Wire Line
+	6950 5250 6650 5250
+Wire Wire Line
+	5550 3350 5750 3350
+Wire Wire Line
+	5550 3750 5750 3750
+Wire Wire Line
+	5950 3350 6250 3350
+Wire Wire Line
+	6250 3350 6550 3350
+Wire Wire Line
+	6550 3350 6850 3350
+Wire Wire Line
+	6550 3750 6850 3750
+Wire Wire Line
+	6250 3750 6550 3750
+Wire Wire Line
+	5950 3750 6250 3750
+Wire Wire Line
+	5750 3750 5950 3750
+Wire Wire Line
+	5750 3350 5950 3350
+Wire Wire Line
+	9350 5650 9600 5650
+Wire Wire Line
+	9350 5250 9600 5250
+Wire Wire Line
+	9550 1250 9900 1250
+Wire Wire Line
+	7800 2050 9900 2050
+Wire Wire Line
+	8750 1950 9900 1950
+Wire Wire Line
+	7550 3350 7800 3350
+Wire Wire Line
+	8900 3350 9150 3350
+Wire Wire Line
+	4050 5250 4150 5250
+Wire Wire Line
+	6250 5250 5950 5250
+Wire Wire Line
+	5300 3350 5550 3350
+Wire Wire Line
+	1050 5250 800  5250
+Wire Wire Line
+	1200 3300 1200 3200
 $EndSCHEMATC

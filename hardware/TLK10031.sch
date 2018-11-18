@@ -1,65 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:zynq_board-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:xilinx_zynq_clg485
-LIBS:SFP_plus
-LIBS:ael2005
-LIBS:diff_osc
-LIBS:si53340
-LIBS:usb3320
-LIBS:nx5p3090
-LIBS:smp1255putg
-LIBS:osc
-LIBS:ddr
-LIBS:misc
-LIBS:tlk10031
-LIBS:lshm-150-xxx-x-dv-a-s
-LIBS:sn74axc8t245
-LIBS:sn74lvc2t45
-LIBS:dmf05lcflp
-LIBS:bss138ps
-LIBS:max14854
-LIBS:switches
-LIBS:ft234xd
-LIBS:sn74lv1t126
-LIBS:emif06-msd02n16
-LIBS:cat24c02tdi-gt3
-LIBS:power_symbols
-LIBS:ti_power_modules
-LIBS:mdr20
-LIBS:dm3cs
-LIBS:lsf0102
-LIBS:dmp3056l
+EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -74,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TLK10031 U1201
+L tlk10031:TLK10031 U1201
 U 1 1 5ACA3102
 P 5150 3450
 F 0 "U1201" H 5150 3400 60  0000 C CNN
@@ -107,7 +48,7 @@ INA[0]_P
 Text HLabel 2150 1750 0    60   Input ~ 0
 INA[0]_N
 $Comp
-L C_Small C1301
+L device:C_Small C1301
 U 1 1 5ACAE246
 P 2400 1050
 F 0 "C1301" V 2450 1100 50  0000 L CNN
@@ -139,7 +80,7 @@ OUTA[0]_P
 Text HLabel 2150 2600 0    60   Output ~ 0
 OUTA[0]_N
 $Comp
-L R R1314
+L device:R R1314
 U 1 1 5ACB0AA4
 P 3600 3050
 F 0 "R1314" V 3680 3050 50  0000 C CNN
@@ -151,7 +92,7 @@ F 4 "1" V 3600 3050 60  0001 C CNN "Populated"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0144
+L power1:GND #PWR0144
 U 1 1 5ACB0BCF
 P 3350 3050
 F 0 "#PWR0144" H 3350 2800 50  0001 C CNN
@@ -176,7 +117,7 @@ HSRXA_P
 Text HLabel 7100 1450 2    60   Input ~ 0
 HSRXA_N
 $Comp
-L GND #PWR0145
+L power1:GND #PWR0145
 U 1 1 5ACC67F6
 P 3950 5300
 F 0 "#PWR0145" H 3950 5050 50  0001 C CNN
@@ -187,7 +128,7 @@ F 3 "" H 3950 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1303
+L device:R R1303
 U 1 1 5ACCADAC
 P 1100 4500
 F 0 "R1303" V 1180 4500 50  0000 C CNN
@@ -199,7 +140,7 @@ F 4 "0" V 1100 4500 60  0001 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1305
+L device:R R1305
 U 1 1 5ACCAF62
 P 1250 4500
 F 0 "R1305" V 1330 4500 50  0000 C CNN
@@ -211,7 +152,7 @@ F 4 "0" V 1250 4500 60  0001 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1307
+L device:R R1307
 U 1 1 5ACCB198
 P 1400 4500
 F 0 "R1307" V 1480 4500 50  0000 C CNN
@@ -223,7 +164,7 @@ F 4 "0" V 1400 4500 60  0001 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1309
+L device:R R1309
 U 1 1 5ACCB19E
 P 1550 4500
 F 0 "R1309" V 1630 4500 50  0000 C CNN
@@ -235,7 +176,7 @@ F 4 "0" V 1550 4500 60  0001 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1304
+L device:R R1304
 U 1 1 5ACCB916
 P 1100 5400
 F 0 "R1304" V 1180 5400 50  0000 C CNN
@@ -247,7 +188,7 @@ F 4 "1" V 1100 5400 60  0001 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1306
+L device:R R1306
 U 1 1 5ACCB9E9
 P 1250 5400
 F 0 "R1306" V 1330 5400 50  0000 C CNN
@@ -259,7 +200,7 @@ F 4 "1" V 1250 5400 60  0001 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1308
+L device:R R1308
 U 1 1 5ACCBA49
 P 1400 5400
 F 0 "R1308" V 1480 5400 50  0000 C CNN
@@ -271,7 +212,7 @@ F 4 "1" V 1400 5400 60  0001 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1310
+L device:R R1310
 U 1 1 5ACCBAB0
 P 1550 5400
 F 0 "R1310" V 1630 5400 50  0000 C CNN
@@ -283,7 +224,7 @@ F 4 "1" V 1550 5400 60  0001 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0146
+L power1:GND #PWR0146
 U 1 1 5ACCBE2D
 P 1250 5750
 F 0 "#PWR0146" H 1250 5500 50  0001 C CNN
@@ -294,7 +235,7 @@ F 3 "" H 1250 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1319
+L device:C_Small C1319
 U 1 1 5ACCC8EE
 P 3700 3250
 F 0 "C1319" H 3710 3320 50  0000 L CNN
@@ -306,7 +247,7 @@ F 4 "0" H 3700 3250 60  0001 C CNN "Populated"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1320
+L device:C_Small C1320
 U 1 1 5ACCC9AB
 P 3700 3650
 F 0 "C1320" H 3710 3720 50  0000 L CNN
@@ -317,7 +258,7 @@ F 3 "" H 3700 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1313
+L device:R R1313
 U 1 1 5ACCCAE1
 P 3450 3450
 F 0 "R1313" V 3530 3450 50  0000 C CNN
@@ -335,7 +276,7 @@ Text HLabel 2450 5450 0    60   Input ~ 0
 Text HLabel 2450 5550 0    60   Input ~ 0
 MDC
 $Comp
-L Conn_01x06 J1303
+L conn:Conn_01x06 J1303
 U 1 1 5AC7786C
 P 8050 3050
 F 0 "J1303" H 8050 3350 50  0000 C CNN
@@ -346,7 +287,7 @@ F 3 "" H 8050 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0147
+L power1:GND #PWR0147
 U 1 1 5AC77C0F
 P 7750 3450
 F 0 "#PWR0147" H 7750 3200 50  0001 C CNN
@@ -357,7 +298,7 @@ F 3 "" H 7750 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1320
+L device:R R1320
 U 1 1 5AC79DD9
 P 7550 3350
 F 0 "R1320" V 7630 3350 50  0000 C CNN
@@ -369,7 +310,7 @@ F 4 "1" V 7550 3350 60  0001 C CNN "Populated"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1315
+L device:R R1315
 U 1 1 5AC7A06C
 P 6700 3550
 F 0 "R1315" V 6780 3550 50  0000 C CNN
@@ -381,7 +322,7 @@ F 4 "1" V 6700 3550 60  0001 C CNN "Populated"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1318
+L device:R R1318
 U 1 1 5AC7A140
 P 6950 3650
 F 0 "R1318" V 7030 3650 50  0000 C CNN
@@ -393,7 +334,7 @@ F 4 "1" V 6950 3650 60  0001 C CNN "Populated"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1316
+L device:R R1316
 U 1 1 5AC7A1F2
 P 6700 3750
 F 0 "R1316" V 6780 3750 50  0000 C CNN
@@ -405,7 +346,7 @@ F 4 "1" V 6700 3750 60  0001 C CNN "Populated"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1319
+L device:R R1319
 U 1 1 5AC7A28E
 P 6950 3850
 F 0 "R1319" V 7030 3850 50  0000 C CNN
@@ -417,7 +358,7 @@ F 4 "1" V 6950 3850 60  0001 C CNN "Populated"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1317
+L device:R R1317
 U 1 1 5AC7A32D
 P 6950 3450
 F 0 "R1317" V 7030 3450 50  0000 C CNN
@@ -433,7 +374,7 @@ Same as VDDO
 Text Notes 6600 3350 0    60   ~ 0
 Same as VDDO
 $Comp
-L GND #PWR0148
+L power1:GND #PWR0148
 U 1 1 5AC7C5FF
 P 7300 3650
 F 0 "#PWR0148" H 7300 3400 50  0001 C CNN
@@ -446,7 +387,7 @@ $EndComp
 Text Notes 3750 3550 0    60   ~ 0
 What to do with\nunsed output clocks?
 $Comp
-L TEST_1P J1301
+L conn:TEST_1P J1301
 U 1 1 5AC7FBF4
 P 2450 3950
 F 0 "J1301" H 2450 4220 50  0000 C CNN
@@ -457,7 +398,7 @@ F 3 "" H 2650 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1311
+L device:R R1311
 U 1 1 5AC82864
 P 2850 4250
 F 0 "R1311" V 2930 4250 50  0000 C CNN
@@ -617,7 +558,7 @@ Wire Wire Line
 Text Notes 1600 4300 0    60   ~ 0
 Same as VDDO
 $Comp
-L TEST_1P J1302
+L conn:TEST_1P J1302
 U 1 1 5AC8C54E
 P 2450 4550
 F 0 "J1302" H 2450 4820 50  0000 C CNN
@@ -630,7 +571,7 @@ $EndComp
 Wire Wire Line
 	2450 4550 3950 4550
 $Comp
-L R R1302
+L device:R R1302
 U 1 1 5AC8C9C3
 P 950 5400
 F 0 "R1302" V 1030 5400 50  0000 C CNN
@@ -642,7 +583,7 @@ F 4 "1" V 950 5400 60  0001 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1301
+L device:R R1301
 U 1 1 5AC8CA81
 P 950 4500
 F 0 "R1301" V 1030 4500 50  0000 C CNN
@@ -679,7 +620,7 @@ MDIO
 Wire Wire Line
 	2450 5650 3950 5650
 $Comp
-L R R1312
+L device:R R1312
 U 1 1 5AC9120F
 P 3150 5750
 F 0 "R1312" V 3230 5750 50  0000 C CNN
@@ -760,7 +701,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 2750 2150 2750
 $Comp
-L +1V8 #PWR0149
+L power1:+1V8 #PWR0149
 U 1 1 5AC92C58
 P 2450 4250
 F 0 "#PWR0149" H 2450 4100 50  0001 C CNN
@@ -771,7 +712,7 @@ F 3 "" H 2450 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +1V8 #PWR0150
+L power1:+1V8 #PWR0150
 U 1 1 5AC92CEE
 P 1250 4100
 F 0 "#PWR0150" H 1250 3950 50  0001 C CNN
@@ -782,7 +723,7 @@ F 3 "" H 1250 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V8 #PWR0151
+L power1:+1V8 #PWR0151
 U 1 1 5AC92E59
 P 2900 5750
 F 0 "#PWR0151" H 2900 5600 50  0001 C CNN
@@ -793,7 +734,7 @@ F 3 "" H 2900 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +1V8 #PWR0152
+L power1:+1V8 #PWR0152
 U 1 1 5AC92F40
 P 7100 3450
 F 0 "#PWR0152" H 7100 3300 50  0001 C CNN
@@ -852,7 +793,7 @@ HSRXA_P
 Text Label 6400 1450 0    60   ~ 0
 HSRXA_N
 $Comp
-L C_Small C1306
+L device:C_Small C1306
 U 1 1 5AE3C4AB
 P 2650 1150
 F 0 "C1306" V 2700 1200 50  0000 L CNN
@@ -868,7 +809,7 @@ F 8 "SPEC" H 2650 1150 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1311
+L device:C_Small C1311
 U 1 1 5AE3C523
 P 2900 1250
 F 0 "C1311" V 2950 1300 50  0000 L CNN
@@ -884,7 +825,7 @@ F 8 "SPEC" H 2900 1250 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1315
+L device:C_Small C1315
 U 1 1 5AE3C59E
 P 3150 1350
 F 0 "C1315" V 3200 1400 50  0000 L CNN
@@ -900,7 +841,7 @@ F 8 "SPEC" H 3150 1350 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1302
+L device:C_Small C1302
 U 1 1 5AE3C61E
 P 2400 1450
 F 0 "C1302" V 2450 1500 50  0000 L CNN
@@ -916,7 +857,7 @@ F 8 "SPEC" H 2400 1450 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1307
+L device:C_Small C1307
 U 1 1 5AE3C728
 P 2650 1550
 F 0 "C1307" V 2700 1600 50  0000 L CNN
@@ -932,7 +873,7 @@ F 8 "SPEC" H 2650 1550 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1312
+L device:C_Small C1312
 U 1 1 5AE3C7AA
 P 2900 1650
 F 0 "C1312" V 2950 1700 50  0000 L CNN
@@ -948,7 +889,7 @@ F 8 "SPEC" H 2900 1650 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1316
+L device:C_Small C1316
 U 1 1 5AE3C833
 P 3150 1750
 F 0 "C1316" V 3200 1800 50  0000 L CNN
@@ -964,7 +905,7 @@ F 8 "SPEC" H 3150 1750 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1303
+L device:C_Small C1303
 U 1 1 5AE3C8C1
 P 2400 1900
 F 0 "C1303" V 2450 1950 50  0000 L CNN
@@ -980,7 +921,7 @@ F 8 "SPEC" H 2400 1900 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1308
+L device:C_Small C1308
 U 1 1 5AE3C960
 P 2650 2000
 F 0 "C1308" V 2700 2050 50  0000 L CNN
@@ -996,7 +937,7 @@ F 8 "SPEC" H 2650 2000 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1313
+L device:C_Small C1313
 U 1 1 5AE3CA70
 P 2900 2100
 F 0 "C1313" V 2950 2150 50  0000 L CNN
@@ -1012,7 +953,7 @@ F 8 "SPEC" H 2900 2100 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1317
+L device:C_Small C1317
 U 1 1 5AE3CB13
 P 3150 2200
 F 0 "C1317" V 3200 2250 50  0000 L CNN
@@ -1028,7 +969,7 @@ F 8 "SPEC" H 3150 2200 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1304
+L device:C_Small C1304
 U 1 1 5AE3CBAD
 P 2400 2300
 F 0 "C1304" V 2450 2350 50  0000 L CNN
@@ -1044,7 +985,7 @@ F 8 "SPEC" H 2400 2300 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1309
+L device:C_Small C1309
 U 1 1 5AE3CC68
 P 2650 2400
 F 0 "C1309" V 2700 2450 50  0000 L CNN
@@ -1060,7 +1001,7 @@ F 8 "SPEC" H 2650 2400 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1314
+L device:C_Small C1314
 U 1 1 5AE3CD12
 P 2900 2500
 F 0 "C1314" V 2950 2550 50  0000 L CNN
@@ -1076,7 +1017,7 @@ F 8 "SPEC" H 2900 2500 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1318
+L device:C_Small C1318
 U 1 1 5AE3CDAF
 P 3150 2600
 F 0 "C1318" V 3200 2650 50  0000 L CNN
@@ -1092,7 +1033,7 @@ F 8 "SPEC" H 3150 2600 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1305
+L device:C_Small C1305
 U 1 1 5AE3CE51
 P 2400 2750
 F 0 "C1305" V 2450 2800 50  0000 L CNN
@@ -1108,7 +1049,7 @@ F 8 "SPEC" H 2400 2750 60  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C1310
+L device:C_Small C1310
 U 1 1 5AE3CF12
 P 2650 2850
 F 0 "C1310" V 2700 2900 50  0000 L CNN

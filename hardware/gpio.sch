@@ -1,65 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:zynq_board-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:xilinx_zynq_clg485
-LIBS:SFP_plus
-LIBS:ael2005
-LIBS:diff_osc
-LIBS:si53340
-LIBS:usb3320
-LIBS:nx5p3090
-LIBS:smp1255putg
-LIBS:osc
-LIBS:ddr
-LIBS:misc
-LIBS:tlk10031
-LIBS:lshm-150-xxx-x-dv-a-s
-LIBS:sn74axc8t245
-LIBS:sn74lvc2t45
-LIBS:dmf05lcflp
-LIBS:bss138ps
-LIBS:max14854
-LIBS:switches
-LIBS:ft234xd
-LIBS:sn74lv1t126
-LIBS:emif06-msd02n16
-LIBS:cat24c02tdi-gt3
-LIBS:power_symbols
-LIBS:ti_power_modules
-LIBS:mdr20
-LIBS:dm3cs
-LIBS:lsf0102
-LIBS:dmp3056l
+EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -74,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_02x09_Counter_Clockwise J1701
+L conn:Conn_02x09_Counter_Clockwise J1701
 U 1 1 5B0F5739
 P 5150 3350
 F 0 "J1701" H 5200 3850 50  0000 C CNN
@@ -117,7 +58,7 @@ GPIO_14
 Text HLabel 5450 2950 2    60   BiDi ~ 0
 GPIO_15
 $Comp
-L GND #PWR0220
+L power1:GND #PWR0220
 U 1 1 5B0F584E
 P 4950 3750
 F 0 "#PWR0220" H 4950 3500 50  0001 C CNN
@@ -128,7 +69,7 @@ F 3 "" H 4950 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3V3 #PWR0221
+L power1:+3V3 #PWR0221
 U 1 1 5B0F5864
 P 5450 3750
 F 0 "#PWR0221" H 5450 3600 50  0001 C CNN
@@ -139,7 +80,7 @@ F 3 "" H 5450 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D1701
+L device:LED D1701
 U 1 1 5B1B21E2
 P 10500 3150
 F 0 "D1701" H 10500 3250 50  0000 C CNN
@@ -152,7 +93,7 @@ F 5 "SPEC" H 10500 3150 60  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R1702
+L device:R_Small R1702
 U 1 1 5B1B2374
 P 10500 2800
 F 0 "R1702" H 10530 2820 50  0000 L CNN
@@ -177,7 +118,7 @@ Wire Notes Line
 Text Notes 4550 2600 0    60   ~ 12
 GPIOs are 1,8 V only.\n!!!Not 3,3 V or 5 V tolerant!!!
 $Comp
-L +3V3 #PWR0222
+L power1:+3V3 #PWR0222
 U 1 1 5B1B2AD0
 P 10500 2550
 F 0 "#PWR0222" H 10500 2400 50  0001 C CNN
@@ -190,7 +131,7 @@ $EndComp
 Wire Wire Line
 	10500 2550 10500 2700
 $Comp
-L GND #PWR0223
+L power1:GND #PWR0223
 U 1 1 5B1B2B0C
 P 10500 3400
 F 0 "#PWR0223" H 10500 3150 50  0001 C CNN
@@ -205,7 +146,7 @@ Wire Wire Line
 Text Notes 10300 2200 0    60   ~ 0
 Power Led
 $Comp
-L Conn_01x02 J1702
+L conn:Conn_01x02 J1702
 U 1 1 5B2142B2
 P 10700 4550
 F 0 "J1702" H 10700 4650 50  0000 C CNN
@@ -222,7 +163,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 4650 10400 4750
 $Comp
-L GND #PWR0224
+L power1:GND #PWR0224
 U 1 1 5B2143F5
 P 10400 4750
 F 0 "#PWR0224" H 10400 4500 50  0001 C CNN
@@ -233,7 +174,7 @@ F 3 "" H 10400 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1701
+L device:R_Small R1701
 U 1 1 5B214424
 P 10400 4350
 F 0 "R1701" H 10430 4370 50  0000 L CNN

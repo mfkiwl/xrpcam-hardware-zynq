@@ -1,65 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:zynq_board-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:xilinx_zynq_clg485
-LIBS:SFP_plus
-LIBS:ael2005
-LIBS:diff_osc
-LIBS:si53340
-LIBS:usb3320
-LIBS:nx5p3090
-LIBS:smp1255putg
-LIBS:osc
-LIBS:ddr
-LIBS:misc
-LIBS:tlk10031
-LIBS:lshm-150-xxx-x-dv-a-s
-LIBS:sn74axc8t245
-LIBS:sn74lvc2t45
-LIBS:dmf05lcflp
-LIBS:bss138ps
-LIBS:max14854
-LIBS:switches
-LIBS:ft234xd
-LIBS:sn74lv1t126
-LIBS:emif06-msd02n16
-LIBS:cat24c02tdi-gt3
-LIBS:power_symbols
-LIBS:ti_power_modules
-LIBS:mdr20
-LIBS:dm3cs
-LIBS:lsf0102
-LIBS:dmp3056l
+EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -74,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xc7z030sbg485 U201
+L xilinx_zynq_clg485:xc7z030sbg485 U201
 U 6 1 596E7E39
 P 9200 1400
 F 0 "U201" H 9400 1650 60  0000 L CNN
@@ -85,7 +26,7 @@ F 3 "" H 9200 1400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L xc7z030sbg485 U201
+L xilinx_zynq_clg485:xc7z030sbg485 U201
 U 7 1 596E7E6B
 P 5500 1450
 F 0 "U201" H 5700 1700 60  0000 L CNN
@@ -138,7 +79,7 @@ BOOT_MODE[2..0]: boot device (SD = 101)\nBOOT_MODE[3]: JTAG chain routing\nBOOT_
 Text Notes 2650 4200 0    60   ~ 0
 NOTE: The BootROM expects the SD card\nto be connected to MIO pins 40..45 (SDIO0).
 $Comp
-L R R1812
+L device:R R1812
 U 1 1 5A98BDBC
 P 7950 1400
 F 0 "R1812" V 8030 1400 50  0000 C CNN
@@ -149,7 +90,7 @@ F 3 "" H 7950 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1810
+L device:R R1810
 U 1 1 5A98BDD7
 P 7750 1400
 F 0 "R1810" V 7830 1400 50  0000 C CNN
@@ -160,7 +101,7 @@ F 3 "" H 7750 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1808
+L device:R R1808
 U 1 1 5A98BDF4
 P 7550 1400
 F 0 "R1808" V 7630 1400 50  0000 C CNN
@@ -171,7 +112,7 @@ F 3 "" H 7550 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1806
+L device:R R1806
 U 1 1 5A98BE13
 P 7350 1400
 F 0 "R1806" V 7430 1400 50  0000 C CNN
@@ -182,7 +123,7 @@ F 3 "" H 7350 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1804
+L device:R R1804
 U 1 1 5A98BE34
 P 7150 1400
 F 0 "R1804" V 7230 1400 50  0000 C CNN
@@ -193,7 +134,7 @@ F 3 "" H 7150 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1805
+L device:R R1805
 U 1 1 5A98BE57
 P 7150 2600
 F 0 "R1805" V 7230 2600 50  0000 C CNN
@@ -204,7 +145,7 @@ F 3 "" H 7150 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1807
+L device:R R1807
 U 1 1 5A98BE7C
 P 7350 2600
 F 0 "R1807" V 7430 2600 50  0000 C CNN
@@ -215,7 +156,7 @@ F 3 "" H 7350 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1809
+L device:R R1809
 U 1 1 5A98BEA3
 P 7550 2600
 F 0 "R1809" V 7630 2600 50  0000 C CNN
@@ -226,7 +167,7 @@ F 3 "" H 7550 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1811
+L device:R R1811
 U 1 1 5A98BECC
 P 7750 2600
 F 0 "R1811" V 7830 2600 50  0000 C CNN
@@ -237,7 +178,7 @@ F 3 "" H 7750 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1813
+L device:R R1813
 U 1 1 5A98BEF7
 P 7950 2600
 F 0 "R1813" V 8030 2600 50  0000 C CNN
@@ -248,7 +189,7 @@ F 3 "" H 7950 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0225
+L power1:GND #PWR0225
 U 1 1 5A991630
 P 7550 2950
 F 0 "#PWR0225" H 7550 2700 50  0001 C CNN
@@ -261,7 +202,7 @@ $EndComp
 Text Notes 7000 700  0    60   ~ 0
 NOTE: pulls must be 20k.
 $Comp
-L +3V3 #PWR0226
+L power1:+3V3 #PWR0226
 U 1 1 5B22F273
 P 7550 1050
 F 0 "#PWR0226" H 7550 900 50  0001 C CNN
@@ -272,7 +213,7 @@ F 3 "" H 7550 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1814
+L device:R R1814
 U 1 1 5B22FBB5
 P 8150 2600
 F 0 "R1814" V 8230 2600 50  0000 C CNN
@@ -283,7 +224,7 @@ F 3 "" H 8150 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1815
+L device:R R1815
 U 1 1 5B22FC2F
 P 8350 2600
 F 0 "R1815" V 8430 2600 50  0000 C CNN
@@ -294,7 +235,7 @@ F 3 "" H 8350 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DM3CS J1801
+L dm3cs:DM3CS J1801
 U 1 1 5AD6D576
 P 1850 6750
 F 0 "J1801" H 1200 7450 50  0000 C CNN
@@ -341,7 +282,7 @@ SDIO0_CD
 Text Label 4950 4450 0    60   ~ 0
 SDIO0_CD
 $Comp
-L +3V3 #PWR0227
+L power1:+3V3 #PWR0227
 U 1 1 5AD70E44
 P 2900 6850
 F 0 "#PWR0227" H 2900 6700 50  0001 C CNN
@@ -352,7 +293,7 @@ F 3 "" H 2900 6850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0228
+L power1:GND #PWR0228
 U 1 1 5AD853F0
 P 950 6250
 F 0 "#PWR0228" H 950 6000 50  0001 C CNN
@@ -367,7 +308,7 @@ PS_UART_TX
 Text GLabel 5500 1650 0    60   Input ~ 0
 PS_UART_RX
 $Comp
-L C_Small C1801
+L device:C_Small C1801
 U 1 1 5AD950DB
 P 1900 5850
 F 0 "C1801" H 1910 5920 50  0000 L CNN
@@ -380,7 +321,7 @@ F 5 "SPEC" H 1900 5850 60  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0229
+L power1:GND #PWR0229
 U 1 1 5AD95198
 P 1700 5850
 F 0 "#PWR0229" H 1700 5600 50  0001 C CNN
@@ -391,7 +332,7 @@ F 3 "" H 1700 5850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3V3 #PWR0230
+L power1:+3V3 #PWR0230
 U 1 1 5AD9524B
 P 2100 5850
 F 0 "#PWR0230" H 2100 5700 50  0001 C CNN
@@ -402,7 +343,7 @@ F 3 "" H 2100 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L EMIF06-MSD02N16 U1802
+L emif06-msd02n16:EMIF06-MSD02N16 U1802
 U 1 1 5ADAA7F4
 P 3750 6750
 F 0 "U1802" H 3700 6050 60  0000 C CNN
@@ -418,7 +359,7 @@ F 8 "SPEC" H 3750 6750 60  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3V3 #PWR0231
+L power1:+3V3 #PWR0231
 U 1 1 5ADAB627
 P 2850 7300
 F 0 "#PWR0231" H 2850 7150 50  0001 C CNN
@@ -429,7 +370,7 @@ F 3 "" H 2850 7300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0232
+L power1:GND #PWR0232
 U 1 1 5ADAB6E8
 P 4600 6150
 F 0 "#PWR0232" H 4600 5900 50  0001 C CNN
@@ -443,7 +384,7 @@ Text Label 5050 7350 2    60   ~ 0
 SDIO0_CD
 NoConn ~ 4500 7250
 $Comp
-L GND #PWR0233
+L power1:GND #PWR0233
 U 1 1 5ADABBC7
 P 2900 6650
 F 0 "#PWR0233" H 2900 6400 50  0001 C CNN
@@ -456,7 +397,7 @@ $EndComp
 Text Notes 3150 7750 0    60   ~ 0
 ESD/EMI Protection and Filtering IC.\nAlso contains all needed series and\npull-up resistors.
 $Comp
-L CAT24C02TDI-GT3 U1801
+L cat24c02tdi-gt3:CAT24C02TDI-GT3 U1801
 U 1 1 5ADF12BE
 P 2100 2300
 F 0 "U1801" H 1850 2000 60  0000 C CNN
@@ -472,7 +413,7 @@ F 8 "SPEC" H 2100 2300 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1802
+L device:C_Small C1802
 U 1 1 5ADF17F1
 P 2700 2350
 F 0 "C1802" H 2710 2420 50  0000 L CNN
@@ -485,7 +426,7 @@ F 5 "SPEC" H 2700 2350 60  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0234
+L power1:GND #PWR0234
 U 1 1 5ADF17F7
 P 2700 2550
 F 0 "#PWR0234" H 2700 2300 50  0001 C CNN
@@ -496,7 +437,7 @@ F 3 "" H 2700 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0235
+L power1:+3V3 #PWR0235
 U 1 1 5ADF17FE
 P 2700 2150
 F 0 "#PWR0235" H 2700 2000 50  0001 C CNN
@@ -507,7 +448,7 @@ F 3 "" H 2700 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1801
+L device:R_Small R1801
 U 1 1 5ADF2073
 P 1500 2000
 F 0 "R1801" H 1530 2020 50  0000 L CNN
@@ -520,7 +461,7 @@ F 5 "SPEC" H 1500 2000 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0236
+L power1:+3V3 #PWR0236
 U 1 1 5ADF21D6
 P 1500 1750
 F 0 "#PWR0236" H 1500 1600 50  0001 C CNN
@@ -535,7 +476,7 @@ SCL
 Text Label 1300 2400 0    60   ~ 0
 SDA
 $Comp
-L GND #PWR0237
+L power1:GND #PWR0237
 U 1 1 5ADF2AA7
 P 2100 2850
 F 0 "#PWR0237" H 2100 2600 50  0001 C CNN
@@ -546,7 +487,7 @@ F 3 "" H 2100 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0238
+L power1:+3V3 #PWR0238
 U 1 1 5ADF2B75
 P 2100 1750
 F 0 "#PWR0238" H 2100 1600 50  0001 C CNN
@@ -561,7 +502,7 @@ SCL
 Text Label 5200 2150 0    60   ~ 0
 SDA
 $Comp
-L R_Small R1802
+L device:R_Small R1802
 U 1 1 5ADF492A
 P 3850 1850
 F 0 "R1802" H 3880 1870 50  0000 L CNN
@@ -574,7 +515,7 @@ F 5 "SPEC" H 3850 1850 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0239
+L power1:+3V3 #PWR0239
 U 1 1 5ADF4931
 P 3850 1650
 F 0 "#PWR0239" H 3850 1500 50  0001 C CNN
@@ -585,7 +526,7 @@ F 3 "" H 3850 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1803
+L device:R_Small R1803
 U 1 1 5ADF4A40
 P 4050 1850
 F 0 "R1803" H 4080 1870 50  0000 L CNN
@@ -598,7 +539,7 @@ F 5 "SPEC" H 4050 1850 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0240
+L power1:+3V3 #PWR0240
 U 1 1 5ADF4A46
 P 4050 1650
 F 0 "#PWR0240" H 4050 1500 50  0001 C CNN
@@ -775,7 +716,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 2150 3850 1950
 $Comp
-L +3V3 #PWR0241
+L power1:+3V3 #PWR0241
 U 1 1 5B22F1F8
 P 10100 5150
 F 0 "#PWR0241" H 10100 5000 50  0001 C CNN
@@ -798,7 +739,7 @@ Wire Notes Line
 Wire Wire Line
 	10100 5150 10100 5250
 $Comp
-L R_Small R1817
+L device:R_Small R1817
 U 1 1 5B1EF27E
 P 10100 5350
 F 0 "R1817" H 10130 5370 50  0000 L CNN
@@ -811,7 +752,7 @@ $EndComp
 Wire Wire Line
 	10100 5950 10100 5850
 $Comp
-L GND #PWR0242
+L power1:GND #PWR0242
 U 1 1 5B1EE083
 P 10100 5950
 F 0 "#PWR0242" H 10100 5700 50  0001 C CNN
@@ -825,7 +766,7 @@ Connection ~ 10100 5550
 Wire Wire Line
 	10100 5450 10100 5650
 $Comp
-L C_Small C1804
+L device:C_Small C1804
 U 1 1 5B1EDFD0
 P 10100 5750
 F 0 "C1804" H 10110 5820 50  0000 L CNN
@@ -840,7 +781,7 @@ Wire Wire Line
 Text Label 9400 5550 0    60   ~ 0
 PS_RESET
 $Comp
-L GND #PWR0243
+L power1:GND #PWR0243
 U 1 1 5B1ED412
 P 10700 5650
 F 0 "#PWR0243" H 10700 5400 50  0001 C CNN
@@ -855,7 +796,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 5550 10700 5550
 $Comp
-L SW_Push SW1801
+L switches:SW_Push SW1801
 U 1 1 5B1ED103
 P 10400 5550
 F 0 "SW1801" H 10450 5650 50  0000 L CNN
@@ -880,7 +821,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 3200 9200 3200
 $Comp
-L OSC U1803
+L osc:OSC U1803
 U 1 1 5B025E58
 P 7950 5450
 F 0 "U1803" H 7950 5400 60  0000 C CNN
@@ -898,7 +839,7 @@ F 10 "1" H 7950 5450 60  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0244
+L power1:GND #PWR0244
 U 1 1 5B02614D
 P 7350 5650
 F 0 "#PWR0244" H 7350 5400 50  0001 C CNN
@@ -913,7 +854,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 5550 7450 5550
 $Comp
-L +3V3 #PWR0245
+L power1:+3V3 #PWR0245
 U 1 1 5B02628C
 P 8650 5250
 F 0 "#PWR0245" H 8650 5100 50  0001 C CNN
@@ -941,7 +882,7 @@ Wire Wire Line
 	7150 5350 7450 5350
 Connection ~ 8550 5350
 $Comp
-L C_Small C1803
+L device:C_Small C1803
 U 1 1 5B026A7D
 P 7150 5450
 F 0 "C1803" H 7160 5520 50  0000 L CNN
@@ -960,7 +901,7 @@ CLK_33.33
 Wire Wire Line
 	8700 1400 9200 1400
 $Comp
-L R_Small R1816
+L device:R_Small R1816
 U 1 1 5B047F57
 P 8650 5550
 F 0 "R1816" H 8680 5570 50  0000 L CNN

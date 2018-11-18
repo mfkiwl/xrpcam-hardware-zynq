@@ -1,65 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:zynq_board-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:xilinx_zynq_clg485
-LIBS:SFP_plus
-LIBS:ael2005
-LIBS:diff_osc
-LIBS:si53340
-LIBS:usb3320
-LIBS:nx5p3090
-LIBS:smp1255putg
-LIBS:osc
-LIBS:ddr
-LIBS:misc
-LIBS:tlk10031
-LIBS:lshm-150-xxx-x-dv-a-s
-LIBS:sn74axc8t245
-LIBS:sn74lvc2t45
-LIBS:dmf05lcflp
-LIBS:bss138ps
-LIBS:max14854
-LIBS:switches
-LIBS:ft234xd
-LIBS:sn74lv1t126
-LIBS:emif06-msd02n16
-LIBS:cat24c02tdi-gt3
-LIBS:power_symbols
-LIBS:ti_power_modules
-LIBS:mdr20
-LIBS:dm3cs
-LIBS:lsf0102
-LIBS:dmp3056l
+EESchema Schematic File Version 4
 LIBS:zynq_board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -76,7 +17,7 @@ $EndDescr
 Text Notes 2650 -250 0    60   ~ 0
 Ideas:\nTriggerbus should be as robust as possible. That means 5 V tolerant,\nidiot Diodes at Poweroutputs, ESD protection Diodes, current limiting Resistors.
 $Comp
-L SN74LVC2T45 U1501
+L sn74lvc2t45:SN74LVC2T45 U1501
 U 1 1 5AEA7A88
 P 2700 1500
 F 0 "U1501" H 2700 1000 60  0000 C CNN
@@ -92,7 +33,7 @@ F 8 "SPEC" H 2700 1500 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V8 #PWR0184
+L power1:+1V8 #PWR0184
 U 1 1 5AD1622E
 P 2100 1150
 F 0 "#PWR0184" H 2100 1000 50  0001 C CNN
@@ -103,7 +44,7 @@ F 3 "" H 2100 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0185
+L power1:GND #PWR0185
 U 1 1 5AD1628E
 P 2100 1900
 F 0 "#PWR0185" H 2100 1650 50  0001 C CNN
@@ -114,7 +55,7 @@ F 3 "" H 2100 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1501
+L device:R_Small R1501
 U 1 1 5AD162EE
 P 1150 1450
 F 0 "R1501" H 1180 1470 50  0000 L CNN
@@ -125,7 +66,7 @@ F 3 "" H 1150 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +1V8 #PWR0186
+L power1:+1V8 #PWR0186
 U 1 1 5AD163D6
 P 1150 1250
 F 0 "#PWR0186" H 1150 1100 50  0001 C CNN
@@ -136,7 +77,7 @@ F 3 "" H 1150 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1502
+L device:R_Small R1502
 U 1 1 5AD035E9
 P 1150 1850
 F 0 "R1502" H 1180 1870 50  0000 L CNN
@@ -147,7 +88,7 @@ F 3 "" H 1150 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0187
+L power1:GND #PWR0187
 U 1 1 5AD0367E
 P 1150 2050
 F 0 "#PWR0187" H 1150 1800 50  0001 C CNN
@@ -162,7 +103,7 @@ TRIG_IN_0
 Text HLabel 1950 1500 0    60   Output ~ 0
 TRIG_IN_1
 $Comp
-L +3V3 #PWR0188
+L power1:+3V3 #PWR0188
 U 1 1 5AD03794
 P 3300 1150
 F 0 "#PWR0188" H 3300 1000 50  0001 C CNN
@@ -173,7 +114,7 @@ F 3 "" H 3300 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1508
+L device:R_Small R1508
 U 1 1 5AD0382A
 P 3400 1400
 F 0 "R1508" H 3430 1420 50  0000 L CNN
@@ -184,7 +125,7 @@ F 3 "" H 3400 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R1509
+L device:R_Small R1509
 U 1 1 5AD039C8
 P 3400 1500
 F 0 "R1509" H 3430 1520 50  0000 L CNN
@@ -195,7 +136,7 @@ F 3 "" H 3400 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SN74LVC2T45 U1502
+L sn74lvc2t45:SN74LVC2T45 U1502
 U 1 1 5AE68037
 P 2700 2750
 F 0 "U1502" H 2700 2250 60  0000 C CNN
@@ -211,7 +152,7 @@ F 8 "SPEC" H 2700 2750 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V8 #PWR0189
+L power1:+1V8 #PWR0189
 U 1 1 5AE6803D
 P 2100 2400
 F 0 "#PWR0189" H 2100 2250 50  0001 C CNN
@@ -222,7 +163,7 @@ F 3 "" H 2100 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0190
+L power1:GND #PWR0190
 U 1 1 5AE68043
 P 2100 3150
 F 0 "#PWR0190" H 2100 2900 50  0001 C CNN
@@ -233,7 +174,7 @@ F 3 "" H 2100 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1503
+L device:R_Small R1503
 U 1 1 5AE68049
 P 1150 2700
 F 0 "R1503" H 1180 2720 50  0000 L CNN
@@ -244,7 +185,7 @@ F 3 "" H 1150 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +1V8 #PWR0191
+L power1:+1V8 #PWR0191
 U 1 1 5AE6804F
 P 1150 2500
 F 0 "#PWR0191" H 1150 2350 50  0001 C CNN
@@ -255,7 +196,7 @@ F 3 "" H 1150 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1504
+L device:R_Small R1504
 U 1 1 5AE6805E
 P 1150 3100
 F 0 "R1504" H 1180 3120 50  0000 L CNN
@@ -266,7 +207,7 @@ F 3 "" H 1150 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0192
+L power1:GND #PWR0192
 U 1 1 5AE68065
 P 1150 3300
 F 0 "#PWR0192" H 1150 3050 50  0001 C CNN
@@ -281,7 +222,7 @@ TRIG_IN_2
 Text HLabel 1950 2750 0    60   Output ~ 0
 TRIG_IN_3
 $Comp
-L +3V3 #PWR0193
+L power1:+3V3 #PWR0193
 U 1 1 5AE68070
 P 3300 2400
 F 0 "#PWR0193" H 3300 2250 50  0001 C CNN
@@ -292,7 +233,7 @@ F 3 "" H 3300 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1510
+L device:R_Small R1510
 U 1 1 5AE68076
 P 3400 2650
 F 0 "R1510" H 3430 2670 50  0000 L CNN
@@ -303,7 +244,7 @@ F 3 "" H 3400 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R1511
+L device:R_Small R1511
 U 1 1 5AE6807D
 P 3400 2750
 F 0 "R1511" H 3430 2770 50  0000 L CNN
@@ -314,7 +255,7 @@ F 3 "" H 3400 2750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SN74LVC2T45 U1503
+L sn74lvc2t45:SN74LVC2T45 U1503
 U 1 1 5AE68394
 P 2700 4000
 F 0 "U1503" H 2700 3500 60  0000 C CNN
@@ -330,7 +271,7 @@ F 8 "SPEC" H 2700 4000 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V8 #PWR0194
+L power1:+1V8 #PWR0194
 U 1 1 5AE6839A
 P 2100 3650
 F 0 "#PWR0194" H 2100 3500 50  0001 C CNN
@@ -341,7 +282,7 @@ F 3 "" H 2100 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0195
+L power1:GND #PWR0195
 U 1 1 5AE683A0
 P 2100 4400
 F 0 "#PWR0195" H 2100 4150 50  0001 C CNN
@@ -352,7 +293,7 @@ F 3 "" H 2100 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1505
+L device:R_Small R1505
 U 1 1 5AE683A6
 P 1150 3950
 F 0 "R1505" H 1180 3970 50  0000 L CNN
@@ -363,7 +304,7 @@ F 3 "" H 1150 3950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +1V8 #PWR0196
+L power1:+1V8 #PWR0196
 U 1 1 5AE683AC
 P 1150 3750
 F 0 "#PWR0196" H 1150 3600 50  0001 C CNN
@@ -374,7 +315,7 @@ F 3 "" H 1150 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1506
+L device:R_Small R1506
 U 1 1 5AE683BB
 P 1150 4350
 F 0 "R1506" H 1180 4370 50  0000 L CNN
@@ -385,7 +326,7 @@ F 3 "" H 1150 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0197
+L power1:GND #PWR0197
 U 1 1 5AE683C2
 P 1150 4550
 F 0 "#PWR0197" H 1150 4300 50  0001 C CNN
@@ -400,7 +341,7 @@ TRIG_OUT_0
 Text HLabel 1950 4000 0    60   Input ~ 0
 TRIG_OUT_1
 $Comp
-L +3V3 #PWR0198
+L power1:+3V3 #PWR0198
 U 1 1 5AE683CD
 P 3300 3650
 F 0 "#PWR0198" H 3300 3500 50  0001 C CNN
@@ -411,7 +352,7 @@ F 3 "" H 3300 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1512
+L device:R_Small R1512
 U 1 1 5AE683D3
 P 3400 3900
 F 0 "R1512" H 3430 3920 50  0000 L CNN
@@ -422,7 +363,7 @@ F 3 "" H 3400 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R1513
+L device:R_Small R1513
 U 1 1 5AE683DA
 P 3400 4000
 F 0 "R1513" H 3430 4020 50  0000 L CNN
@@ -433,7 +374,7 @@ F 3 "" H 3400 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SN74LVC2T45 U1504
+L sn74lvc2t45:SN74LVC2T45 U1504
 U 1 1 5AE683E1
 P 2700 5250
 F 0 "U1504" H 2700 4750 60  0000 C CNN
@@ -449,7 +390,7 @@ F 8 "SPEC" H 2700 5250 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V8 #PWR0199
+L power1:+1V8 #PWR0199
 U 1 1 5AE683E7
 P 2100 4900
 F 0 "#PWR0199" H 2100 4750 50  0001 C CNN
@@ -460,7 +401,7 @@ F 3 "" H 2100 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0200
+L power1:GND #PWR0200
 U 1 1 5AE683ED
 P 2100 5650
 F 0 "#PWR0200" H 2100 5400 50  0001 C CNN
@@ -471,7 +412,7 @@ F 3 "" H 2100 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1507
+L device:R_Small R1507
 U 1 1 5AE683F3
 P 1150 5200
 F 0 "R1507" H 1180 5220 50  0000 L CNN
@@ -482,7 +423,7 @@ F 3 "" H 1150 5200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +1V8 #PWR0201
+L power1:+1V8 #PWR0201
 U 1 1 5AE683F9
 P 1150 5000
 F 0 "#PWR0201" H 1150 4850 50  0001 C CNN
@@ -493,7 +434,7 @@ F 3 "" H 1150 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small 10k1501
+L device:R_Small 10k1501
 U 1 1 5AE68408
 P 1150 5600
 F 0 "10k1501" H 1180 5620 50  0000 L CNN
@@ -504,7 +445,7 @@ F 3 "" H 1150 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0202
+L power1:GND #PWR0202
 U 1 1 5AE6840F
 P 1150 5800
 F 0 "#PWR0202" H 1150 5550 50  0001 C CNN
@@ -519,7 +460,7 @@ TRIG_OUT_2
 Text HLabel 1950 5250 0    60   Input ~ 0
 TRIG_OUT_3
 $Comp
-L +3V3 #PWR0203
+L power1:+3V3 #PWR0203
 U 1 1 5AE6841A
 P 3400 6350
 F 0 "#PWR0203" H 3400 6200 50  0001 C CNN
@@ -530,7 +471,7 @@ F 3 "" H 3400 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1514
+L device:R_Small R1514
 U 1 1 5AE68420
 P 3400 5150
 F 0 "R1514" H 3430 5170 50  0000 L CNN
@@ -541,7 +482,7 @@ F 3 "" H 3400 5150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R1515
+L device:R_Small R1515
 U 1 1 5AE68427
 P 3400 5250
 F 0 "R1515" H 3430 5270 50  0000 L CNN
@@ -552,7 +493,7 @@ F 3 "" H 3400 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DMF05LCFLP U1506
+L dmf05lcflp:DMF05LCFLP U1506
 U 1 1 5AE68FF9
 P 4550 750
 F 0 "U1506" H 4750 800 60  0000 C CNN
@@ -568,7 +509,7 @@ F 8 "SPEC" H 4550 750 60  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0204
+L power1:GND #PWR0204
 U 1 1 5AE694D8
 P 5150 750
 F 0 "#PWR0204" H 5150 500 50  0001 C CNN
@@ -579,7 +520,7 @@ F 3 "" H 5150 750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DMF05LCFLP U1505
+L dmf05lcflp:DMF05LCFLP U1505
 U 1 1 5AE6995E
 P 4450 3150
 F 0 "U1505" H 4650 3200 60  0000 C CNN
@@ -595,7 +536,7 @@ F 8 "SPEC" H 4450 3150 60  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0205
+L power1:GND #PWR0205
 U 1 1 5AE69964
 P 5050 3150
 F 0 "#PWR0205" H 5050 2900 50  0001 C CNN
@@ -606,7 +547,7 @@ F 3 "" H 5050 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MAX14854 U1508
+L dmf05lcflp:MAX14854 U1508
 U 1 1 5AD97BC2
 P 8850 2450
 F 0 "U1508" H 9250 1900 60  0000 C CNN
@@ -622,7 +563,7 @@ F 8 "SPEC" H 8850 2450 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0206
+L power1:GND #PWR0206
 U 1 1 5AD980A9
 P 8850 3450
 F 0 "#PWR0206" H 8850 3200 50  0001 C CNN
@@ -633,7 +574,7 @@ F 3 "" H 8850 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V8 #PWR0207
+L power1:+1V8 #PWR0207
 U 1 1 5AD981B6
 P 8650 1650
 F 0 "#PWR0207" H 8650 1500 50  0001 C CNN
@@ -644,7 +585,7 @@ F 3 "" H 8650 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1514
+L device:C_Small C1514
 U 1 1 5AD98280
 P 8950 1100
 F 0 "C1514" H 8960 1170 50  0000 L CNN
@@ -655,7 +596,7 @@ F 3 "" H 8950 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C1513
+L device:C_Small C1513
 U 1 1 5AD986D9
 P 8650 1100
 F 0 "C1513" H 8660 1170 50  0000 L CNN
@@ -666,7 +607,7 @@ F 3 "" H 8650 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0208
+L power1:GND #PWR0208
 U 1 1 5AD98A40
 P 8800 800
 F 0 "#PWR0208" H 8800 550 50  0001 C CNN
@@ -677,7 +618,7 @@ F 3 "" H 8800 800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C1512
+L device:C_Small C1512
 U 1 1 5AD98C77
 P 8350 1100
 F 0 "C1512" H 8360 1170 50  0000 L CNN
@@ -688,7 +629,7 @@ F 3 "" H 8350 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C1511
+L device:C_Small C1511
 U 1 1 5AD98C7D
 P 8050 1100
 F 0 "C1511" H 8060 1170 50  0000 L CNN
@@ -699,7 +640,7 @@ F 3 "" H 8050 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0209
+L power1:GND #PWR0209
 U 1 1 5AD98C8A
 P 8200 800
 F 0 "#PWR0209" H 8200 550 50  0001 C CNN
@@ -710,7 +651,7 @@ F 3 "" H 8200 800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C1515
+L device:C_Small C1515
 U 1 1 5AD98ED7
 P 9350 1100
 F 0 "C1515" H 9360 1170 50  0000 L CNN
@@ -721,7 +662,7 @@ F 3 "" H 9350 1100 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L C_Small C1516
+L device:C_Small C1516
 U 1 1 5AD98EDD
 P 9650 1100
 F 0 "C1516" H 9660 1170 50  0000 L CNN
@@ -732,7 +673,7 @@ F 3 "" H 9650 1100 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR0210
+L power1:GND #PWR0210
 U 1 1 5AD98EEA
 P 9500 800
 F 0 "#PWR0210" H 9500 550 50  0001 C CNN
@@ -743,7 +684,7 @@ F 3 "" H 9500 800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L +3V3 #PWR0211
+L power1:+3V3 #PWR0211
 U 1 1 5AD9904E
 P 9050 1650
 F 0 "#PWR0211" H 9050 1500 50  0001 C CNN
@@ -756,7 +697,7 @@ $EndComp
 Text Notes 5850 800  0    60   ~ 0
 Bypass Capacitors for MAX14854.\nPlace as close as possible to it
 $Comp
-L C_Small C1501
+L device:C_Small C1501
 U 1 1 5AD9AF72
 P 1600 6650
 F 0 "C1501" H 1610 6720 50  0000 L CNN
@@ -767,7 +708,7 @@ F 3 "" H 1600 6650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C1502
+L device:C_Small C1502
 U 1 1 5AD9B25A
 P 1900 6650
 F 0 "C1502" H 1910 6720 50  0000 L CNN
@@ -778,7 +719,7 @@ F 3 "" H 1900 6650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C1503
+L device:C_Small C1503
 U 1 1 5AD9B403
 P 2200 6650
 F 0 "C1503" H 2210 6720 50  0000 L CNN
@@ -789,7 +730,7 @@ F 3 "" H 2200 6650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C1504
+L device:C_Small C1504
 U 1 1 5AD9B409
 P 2500 6650
 F 0 "C1504" H 2510 6720 50  0000 L CNN
@@ -800,7 +741,7 @@ F 3 "" H 2500 6650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0212
+L power1:GND #PWR0212
 U 1 1 5AD9BAB3
 P 2050 6950
 F 0 "#PWR0212" H 2050 6700 50  0001 C CNN
@@ -811,7 +752,7 @@ F 3 "" H 2050 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1505
+L device:C_Small C1505
 U 1 1 5AD9BE9E
 P 2950 6650
 F 0 "C1505" H 2960 6720 50  0000 L CNN
@@ -822,7 +763,7 @@ F 3 "" H 2950 6650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C1506
+L device:C_Small C1506
 U 1 1 5AD9BEA4
 P 3250 6650
 F 0 "C1506" H 3260 6720 50  0000 L CNN
@@ -833,7 +774,7 @@ F 3 "" H 3250 6650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C1507
+L device:C_Small C1507
 U 1 1 5AD9BEAA
 P 3550 6650
 F 0 "C1507" H 3560 6720 50  0000 L CNN
@@ -844,7 +785,7 @@ F 3 "" H 3550 6650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C1508
+L device:C_Small C1508
 U 1 1 5AD9BEB0
 P 3850 6650
 F 0 "C1508" H 3860 6720 50  0000 L CNN
@@ -855,7 +796,7 @@ F 3 "" H 3850 6650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0213
+L power1:GND #PWR0213
 U 1 1 5AD9BEC4
 P 3400 6950
 F 0 "#PWR0213" H 3400 6700 50  0001 C CNN
@@ -866,7 +807,7 @@ F 3 "" H 3400 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V8 #PWR0214
+L power1:+1V8 #PWR0214
 U 1 1 5AD9BF16
 P 2050 6350
 F 0 "#PWR0214" H 2050 6200 50  0001 C CNN
@@ -937,7 +878,7 @@ Y
 Text Label 5300 3900 2    60   ~ 0
 EXT_TRIG_OUT_0
 $Comp
-L GND #PWR0215
+L power1:GND #PWR0215
 U 1 1 5B119013
 P 10200 4300
 F 0 "#PWR0215" H 10200 4050 50  0001 C CNN
@@ -948,7 +889,7 @@ F 3 "" H 10200 4300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR0216
+L power1:+5V #PWR0216
 U 1 1 5B11913A
 P 5850 4300
 F 0 "#PWR0216" H 5850 4150 50  0001 C CNN
@@ -959,7 +900,7 @@ F 3 "" H 5850 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D_Schottky D1501
+L device:D_Schottky D1501
 U 1 1 5AE9D86E
 P 6150 4300
 F 0 "D1501" H 6150 4400 50  0000 C CNN
@@ -970,7 +911,7 @@ F 3 "" H 6150 4300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TC1262-33 U1507
+L regul:TC1262-33 U1507
 U 1 1 5AE9DC2C
 P 7200 4300
 F 0 "U1507" H 7050 4425 50  0000 C CNN
@@ -1337,7 +1278,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 4300 6900 4300
 $Comp
-L C_Small C1509
+L device:C_Small C1509
 U 1 1 5AE9E531
 P 6600 4500
 F 0 "C1509" H 6610 4570 50  0000 L CNN
@@ -1370,7 +1311,7 @@ Wire Wire Line
 	7200 4600 7200 4700
 Connection ~ 7200 4700
 $Comp
-L GND #PWR0217
+L power1:GND #PWR0217
 U 1 1 5AE9EE3D
 P 7050 4800
 F 0 "#PWR0217" H 7050 4550 50  0001 C CNN
@@ -1393,7 +1334,7 @@ Text Label 10500 5150 2    60   ~ 0
 Text Label 10500 4850 2    60   ~ 0
 3.3V_OUT
 $Comp
-L C_Small C1510
+L device:C_Small C1510
 U 1 1 5AFC410C
 P 7650 4500
 F 0 "C1510" H 7660 4570 50  0000 L CNN
@@ -1410,7 +1351,7 @@ F 9 "SPEC" H 7650 4500 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MDR20 J1501
+L mdr20:MDR20 J1501
 U 1 1 5AFF3EEB
 P 9650 4900
 F 0 "J1501" H 9650 4200 60  0000 C CNN
