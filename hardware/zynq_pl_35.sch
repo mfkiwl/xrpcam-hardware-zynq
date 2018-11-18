@@ -52,12 +52,13 @@ LIBS:ft234xd
 LIBS:sn74lv1t126
 LIBS:emif06-msd02n16
 LIBS:cat24c02tdi-gt3
+LIBS:power_symbols
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 21
+Sheet 20 21
 Title ""
 Date ""
 Rev ""

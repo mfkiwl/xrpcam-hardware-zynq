@@ -52,12 +52,13 @@ LIBS:ft234xd
 LIBS:sn74lv1t126
 LIBS:emif06-msd02n16
 LIBS:cat24c02tdi-gt3
+LIBS:power_symbols
 LIBS:zynq_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 21
+Sheet 10 21
 Title ""
 Date ""
 Rev ""
@@ -242,4 +243,41 @@ Text Label 5250 3550 2    60   ~ 0
 MGTX_TX_0_N
 Text Label 5250 3950 2    60   ~ 0
 MGTX_TX_0_P
+$Comp
+L R_Small R?
+U 1 1 5ADF6841
+P 5100 2150
+F 0 "R?" H 5130 2170 50  0000 L CNN
+F 1 "100Ω, 1%" V 5000 1950 50  0000 L CNN
+F 2 "" H 5100 2150 50  0001 C CNN
+F 3 "" H 5100 2150 50  0001 C CNN
+	1    5100 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 2150 5300 2150
+Wire Wire Line
+	5300 2150 5200 2150
+Wire Wire Line
+	5350 2650 4850 2650
+Wire Wire Line
+	4850 2650 4850 2150
+Wire Wire Line
+	4850 2150 5000 2150
+Text Notes 4600 1600 0    60   ~ 0
+Traces to MGTREF and MGTAVTTRCAL\nhave to be the same length / geometry! \nSee UG476 Figure 5-3.
+$Comp
+L +1V2_MGT #PWR?
+U 1 1 5ADF709F
+P 5300 1950
+F 0 "#PWR?" H 5300 1800 50  0001 C CNN
+F 1 "+1V2_MGT" H 5300 2090 50  0000 C CNN
+F 2 "" H 5300 1950 50  0001 C CNN
+F 3 "" H 5300 1950 50  0001 C CNN
+	1    5300 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1950 5300 2150
+Connection ~ 5300 2150
 $EndSCHEMATC
