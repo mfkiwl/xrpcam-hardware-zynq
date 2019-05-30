@@ -1657,7 +1657,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 5400 5900 5400
 $Comp
-L Connector:Test_Point TP1301
+L Connector:TestPoint TP1301
 U 1 1 5BA6BB84
 P 6700 5400
 F 0 "TP1301" V 6700 5600 50  0000 L CNN
@@ -1675,7 +1675,7 @@ Connection ~ 6700 5400
 Wire Wire Line
 	6700 5400 6800 5400
 $Comp
-L Connector:Test_Point TP1302
+L Connector:TestPoint TP1302
 U 1 1 5BA77261
 P 7650 5400
 F 0 "TP1302" V 7650 5600 50  0000 L CNN

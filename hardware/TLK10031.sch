@@ -372,7 +372,7 @@ F 3 "" H 7300 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point J1101
+L Connector:TestPoint J1101
 U 1 1 5AC7FBF4
 P 2450 3950
 F 0 "J1101" H 2450 4220 50  0000 C CNN
@@ -546,7 +546,7 @@ Wire Wire Line
 Text Notes 1600 4300 0    60   ~ 0
 Same as VDDO
 $Comp
-L Connector:Test_Point J1102
+L Connector:TestPoint J1102
 U 1 1 5AC8C54E
 P 2450 4550
 F 0 "J1102" H 2450 4820 50  0000 C CNN
@@ -1095,7 +1095,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 5650 3950 5650
 $Comp
-L Connector:Test_Point J1103
+L Connector:TestPoint J1103
 U 1 1 5B369D0D
 P 7850 2850
 F 0 "J1103" V 7850 3150 50  0000 C CNN
@@ -1110,7 +1110,7 @@ F 7 "1" H 7850 2850 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point J1104
+L Connector:TestPoint J1104
 U 1 1 5B376607
 P 7850 2950
 F 0 "J1104" V 7850 3250 50  0000 C CNN
@@ -1125,7 +1125,7 @@ F 7 "1" H 7850 2950 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point J1105
+L Connector:TestPoint J1105
 U 1 1 5B376681
 P 7850 3050
 F 0 "J1105" V 7850 3350 50  0000 C CNN
@@ -1140,7 +1140,7 @@ F 7 "1" H 7850 3050 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point J1106
+L Connector:TestPoint J1106
 U 1 1 5B3766FB
 P 7850 3150
 F 0 "J1106" V 7850 3450 50  0000 C CNN
@@ -1155,7 +1155,7 @@ F 7 "1" H 7850 3150 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point J1107
+L Connector:TestPoint J1107
 U 1 1 5B376775
 P 7850 3250
 F 0 "J1107" V 7850 3550 50  0000 C CNN

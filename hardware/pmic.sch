@@ -4891,7 +4891,7 @@ Wire Wire Line
 Text Notes 10150 1550 0    50   ~ 0
 For 300 ms Delay a 40 kΩ to 200 kΩ\nResistor must be used!
 $Comp
-L Connector:Test_Point TP501
+L Connector:TestPoint TP501
 U 1 1 5BA66623
 P 3150 1400
 F 0 "TP501" H 3208 1520 50  0000 L CNN
@@ -4909,7 +4909,7 @@ Wire Wire Line
 	3150 1400 2850 1400
 Connection ~ 3150 1400
 $Comp
-L Connector:Test_Point TP507
+L Connector:TestPoint TP507
 U 1 1 5BA67D98
 P 6900 1400
 F 0 "TP507" H 6958 1520 50  0000 L CNN
@@ -4927,7 +4927,7 @@ Connection ~ 6900 1400
 Wire Wire Line
 	6900 1400 7150 1400
 $Comp
-L Connector:Test_Point TP506
+L Connector:TestPoint TP506
 U 1 1 5BA68001
 P 6850 3800
 F 0 "TP506" H 6908 3920 50  0000 L CNN
@@ -4945,7 +4945,7 @@ Connection ~ 6850 3800
 Wire Wire Line
 	6850 3800 7150 3800
 $Comp
-L Connector:Test_Point TP509
+L Connector:TestPoint TP509
 U 1 1 5BA68399
 P 11100 3800
 F 0 "TP509" H 11158 3920 50  0000 L CNN
@@ -4963,7 +4963,7 @@ Connection ~ 11100 3800
 Wire Wire Line
 	11100 3800 11050 3800
 $Comp
-L Connector:Test_Point TP510
+L Connector:TestPoint TP510
 U 1 1 5BA6850D
 P 11150 6450
 F 0 "TP510" H 11208 6570 50  0000 L CNN
@@ -4981,7 +4981,7 @@ Connection ~ 11150 6450
 Wire Wire Line
 	11150 6450 11050 6450
 $Comp
-L Connector:Test_Point TP505
+L Connector:TestPoint TP505
 U 1 1 5BA68943
 P 6600 6450
 F 0 "TP505" H 6658 6570 50  0000 L CNN
@@ -4999,7 +4999,7 @@ Connection ~ 6600 6450
 Wire Wire Line
 	6600 6450 7150 6450
 $Comp
-L Connector:Test_Point TP504
+L Connector:TestPoint TP504
 U 1 1 5BA68D28
 P 6550 8750
 F 0 "TP504" H 6608 8870 50  0000 L CNN
@@ -5017,7 +5017,7 @@ Connection ~ 6550 8750
 Wire Wire Line
 	6550 8750 7150 8750
 $Comp
-L Connector:Test_Point TP511
+L Connector:TestPoint TP511
 U 1 1 5BA68F86
 P 11150 8750
 F 0 "TP511" H 11208 8870 50  0000 L CNN
@@ -5035,7 +5035,7 @@ Connection ~ 11150 8750
 Wire Wire Line
 	11150 8750 11050 8750
 $Comp
-L Connector:Test_Point TP513
+L Connector:TestPoint TP513
 U 1 1 5BA692AB
 P 14800 6300
 F 0 "TP513" V 14800 6500 50  0000 L CNN
@@ -5051,7 +5051,7 @@ F 7 "1" H 14800 6300 50  0001 C CNN "Populate for CLG484(Z-7012s/Z-7015)"
 $EndComp
 Connection ~ 14800 6300
 $Comp
-L Connector:Test_Point TP512
+L Connector:TestPoint TP512
 U 1 1 5BA69713
 P 11900 1800
 F 0 "TP512" H 11958 1920 50  0000 L CNN
@@ -5069,7 +5069,7 @@ Connection ~ 11900 1800
 Wire Wire Line
 	11900 1800 12100 1800
 $Comp
-L Connector:Test_Point TP503
+L Connector:TestPoint TP503
 U 1 1 5BA69BF2
 P 6400 4900
 F 0 "TP503" H 6458 5020 50  0000 L CNN
@@ -5087,7 +5087,7 @@ Connection ~ 6400 4900
 Wire Wire Line
 	6400 4900 6650 4900
 $Comp
-L Connector:Test_Point TP508
+L Connector:TestPoint TP508
 U 1 1 5BA69F8C
 P 9900 5800
 F 0 "TP508" H 9958 5920 50  0000 L CNN
@@ -5105,7 +5105,7 @@ Connection ~ 9900 5800
 Wire Wire Line
 	9900 5800 8050 5800
 $Comp
-L Connector:Test_Point TP502
+L Connector:TestPoint TP502
 U 1 1 5BA6AB30
 P 6350 7650
 F 0 "TP502" H 6408 7770 50  0000 L CNN
@@ -5149,7 +5149,7 @@ AGND_5V
 Text Label 5250 5100 0    50   ~ 0
 AGND_1V
 $Comp
-L Connector:Test_Point TP514
+L Connector:TestPoint TP514
 U 1 1 5B6308AF
 P 14150 6300
 F 0 "TP514" V 14150 6500 50  0000 L CNN

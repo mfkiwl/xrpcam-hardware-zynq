@@ -4325,7 +4325,7 @@ Wire Wire Line
 Text Notes 11050 10150 0    50   ~ 0
 Two 100 µF Bulk Caps and two additional 4 to 7 µF deoupling Caps\nas recommended at Micron TN-46-14 Page 6
 $Comp
-L Connector:Test_Point TP601
+L Connector:TestPoint TP601
 U 1 1 5BA77F6A
 P 9950 9000
 F 0 "TP601" H 10008 9120 50  0000 L CNN
